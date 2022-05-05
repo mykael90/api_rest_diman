@@ -20,7 +20,8 @@ import loginRequired from './middlewares/loginRequired';
 const whiteList = [
   'https://react.mme.eng.br',
   'http://localhost:3000',
-  'https://www.wikipedia.org', // teste
+  'https://www.wikipedia.org',
+  'http://10.1.159.210:3000', // PC MYKAEL
 ];
 
 const corsOptions = {
