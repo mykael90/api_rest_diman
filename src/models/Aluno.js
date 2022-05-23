@@ -4,7 +4,7 @@ export default class Aluno extends Model {
   static init(sequelize) {
     super.init({
 
-      nome: {
+      name: {
         type: Sequelize.STRING,
         validate: {
           len: {
@@ -14,7 +14,7 @@ export default class Aluno extends Model {
         },
       },
 
-      sobrenome: {
+      last_name: {
         type: Sequelize.STRING,
       },
 
