@@ -17,5 +17,6 @@ module.exports = {
     'quote-props': 'off',
     'no-param-reassign': 'off',
     'camelcase': 'off',
+    'linebreak-style': 'off',
   },
 };
