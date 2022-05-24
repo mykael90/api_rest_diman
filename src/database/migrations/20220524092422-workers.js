@@ -15,9 +15,18 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: true,
       },
+      password: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
       birthdate: {
         type: Sequelize.INTEGER,
         allowNull: false,
+      },
+      filename_photo: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        unique: true,
       },
       created_at: {
         type: Sequelize.DATE,

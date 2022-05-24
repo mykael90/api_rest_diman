@@ -1,10 +1,9 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
-    return queryInterface.createTable('workers', {
+    return queryInterface.createTable('materials', {
       id: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
       },
       id_sipac: {
@@ -26,6 +25,11 @@ module.exports = {
       unity: {
         type: Sequelize.STRING,
         allowNull: false,
+      },
+      filename_photo: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        unique: true,
       },
       created_at: {
         type: Sequelize.DATE,
