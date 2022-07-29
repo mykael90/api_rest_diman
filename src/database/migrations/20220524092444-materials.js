@@ -18,7 +18,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      detailed_desc: {
+      desc_detailed: {
         type: Sequelize.STRING,
         allowNull: true,
       },
@@ -26,18 +26,23 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      filename_photo: {
+      group_sipac: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: true,
+      },
+      filename_photo: {
+        type: Sequelize.STRING,
+        allowNull: true,
       },
       created_at: {
         type: Sequelize.DATE,
         allowNull: false,
+        default: Sequelize.NOW,
       },
       updated_at: {
         type: Sequelize.DATE,
         allowNull: false,
+        default: Sequelize.NOW,
       },
     });
   },

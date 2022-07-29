@@ -14,6 +14,16 @@ export default class User extends Model {
           },
         },
       },
+      username: {
+        type: Sequelize.STRING,
+        defaultValue: '',
+        validate: {
+          len: {
+            args: [3, 35],
+            msg: 'Login deve ter entre 3 e 35 caracteres',
+          },
+        },
+      },
 
       email: {
         type: Sequelize.STRING,
