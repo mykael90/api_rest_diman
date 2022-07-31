@@ -2,6 +2,10 @@ import Sequelize, { Model } from 'sequelize';
 import bcryptjs from 'bcryptjs';
 
 export default class User extends Model {
+  static associate(models) {
+    this.belongsToMany(models.UserPositiontype, { through: models.UserPosition });
+  }
+
   static init(sequelize) {
     super.init({
       name: {

@@ -12,6 +12,7 @@ import './database';
 import express from 'express';
 import homeRoutes from './routes/homeRoutes';
 import userRoutes, { userOpenedRouter as userOpenedRoutes } from './routes/userRoutes';
+import userPositionRoutes from './routes/userPositionRoutes';
 import alunoRoutes from './routes/alunoRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
@@ -62,6 +63,7 @@ class App {
 
     // Rotas fechadas
     this.app.use('/users/', userRoutes);
+    this.app.use('/userspositions/', userPositionRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);
   }
