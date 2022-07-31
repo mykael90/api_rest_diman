@@ -1,6 +1,10 @@
 import Sequelize, { Model } from 'sequelize';
 
 export default class UserPosition extends Model {
+  static associate(models) {
+    this.hasOne(models.UserPositiontype, { sourceKey: 'userPositiontypeId', foreignKey: 'id' });
+  }
+
   static init(sequelize) {
     super.init({
 

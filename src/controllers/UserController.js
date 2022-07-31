@@ -1,4 +1,6 @@
 import User from '../models/User';
+import Position from '../models/UserPosition';
+import Positiontype from '../models/UserPositiontype';
 
 class UserController {
   async store(req, res) {
@@ -22,7 +24,18 @@ class UserController {
 
   async index(req, res) {
     try {
-      const users = await User.findAll({ attributes: ['id', 'name', 'username', 'email'] }); // retornar só esses 3 atributos
+      const users = await User.findAll({
+        attributes: ['id', 'name', 'username', 'email'],
+        order: [['id', 'DESC'], [Position, 'userId', 'DESC']],
+        include: {
+          model: Position,
+          attributes: ['userId', 'matSiape', 'userPositiontypeId'],
+          include: {
+            model: Positiontype,
+            attributes: ['id', 'position'],
+          },
+        },
+      }); // retornar só esses 3 atributos
       return res.json(users);
     } catch (e) {
       return res.json(e);
