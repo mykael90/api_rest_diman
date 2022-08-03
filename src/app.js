@@ -23,7 +23,7 @@ const whiteList = [
   'http://localhost:3000',
   'https://www.wikipedia.org',
   'http://10.1.159.210:3000', // PC MYKAEL DIMAN
-  'http://172.17.0.1:3000', // PC MYKAEL CASA
+  'http://192.168.0.25:3000', // PC MYKAEL CASA
 ];
 
 const corsOptions = {
@@ -57,13 +57,13 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
+    this.app.use('/userspositions/', userPositionRoutes);
 
     // Middleware de autenticação
     this.app.use(loginRequired);
 
     // Rotas fechadas
     this.app.use('/users/', userRoutes);
-    this.app.use('/userspositions/', userPositionRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);
   }

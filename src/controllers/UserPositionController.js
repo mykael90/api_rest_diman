@@ -2,12 +2,13 @@ import UserPosition from '../models/UserPosition';
 import UserPositiontype from '../models/UserPositiontype';
 import User from '../models/User';
 
-class User_PositionController {
+class UserPositionController {
   async store(req, res) {
     try {
       console.log(req.body);
       const user = await User.findByPk(req.body.userId); // fazer verificação se existe usuario
-      const position = await UserPositiontype.findByPk(req.body.userPositiontypeId); // fazer verificação se existe cargo
+      const position = await UserPositiontype.findByPk(req.body.userPositiontypeId);
+      // fazer verificação se existe cargo
 
       // fazer verificação se esse usuario e cargo ja estao cadastrados na tabela users_positions
 
@@ -106,7 +107,7 @@ class User_PositionController {
   // Delete
   async delete(req, res) {
     try {
-      const user = await User_Position.findOne({
+      const user = await UserPosition.findOne({
         where: {
           user_id: req.body.userId,
           positionId: req.body.positionId,
@@ -128,4 +129,4 @@ class User_PositionController {
   }
 }
 
-export default new User_PositionController();
+export default new UserPositionController();
