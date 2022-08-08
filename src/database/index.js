@@ -4,9 +4,18 @@ import Aluno from '../models/Aluno';
 import User from '../models/User';
 import UserPosition from '../models/UserPosition';
 import UserPositiontype from '../models/UserPositiontype';
+import UserRole from '../models/UserRole';
+import UserRoletype from '../models/UserRoletype';
 import Foto from '../models/Foto';
 
-const models = [Aluno, User, UserPositiontype, UserPosition, Foto];
+const models = [
+  Aluno,
+  User,
+  UserPositiontype,
+  UserPosition,
+  UserRoletype,
+  UserRole,
+  Foto];
 
 const connection = new Sequelize(databaseConfig);
 

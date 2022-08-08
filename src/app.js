@@ -12,7 +12,6 @@ import './database';
 import express from 'express';
 import homeRoutes from './routes/homeRoutes';
 import userRoutes, { userOpenedRouter as userOpenedRoutes } from './routes/userRoutes';
-import userPositionRoutes from './routes/userPositionRoutes';
 import alunoRoutes from './routes/alunoRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
@@ -57,7 +56,6 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
-    this.app.use('/userspositions/', userPositionRoutes);
 
     // Middleware de autenticação
     this.app.use(loginRequired);

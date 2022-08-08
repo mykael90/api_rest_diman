@@ -27,6 +27,13 @@ class TokenController {
       });
     }
 
+    console.log(JSON.stringify(user));
+
+    console.log(Object.getPrototypeOf(user));
+
+    const role = await user.getUserRoles(); // PAPÉIS LIEBERADOS
+    const position = await user.getUserPositions(); // CARGO OCUPADO
+
     const { id, email } = user;
 
     const token = jwt.sign(
@@ -38,7 +45,7 @@ class TokenController {
     return res.json({
       token,
       user: {
-        name: user.name, id, username, email: user.email,
+        name: user.name, id, username, email: user.email, role, position,
       },
     });
   }

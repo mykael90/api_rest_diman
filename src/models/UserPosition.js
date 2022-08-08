@@ -2,26 +2,12 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class UserPosition extends Model {
   static associate(models) {
-    this.hasOne(models.UserPositiontype, { sourceKey: 'userPositiontypeId', foreignKey: 'id' });
+    this.belongsTo(models.User);
+    this.belongsTo(models.UserPositiontype);
   }
 
   static init(sequelize) {
     super.init({
-
-      userId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: sequelize.models.User,
-          key: 'id',
-        },
-      },
-      userPositiontypeId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: sequelize.models.UserPositiontypeId,
-          key: 'id',
-        },
-      },
 
       matSiape: {
         type: Sequelize.STRING,
@@ -33,7 +19,9 @@ export default class UserPosition extends Model {
         },
       },
 
-    }, { sequelize, tableName: 'users_positions', timestamps: false });
+    }, {
+      sequelize, tableName: 'users_positions', timestamps: true, createdAt: 'start', updatedAt: false,
+    });
     return this;
   }
 }

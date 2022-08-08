@@ -1,9 +1,9 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class UserPositiontype extends Model {
+export default class UserRoletype extends Model {
   static associate(models) {
-    this.belongsToMany(models.User, { through: models.UserPosition });
-    this.hasMany(models.UserPosition);
+    this.belongsToMany(models.User, { through: models.UserRole });
+    this.hasMany(models.UserRole);
   }
 
   static init(sequelize) {
@@ -21,28 +21,24 @@ export default class UserPositiontype extends Model {
           },
         },
 
-        position: {
+        role: {
           type: Sequelize.STRING,
           validate: {
             len: {
               args: [3, 30],
-              msg: 'Cargo deve ter entre 3 e 30 caracteres',
+              msg: 'Papel deve ter entre 3 e 30 caracteres',
             },
           },
         },
 
-        level: {
+        description: {
           type: Sequelize.STRING,
-          validate: {
-            notEmpty: {
-              msg: 'Campo não pode ficar vazio',
-            },
-          },
+          allowNull: true,
         },
 
       },
 
-    }, { sequelize, tableName: 'users_positiontypes', timestamps: false });
+    }, { sequelize, tableName: 'users_roletypes', timestamps: true });
     return this;
   }
 }

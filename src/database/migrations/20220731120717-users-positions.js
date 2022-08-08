@@ -9,6 +9,8 @@ module.exports = {
           model: 'users',
           key: 'id',
         },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       position_id: {
         type: Sequelize.INTEGER,
@@ -18,6 +20,8 @@ module.exports = {
           model: 'users_positiontypes',
           key: 'id',
         },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       matSiape: {
         type: Sequelize.STRING(10),
