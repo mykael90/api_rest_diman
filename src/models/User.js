@@ -4,9 +4,13 @@ import bcryptjs from 'bcryptjs';
 export default class User extends Model {
   static associate(models) {
     this.belongsToMany(models.UserPositiontype, { through: models.UserPosition });
+    this.belongsToMany(models.UserThirdtype, { through: models.UserThird });
     this.belongsToMany(models.UserRoletype, { through: models.UserRole });
     this.hasMany(models.UserPosition);
+    this.hasMany(models.UserThird);
     this.hasMany(models.UserRole);
+    this.hasOne(models.UserPersonal, { foreignKey: 'user_id' });
+    this.hasOne(models.UserPhoto, { foreignKey: 'user_id' });
   }
 
   static init(sequelize) {

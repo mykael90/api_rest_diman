@@ -1,15 +1,15 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class UserPosition extends Model {
+export default class UserThird extends Model {
   static associate(models) {
     this.belongsTo(models.User);
-    this.belongsTo(models.UserPositiontype);
+    this.belongsTo(models.UserThirdtype);
   }
 
   static init(sequelize) {
     super.init({
 
-      matSiape: {
+      contract: {
         type: Sequelize.STRING,
         validate: {
           len: {
@@ -30,7 +30,7 @@ export default class UserPosition extends Model {
       },
 
     }, {
-      sequelize, tableName: 'users_positions', timestamps: false,
+      sequelize, tableName: 'users_thirds', timestamps: false,
     });
     return this;
   }

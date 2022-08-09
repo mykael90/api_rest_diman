@@ -1,8 +1,8 @@
-import UserPosition from '../models/UserPosition';
-import UserPositiontype from '../models/UserPositiontype';
+import UserThird from '../models/UserThird';
+import UserThirdtype from '../models/UserThirdtype';
 import User from '../models/User';
 
-class UserPositionController {
+class UserThirdController {
   async store(req, res) {
     try {
       console.log(req.body);
@@ -15,35 +15,33 @@ class UserPositionController {
         });
       }
 
-      const position = await UserPositiontype.findByPk(req.body.userPositiontypeId);
+      const third = await UserThirdtype.findByPk(req.body.userThirdtypeId);
 
-      // VERIFICA SE CARGO EXISTE
-      if (!position) {
+      // VERIFICA SE POSTO EXISTE
+      if (!third) {
         return res.status(400).json({
-          errors: ['ID de cargo não existe'],
+          errors: ['ID de posto não existe'],
         });
       }
 
-      // fazer verificação se esse usuario e cargo ja estao cadastrados na tabela users_positions
-      // necessário?
-
-      await user.addUserPositiontype(position, {
+      await user.addUserThirdtype(third, {
         through: {
-          matSiape: req.body.matSiape,
+          contract: req.body.contract,
           start: req.body.start,
         },
       });
-      const result = await UserPosition.findOne({
+
+      const result = await UserThird.findOne({
         where: {
           UserId: req.body.userId,
-          UserPositiontypeId: req.body.userPositiontypeId,
+          UserThirdtypeId: req.body.userThirdtypeId,
         },
       });
       const {
-        UserId, UserPositiontypeId, matSiape, start,
+        UserId, UserThirdtypeId, contract,
       } = result;
       return res.json({
-        UserId, UserPositiontypeId, matSiape, start,
+        UserId, UserThirdtypeId, contract,
       });
     } catch (e) {
       console.log(e);
@@ -57,10 +55,10 @@ class UserPositionController {
 
   async index(req, res) {
     try {
-      const users_Position = await UserPosition.findAll({
-        attributes: ['user_id', 'user_positiontype_id', 'mat_siape', 'start', 'end'],
+      const users_Third = await UserThird.findAll({
+        attributes: ['user_id', 'user_thirdtype_id', 'contract', 'start', 'end'],
       });
-      return res.json(users_Position);
+      return res.json(users_Third);
     } catch (e) {
       return res.json(e);
     }
@@ -69,10 +67,10 @@ class UserPositionController {
   // Delete
   async delete(req, res) {
     try {
-      const contrato = await UserPosition.findOne({
+      const contrato = await UserThird.findOne({
         where: {
           UserId: req.body.userId,
-          UserPositiontypeId: req.body.userPositiontypeId,
+          UserThirdtypeId: req.body.userThirdtypeId,
         },
       });
 
@@ -91,4 +89,4 @@ class UserPositionController {
   }
 }
 
-export default new UserPositionController();
+export default new UserThirdController();

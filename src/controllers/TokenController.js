@@ -33,6 +33,7 @@ class TokenController {
 
     const role = await user.getUserRoles(); // PAPÉIS LIEBERADOS
     const position = await user.getUserPositions(); // CARGO OCUPADO
+    const job = await user.getUserThirds(); // OCUPAÇÃO USUARIO DE TERCEIRIZADA
 
     const { id, email } = user;
 
@@ -45,7 +46,7 @@ class TokenController {
     return res.json({
       token,
       user: {
-        name: user.name, id, username, email: user.email, role, position,
+        name: user.name, id, username, email: user.email, role, position, job,
       },
     });
   }

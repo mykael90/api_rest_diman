@@ -1,6 +1,8 @@
 import User from '../models/User';
+import UserPersonal from '../models/UserPersonal';
 import UserPositiontype from '../models/UserPositiontype';
 import UserRoletype from '../models/UserRoletype';
+import UserThirdtype from '../models/UserThirdtype';
 
 class UserQuerys {
   // IndexAll
@@ -10,15 +12,26 @@ class UserQuerys {
         attributes: ['id', 'name', 'username', 'email'],
         order: [['id', 'ASC']],
         include: [{
+          model: UserPersonal,
+          required: false,
+          attributes: ['cpf', 'phone', 'country'],
+        },
+        {
           model: UserPositiontype,
           required: true,
-          attributes: ['position'],
+          attributes: ['id', 'position'],
           through: { attributes: ['matSiape', 'start', 'end'], where: { 'end': null } },
         },
         {
           model: UserRoletype,
           required: true,
-          attributes: ['role'],
+          attributes: ['id', 'role'],
+          through: { attributes: [], where: { } },
+        },
+        {
+          model: UserThirdtype,
+          required: true,
+          attributes: ['id', 'job'],
           through: { attributes: [], where: { } },
         }],
       }); // retornar só esses 3 atributos
