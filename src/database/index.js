@@ -1,6 +1,8 @@
 import Sequelize from 'sequelize';
 import databaseConfig from '../config/database';
+
 import Aluno from '../models/Aluno';
+
 import User from '../models/User';
 import UserPosition from '../models/UserPosition';
 import UserPositiontype from '../models/UserPositiontype';
@@ -11,6 +13,11 @@ import UserRoletype from '../models/UserRoletype';
 import UserPhoto from '../models/UserPhoto';
 import UserPersonal from '../models/UserPersonal';
 import Foto from '../models/Foto';
+
+import Material from '../models/Material';
+import MaterialIntype from '../models/MaterialIntype';
+import MaterialIn from '../models/MaterialIn';
+import MaterialInItem from '../models/MaterialInItem';
 
 const models = [
   Aluno,
@@ -23,7 +30,12 @@ const models = [
   UserRole,
   UserPhoto,
   UserPersonal,
-  Foto];
+  Foto,
+  Material,
+  MaterialIntype,
+  MaterialIn,
+  MaterialInItem,
+];
 
 const connection = new Sequelize(databaseConfig);
 

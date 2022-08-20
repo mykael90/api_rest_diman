@@ -15,6 +15,8 @@ import userRoutes, { userOpenedRouter as userOpenedRoutes } from './routes/userR
 import alunoRoutes from './routes/alunoRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
+import materialRoutes from './routes/materialRoutes';
+
 import loginRequired from './middlewares/loginRequired';
 
 const whiteList = [
@@ -64,6 +66,7 @@ class App {
     this.app.use('/users/', userRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);
+    this.app.use('/materials/', materialRoutes);
   }
 }
 

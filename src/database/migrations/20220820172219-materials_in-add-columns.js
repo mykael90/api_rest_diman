@@ -5,7 +5,7 @@ module.exports = {
         'materials_in', // table name
         'value', // new field name
         {
-          type: Sequelize.DECIMAL(15, 2),
+          type: Sequelize.DECIMAL(10, 2),
           allowNull: true,
         },
       ),

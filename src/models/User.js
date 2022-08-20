@@ -11,6 +11,8 @@ export default class User extends Model {
     this.hasMany(models.UserRole);
     this.hasOne(models.UserPersonal, { foreignKey: 'user_id' });
     this.hasOne(models.UserPhoto, { foreignKey: 'user_id' });
+
+    this.hasMany(models.MaterialIn);
   }
 
   static init(sequelize) {
