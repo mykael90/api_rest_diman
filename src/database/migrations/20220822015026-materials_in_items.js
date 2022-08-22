@@ -2,7 +2,7 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.createTable('materials_in_items', {
       material_id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BIGINT.UNSIGNED,
         allowNull: false,
         primaryKey: true,
         references: {

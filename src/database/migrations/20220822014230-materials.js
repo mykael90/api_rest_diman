@@ -2,27 +2,27 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.createTable('materials', {
       id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BIGINT.UNSIGNED,
         allowNull: false,
         primaryKey: true,
       },
       id_sipac: {
-        type: Sequelize.STRING,
-        allowNull: false,
+        type: Sequelize.INTEGER,
+        allowNull: true,
       },
       id_catmat: {
-        type: Sequelize.STRING,
+        type: Sequelize.INTEGER,
         allowNull: true,
       },
-      desc: {
+      name: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      desc_detailed: {
-        type: Sequelize.STRING,
+      specification: {
+        type: Sequelize.TEXT,
         allowNull: true,
       },
-      unity: {
+      unit: {
         type: Sequelize.STRING,
         allowNull: false,
       },
@@ -43,6 +43,12 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: false,
         default: Sequelize.NOW,
+      },
+      is_inactive:
+      {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+        allowNull: false,
       },
     });
   },

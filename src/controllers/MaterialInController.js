@@ -41,7 +41,7 @@ class MaterialInController {
       const result = await MaterialIn.findAll({
         include: [{
           model: MaterialInItem,
-          attributes: [[Sequelize.literal('name'), 'name'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
+          attributes: ['material_id', [Sequelize.literal('name'), 'name'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
           required: false,
           include: {
             model: Material,

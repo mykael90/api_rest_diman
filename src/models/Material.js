@@ -10,7 +10,7 @@ export default class Material extends Model {
   static init(sequelize) {
     super.init({
       id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BIGINT.UNSIGNED,
         allowNull: false,
         primaryKey: true,
       },
