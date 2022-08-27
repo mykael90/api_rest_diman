@@ -2,6 +2,10 @@
 
 import jwt from 'jsonwebtoken';
 import User from '../models/User';
+import UserPersonal from '../models/UserPersonal';
+import UserPositiontype from '../models/UserPositiontype';
+import UserRoletype from '../models/UserRoletype';
+import UserThirdtype from '../models/UserThirdtype';
 
 class TokenController {
   async store(req, res) {
@@ -13,7 +17,33 @@ class TokenController {
       });
     }
 
-    const user = await User.findOne({ where: { username } });
+    const user = await User.findOne({
+      where: { username },
+      order: [['id', 'ASC']],
+      include: [{
+        model: UserPersonal,
+        required: false,
+        attributes: ['cpf', 'phone', 'country'],
+      },
+      {
+        model: UserPositiontype,
+        required: false,
+        attributes: ['id', 'position'],
+        through: { attributes: ['matSiape', 'start', 'end'], where: { 'end': null } },
+      },
+      {
+        model: UserRoletype,
+        required: false,
+        attributes: ['id', 'role'],
+        through: { attributes: [], where: { } },
+      },
+      {
+        model: UserThirdtype,
+        required: false,
+        attributes: ['id', 'job'],
+        through: { attributes: [], where: { } },
+      }],
+    });
 
     if (!user) {
       return res.status(401).json({
@@ -27,18 +57,22 @@ class TokenController {
       });
     }
 
-    console.log(JSON.stringify(user));
+    if (!user.UserPositiontypes.length && !user.UserThirdtypes.length) {
+      return res.status(401).json({
+        errors: [`${user.name} ainda não possui vínculo ativo no SISMAN, consulte o administrador.`],
+      });
+    }
 
-    console.log(Object.getPrototypeOf(user));
-
-    const role = await user.getUserRoles(); // PAPÉIS LIEBERADOS
-    const position = await user.getUserPositions(); // CARGO OCUPADO
-    const job = await user.getUserThirds(); // OCUPAÇÃO USUARIO DE TERCEIRIZADA
-
-    const { id, email } = user;
+    const {
+      id, email, UserRoletypes: roles, UserPositiontypes: positions, UserThirdtypes: jobs,
+    } = user;
 
     const token = jwt.sign(
-      { id, username, email },
+      {
+        id,
+        username,
+        email,
+      },
       process.env.TOKEN_SECRET,
       { expiresIn: process.env.TOKEN_EXPIRATION },
     );
@@ -46,7 +80,13 @@ class TokenController {
     return res.json({
       token,
       user: {
-        name: user.name, id, username, email: user.email, role, position, job,
+        name: user.name,
+        id,
+        username,
+        email,
+        roles,
+        positions,
+        jobs,
       },
     });
   }

@@ -7,6 +7,14 @@ import MaterialInItem from '../models/MaterialInItem';
 
 class MaterialInController {
   async store(req, res) {
+    const exists = await MaterialIn.findOne({ where: { req: req.body.req } });
+
+    if (exists) {
+      return res.status(406).json({
+        errors: [`Recebimento não realizado, requisição ${req.body.req} já cadastrada no banco de dados`],
+      });
+    }
+
     try {
       const result = await MaterialIn.create({
         materialIntypeId: req.body.materialIntypeId,

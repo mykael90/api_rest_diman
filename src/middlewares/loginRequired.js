@@ -6,7 +6,7 @@ export default async (req, res, next) => {
 
   if (!authorization) {
     return res.status(401).json({
-      errors: ['Login required'],
+      errors: ['Usuário não logado, autenticação necessária'],
     });
   }
 
