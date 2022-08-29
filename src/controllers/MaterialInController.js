@@ -4,6 +4,7 @@ import MaterialIn from '../models/MaterialIn';
 import MaterialIntype from '../models/MaterialIntype';
 import Material from '../models/Material';
 import MaterialInItem from '../models/MaterialInItem';
+import User from '../models/User';
 
 class MaterialInController {
   async store(req, res) {
@@ -47,16 +48,38 @@ class MaterialInController {
   async index(req, res) {
     try {
       const result = await MaterialIn.findAll({
+        attributes: ['id',
+          'materialIntypeId',
+          'userId',
+          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`User`.`username`'), 'receivedBy'],
+          'req',
+          'value',
+          'requiredBy',
+          'reqMaintenance',
+          'reqUnit',
+          'costUnit',
+          'registerDate',
+          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`created_At`'), '%Y-%m-%d'), 'createdAt']],
         include: [{
           model: MaterialInItem,
-          attributes: ['material_id', [Sequelize.literal('name'), 'name'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
+          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
           required: false,
           include: {
             model: Material,
             attributes: [],
             required: false,
           },
-        }],
+        }, {
+          model: User,
+          attributes: [],
+          required: true,
+        },
+        {
+          model: MaterialIntype,
+          required: false,
+        },
+        ],
       });
       return res.json(result);
     } catch (e) {
