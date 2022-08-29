@@ -16,6 +16,7 @@ const arr = data.sipac;
 arr.forEach((obj) => {
   delete obj.date_record;
   obj.name = removeAccent(obj.name);
+  obj.unit = removeAccent(obj.unit);
   obj.specification = removeAccent(obj.specification);
 });
 
