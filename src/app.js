@@ -23,6 +23,7 @@ const whiteList = [
   'https://react.mme.eng.br',
   'http://localhost:3000',
   'https://www.wikipedia.org',
+  'http://10.1.159.210:3000', // PC MYKAEL DIMAN OLD
   'http://10.1.156.199:3000', // PC MYKAEL DIMAN
   'http://192.168.0.25:3000', // PC MYKAEL CASA
 ];

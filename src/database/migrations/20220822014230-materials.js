@@ -44,6 +44,10 @@ module.exports = {
         allowNull: false,
         default: Sequelize.NOW,
       },
+      date_record: {
+        type: Sequelize.DATEONLY,
+        allowNull: false,
+      },
       is_inactive:
       {
         type: Sequelize.BOOLEAN,
