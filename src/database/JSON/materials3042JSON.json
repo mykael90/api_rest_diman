@@ -1,0 +1,2962 @@
+{"sipac":[[
+  {
+      "id": "3042000000137",
+      "id_sipac": "2421873",
+      "id_catmat": "18996",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALARGADOR MÁQUINA PARA DIÂMETRO DE 10 MM (H7)",
+      "specification": "Alargador máquina em aço-rápido, retificado e com canais helicoidais (ângulo de hélice de 8º). A ferramenta deve ser indicada para furos não-passante (furo cego) e passante, além de usinagem de materiais com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 212 D. A ferramenta é destinada a furos com campo de tolerância H7. CATMAT 18996 Especificação Técnica -adequado para furos com diâmetro de 10 mm e comprimento útil de 38 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 8º ± 3º); - para usinagem de furos com campo de tolerância H7; - ferramenta indicada para a usinagem de roscas em furos (não-passante e passante) e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 212 D."
+  },
+  {
+      "id": "3042000000138",
+      "id_sipac": "2421874",
+      "id_catmat": "18996",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALARGADOR MÁQUINA PARA DIÂMETRO DE 12 MM (H7)",
+      "specification": "Alargador máquina em aço-rápido, retificado e com canais helicoidais (ângulo de hélice de 8º). A ferramenta deve ser indicada para furos não-passante (furo cego) e passante, além de usinagem de materiais com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 212 D. A ferramenta é destinada a furos com campo de tolerância H7. Especificação Técnica -adequado para furos com diâmetro de 12 mm e comprimento útil de 44 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 8º ± 3º); - para usinagem de furos com campo de tolerância H7; - ferramenta indicada para a usinagem de roscas em furos (não-passante e passante) e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 212 D. CATMAT 18996"
+  },
+  {
+      "id": "3042000000134",
+      "id_sipac": "2421868",
+      "id_catmat": "18996",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALARGADOR MÁQUINA PARA DIÂMETRO DE 4 MM (H7)",
+      "specification": "Alargador máquina em aço-rápido, retificado e com canais helicoidais (ângulo de hélice de 8º). A ferramenta deve ser indicada para furos não-passante (furo cego) e passante, além de usinagem de materiais com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 212 D. A ferramenta é destinada a furos com campo de tolerância H7. Especificação Técnica -adequado para furos com diâmetro de 4 mm e comprimento útil de 19 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 8º ± 3º); - para usinagem de furos com campo de tolerância H7; - ferramenta indicada para a usinagem de roscas em furos (não-passante e passante) e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 212 D. CATMAT 18996"
+  },
+  {
+      "id": "3042000000135",
+      "id_sipac": "2421869",
+      "id_catmat": "18996",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALARGADOR MÁQUINA PARA DIÂMETRO DE 6 MM (H7)",
+      "specification": "Alargador máquina em aço-rápido, retificado e com canais helicoidais (ângulo de hélice de 8º). A ferramenta deve ser indicada para furos não-passante (furo cego) e passante, além de usinagem de materiais com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 212 D. A ferramenta é destinada a furos com campo de tolerância H7. Especificação Técnica -adequado para furos com diâmetro de 6 mm e comprimento útil de 26 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 8º ± 3º); - para usinagem de furos com campo de tolerância H7; - ferramenta indicada para a usinagem de roscas em furos (não-passante e passante) e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 212 D. CATMAT 18996"
+  },
+  {
+      "id": "3042000000136",
+      "id_sipac": "2421870",
+      "id_catmat": "18996",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALARGADOR MÁQUINA PARA DIÂMETRO DE 8 MM (H7)",
+      "specification": "Alargador máquina em aço-rápido, retificado e com canais helicoidais (ângulo de hélice de 8º). A ferramenta deve ser indicada para furos não-passante (furo cego) e passante, além de usinagem de materiais com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 212 D. A ferramenta é destinada a furos com campo de tolerância H7. Especificação Técnica -adequado para furos com diâmetro de 8 mm e comprimento útil de 33 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 8º ± 3º); - para usinagem de furos com campo de tolerância H7; - ferramenta indicada para a usinagem de roscas em furos (não-passante e passante) e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 212 D. CATMAT 18996"
+  },
+  {
+      "id": "3042000000375",
+      "id_sipac": "2514907",
+      "id_catmat": "373746",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALAVANCA DE AÇO RETA C/ PONTA CHATA E OUTRA REDONDA, CORPO LISO OU NERVURADO, DIÂMETRO MÍNIMO 7/8\", COMPRIMENTO MÍNIMO 1,70M",
+      "specification": "ALAVANCA DE AÇO RETA C/ PONTA CHATA E OUTRA REDONDA, CORPO LISO OU NERVURADO, DIÂMETRO MÍNIMO 25MMM, COMPRIMENTO MÍNIMO 1,70M. CATMAT:373746"
+  },
+  {
+      "id": "304200006470",
+      "id_sipac": "316636",
+      "id_catmat": "285325",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE AMPERIMETRO DIGITAL",
+      "specification": "Alicate amperímetro digital - 750V, 1000A. Garantia mínima de 6 meses. Produto com certificação INMETRO ou entidade certificadora equivalente ou superior. CATMAT: 285325"
+  },
+  {
+      "id": "3042000000388",
+      "id_sipac": "2519571",
+      "id_catmat": "354551",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE BICO MEIA CANA 6\"",
+      "specification": "Alicate de bico meia cana 6\". Corpo forjado em aço especial e temperado, Acabamento cromado, Cabeça e articulações lixadas, Cabo em formato ergonômico e isolação elétrica de 1000V, para aumentar o conforto e a segurança, Têmpera especial no gume de corte e mandíbulas, garantindo maior resistência, Articulação suave para facilitar o uso, Em conformidade com a NR10, Comprimento: 6\". Critério de Sustentabilidade: 1- A fabricante do produto deve comprovar ou ter notoriedade de possuir gestão de resíduos sólidos, e/ou projetos de reflorestamento em área nacional, e/ou programa de redução do consumo de água na produção dos produtos e/ou um programa de redução do consumo de energia, e/ou financie projetos sociais no território nacional; MAIS ESPECIFICAÇÕES NO ITEM 54, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "3042000000390",
+      "id_sipac": "2519574",
+      "id_catmat": "354551",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE BICO MEIA CANA 6\" CROMADO",
+      "specification": "Alicate de bico meia cana 6\". Corpo forjado em aço especial e temperado, Acabamento cromado, Cabeça e articulações lixadas, Cabo em formato ergonômico e isolação elétrica de 1000V, para aumentar o conforto e a segurança, Têmpera especial no gume de corte e mandíbulas, garantindo maior resistência, Articulação suave para facilitar o uso, Em conformidade com a NR10, Comprimento: 6\". Critério de Sustentabilidade: 1- A fabricante do produto deve comprovar ou ter notoriedade de possuir gestão de resíduos sólidos, e/ou projetos de reflorestamento em área nacional, e/ou programa de redução do consumo de água na produção dos produtos e/ou um programa de redução do consumo de energia, e/ou financie projetos sociais no território nacional; MAIS ESPECIFICAÇÕES NO ITEM 239, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "304200000684",
+      "id_sipac": "316072",
+      "id_catmat": "354551",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE BICO MEIA CANA LONGO - 6\"",
+      "specification": "Material aço cromo-vanádio, acabamento polido, tratamento térmico por têmpera e indução; e cabo revestido de plastico PVC. CATMAT:354551"
+  },
+  {
+      "id": "304200000706",
+      "id_sipac": "316074",
+      "id_catmat": "246868",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE BICO MEIA CANA LONGO EM AÇO CROMO-VANÁDIO - 8\"",
+      "specification": "Alicate em aço cromo-vanádio, tamanho de 8\", Alicate meia cana bico longo; testado com relação à aderência das empunhaduras de PVC; Acabamento fosfatizado; Têmpera por indução no gume de corte; Cabos isolados; Uso industrial e automotivo. Ref. 44004182. CATMAT 246868"
+  },
+  {
+      "id": "304200006020",
+      "id_sipac": "316591",
+      "id_catmat": "235471",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE BOMBA D´AGUA 10\"",
+      "specification": "Aço-liga de alta resistência; Cromado; Com isolamento; Ranhuras usinadas para seis posições de ajuste; Mordente inferior curvo e batente de segurança; Certificação do INMETRO. CATMAT: 235471"
+  },
+  {
+      "id": "3042000000020",
+      "id_sipac": "2341432",
+      "id_catmat": "64599",
+      "date_record": "18/06/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE COMPRESSÃO TERMINAIS TUBULARES 6 A 35MM²",
+      "specification": "- ALICATE MANUAL PARA COMPRESSÃO DE TERMINAIS E LUVAS TUBULARES DE 6 A 35 MM2 SEM ISOLAÇÃO; - COM MATRIZ REGULÁVEL; - COMPRIMENTO 43 CM; - LARGURA TOTAL: 14,5 CM; - PESO 1,900 KG. CATMAT: 64599"
+  },
+  {
+      "id": "3042000000333",
+      "id_sipac": "2513663",
+      "id_catmat": "468615",
+      "date_record": "24/03/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE CORTADOR DE CABO AÇO ARAME CERCA 7.1/2”, 190MM",
+      "specification": "ALICATE CORTADOR DE CABO AÇO ARAME CERCA 7.1/2”, 190MM. CATMAT:468615"
+  },
+  {
+      "id": "3042000000334",
+      "id_sipac": "2513664",
+      "id_catmat": "0",
+      "date_record": "24/03/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE 7\" PARA ANEIS INTERNO CURVO, USO PROFISSIONAL, CAPACIDADE DE ABERTURA 19 A 60MM (3/4\" A 2.3/8\")",
+      "specification": "ALICATE DE 7\" PARA ANEIS INTERNO CURVO, USO PROFISSIONAL, CAPACIDADE DE ABERTURA 19 A 60MM (3/4\" A 2.3/8\"). MATERIAL: AÇO CROMO VANÁDIO; MATERIAL DO CABO: AÇO CROMO VANÁDIO; ACABAMENTO: NIQUELADO E CROMADO;"
+  },
+  {
+      "id": "3042000000335",
+      "id_sipac": "2513665",
+      "id_catmat": "0",
+      "date_record": "24/03/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE 7\" PARA ANEIS INTERNO RETO, USO PROFISSIONAL, CAPACIDADE DE ABERTURA 19 A 60MM (3/4\" A 2.3/8\")",
+      "specification": "ALICATE DE 7\" PARA ANEIS INTERNO RETO, USO PROFISSIONAL, CAPACIDADE DE ABERTURA 19 A 60MM (3/4\" A 2.3/8\"). MATERIAL: AÇO CROMO VANÁDIO; MATERIAL DO CABO: AÇO CROMO VANÁDIO; ACABAMENTO: NIQUELADO E CROMADO;"
+  },
+  {
+      "id": "304200000714",
+      "id_sipac": "316075",
+      "id_catmat": "445278",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE CORTE DIAGONAL 6\"",
+      "specification": "Alicate corte diagonal 6\"; revestimento aplicado sobre os cabos dos alicates isolados, e que promova segurança na sua utilização em locais com tensões de até 1.000 Vc.a; Adequada para Cortar cabos e arames; forjada em aço cromo vanádio; Têmpera total no corpo. Ref: PRO-44002/106. CATMAT 445278"
+  },
+  {
+      "id": "304200021460",
+      "id_sipac": "316915",
+      "id_catmat": "458478",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE CRIMPAGEM PARA CONECTOR RJ45",
+      "specification": "com certificação do INMETRO. CATMAT: 458478"
+  },
+  {
+      "id": "304200007778",
+      "id_sipac": "316765",
+      "id_catmat": "234766",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE CRIMPAGEM PARA CONECTOR RJ45 #",
+      "specification": "COM CABO EMBORRACHADO E COM MECANISMO DE CATRACA"
+  },
+  {
+      "id": "3042000000323",
+      "id_sipac": "2511090",
+      "id_catmat": "0",
+      "date_record": "19/10/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE CRIMPAR RJ45",
+      "specification": "Alicate de Crimpar Rj45 Dados técnicos - crimpagem de conectores cat6 modulares da amp, além dos conectores cat6 e cat5 comuns.- corpo anatômico. - ação de crimpagem vertical - hastes em ferro fundido. - cabo emborrachado. - matriz/cabeça de conectorização de alta precisão.- com catraca ou regulador de pressão em modelos específicos. - lâmina removível. MAIS ESPECIFICAÇÕES NO ITEM 7, PR 02/2021, UASG 160176."
+  },
+  {
+      "id": "3042000000324",
+      "id_sipac": "2511091",
+      "id_catmat": "0",
+      "date_record": "19/10/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE INSERÇÃO PUNCHDOWN",
+      "specification": "Alicate de inserção punchdown MAIS ESPECIFICAÇÕES NO ITEM 8, PR 02/2021, UASG 160176."
+  },
+  {
+      "id": "304200000722",
+      "id_sipac": "316076",
+      "id_catmat": "307420",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DE PRESSAO 10\"",
+      "specification": "Medida total: 10\" (224 mm); Abertura máxima da boca: 1.1/8\" (28 mm); Material: Aço cromo vanádio; Material do Cabo: Aço cromo vanádio; Acabamento: Niquelado e cromado; utilizado para fixar peças, prender e travar, desapertar parafusos danificados entre outras atividades similares. Ref: 137-10. CATMAT 307420"
+  },
+  {
+      "id": "304200006046",
+      "id_sipac": "316593",
+      "id_catmat": "393437",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE DESENCAPADOR DE FIO - 8\"",
+      "specification": "Cortar e desencapar cabos e fios de cobre e alumínio com bitolas de 0,2 a 6,0mm (AWG24-10); Crimpar terminais isolados e terminais não isolados de 0,50 a 6,0mm (AWG22-10); Crimpar terminais de ignição de 7 a 8mm; Corpo de aço carbono especial com acabamento fosfatizado; Lâminas de aço sinterizado; Corte de precisão; Cabo ergonômico com dupla injeção anti-deslizante; Batente para controlar e ajustar a medida do fio a ser desencapado; Pino de micro ajuste para regular a intensidade de força para o corte do fio. Ref:406414. CATMAT 393437"
+  },
+  {
+      "id": "3042000000166",
+      "id_sipac": "2439170",
+      "id_catmat": "463252",
+      "date_record": "22/05/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE FIXADOR KEYSTONE E PATCH PANEL",
+      "specification": "Alicate de inserção para Fêmea RJ45; Punch Down; ferramenta de impacto HT-314b; Cor laranja; Possui Mola de Regulagem de Pressão (girando a ponta do cabo); Utilize em Rede de Dados e Cabeamento Estruturado; Serve para Patch Panel e Keystone RJ45. Ref:ht-314b. CATMAT 463252"
+  },
+  {
+      "id": "304200002474",
+      "id_sipac": "316250",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE PARA ANEIS INTERNO BICO CURVO 7\"",
+      "specification": ""
+  },
+  {
+      "id": "304200021543",
+      "id_sipac": "316923",
+      "id_catmat": "441194",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE REBITADOR MANUAL",
+      "specification": "Alicate rebitador 10” profissional plus, com 4 bicos para rebites de 2.4mm (3/32”), 3.2mm(1/8”), 4.0mm(5/32”), 4.8mm(3/16”); formato anatômico,prático e resistente, corpo em aço estampado, com trava de fechamento. Ref.: VONDER-3581300000 ou similar/superior. CATMAT 441194"
+  },
+  {
+      "id": "304200004612",
+      "id_sipac": "316453",
+      "id_catmat": "402035",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE UNIVERSAL 8\"",
+      "specification": "Alicate universal de 8\"; tipo profissional; cabo isolado, com no mínimo 1000V de isolação elétrica; em conformidade com a NBR 9699 e NR10. Ref: 41001108. CATMAT 402035"
+  },
+  {
+      "id": "3042000000391",
+      "id_sipac": "2519575",
+      "id_catmat": "402035",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ALICATE UNIVERSAL 8\" COM ISOLAMENTO",
+      "specification": "Alicate universal com cabo ergonômicos, com isolamento 1000 V, com tamanho de 8´, forjado e e temperado em aço carbono. Critério de Sustentabilidade: 1- A fabricante do produto deve comprovar ou ter notoriedade de possuir gestão de resíduos sólidos, e/ou projetos de reflorestamento em área nacional, e/ou programa de redução do consumo de água na produção dos produtos e/ou um programa de redução do consumo de energia, e/ou financie projetos sociais no território nacional; MAIS ESPECIFICAÇÕES NO ITEM 242, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "304200000013",
+      "id_sipac": "316006",
+      "id_catmat": "213883",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ANCINHO COM CABO",
+      "specification": "Ancinho leve estampado; fabricado em aço carbono especial de alta qualidade com 14 dentes; com pintura eletrostática a pó, que tem uma melhor apresentação visual e maior proteção contra oxidação; o cabo deve possuir ótima resistência. CATMAT 213883"
+  },
+  {
+      "id": "3042000000392",
+      "id_sipac": "2519576",
+      "id_catmat": "213883",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ANCINHO JARDINAGEM",
+      "specification": "Ancinho/rastelo curvo pesado com 3,75mm de espessura, 14 dentes, olho de 29 mm de diâmetro e cabo de madeira de 150 cm. Critério de Sustentabilidade: 1- A fabricante do produto deve comprovar ou ter notoriedade de possuir gestão de resíduos sólidos, e/ou projetos de reflorestamento em área nacional, e/ou programa de redução do consumo de água na produção dos produtos e/ou um programa de redução do consumo de energia, e/ou financie projetos sociais no território nacional; MAIS ESPECIFICAÇÕES NO ITEM 243, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "3042000000336",
+      "id_sipac": "2513666",
+      "id_catmat": "471253",
+      "date_record": "24/03/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ANILHA/SAPATILHO EM INOX PARA CABO DE AÇO INOX 8,00 MM (5/16\")",
+      "specification": "ANILHA/SAPATILHO EM INOX PARA CABO DE AÇO INOX 8,00 MM (5/16\") CATMAT 471253"
+  },
+  {
+      "id": "304200021783",
+      "id_sipac": "2303671",
+      "id_catmat": "409623",
+      "date_record": "01/06/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "APLICADOR PARA SILICONE INDUSTRIAL DE 300ML",
+      "specification": "Aplicador para silicone, acabamento pintado, proporcionando maior resistência à corrosão/oxidação; Indicado para aplicação de silicone; Ideal para tubos de até 300 g/305 ml (massa); Material em Aço carbono ou superior. Ref:3599500500. CATMAT 409623"
+  },
+  {
+      "id": "304200005139",
+      "id_sipac": "316505",
+      "id_catmat": "215154",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ARCO DE SERRA FIXO COM 12\"",
+      "specification": "Arco de serra fixo 12\"; Pintura eletrostática a pó na cor preta; Cabo injetado em polipropileno; Aplicações: marcenaria, serralheria, esquadria, carpintaria, hidráulica e outros. Ref: 43301012. CATMAT 215154"
+  },
+  {
+      "id": "304200000757",
+      "id_sipac": "316079",
+      "id_catmat": "262781",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ARCO DE SERRA REGULAVEL DE 8\" A 12\", CABO DE PVC #",
+      "specification": "."
+  },
+  {
+      "id": "3042000000293",
+      "id_sipac": "2508554",
+      "id_catmat": "392519",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BEDAME HSS 3/4 X 1/8 X 6",
+      "specification": "BEDAME EM AÇO-RÁPIDO COM AS SEGUINTES DIMENSÕES EM POLEGADAS: 3/4 X 1/8 X 6. CATMAT 392519"
+  },
+  {
+      "id": "3042000000292",
+      "id_sipac": "2508553",
+      "id_catmat": "362210",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BITS QUADRADO HSS 3/8 X 4 12 OU 10% CO",
+      "specification": "FABRICADO EM AÇO-RÁPIDO COM 12 OU 10% CO. MATERIAL ALTAMENTE HOMOGÊNEO. TOLERÂNCIA DIMENSIONAL H14. FABRICADO CONFORME A NORMA DIN 4964. MEDIDAS 3/8” X 3/8” X 4”. CATMAT 362210"
+  },
+  {
+      "id": "304200020361",
+      "id_sipac": "316805",
+      "id_catmat": "372111",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA CHATA PARA MADEIRA - 1\"",
+      "specification": "1\"(25mm) gravado na própria peça (para licitação); ponta afiada, e precisa na furação; fabricadas em aço de carbono; dureza de 45-50 HRC; acompanha suporte para a acomodação das brocas; rotação máxima: 3000 RPM. CATMAT 372111"
+  },
+  {
+      "id": "304200020353",
+      "id_sipac": "316804",
+      "id_catmat": "252868",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA CHATA PARA MADEIRA - 1/4\"",
+      "specification": "1/4\" gravado na própria peça (para licitação); ponta afiada, e precisa na furação; fabricadas em aço de carbono; dureza de 45-50 HRC; acompanha suporte para a acomodação das brocas; rotação máxima: 3000 RPM.CATMAT 252868"
+  },
+  {
+      "id": "304200020373",
+      "id_sipac": "316806",
+      "id_catmat": "367301",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA CHATA PARA MADEIRA - 3/4\"",
+      "specification": "3/4\"(19mm) gravado na própria peça (para licitação); ponta afiada, e precisa na furação; fabricadas em aço de carbono; dureza de 45-50 HRC; acompanha suporte para a acomodação das brocas; rotação máxima: 3000 RPM. CATMAT 367301"
+  },
+  {
+      "id": "304200020381",
+      "id_sipac": "316807",
+      "id_catmat": "53337",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA CHATA PARA MADEIRA - 3/8\"",
+      "specification": "3/8(10mm) gravado na própria peça (para licitação); ponta afiada, e precisa na furação; fabricadas em aço de carbono; dureza de 45-50 HRC; acompanha suporte para a acomodação das brocas; rotação máxima: 3000 RPM. CATMAT 53337"
+  },
+  {
+      "id": "304200020393",
+      "id_sipac": "316808",
+      "id_catmat": "252669",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA CHATA PARA MADEIRA - 5/8\"",
+      "specification": "5/8\"(16mm) gravado na própria peça (para licitação); ponta afiada, e precisa na furação; fabricadas em aço de carbono; dureza de 45-50 HRC; acompanha suporte para a acomodação das brocas; rotação máxima: 3000 RPM.CATMAT 252669"
+  },
+  {
+      "id": "3042000000159",
+      "id_sipac": "2434244",
+      "id_catmat": "389922",
+      "date_record": "12/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 10MM",
+      "specification": "Broca de vídea diamantada em aço duro para concretos, pedras naturais, artificiais e alvenarias, conforme norma DIN 8039. OBS.: Diâmetro da bitola gravado na própria peça. CATMAT 389922"
+  },
+  {
+      "id": "3042000000160",
+      "id_sipac": "2434245",
+      "id_catmat": "389923",
+      "date_record": "12/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 12MM",
+      "specification": "Broca para concreto 12mm (15/32\"); ponta de metal duro/vídea; acabamento niquelado; indicada para uso em concreto, alvenaria, entre outros; comprimento total da broca 150mm. Ref: 5361000120. CATMAT 389923"
+  },
+  {
+      "id": "304200006623",
+      "id_sipac": "316651",
+      "id_catmat": "389912",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 3MM",
+      "specification": "Conforme norma DIN 8039. Em embalagem individualizada e diâmetro da bitola gravado na própria peça. CATMAT 389912"
+  },
+  {
+      "id": "304200006836",
+      "id_sipac": "316672",
+      "id_catmat": "389913",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 4MM",
+      "specification": "Broca de vídea diamantada em aço duro para concretos, pedras naturais, artificiais e alvenarias, conforme norma DIN 8039. OBS.: Diâmetro da bitola gravado na própria peça. CATMAT 389913"
+  },
+  {
+      "id": "3042000000158",
+      "id_sipac": "2434243",
+      "id_catmat": "389915",
+      "date_record": "12/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 6MM",
+      "specification": "Broca de videa diamantada em aço duro para concretos, pedras naturais, artificiais e alvenarias, conforme norma DIN 8039. OBS.: Diâmetro da bitola gravado na própria peça. CATMAT 389915"
+  },
+  {
+      "id": "3042000000157",
+      "id_sipac": "2434242",
+      "id_catmat": "389916",
+      "date_record": "12/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA COM PONTA DE VIDEA - 8MM (5/16\")",
+      "specification": "BROCA DE VIDEA DIAMANTADA EM AÇO DURO PARA CONCRETOS, PEDRAS NATURAIS, ARTIFICIAIS E ALVENARIAS, conforme norma DIN 8039. OBS.: diâmetro da bitola gravado na própria peça. CATMAT: 389916"
+  },
+  {
+      "id": "304200020400",
+      "id_sipac": "316809",
+      "id_catmat": "321580",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 10MM (13/32\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça (para licitação) CATMAT: 321580"
+  },
+  {
+      "id": "304200007735",
+      "id_sipac": "316761",
+      "id_catmat": "440282",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 12MM (15/32\")",
+      "specification": "Aplicações e dicas de uso: Indicada para metais ferrosos e não ferrosos. Destaques e diferenciais: Produzida em aço rápido, proporcionando maior resistência e durabilidade. Conteúdo embalagem: 1 Broca de aço rápido DIN 338; bitola gravado na própria peça. CATMAT: 440282"
+  },
+  {
+      "id": "304200007956",
+      "id_sipac": "316783",
+      "id_catmat": "389992",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 14MM (9/16\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça. CATMAT: 389992"
+  },
+  {
+      "id": "304200005988",
+      "id_sipac": "316587",
+      "id_catmat": "389993",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 16MM (5/8\")",
+      "specification": "Fundição de aço, fundição cinzenta, ferro sinterizado, ferro fundido maleável, metais não ferrosos, materiais sintéticos duros; Uso geral HSS-G; Diâmetro gravado na própria peça. CATMAT: 389993"
+  },
+  {
+      "id": "304200002750",
+      "id_sipac": "316278",
+      "id_catmat": "321586",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RAPIDO - 2,5MM (3/32\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça.CATMAT 321586"
+  },
+  {
+      "id": "304200020412",
+      "id_sipac": "316810",
+      "id_catmat": "321593",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 2MM",
+      "specification": "Broca de aço rápido; angulo de afiação: 118°; diâmetro: 2 mm; comprimento total: 50mm; comprimento de corte: 25mm; feita em aço rápido (HSS) sob a norma internacional DIN 338; possui acabamento brilhante; podendo ser usada em qualquer usinagem de materiais com dureza inferiores a 40 HRCA. Ref: 50003.CATMAT 321593"
+  },
+  {
+      "id": "304200002741",
+      "id_sipac": "316277",
+      "id_catmat": "389935",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 3,5MM (1/8\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça. CATMAT 389935"
+  },
+  {
+      "id": "304200020432",
+      "id_sipac": "316812",
+      "id_catmat": "321584",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 3MM",
+      "specification": "Broca de aço rápido 3mm; ângulo de afiação: 118°; diâmetro: 3mm; comprimento total: 60mm; comprimento de corte: 30mm; feita em aço rápido (HSS) sob a norma internacional DIN 338; acabamento brilhante; usada em qualquer usinagem de materiais com dureza inferiores a 40 HRCA. Ref: 50005. CATMAT 321584"
+  },
+  {
+      "id": "304200007964",
+      "id_sipac": "316784",
+      "id_catmat": "321589",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 4MM",
+      "specification": "Medida 4,0mm; produzido em aço rápido; comprimento total da broca: 75mm; angulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC. Ref:1834961.CATMAT 321589"
+  },
+  {
+      "id": "304200007930",
+      "id_sipac": "316781",
+      "id_catmat": "321591",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 5,5MM (7/32\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça (para licitação). CATMAT 321591"
+  },
+  {
+      "id": "304200002768",
+      "id_sipac": "316279",
+      "id_catmat": "321587",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 5MM (3/16\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça.CATMAT 321587"
+  },
+  {
+      "id": "304200021690",
+      "id_sipac": "316938",
+      "id_catmat": "389937",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 6,5MM",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; comprimento total 101mm; DIN 338. Ref:1834966. CATMAT 389937"
+  },
+  {
+      "id": "304200007751",
+      "id_sipac": "316763",
+      "id_catmat": "321592",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 6MM (1/4\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça. CATMAT 321592"
+  },
+  {
+      "id": "304200020440",
+      "id_sipac": "316813",
+      "id_catmat": "321577",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 7MM",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; comprimento total 109mm; DIN 338. Ref:1834967. CATMAT 321577"
+  },
+  {
+      "id": "304200007760",
+      "id_sipac": "316764",
+      "id_catmat": "321579",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 8MM (5/16\")",
+      "specification": "Haste cilíndrica em aço rápido - HSS; acabamento brilhante; Ângulo de afiação da ponta 118º; aplicação: usinagem de aço com dureza até 45 HRC; embaladas separadamente para evitar seu desgaste e preferencialmente com suas características na embalagem; bitola gravado na própria peça.CATMAT 321579"
+  },
+  {
+      "id": "304200004183",
+      "id_sipac": "316415",
+      "id_catmat": "319923",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DE AÇO RÁPIDO - 9,5MM (3/8\")",
+      "specification": "Fundição de aço, fundição cinzenta, ferro sinterizado, ferro fundido maleável, metais não ferrosos, materiais sintéticos duros; Uso geral HSS-G; Diâmetro gravado na própria peça. (especificação para licitação). CATMAT 319923"
+  },
+  {
+      "id": "3042000000337",
+      "id_sipac": "2514294",
+      "id_catmat": "438807",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA DIAMANTADA, DIÂMETRO DE 25MM, COMPRIMENTO MÁXIMO DE 60MM, C/ ROSCA INTERNA M14 P/ ENCAIXE ESMERILHADEIRA. INDICADO PARA PERFURAÇÕES EM MÁRMORES, GRANITOS, ARDÓSIAS E PAREDES DE CONCRETO.",
+      "specification": "BROCA DIAMANTADA, DIÂMETRO DE 25MM, C/ ROSCA INTERNA M14 P/ ENCAIXE ESMERILHADEIRA. INDICADO PARA PERFURAÇÕES EM MÁRMORES, GRANITOS, ARDÓSIAS E PAREDES DE CONCRETO. CATMAT: 438807"
+  },
+  {
+      "id": "3042000000338",
+      "id_sipac": "2514295",
+      "id_catmat": "389932",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA ESPIRAL (EM SERPENTINA) PARA MADEIRA, EM AÇO CARBONO, DIÂMETRO 6MM (1/4\"), COMPRIMENTO MÍNIMO 230MM, ENCAIXE SEXTAVADO",
+      "specification": "BROCA ESPIRAL (EM SERPENTINA) PARA MADEIRA, EM AÇO CARBONO, DIÂMETRO 6MM (1/4\"), COMPRIMENTO MÍNIMO 230MM, ENCAIXE SEXTAVADO. CATMAT: 389932"
+  },
+  {
+      "id": "3042000000339",
+      "id_sipac": "2514296",
+      "id_catmat": "389928",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA ESPIRAL (EM SERPENTINA) PARA MADEIRA, EM AÇO CARBONO, DIÂMETRO 8MM (5/16\"), COMPRIMENTO MÍNIMO 230MM, ENCAIXE SEXTAVADO",
+      "specification": "BROCA ESPIRAL (EM SERPENTINA) PARA MADEIRA, EM AÇO CARBONO, DIÂMETRO 8MM (5/16\"), COMPRIMENTO MÍNIMO 230MM, ENCAIXE SEXTAVADO. CATMAT: 389928"
+  },
+  {
+      "id": "304200004957",
+      "id_sipac": "316487",
+      "id_catmat": "277412",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA LONGA COM PONTA DE VIDEA - 10MM",
+      "specification": "Broca para concreto longa; indicada para furação de paredes de concreto, pisos, azulejos e materiais de alvenaria em geral; comprimento de 250mm; diâmetro: 10mm. Ref:IW927. CATMAT 277412"
+  },
+  {
+      "id": "304200004477",
+      "id_sipac": "316440",
+      "id_catmat": "266212",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA LONGA COM PONTA DE VIDEA - 12MM",
+      "specification": "Broca wídia, material corpo: aço, material ponta: wídia, tamanho: longa, diâmetro: 12 mm, tipo haste: cilíndrica. CATMAT 266212"
+  },
+  {
+      "id": "304200006615",
+      "id_sipac": "316650",
+      "id_catmat": "286498",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA LONGA COM PONTA DE VIDEA - 6MM",
+      "specification": "Broca para concreto longa; indicada para furação de paredes de concreto, pisos, azulejos e materiais de alvenaria em geral; comprimento mínimo de 250mm; diâmetro: 6mm. Ref:IW937.CATMAT 286498"
+  },
+  {
+      "id": "3042000000232",
+      "id_sipac": "2503943",
+      "id_catmat": "342343",
+      "date_record": "14/01/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA LONGA COM PONTA DE VIDEA - 8MM",
+      "specification": "Broca para concreto longa; indicada para furação de paredes de concreto, pisos, azulejos e materiais de alvenaria em geral; comprimento de 250mm; diâmetro: 8mm – 5/16\". Ref:IW925. CATMAT 342343"
+  },
+  {
+      "id": "3042000000147",
+      "id_sipac": "2421883",
+      "id_catmat": "377398",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA CENTRAR DE 2 MM (FORMA A)",
+      "specification": "Broca de furo de centro com diâmetro da ponta de 2 mm, diâmetro do corpo de 5 mm, comprimento total de mínimo de 40 mm, ângulo do cone da broca de 60º, em aço-rápido e conforme a norma DIN 333 A. Especificação Técnica - Broca de furo de centro com diâmetro de 2 mm, diâmetro do corpo de 5 mm e comprimento útil mínimo de 40 mm; - ângulo de ponta de 118º; -ângulo do cone de 60º; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - a geometria da ferramenta deve ser conforme a norma DIN 333 A. CATMAT 377398"
+  },
+  {
+      "id": "3042000000148",
+      "id_sipac": "2421884",
+      "id_catmat": "377398",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA CENTRAR DE 2 MM (FORMA R)",
+      "specification": "Broca de furo de centro com diâmetro da ponta de 2 mm, diâmetro do corpo de 5 mm, comprimento total de mínimo de 40 mm, com raio de transição entre os diâmetros, em aço-rápido e conforme a norma DIN 333 R. Especificação Técnica - Broca de furo de centro com diâmetro de 2 mm, diâmetro do corpo de 5 mm e comprimento útil mínimo de 40 mm; - ângulo de ponta de 118º; -comprimento de corte de 5,3 mm; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - a geometria da ferramenta deve ser conforme a norma DIN 333 R. CATMAT 377398"
+  },
+  {
+      "id": "3042000000146",
+      "id_sipac": "2421882",
+      "id_catmat": "377396",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA CENTRAR DE 4 MM (FORMA A)",
+      "specification": "Broca de furo de centro com diâmetro da ponta de 2 mm, diâmetro do corpo de 5 mm, comprimento total de mínimo de 40 mm, ângulo do cone da broca de 60º, em aço-rápido e conforme a norma DIN 333 A. Especificação Técnica - Broca de furo de centro com diâmetro de 4 mm, diâmetro do corpo de 10 mm e comprimento útil mínimo de 56 mm; - ângulo de ponta de 118º; -ângulo do cone de 60º; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - a geometria da ferramenta deve ser conforme a norma DIN 333 A. CATMAT 377396"
+  },
+  {
+      "id": "3042000000149",
+      "id_sipac": "2421885",
+      "id_catmat": "377396",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA CENTRAR DE 4 MM (FORMA R)",
+      "specification": "Broca de furo de centro com diâmetro da ponta de 4 mm, diâmetro do corpo de 10 mm, comprimento total de mínimo de 56 mm, com raio de transição entre os diâmetros, em aço-rápido e conforme a norma DIN 333 R. Especificação Técnica - Broca de furo de centro com diâmetro de 4 mm, diâmetro do corpo de 10 mm e comprimento útil mínimo de 56 mm; - ângulo de ponta de 118º; -comprimento de corte de 10,6 mm; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - a geometria da ferramenta deve ser conforme a norma DIN 333 R. CATMAT 377396"
+  },
+  {
+      "id": "3042000000340",
+      "id_sipac": "2514297",
+      "id_catmat": "378098",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA FIBROCIMENTO E MOURÃO, AÇO CROMO-VANÁDIO, DIAMETRO: 6,00MM (1/4\"), COMPRIMENTO: 304MM (12\")",
+      "specification": "BROCA PARA FIBROCIMENTO E MOURÃO, AÇO CROMO-VANÁDIO, DIAMETRO: 6,00MM (1/4\"), COMPRIMENTO: 304MM (12\"). CATMAT: 378098"
+  },
+  {
+      "id": "3042000000341",
+      "id_sipac": "2514298",
+      "id_catmat": "378099",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA PARA FIBROCIMENTO E MOURÃO, AÇO CROMO-VANÁDIO, DIAMETRO: 8,00MM (5/16\"), COMPRIMENTO: 457MM (18\")",
+      "specification": "BROCA PARA FIBROCIMENTO E MOURÃO, AÇO CROMO-VANÁDIO, DIAMETRO: 8,00MM (5/16\"), COMPRIMENTO: 457MM (18\"). CATMAT: 378099"
+  },
+  {
+      "id": "304200007670",
+      "id_sipac": "316755",
+      "id_catmat": "317803",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 10MM X 160MM X 100MM",
+      "specification": "CATMAT: 317803"
+  },
+  {
+      "id": "304200005880",
+      "id_sipac": "316577",
+      "id_catmat": "342482",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 10MM X 260MM X 200MM",
+      "specification": "CATMAT: 342482"
+  },
+  {
+      "id": "304200000137",
+      "id_sipac": "316018",
+      "id_catmat": "332875",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 12MM X 160MM X 100MM",
+      "specification": "Broca Wídia, material corpo: aço, diâmetro: 12 mm, comprimento: 160 mm. CATMAT: 332875"
+  },
+  {
+      "id": "304200005902",
+      "id_sipac": "316579",
+      "id_catmat": "340039",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 12MM X 210MM X140MM",
+      "specification": "Broca Wídia, material corpo: aço, diâmetro: 12 mm, comprimento: 250 mm, características adicionais: Encaixe Tipo Sds Plus. CATMAT:340039"
+  },
+  {
+      "id": "3042000000204",
+      "id_sipac": "2485127",
+      "id_catmat": "317802",
+      "date_record": "02/10/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 12MM X 310MM",
+      "specification": "Broca com encaixe SDS-Plus, para uso em concreto, tijolo, pedra, mármore, alvenaria. CATMAT: 317802"
+  },
+  {
+      "id": "304200020460",
+      "id_sipac": "316815",
+      "id_catmat": "389918",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 13 X 160MM",
+      "specification": "Possui ponta de metal duro/vídea, proporcionando maior rendimento. Indicada para concreto, alvenaria, pedras, entre outros. Utilizada em marteletes com sistema de encaixe tipo SDS PLUS. : Diâmetro: 13mm :: Comprimento total: 160mm :: Tipo de canal: Helicoidal :: Tipo de haste: Encaixe tipo SDS PLUS CATMAT: 389918"
+  },
+  {
+      "id": "304200020472",
+      "id_sipac": "316816",
+      "id_catmat": "400444",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 13 X 260MM",
+      "specification": "Broca Wídia, material corpo: aço, diâmetro: 16 mm, comprimento: 300 mm, características adicionais: Encaixe Tipo Sds Plus. CATMAT: 400444"
+  },
+  {
+      "id": "3042000000202",
+      "id_sipac": "2480220",
+      "id_catmat": "313759",
+      "date_record": "24/04/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 5MM X 100MM X 160MM",
+      "specification": "- Broca de wídea diamantada em aço duro para concretos, pedras naturais, artificiais e alvenarias, conforme norma DIN 8039. Dimensões: 5 x 100 x 160 mm. Para ser utilizada em marteletes com encaixe SDS-PLUS. OBS.: Diâmetro da bitola gravado na própria peça. CATMAT: 313759"
+  },
+  {
+      "id": "3042000000342",
+      "id_sipac": "2514299",
+      "id_catmat": "378575",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 5MM X 160MM X 100MM",
+      "specification": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 5MM X 160MM X 100MM. CATMAT: 378575"
+  },
+  {
+      "id": "304200002792",
+      "id_sipac": "316282",
+      "id_catmat": "313760",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 8MM X 160MM X 100MM",
+      "specification": ".CATMAT: 313760"
+  },
+  {
+      "id": "304200002776",
+      "id_sipac": "316280",
+      "id_catmat": "342482",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TIPO SDS-PLUS, COM PONTA DE METAL DURO/ VÍDEA, 8MM X 210MM X 150MM",
+      "specification": "Broca Wídia, material corpo: aço, diâmetro: 10 mm, comprimento: 260 mm, características adicionais: Encaixe Tipo Sds Plus Aplicação: Perfuração De Concreto. CATMAT: 342482"
+  },
+  {
+      "id": "3042000000261",
+      "id_sipac": "2508484",
+      "id_catmat": "345434",
+      "date_record": "21/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 10MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT 345434"
+  },
+  {
+      "id": "3042000000259",
+      "id_sipac": "2508482",
+      "id_catmat": "342521",
+      "date_record": "21/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 3MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT 342521"
+  },
+  {
+      "id": "3042000000260",
+      "id_sipac": "2508483",
+      "id_catmat": "342522",
+      "date_record": "21/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 4MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT 342522."
+  },
+  {
+      "id": "3042000000257",
+      "id_sipac": "2508058",
+      "id_catmat": "484715",
+      "date_record": "28/08/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 5MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT 484715"
+  },
+  {
+      "id": "3042000000258",
+      "id_sipac": "2508059",
+      "id_catmat": "378098",
+      "date_record": "28/08/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 6MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT: 378098"
+  },
+  {
+      "id": "3042000000262",
+      "id_sipac": "2508486",
+      "id_catmat": "378099",
+      "date_record": "21/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "BROCA TRÊS PONTAS PARA MADEIRA - 8MM",
+      "specification": "Utilizadas em indústrias de móveis e reparos em geral geometria da ponta que permite a execução de furos com elevada velocidade de penetração em qualquer tipo de madeira; em aço carbono; haste cilíndrica; resistência ao degaste. Ref.: Worker ou similares. CATMAT: 378099."
+  },
+  {
+      "id": "3042000000343",
+      "id_sipac": "2514300",
+      "id_catmat": "449755",
+      "date_record": "19/04/2022",
+      "unit": "METRO",
+      "group_sipac": "3042",
+      "name": "CABO DE AÇO INOX, SEM PLASTIFICAÇÃO, DIÂMETRO 8,00MM (5/16\")",
+      "specification": "CABO DE AÇO INOX, SEM PLASTIFICAÇÃO, DIÂMETRO 8,00MM (5/16\"), UTILIZADO PARA FIXAÇÃO DE BOMBAS SUBMERSAS EM POÇOS ARTESIANOS, CARGA DE RUPTURA MÍNIMA 2591KGF. CATMAT: 449755"
+  },
+  {
+      "id": "304200020963",
+      "id_sipac": "316865",
+      "id_catmat": "450327",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CABO PARA PÁ",
+      "specification": "- Com guarda-mao plastico ou em aluminio. CATMAT: 450327"
+  },
+  {
+      "id": "3042000000076",
+      "id_sipac": "2359702",
+      "id_catmat": "314478",
+      "date_record": "09/05/2011",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CAIXA PARA FERRAMENTAS EM PLÁSTICO RESISTENTE - 43 X 19 X 19CM",
+      "specification": "Corpo injetado em plástico de alta resistência, tamanho de 17\", trava metálica niquelada; utilizada para o armazenamento e transporte de ferramentas manuais, peças e acessórios; possibilita o uso de cadeado; bandeja plástica interna removível; porta acessórios na tampa superior; dimensões mínimas do produto: 43,2 x 19 x 19 cm; 1,13 Kg. Ref: 43803017. CATMAT 314478"
+  },
+  {
+      "id": "3042000000370",
+      "id_sipac": "2514902",
+      "id_catmat": "326585",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CAIXA PLÁSTICA PARA CONCRETO MULTIUSO (MASSEIRA), CAPACIDADE 20L",
+      "specification": "CAIXA PLÁSTICA PARA CONCRETO MULTIUSO (MASSEIRA), CAPACIDADE 20L. CATMAT: 326585"
+  },
+  {
+      "id": "3042000000238",
+      "id_sipac": "2504094",
+      "id_catmat": "313777",
+      "date_record": "16/01/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CARRINHO DE MÃO, EM CHAPA DE AÇO, COM CAPACIDADE MÍNIMA DE 65 LITROS",
+      "specification": "Carrinho de mão completo; Material caçamba funda e em chapa de aço, material chassi tudo aço com luva para proteção das mãos, material pés chapa aço repuxada, material travessa chapa aço, tipo travessa suporte dianteiro caçamba, material eixo aço, material arruela fixação aço, material braçadeira aço, quantidade roda 1, tipo roda pneu câmara, espessura caçamba 0,90mm, capacidade mínima da caçamba 65L, comprimento eixo 1 Pol, espessura mínima chapa reforço eixo 2mm, diâmetro tubo chassi 1 1/4Pol, espessura chapa pé 2mm, espessura travessa 2mm, material reforço eixo chapa aço. Caçamba chapa de aço; Nr. 20 (0,9 mm); Chassi em tubo de 1.¼” x 1.1/4\" x 2 mm. Estrutura de cantoneira. CATMAT 313777"
+  },
+  {
+      "id": "3042000000002",
+      "id_sipac": "2324638",
+      "id_catmat": "316310",
+      "date_record": "26/03/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CARTUCHO TIPO MUNIÇÃO DE FESTIM, CALIBRE 22, PARA PISTOLA \"FINCA\" #",
+      "specification": "Cartucho fincapino, peças/acessórios, tipo: longo, referência: calibre-22, cor: vermelha, características adicionais: extra Forte p/ pistola c/ sistema fixação à pólvora. CATMAT: 316310."
+  },
+  {
+      "id": "304200000170",
+      "id_sipac": "316022",
+      "id_catmat": "150415",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CAVADEIRA ARTICULADA COM CABO DE MADEIRA",
+      "specification": "Cavadeira Articulada com Cabo de Madeira; cabo com no mínimo 150cm; temperada em todo o corpo da peça; fabricada em aço carbono especial de alta qualidade; recebe pintura eletrostática a pó, que tem uma melhor apresentação visual e maior proteção contra oxidação; o cabo deve possuir ótima resistência; garras de 24cm. Ref: 77568813.CATMAT 150415"
+  },
+  {
+      "id": "3042000000374",
+      "id_sipac": "2514906",
+      "id_catmat": "69230",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CAVADEIRA ARTICULADA COM CABO DE MADEIRA 110CM",
+      "specification": "GARRAS FABRICADAS EM AÇO CARBONO ESPECIAL DE ALTA QUALIDADE E RECEBE PINTURA ELETROSTÁTICA A PÓ; COMPRIMENTO MÍNIMO DO CABO: 110CM; COMPRIMENTO MÍNIMO DAS GARRAS: 19CM. CATMAT: 69230"
+  },
+  {
+      "id": "304200021563",
+      "id_sipac": "316925",
+      "id_catmat": "321510",
+      "date_record": "",
+      "unit": "Jogo",
+      "group_sipac": "3042",
+      "name": "CHAVE ALLEN - JOGO COM 10 PEÇAS",
+      "specification": "Jogo de chaves hexagonais com o corpo em forma de L; haste em aço cromo vanádio temperada; acabamento fosfatizado; ambas extremidades podem ser utilizadas; ideal para apertar ou afrouxar parafusos com sextavado interno; chave hexagonal 2mm; 2,5 mm; 3mm; 4mm; 5mm; 6mm; 7mm; 8mm; 9mm; 10mm. Ref: 44400290. CATMAT 321510"
+  },
+  {
+      "id": "304200004809",
+      "id_sipac": "316472",
+      "id_catmat": "70459",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE CANHÃO - JOGO COM 12 PEÇAS",
+      "specification": "Os dimensionais das pontas são verificados com gabaritos-padrão calibrados e certificados, com qualidade do fosfato inspecionada ao microscópio; medidas em milímetros; adequada para operar em locais de difícil acesso; 12 Chaves canhão compõem a embalagem, sendo de medidas: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 e 14mm. Ref.:44250212. CATMAT 70459"
+  },
+  {
+      "id": "304200006348",
+      "id_sipac": "316623",
+      "id_catmat": "450449",
+      "date_record": "",
+      "unit": "Jogo",
+      "group_sipac": "3042",
+      "name": "CHAVE COMBINADA COM CATRACA 8 A 19MM - JOGO COM 12 PEÇAS",
+      "specification": "Jogo de chaves combinadas Speedy; com catraca; tecnologia suface drive que evita que a cabeça do parafuso espane; velocidade de catraca com a facilidade de acesso da chave fixa; material: cromo-vanádio; 12 peças compõe o jogo, sendo de medidas: 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19mm. Ref:85597BJ. CATMAT 450449"
+  },
+  {
+      "id": "304200006402",
+      "id_sipac": "316629",
+      "id_catmat": "251315",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA PARA TESTES ELÉTRICOS",
+      "specification": "Chave de Teste com Ponta Fenda; haste em aço especial temperado; acabamento niquelado; cabo injetado; lâmpada de neon; apropriada para tensão de 80 a 250V; ponta chata; tamanho 1/8\" x 3\"; ponta com tratamento anticorrosão e haste em aço carbono com acabamento niquelado; com certificação. Ref:41900110. CATMAT 251315"
+  },
+  {
+      "id": "304200004051",
+      "id_sipac": "316402",
+      "id_catmat": "483508",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA PHILLIPS - 1/4\" X 8\"",
+      "specification": "Chave de fenda com ponta phillips, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado e apoio giratório. CATMAT: 483508."
+  },
+  {
+      "id": "304200001125",
+      "id_sipac": "316116",
+      "id_catmat": "331035",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA PHILLIPS - 1/8\" X 3\"",
+      "specification": "Chave de fenda com ponta phillips, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado e apoio giratório. CATMAT: 331035."
+  },
+  {
+      "id": "3042000000016",
+      "id_sipac": "2341200",
+      "id_catmat": "360123",
+      "date_record": "14/06/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA PHILLIPS - 3/16\" X 4\"",
+      "specification": "Chave de fenda com ponta phillips, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado e apoio giratório. CATMAT: 360123."
+  },
+  {
+      "id": "304200008120",
+      "id_sipac": "316800",
+      "id_catmat": "446265",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA PHILLIPS - 3/16\" X 6\"",
+      "specification": "Chave de fenda com ponta phillips, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado e apoio giratório. CATMAT: 446265."
+  },
+  {
+      "id": "304200008057",
+      "id_sipac": "316793",
+      "id_catmat": "483652",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA SIMPLES - 1/4\" X 5\"",
+      "specification": "Chave de fenda com ponta chata, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado. CATMAT: 483652."
+  },
+  {
+      "id": "304200001109",
+      "id_sipac": "316114",
+      "id_catmat": "325202",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA SIMPLES - 1/8\" X 6\"",
+      "specification": "Chave de fenda com ponta chata, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado. CATMAT: 325202."
+  },
+  {
+      "id": "304200001117",
+      "id_sipac": "316115",
+      "id_catmat": "337507",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA SIMPLES - 3/16\" X 6\"",
+      "specification": "Chave de fenda com ponta chata, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado. CATMAT: 337507."
+  },
+  {
+      "id": "304200001133",
+      "id_sipac": "316117",
+      "id_catmat": "321533",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA SIMPLES - 5/16\" X 5\"",
+      "specification": "Chave de fenda com ponta chata, haste em aço cromo vanádio temperada, acabamento cromado, ponta fosfatizada e magnetizada, cabo isolado. CATMAT: 321533."
+  },
+  {
+      "id": "304200000900",
+      "id_sipac": "316094",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "Jogo",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA SIMPLES - JOGO COM 6 PEÇAS #",
+      "specification": "Jogo com no mínimo 6 peças; profissional; cabo reforçado; tamanho mínimo de 200mm; dimensões mínima de 200mm (1/8 x4\", 1/8 x 6\", 1/8 x 8\", 1/4 x4\", 1/4x6\", 1/4x8\"); Prazo de garantia mínima de 6 meses."
+  },
+  {
+      "id": "3042000000384",
+      "id_sipac": "2516375",
+      "id_catmat": "298371",
+      "date_record": "10/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA TAMANHO: 1/4 X 5 POL",
+      "specification": "CHAVE DE FENDA, MATERIAL: AÇO DIN 17200- 50CRV4, CABO: POLIPROPILENO SIMPLES, TAMANHO: 1/4 X 5 POL, CARACTERÍSTICA S ADICIONAIS: ACABAMENTO HASTE NIQUELADO, PESO 70 G. MAIS ESPECIFICAÇÕES NO ITEM 57, PR 08/2021, UASG 160142."
+  },
+  {
+      "id": "3042000000385",
+      "id_sipac": "2516376",
+      "id_catmat": "455523",
+      "date_record": "10/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE FENDA TAMANHO: 5/16 X 6POL",
+      "specification": "CHAVE DE FENDA, MATERIAL: AÇO CARBONO CABO: POLIPROPILENO TAMANHO: 5/16 X 6POL. MAIS ESPECIFICAÇÕES NO ITEM 58, PR 08/2021, UASG 160142."
+  },
+  {
+      "id": "304200005074",
+      "id_sipac": "316499",
+      "id_catmat": "377431",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE REGULAGEM/ CHAVE INGLESA - 12\"",
+      "specification": "Chave ajustável fabricado em aço carbono; acabamento fosfatizado; capacidade de abertura 32mm; tamanho: 12” (304mm). Ref:3573012000. CATMAT: 377431."
+  },
+  {
+      "id": "304200004850",
+      "id_sipac": "316477",
+      "id_catmat": "329406",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE DE REGULAGEM/ CHAVE INGLESA - 8\"",
+      "specification": "Material do corpo da chave: Aço carbono; acabamento da Chave: Fosfatizado; capacidade de abertura da chave ajustável: 23mm; tamanho total da chave: 8\" (203 mm). Ref:3573008000.CATMAT 329406"
+  },
+  {
+      "id": "3042000000369",
+      "id_sipac": "2514901",
+      "id_catmat": "386810",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE GRIFO, 14 POL, TIPO AMERICANO PARA TUBOS",
+      "specification": "MATERIAL DO CORPO DA CHAVE: AÇO FORJADO; MATERIAL DO MORDENTE: AÇO CROMO-VANADIO; CAPACIDADE MÍNIMA DE ABERTURA DE MORDENTE: 60MM; TAMANHO TOTAL DA CHAVE: 14\" (350 MM). CATMAT: 386810"
+  },
+  {
+      "id": "3042000000377",
+      "id_sipac": "2514909",
+      "id_catmat": "72532",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE PARA DOBRAR FERRO 1/2\"",
+      "specification": "MATERIAL: AÇO CARBONO; ACABAMENTO: PINTADO; CAPACIDADE: 1/2\"; COMPRIMENTO MÍNIMO: 280,0MM; LARGURA DO CORPO MÍNIMA: 20,0MM; ESPESSURA DO CORPO MÍNIMA: 12,0MM. CATMAT: 72532"
+  },
+  {
+      "id": "3042000000378",
+      "id_sipac": "2514910",
+      "id_catmat": "72532",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE PARA DOBRAR FERRO 1/4\"",
+      "specification": "MATERIAL: AÇO CARBONO; ACABAMENTO: PINTADO; CAPACIDADE: 1/4\"; COMPRIMENTO MÍNIMO: 280,0MM; LARGURA DO CORPO MÍNIMA: 20,0MM; ESPESSURA DO CORPO MÍNIMA: 8,5MM. CATMAT: 72532"
+  },
+  {
+      "id": "3042000000379",
+      "id_sipac": "2514911",
+      "id_catmat": "72532",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE PARA DOBRAR FERRO 3/8\"",
+      "specification": "MATERIAL: AÇO CARBONO; ACABAMENTO: PINTADO; CAPACIDADE: 3/8\"; COMPRIMENTO MÍNIMO: 280,0MM; LARGURA DO CORPO MÍNIMA: 20,0MM; ESPESSURA DO CORPO MÍNIMA: 9,5MM. CATMAT: 72532"
+  },
+  {
+      "id": "3042000000380",
+      "id_sipac": "2514912",
+      "id_catmat": "72532",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CHAVE PARA DOBRAR FERRO 5/16\"",
+      "specification": "MATERIAL: AÇO CARBONO; ACABAMENTO: PINTADO; CAPACIDADE: 3/8\"; COMPRIMENTO MÍNIMO: 280,0MM; LARGURA DO CORPO MÍNIMA: 20,0MM; ESPESSURA DO CORPO MÍNIMA: 9,0MM. CATMAT: 72532"
+  },
+  {
+      "id": "3042000000344",
+      "id_sipac": "2514301",
+      "id_catmat": "328879",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CLIP GRAMPO EM INOX, PARA CABO DE AÇO INOX DIÂMETRO 8,00MM (5/16\")",
+      "specification": "CLIP EM INOX, PARA CABO DE AÇO INOX DIÂMETRO 8,00MM (5/16\"). DESTINADO AO USO EM AMARRAÇÕES, FIXAÇÕES E CONFECÇÃO DE LAÇOS COM CABOS DE AÇO QUE EXIGEM ALTO NÍVEL DE RESISTÊNCIA. ADEQUADO ÀS ESPECIFICAÇÕES DA NORMA US FED. FF-C-450, TIPO I, CLASSE I. CATMAT: 328879"
+  },
+  {
+      "id": "304200000200",
+      "id_sipac": "316025",
+      "id_catmat": "413906",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "COLHER DE PEDREIRO 7\"",
+      "specification": "em aço, com cabo de madeira. CATMAT : 413906"
+  },
+  {
+      "id": "304200004396",
+      "id_sipac": "316432",
+      "id_catmat": "413905",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "COLHER DE PEDREIRO 8\"",
+      "specification": "em aço, com cabo de madeira CATMAT: 413905"
+  },
+  {
+      "id": "3042000000387",
+      "id_sipac": "2517310",
+      "id_catmat": "0",
+      "date_record": "05/07/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CONJUNTO FERRAMENTAS",
+      "specification": "CONJUNTO FERRAMENTAS, COMPONENTES JOGO DE CHAVES PRECISÃO COM CABO EMBORRACHADO E P O, APLICAÇÃO MANUTENÇÃO EQUIPAMENTOS ELETRÔNICOS, CARACTERÍSTICAS ADICIONAIS CONJUNTO COM 32 PEÇAS COM ESTOJO. MAIS ESPECIFICAÇÕES NO ITEM 12, PR 12/2021, UASG 160002."
+  },
+  {
+      "id": "3042000000327",
+      "id_sipac": "2512137",
+      "id_catmat": "0",
+      "date_record": "02/12/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CORTADOR DE PISOS CERÂMICOS E PORCELANATOS",
+      "specification": "Cortador de pisos cerâmicos e porcelanatos, manual. fabricado em aço carbono e tungstênio, proporcionando cortes perfeitos. guias de aço cromado, barra de encosto graduada; preciso em cortes retos e em ângulos; capacidade de corte até 75,5cm. tamanho total: 750mm MAIS ESPECIFICAÇÕES NO ITEM 301, PR 17/2021, UASG 160530."
+  },
+  {
+      "id": "304200021786",
+      "id_sipac": "2307914",
+      "id_catmat": "293631",
+      "date_record": "21/07/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "CORTADOR DE VIDRO COM RESERVATÓRIO PROFISSIONAL",
+      "specification": "# Cortador de Vidro Profissional Com Reservatorio; # Rodel de corte em liga de carboneto de tungstênio; # Sistema de lubrificação automática; # Acompanha bisnaga dosadora para abastecer o corpo / reservatório com querosene; # Auto Lubrificante; # Para cortes grandes garante até 3000 cortes; # Para cortes pequenos pode chegar até 5000 cortes. CATMAT: 293631"
+  },
+  {
+      "id": "3042000000373",
+      "id_sipac": "2514905",
+      "id_catmat": "296200",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DESEMPENADEIRA EM AÇO DENTADA, DIMENSÕES MÍNIMAS 12CM X 24CM, DENTE 8MM",
+      "specification": "MATERIAL/ COMPOSIÇÃO: BASE EM CHAPA DE AÇO INOX ESPESSURA MÍNIMA 0,8MM, COM CABO DE MADEIRA ENVERNIZADO; DIMENSÕES MÍNIMAS C X L: 240 X 120 MM. CATMAT: 296200"
+  },
+  {
+      "id": "304200004914",
+      "id_sipac": "316483",
+      "id_catmat": "468646",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DESEMPENADEIRA LISA DE MADEIRA 15 X 25CM",
+      "specification": "Desempoladeira de aresta tipo lisa, produzida toda em madeira, proporcionando maior leveza e conforto; tamanho mínimo de 15 cm x 25 cm. Ref.: MOMFORT-405016 CATMAT: 468646"
+  },
+  {
+      "id": "3042000000371",
+      "id_sipac": "2514903",
+      "id_catmat": "317317",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DESEMPENADEIRA LISA DE PVC, 12 X 23 CM",
+      "specification": "MATERIAL/ COMPOSIÇÃO: CABO E BASE INJETADOS EM POLIESTIRENO DE ALTO IMPACTO. CATMAT: 317317"
+  },
+  {
+      "id": "3042000000372",
+      "id_sipac": "2514904",
+      "id_catmat": "436485",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DESEMPENADEIRA LISA DE PVC, 18 X 30 CM",
+      "specification": "MATERIAL/ COMPOSIÇÃO: CABO E BASE INJETADOS EM POLIESTIRENO DE ALTO IMPACTO. CATMAT: 436485"
+  },
+  {
+      "id": "3042000000126",
+      "id_sipac": "2413237",
+      "id_catmat": "375967",
+      "date_record": "04/12/2013",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE, 2 TELAS, PARA AÇO E MATERIAIS FERROSOS, 9\" (228,6 X 3 X 22,3MM)",
+      "specification": "- para corte de refratários, ferro fundidos, concreto, granito, mármores e metais não ferrosos - indicado para manutenção pesada, manutenção industrial e indústria em geral. CATMAT: 375967"
+  },
+  {
+      "id": "304200021756",
+      "id_sipac": "2257904",
+      "id_catmat": "270676",
+      "date_record": "23/05/2007",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE DE 9\"",
+      "specification": "-Disco de corte 9\" x 1/8\" x 7/8\" - para material ferroso. CATMAT 270676"
+  },
+  {
+      "id": "304200006640",
+      "id_sipac": "316653",
+      "id_catmat": "438793",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE DIAMANTADO LISO - 110MM X 20MM",
+      "specification": "Disco diamantado contínuo/liso; indicado para uso em pisos cerâmicos, azulejos, porcelanatos, mármores e granitos; corte a seco ou refrigerado; diâmetro do disco: 110 x 20mm; Máx. RPM: 13800 a 15000, segmento com altura mínima de 7mm, espessura do segmento diamantado de 2mm, atenda a norma ABNT NBR 15545. Ref.:Vonder ou similar/superior. CATMAT: 438793"
+  },
+  {
+      "id": "304200002300",
+      "id_sipac": "316234",
+      "id_catmat": "213523",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE DIAMANTADO LISO - 180MM X 25,4MM",
+      "specification": "Utilizado em cortadores de cerâmicas e porcelanatos, diâmetro externo de 180 mm, diâmetro do furo de 25,4 mm, corte do tipo refrigerado, rotação de 8500 ou súperior. (especificação para licitação). Ref.: Ref.: VONDER-1268900018 ou similares. CATMAT: 213523"
+  },
+  {
+      "id": "304200021393",
+      "id_sipac": "316908",
+      "id_catmat": "376675",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE DIAMANTADO SEGMENTADO - 110MM X 20MM",
+      "specification": "Indicado para alvenaria, concretos, rebocos, tijolos, refratários e basalto, rotação de 14000RPM ou superior, atenda norma ABNT NBR 15545, altura do segmento diamantado de 7mm, espessura do segmento diamantado de 1,8mm. Ref.: vonder ou similares/superior (especificação para licitação). CATMAT: 376675"
+  },
+  {
+      "id": "304200002318",
+      "id_sipac": "316235",
+      "id_catmat": "34525",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE DIAMANTADO SEGMENTADO - 180MM X 25,4MM",
+      "specification": "Para corte para mármore, granito e outros; corte a seco; rotação de 8.400 RPM ou súperior, furo 25,4MM. CATMAT: 34525"
+  },
+  {
+      "id": "304200003535",
+      "id_sipac": "316356",
+      "id_catmat": "482967",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE EM AÇO E METAIS 4.1/2\" X 1/8\" X 7/8\"",
+      "specification": "Disco para corte fino, reforçado com 02 malhas de fibra de vidro, produzido em óxido de alumínio, indicados para cortes em aço e metais ferrosos em geral, utilizado juntamente com esmerilhadeiras, dimensões do disco: Diâmetro: 4.1/2” (14,3mm), Espessura: 1/8\" (3,2mm), Furo: 7/8\" (22,23mm); Máxima Rpm: 13.285 / 80 m/s. CATMAT 482967"
+  },
+  {
+      "id": "304200021744",
+      "id_sipac": "2235804",
+      "id_catmat": "456292",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE CORTE FINO PARA AÇO - 114,3 X 1 X 22,23MM",
+      "specification": "Disco de corte para esmerilhadeira angular (4.1/2\" X 3/64\" X 7/8\") para corte de metais; proporcionar cortes rápidos e menor geração de calor e rebarbas; em conformidade com a ABNT NBR 15230; reforçado com 2 telas; Diâmetro do disco de corte 115mm, espessura 1mm, e diâmetro do furo do disco 22,23 (7/8\"). Ref.: 1240412100 ou 842630. CATMAT: 456292."
+  },
+  {
+      "id": "304200003632",
+      "id_sipac": "316366",
+      "id_catmat": "462152",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO DE SERRA DENTADO - 110MM X 20MM",
+      "specification": "Disco de serra circular para madeira, corpo em aço carbono com dentes de metal duro/vídea, diametro de 110mm (4.3/8\"), espessura do corpo da lâmina de serra circular de 1,5 mm, espessura de corte da lâmina de serra circular de 2,6 mm, furo de 20mm com redução para 16mm, 24 dentes, rotação de 12100 a 12200 RPM (especificação para licitação). Ref: Vonder 4675113224 ou similar. CATMAT: 462152"
+  },
+  {
+      "id": "3042000000196",
+      "id_sipac": "2477055",
+      "id_catmat": "297675",
+      "date_record": "29/01/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO PARA SERRA CIRCULAR 7.1/4\"",
+      "specification": "Disco de serra circular manual; disco para compensados e MDFs com diâmetro de 7.1/4 polegadas (aproximadamente 185 mm) e com a quantidade de 60 dentes de Wídea em formato ATB, dentes chanfrados em 38° de maneira alternada; disco para madeira; diâmetro do furo 20,16mm; Max RPM 6700; espessura da lâmina 1,4; largura do corte 2,2mm. Ref:IW14110. CATMAT: 297675"
+  },
+  {
+      "id": "3042000000180",
+      "id_sipac": "2458138",
+      "id_catmat": "449220",
+      "date_record": "22/09/2016",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO PARA SERRA CIRCULAR DE BANCADA/MESA, DIÂMETRO 300MM, FURO DE ENCAIXE 30MM, 96 DENTES",
+      "specification": "Características do disco: - Marca referencial da bancada: BOSCH - Modelo referencia: Top Precision, Best wood - diâmetro do disco: 300mm - Diâmetro do encaixe: 30mm - n° de dentes: 96 - Espessura nominal do disco: 2,0mm - espessura de corte: 3,2mm - Resultado de corte: 4,0mm - formato do dente: ATB - NL / diâmetro TKS: 7/42 / 9/46, 4 / 10/60 para reposição em esquadrejadeira da marca bosch Aplicação: madeira e compensado. CATMAT: 449220"
+  },
+  {
+      "id": "3042000000346",
+      "id_sipac": "2514303",
+      "id_catmat": "479382",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO PARA SERRA CIRCULAR DE BANCADA/MESA, PARA ALUMÍNIO, DIÂMETRO 10\" - 254MM, FURO DE ENCAIXE 30MM COM REDUTORES DE 1”, 3/4\" E 5/8”, 100 DENTES DE WÍDEA",
+      "specification": "DISCO PARA SERRA CIRCULAR DE BANCADA/MESA, PARA ALUMÍNIO, DIÂMETRO 10\" - 254MM, FURO DE ENCAIXE 30MM COM REDUTORES DE 1”, 3/4\" E 5/8”, 100 DENTES DE WÍDEA. ESPESSURA NOMINAL DO DISCO: 2,2MM - ESPESSURA DE DENTE: 3,2MM. CATMAT: 479382"
+  },
+  {
+      "id": "3042000000347",
+      "id_sipac": "2514304",
+      "id_catmat": "297675",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO PARA SERRA CIRCULAR DE BANCADA/MESA, PARA MADEIRA, DIÂMETRO 250MM, FURO DE ENCAIXE 30MM COM REDUTORES DE 1”, 3/4\" E 5/8”, 60 DENTES DE WÍDEA",
+      "specification": "DISCO PARA SERRA CIRCULAR DE BANCADA/MESA, DIÂMETRO 250MM, FURO DE ENCAIXE 30MM COM REDUTORES DE 1”, 3/4\" E 5/8”, 60 DENTES DE WÍDEA. ESPESSURA NOMINAL DO DISCO: 1,8MM - ESPESSURA DE DENTE: 3,2MM. CATMAT: 297675"
+  },
+  {
+      "id": "304200002814",
+      "id_sipac": "316284",
+      "id_catmat": "312485",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "DISCO POLICORTE DE 12\" X 1/8\"",
+      "specification": "Disco corte, material: óxido de alumínio e fibra de vidro, altura: 1,8 pol, diâmetro furo: 3,4 pol, velocidade máxima: 5.100 rpm, aplicação: industrial, tipo: policorte, características adicionais: tela reforço em fibra de vidro, diâmetro externo: 12 pol. CATMAT 312485"
+  },
+  {
+      "id": "304200000218",
+      "id_sipac": "316026",
+      "id_catmat": "246966",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ENXADA DE 2.1/2 LIBRAS COM CABO DE MADEIRA",
+      "specification": "Enxada com cabo em madeira indicada para capinar ou cavar a terra, movimentar areia, terra e pedra; fabricada em aço alto teor carbono; peso: 2,5lb; modelo: larga; largura: 305mm; altura: 248mm; processo de fabricação: estampada; com cabo; tipo do olho: redondo; Medida do olho: 38mm. Ref:3156225300. CATMAT 246966"
+  },
+  {
+      "id": "304200006550",
+      "id_sipac": "316644",
+      "id_catmat": "214030",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESMERIL DE REBOLO PARA SERRA CIRCULAR",
+      "specification": "Rebolo em oxido de aluminio ; granulometria: 60; dimensões: 6\" x 1/4\" x 1 1/4\" Aplicação: operações de debastes, rebarbação, afiação e limpeza. CATMAT: 214030"
+  },
+  {
+      "id": "3042000000351",
+      "id_sipac": "2514309",
+      "id_catmat": "325858",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESMERILHADEIRA ANGULAR, DISCO 5 POLEGADAS, 900 WATTS, C/ AJUSTE DE ROTAÇÃO, TENSÃO 220V",
+      "specification": "ESMERILHADEIRA ANGULAR, TENSÃO DE 220V, POTÊNCIA 1700W, COM AJUSTE DE ROTAÇÃO. FAIXA DE ROTAÇÃO ENTRE 2.800 - 11.500 R.P.M., DISCO 5''(125 MM), GUARDA DE PROTEÇÃO, PESO MÁXIMO DE 2,0KG. ACOMPANHA O PRODUTO : (01) CHAVE DE APERTO; (01) PORCA DE APOIO; (01) PORCA DE APERTO; (01) PUNHO AUXILIAR; (01) CAPA PROTETORA. CATMAT: 325858"
+  },
+  {
+      "id": "3042000000352",
+      "id_sipac": "2514310",
+      "id_catmat": "343113",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 2MM. PACOTE COM 100 UNIDADES",
+      "specification": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 2MM. PACOTE COM 100 UNIDADES. CATMAT: 343113"
+  },
+  {
+      "id": "3042000000353",
+      "id_sipac": "2514311",
+      "id_catmat": "293625",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 3MM. PACOTE COM 100 UNIDADES",
+      "specification": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 3MM. PACOTE COM 100 UNIDADES. CATMAT: 293625"
+  },
+  {
+      "id": "3042000000354",
+      "id_sipac": "2514312",
+      "id_catmat": "373752",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 4MM. PACOTE COM 100 UNIDADES",
+      "specification": "ESPAÇADOR PLÁSTICO EM CRUZ (CRUZETA) PARA APLICAÇÃO EM ASSENTAMENTO DE PISOS, AZULEJOS E PEDRAS. 4MM. PACOTE COM 100 UNIDADES. CATMAT: 373752"
+  },
+  {
+      "id": "304200021523",
+      "id_sipac": "316921",
+      "id_catmat": "449205",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPÁTULA - 120MM",
+      "specification": "Espátula em aço inox, rígida, com cabo em plastico resistente, com espessura de 1,0mm; indicada para aplicação de massa corrida, cola plástica, e também para raspagens em geral. CATMAT 449205"
+  },
+  {
+      "id": "304200003578",
+      "id_sipac": "316360",
+      "id_catmat": "449541",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPÁTULA - 60MM",
+      "specification": "Espátula em aço inox, rígida, com cabo em plastico resistente, com espessura de 1,0mm; indicada para aplicação de massa corrida, cola plástica, e também para raspagens em geral. CATMAT 449541"
+  },
+  {
+      "id": "304200003608",
+      "id_sipac": "316363",
+      "id_catmat": "449350",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESPÁTULA - 80MM",
+      "specification": "Espátula em aço inox, rígida, com cabo em plastico resistente, com espessura de 1,0mm; indicada para aplicação de massa corrida, cola plástica, e também para raspagens em geral. Ref: 77395085. CATMAT 449350"
+  },
+  {
+      "id": "304200005015",
+      "id_sipac": "316493",
+      "id_catmat": "459435",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "ESQUADRO DE AÇO - 30CM",
+      "specification": "Esquadro para carpinteiro; Cabo em alumínio e lâmina em aço inoxidável; Graduação em milímetros e com escala; Com embalagem e suas características disponíveis; Com 30cm; Com certificação do INMETRO. (Especificação para licitação). CATMAT 459435"
+  },
+  {
+      "id": "304200020951",
+      "id_sipac": "316864",
+      "id_catmat": "215182",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FACÃO COMUM DE 40CM COM CABO DE MADEIRA",
+      "specification": "Facão para mato, 16\", em aço; cabo de madeira fixado por pregos de alumínio; Dimensão mínima de lâmina 400mm x 1.1/2\"; (Para licitação) CATMAT 215182"
+  },
+  {
+      "id": "3042000000330",
+      "id_sipac": "2513144",
+      "id_catmat": "215188",
+      "date_record": "22/02/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FACÃO (LÂMINA 13\")",
+      "specification": "Facão, cana de açúcar, lâmina de aço carbono, fio liso, cabo de madeira fixado com rebites de alumínio, tamanho da lâmina 13\". CATMAT: 215188"
+  },
+  {
+      "id": "304200000234",
+      "id_sipac": "316028",
+      "id_catmat": "423877",
+      "date_record": "",
+      "unit": "Jogo",
+      "group_sipac": "3042",
+      "name": "FERRAMENTAS PARA JARDIM - 03 PEÇAS",
+      "specification": "Conjunto com 3 peças para jardinagem; peças metálicas com cabo de madeira; 1 pazinha larga, 1 pazinha estreita e 1 ancinho com 3 dentes; comprimento de aproximadamente 390mm. REF: 78102801. CATMAT 423877"
+  },
+  {
+      "id": "304200000242",
+      "id_sipac": "316029",
+      "id_catmat": "372149",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FERRO DE SOLDA - 100W",
+      "specification": "Potência: 100W; Resistência de cerâmica; Ponta com núcleo de cobre, cobertura de ferro e revestimento de estanho; Voltagem 220V. CATMAT: 372149"
+  },
+  {
+      "id": "3042000000101",
+      "id_sipac": "2377662",
+      "id_catmat": "0",
+      "date_record": "12/04/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FERRO DE SOLDA - 100W #",
+      "specification": "- Resistência de cerâmica; - Ponta com núcleo de cobre, cobertura de ferro e revestimento de estanho; - Voltagem 220V."
+  },
+  {
+      "id": "304200006607",
+      "id_sipac": "316649",
+      "id_catmat": "264014",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FERRO DE SOLDA - 30W",
+      "specification": "220v CATMAT:264014"
+  },
+  {
+      "id": "304200005651",
+      "id_sipac": "316554",
+      "id_catmat": "355341",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FERRO DE SOLDA - 40W",
+      "specification": "Potência: 40W; - Resistência de cerâmica; - Ponta com núcleo de cobre, cobertura de ferro e revestimento de estanho; - tensão: 220V. CATMAT: 355341"
+  },
+  {
+      "id": "304200000250",
+      "id_sipac": "316030",
+      "id_catmat": "18465",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FERRO DE SOLDA - 60W",
+      "specification": "220v CATMAT: 18465"
+  },
+  {
+      "id": "304200002261",
+      "id_sipac": "316230",
+      "id_catmat": "246959",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FOICE ROÇADEIRA COM CABO",
+      "specification": "Foice roçadeira em aço carbono com cabo de 110cm, temperada em todo o corpo da peça, espessura da lâmina de 0,24 cm, comprimento da lâmina de 17,4 cm, possui olho de 32 mm de diâmetro, peso de 1,24 kg, cabo com acabamento envernizado. Ref.: 77600615. CATMAT: 246959"
+  },
+  {
+      "id": "3042000000331",
+      "id_sipac": "2513146",
+      "id_catmat": "404536",
+      "date_record": "22/02/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORCADO (AÇO SAE 1070)",
+      "specification": "Forcado, material: aço sae 1070, tipo: curvo, comprimento: 210 mm, largura: 180 mm, quantidade dentes: 4 un CATMAT 404536"
+  },
+  {
+      "id": "304200000269",
+      "id_sipac": "316031",
+      "id_catmat": "396873",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORCADO COM 10 DENTES PARA CASCALHO COM CABO",
+      "specification": "Forcado temperado em todo o corpo da peça, proporcionando maior resistência e menor desgaste durante o uso; fabricado em aço carbono especial forjado de alta qualidade; com pintura eletrostática a pó, que tem uma melhor apresentação visual e maior proteção contra oxidação; forcado com 10 dentes e ideal para movimentação de cascalhinho ou brita; com cabo de no mínimo 71cm; possuir ótima resistência; cabo com empunhadura ergonômica em formato de \"D\" no punho. Ref: 77128404. CATMAT 396873"
+  },
+  {
+      "id": "304200000331",
+      "id_sipac": "316038",
+      "id_catmat": "404536",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORCADO COM 4 DENTES CURVO COM CABO",
+      "specification": "Forcado arame 4 dentes, metal, com 18 cm de largura, com cabo em madeira com 120cm. CATMAT: 404536"
+  },
+  {
+      "id": "3042000000358",
+      "id_sipac": "2514871",
+      "id_catmat": "249751",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORMÃO CHANFRADO 1/2\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA",
+      "specification": "FORMÃO CHANFRADO 1/2\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA. CATMAT: 249751"
+  },
+  {
+      "id": "3042000000355",
+      "id_sipac": "2514313",
+      "id_catmat": "249757",
+      "date_record": "19/04/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORMÃO CHANFRADO 1\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA",
+      "specification": "FORMÃO CHANFRADO 1\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA. CATMAT: 249757"
+  },
+  {
+      "id": "3042000000359",
+      "id_sipac": "2514872",
+      "id_catmat": "249752",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FORMÃO CHANFRADO 3/4\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA",
+      "specification": "FORMÃO CHANFRADO 3/4\" , EM AÇO CROMO VANÁDIO COM CABO DE MADEIRA. CATMAT: 249752"
+  },
+  {
+      "id": "3042000000143",
+      "id_sipac": "2421879",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 10 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 10 mm e comprimento útil mínimo de 38 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 10 mm e comprimento útil mínimo de 38 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000144",
+      "id_sipac": "2421880",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 12 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 12 mm e comprimento útil mínimo de 50 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 12 mm e comprimento útil mínimo de 50 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000145",
+      "id_sipac": "2421881",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE14 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 14 mm e comprimento útil mínimo de 62 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 14 mm e comprimento útil mínimo de 62 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000139",
+      "id_sipac": "2421875",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 4 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 4 mm e comprimento útil mínimo de 8 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 4 mm e comprimento útil mínimo de 8 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000140",
+      "id_sipac": "2421876",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 5 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 5 mm e comprimento útil mínimo de 10 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 5 mm e comprimento útil mínimo de 10 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000141",
+      "id_sipac": "2421877",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 6 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 6 mm e comprimento útil mínimo de 12 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 6 mm e comprimento útil mínimo de 12 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000142",
+      "id_sipac": "2421878",
+      "id_catmat": "150640",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA DE TOPO RETO COM DIÂMETRO DE 8 MM (METAL DURO INTEIRIÇO)",
+      "specification": "Fresa de topo de diâmetro 8 mm e comprimento útil mínimo de 19 mm, de metal duro inteiriço com cobertura (TiN ou TiAlN), duas arestas, haste de fixação cilíndrica, canais helicoidais, conforme a norma DIN 327 B. Especificação Técnica - diâmetro de 8 mm e comprimento útil mínimo de 19 mm; - material: metal duro da classe P25 (com cobertura de TiN ou TiAlN); - 2 arestas de corte; - haste de fixação cilíndrica; - canal helicoidal; - a geometria da ferramenta deve ser conforme a norma DIN 327 B. CATMAT 150640"
+  },
+  {
+      "id": "3042000000263",
+      "id_sipac": "2508524",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 02,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 02 MM. CATMAT 150640"
+  },
+  {
+      "id": "3042000000264",
+      "id_sipac": "2508525",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 03,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 03 MM. CATMAT 150640"
+  },
+  {
+      "id": "3042000000266",
+      "id_sipac": "2508527",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 04,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 04 MM. CATMAT 150640"
+  },
+  {
+      "id": "3042000000284",
+      "id_sipac": "2508545",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 05,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 05 MM."
+  },
+  {
+      "id": "3042000000267",
+      "id_sipac": "2508528",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 06,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 06 MM."
+  },
+  {
+      "id": "3042000000270",
+      "id_sipac": "2508531",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 07,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 07 MM."
+  },
+  {
+      "id": "3042000000268",
+      "id_sipac": "2508529",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 08,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 08 MM."
+  },
+  {
+      "id": "3042000000272",
+      "id_sipac": "2508533",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 09,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 09 MM."
+  },
+  {
+      "id": "3042000000269",
+      "id_sipac": "2508530",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 10,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 10 MM."
+  },
+  {
+      "id": "3042000000285",
+      "id_sipac": "2508546",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 11,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 11 MM."
+  },
+  {
+      "id": "3042000000281",
+      "id_sipac": "2508542",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 12,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 12 MM."
+  },
+  {
+      "id": "3042000000277",
+      "id_sipac": "2508538",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 13,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 13 MM."
+  },
+  {
+      "id": "3042000000276",
+      "id_sipac": "2508537",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 14,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 14 MM."
+  },
+  {
+      "id": "3042000000278",
+      "id_sipac": "2508539",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 15,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 15 MM."
+  },
+  {
+      "id": "3042000000280",
+      "id_sipac": "2508541",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 16,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 16 MM."
+  },
+  {
+      "id": "3042000000282",
+      "id_sipac": "2508543",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 17,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 17 MM."
+  },
+  {
+      "id": "3042000000287",
+      "id_sipac": "2508548",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 18,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 18 MM."
+  },
+  {
+      "id": "3042000000286",
+      "id_sipac": "2508547",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 19,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K DIÂMETRO DE 19 MM."
+  },
+  {
+      "id": "3042000000288",
+      "id_sipac": "2508549",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 20,0MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 20 MM."
+  },
+  {
+      "id": "3042000000265",
+      "id_sipac": "2508526",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 3,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 3,5 MM."
+  },
+  {
+      "id": "3042000000283",
+      "id_sipac": "2508544",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 4,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 4,5 MM."
+  },
+  {
+      "id": "3042000000274",
+      "id_sipac": "2508535",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 5,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 5,5 MM."
+  },
+  {
+      "id": "3042000000279",
+      "id_sipac": "2508540",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 6,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 6,5 MM."
+  },
+  {
+      "id": "3042000000271",
+      "id_sipac": "2508532",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 7,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 7,5 MM."
+  },
+  {
+      "id": "3042000000273",
+      "id_sipac": "2508534",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 8,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 8,5 MM."
+  },
+  {
+      "id": "3042000000275",
+      "id_sipac": "2508536",
+      "id_catmat": "150640",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "FRESA HSS-E PM RETA 4 CORTES Ø 9,5MM DIN 844 K",
+      "specification": "FRESA DE AÇO-RÁPIDO E PM COM 04 ARESTAS CORTANTES PRODUZIDA SEGUNDO A NORMA DIN 844K. DIÂMETRO DE 9,5 MM."
+  },
+  {
+      "id": "3042000000361",
+      "id_sipac": "2514886",
+      "id_catmat": "446597",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "GRAMPO TIPO SARGENTO 600 MM X 80 MM, COM RANHURAS. CORPO EM AÇO CARBONO E CABO EMBORRACHADO",
+      "specification": "GRAMPO TIPO SARGENTO 600 MM X 80 MM, COM RANHURAS. CORPO EM AÇO CARBONO E CABO EMBORRACHADO. CATMAT: 446597"
+  },
+  {
+      "id": "3042000000383",
+      "id_sipac": "2515928",
+      "id_catmat": "0",
+      "date_record": "31/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "JOGO DE ALICATES",
+      "specification": "Jogo de alicates com 3 peças, kit com o seguinte conteúdo e respecvas dimensões: 01 alicate universal isolado 8\", 01 alicate corte diagonal isolado 6\" e 01 alicate meia cana isolado 6\"; garana 3 meses; referência Tramonna Cód. 44980015 MAIS ESPECIFICAÇÕES NO ITEM 191, PR 27/2021, UASG 155127."
+  },
+  {
+      "id": "3042000000332",
+      "id_sipac": "2513440",
+      "id_catmat": "451650",
+      "date_record": "11/03/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "JOGO DE CHAVES PHILLIPS E FENDA ISOLADAS COM 7 PEÇAS",
+      "specification": "- Haste Fabricada em aço tipo SNCM-V; - Haste com acabamento emborrachado isolante; - Ponta com acabamento fosfatizado e magnetizado; - Empunhadura de polipropileno e borracha termoplástica (PP+TPR) isolada; - Indicada para aperto e desaperto de parafusos com perfil de fenda simples ou fenda cruzada em redes de baixa tensão de até 1.000 V; - Ferramenta produzida de acordo com a norma IEC 60900: 2004; - Conteúdo: * 3 chaves philips: PH1 x 100 / PH2 x 100 / PH3 x 150 * 4 chaves fenda: 4 x 100 / 5.5 x 125 / 6.5 x 150 / 8.0 x 175 - Garantia de 36 meses. CATMAT 451650"
+  },
+  {
+      "id": "3042000000325",
+      "id_sipac": "2511162",
+      "id_catmat": "0",
+      "date_record": "21/10/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "JOGO DE FERRAMENTAS PARA COMPUTADOR",
+      "specification": "Jogo de ferramentas p/ computador tipo II Referência: - Marca: Yaxun - Modelo: Yx6028 Conteúdo: - Chave Tork: T2, T3, T4, T5, T6,T7,T8, T9, T10, T15. - Chave philips: 1.2, 1.5, 2.0 - Chave de fenda: 1.5, 2.0 - Chave hexagonal: 2.5, 3, 3.5, 4, 4.5, 5, 5.5 - Chave estrela (6 Pontas): 0.8, 1.2 - Chave plástica - Ventosa - Pinça reta Garantia: 1 Ano. DEMAIS INFORMAÇÕES NO ITEM 96 DO PR 02/2021 DA UASG 160176."
+  },
+  {
+      "id": "3042000000360",
+      "id_sipac": "2514873",
+      "id_catmat": "460794",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "JOGO DE FRESA HASTE DE DIÂMETRO 6MM (1/4\") C/ ROLAMENTO, 3 PEÇAS: (01) FRESA 1/4\" PARA CANAL RETO; (01) FRESA 1/2\" PARA CANAL DUPLO; (01) FRESA 1/2\" PARA CANAL REDONDO",
+      "specification": "JOGO DE FRESA HASTE DE DIÂMETRO 6MM (1/4\") C/ ROLAMENTO, 3 PEÇAS: (01) FRESA 1/4\" PARA CANAL RETO; (01) FRESA 1/2\" PARA CANAL DUPLO; (01) FRESA 1/2\" PARA CANAL REDONDO. LÂMINA EM CARBETO DE TUNGSTÊNIO.. CATMAT: 460794"
+  },
+  {
+      "id": "3042000000212",
+      "id_sipac": "2485307",
+      "id_catmat": "445164",
+      "date_record": "10/10/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "JOGO DE SERRA COPO PARA MADEIRA COM 5 PEÇAS",
+      "specification": "Corpo em aço especial com tempera total, dentes travados; broca piloto em aço especial, utilizada em trabalhos de perfuração em madeiras, compensados, MDF, plástico, etc; Composto por no mínimo 5 peças, sendo: 4 Serras copos (32mm, 38mm, 44mm e 54mm) e 1 suporte para serra copo com broca piloto de 6 x 60mm. Ref.: TRAMONTINA 42625501 ou sililar que atenda a especificação. CATMAT: 445164"
+  },
+  {
+      "id": "304200006526",
+      "id_sipac": "316641",
+      "id_catmat": "70459",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "KIT DE FERRAMENTAS PARA MANUTENCAO DO PC COM NO MÍNIMO 32 PECAS",
+      "specification": "KIT DE FERRAMENTAS COM no mínimo 32 PECAS, nível profissional, PARA MANUTENÇAO DE MICROCOMPUTADORES. material com selo de certificação do INMETRO. CATMAT 70459"
+  },
+  {
+      "id": "3042000000167",
+      "id_sipac": "2439218",
+      "id_catmat": "451650",
+      "date_record": "22/05/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "KIT DE FERRAMENTAS PROFISSIONAL P/ MANUTENÇÃO DE MICROS, COM NO MÍNIMO 20 PEÇAS #",
+      "specification": "COMPOSIÇÃO: • Tubo para peças sobressalentes ; • Cortador de fios ; • Alicate de bico fino; • Alicate diagonal ; • Ferro de soldar ; • Pinça para chips anti-estática ; • Pinça com 3 dentes ; • Pinça T1 para soltar e segurar ; • Insersor de chip anti-estático; • Extrator; • Chave phillips; • Chave phillipsAcompanha BOLSA ; • Chave de fenda reversível p/phillips ; • Chave de fenda reversível; • Chave de fenda; • Chave de fenda; • Chave de fenda; • Chave de porca; • Chave de porca • Chave inglesa • Soldador - Acompanha bolsa ou caixa para acondicionamento. - KIT DE FERRAMENTAS COM no mínimo 20 PECAS PARA MANUTENÇAO DE MICROCOMPUTADORES. CATMAT 451650 Código anterior (3017000000039)"
+  },
+  {
+      "id": "3042000000386",
+      "id_sipac": "2517247",
+      "id_catmat": "0",
+      "date_record": "05/07/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "KIT FERRAMENTAS",
+      "specification": "KIT FERRAMENTAS PARA REPARO DE DISPOSITIVOS COM 38 PEÇAS OU SUPERIOR. PRODUTO ANTI DERRAPANTE, BORRACHA COM EMPUNHADURA CONFORTÁVEL- TIPO: CONJUNTO DE CHAVES - APLICAÇÃO: NOTEBOOKS, DESKTOPS, ENTRE OUTROS ELETRÔNICOS. - CHAVES MAGNETIZADAS. MAIS ESPECIFICAÇÕES NO ITEM 24, PR 41/2021, UASG 158134."
+  },
+  {
+      "id": "3042000000296",
+      "id_sipac": "2508579",
+      "id_catmat": "453210",
+      "date_record": "25/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "KIT JOGOS DE MACHOS MILÍMETROS E POLEGADAS (15 JOGOS)",
+      "specification": "JOGOS DE MACHOS AÇO LIGA WS COM 2 PEÇAS CADA JOGO. CONTÉM NO KIT: - 1 - JOGO DE MACHO M3X0,5 - 1 - JOGO DE MACHO M4X0,7 - 1 - JOGO DE MACHO M5X0,8 - 1 - JOGO DE MACHO M6X1,0 - 1 - JOGO DE MACHO M7X1,0 - 1 - JOGO DE MACHO M8X1,25 - 1 - JOGO DE MACHO M10X1,5 - 1 - JOGO DE MACHO M12X1,75 - 1 - JOGO DE MACHO 1/8X40 BSW - 1 - JOGO DE MACHO 3/16X24 BSW - 1 - JOGO DE MACHO 1/4X20 BSW - 1 - JOGO DE MACHO 5/16X18 BSW - 1 - JOGO DE MACHO 3/8X16 BSW - 1 - JOGO DE MACHO 7/16X14 BSW - 1 - JOGO DE MACHO 1/2X12 BSW CATMAT 453210"
+  },
+  {
+      "id": "3042000000001",
+      "id_sipac": "2321313",
+      "id_catmat": "423673",
+      "date_record": "04/02/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LÂMINA DE SERRA MANUAL",
+      "specification": "Lâmina de serra manual aço rápido temperado, da linha profissional, com 30 cm de comprimento (12”), espessura de 0,6mm, com 18 dentes por polegadas. (300mm, 12”, 18T), com firmeza e extrema precisão de corte para todos os tipos de aço, especialmente os de alta-liga, tais como: aço rápido, aço inoxidável, aço-ferramenta.CATMAT: 423673"
+  },
+  {
+      "id": "304200021721",
+      "id_sipac": "316941",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LÂMINA DE SERRA MANUAL #",
+      "specification": "Lâmina de serra manual aço rápido temperado, da linha profissional, com 30 cm de comprimento (12”), espessura de 0,6mm, com 18 dentes por polegadas. (300mm, 12”, 18T), com firmeza e extrema precisão de corte para todos os tipos de aço, especialmente os de alta-liga, tais como: aço rápido, aço inoxidável, aço-ferramenta."
+  },
+  {
+      "id": "3042000000289",
+      "id_sipac": "2508550",
+      "id_catmat": "8230",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LAMINA DE SERRA MANUAL 12 POL. BIMETAL 18 DPP",
+      "specification": "LÂMINA DE SERRA SEMI-RÍGIDA. FABRICADA COM O AÇO HSS BI-METAL. INQUEBRÁVEL DURANTE O USO E À PROVA DE ESTILHAÇAMENTO. DIMENSÕES 300X13X0,60MM (12X1/2X0.024”). DENTIÇÃO 18 DENTES POR POLEGADA."
+  },
+  {
+      "id": "3042000000290",
+      "id_sipac": "2508551",
+      "id_catmat": "8230",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LAMINA DE SERRA MANUAL 12 POL. BIMETAL 24 DPP",
+      "specification": "LÂMINA DE SERRA SEMI- RÍGIDA. FABRICADA COM O AÇO HSS BI-METAL. INQUEBRÁVEL DURANTE O USO E À PROVA DE ESTILHAÇAMENTO. DIMENSÕES 300X13X0,60MM (12X1/2X0.024”). DENTIÇÃO 24 DENTES POR POLEGADA."
+  },
+  {
+      "id": "3042000000291",
+      "id_sipac": "2508552",
+      "id_catmat": "8230",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LAMINA DE SERRA MANUAL 12 POL. BIMETAL 32 DPP",
+      "specification": "LÂMINA DE SERRA SEMI- RÍGIDA. FABRICADA COM O AÇO HSS BI-METAL. INQUEBRÁVEL DURANTE O USO E À PROVA DE ESTILHAÇAMENTO. DIMENSÕES 300X13X0,60MM (12X1/2X0.024”). DENTIÇÃO 32 DENTES POR POLEGADA."
+  },
+  {
+      "id": "304200021782",
+      "id_sipac": "2301331",
+      "id_catmat": "315490",
+      "date_record": "05/05/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LÂMINA DE SERRA TICO-TICO - 50 X 7,5 X 1,0MM",
+      "specification": "Fabricadas com o novo aço bi-metal unique e portanto incorporam a sua avançada performance de corte; Devido ao encaixe unificado, as lâminas de serra podem ser usadas em todos os modelos de máquina (Black & Decker, Bosch, Craftsman, DeWalt, Makita 4323-4324-4340, Metabo, Milwaukee, Porter Cable, Skil etc.); Dimensões da lâmina: 50 x 7,5 x 1,0 mm. Ref:bu214. CATMAT 315490"
+  },
+  {
+      "id": "3042000000060",
+      "id_sipac": "2344470",
+      "id_catmat": "225673",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA CHATA BASTARDA COM CABO - 12\"",
+      "specification": "Lima chata bastarda com no mínimo 12\" (304mm) apenas da haste; com cabo plástico emborrachado; perfil chato de uso geral, para superfícies planas ou convexas; embalados, de preferencia embalagem blister, para evitar ferrugem; dureza: 58-62 HRC. Ref:4310101202.CATMAT 225673"
+  },
+  {
+      "id": "3042000000054",
+      "id_sipac": "2344464",
+      "id_catmat": "447862",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA FACA MURÇA - 10\"",
+      "specification": "Lima Faca tipo Murça indicada para utilização em acabamento final; medida: 10”; perfil: Lima faca; tipo de dente: Murça. Ref:39002. CATMAT 447862"
+  },
+  {
+      "id": "3042000000389",
+      "id_sipac": "2519573",
+      "id_catmat": "335956",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA MANUAL",
+      "specification": "Grosa de casco para equinos com cabo de madeira, no mínimo 14 polegadas de comprimentos; largura mínima 4 cm; cabo mínimo 10 cm. MAIS ESPECIFICAÇÕES NO ITEM 149, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "3042000000393",
+      "id_sipac": "2519579",
+      "id_catmat": "335956",
+      "date_record": "26/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA MANUAL PARA EQUINOS",
+      "specification": "Grosa de casco para equinos com cabo de madeira, no mínimo 14 polegadas de comprimentos; largura mminima 4 cm; cabo minimo 10 cm. MAIS ESPECIFICAÇÕES NO ITEM 366, PR 74/2021, UASG 158148."
+  },
+  {
+      "id": "3042000000055",
+      "id_sipac": "2344465",
+      "id_catmat": "404938",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA MEIA CANA BASTARDA - 12\"",
+      "specification": "Feita em material de qualidade, oferecendo maior resistência e durabilidade. CATMAT: 404938"
+  },
+  {
+      "id": "3042000000056",
+      "id_sipac": "2344466",
+      "id_catmat": "404938",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA MEIA CANA MURÇA COM CABO - 12\"",
+      "specification": "Lima meica cana murça 12\" (300mm); indicada para fazer desbastes, remoção de rebarbas e dar acabamentos em superfícies; formato: meia cana; comprimento total: 453mm. Ref:1633255. CATMAT 404938"
+  },
+  {
+      "id": "3042000000057",
+      "id_sipac": "2344467",
+      "id_catmat": "335953",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA QUADRADA BASTARDA - 10\"",
+      "specification": "Perfil quadrado; tipo de dente: bastarda; utilizada para remoção agressiva de materiais; tamanho: 10”. Ref:390034. CATMAT 335953"
+  },
+  {
+      "id": "3042000000058",
+      "id_sipac": "2344468",
+      "id_catmat": "225679",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA QUADRADA MURÇA - 10\"",
+      "specification": "As Limas Mecânicas murças são utilizadas para acabamento de materiais. Medida: 10\" (polegadas). CATMAT:225679"
+  },
+  {
+      "id": "304200002849",
+      "id_sipac": "316287",
+      "id_catmat": "323066",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMATAO 10\"",
+      "specification": "CATMAT: 323066"
+  },
+  {
+      "id": "304200002822",
+      "id_sipac": "316285",
+      "id_catmat": "484690",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMATAO 6\"",
+      "specification": "CATMAT: 484690"
+  },
+  {
+      "id": "304200002830",
+      "id_sipac": "316286",
+      "id_catmat": "447275",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMATAO 8\"",
+      "specification": "CATMAT: 447275"
+  },
+  {
+      "id": "3042000000064",
+      "id_sipac": "2344474",
+      "id_catmat": "237779",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA TRIANGULAR BASTARDA - 10\"",
+      "specification": "Lima Mecânica Triangular Bastarda indicada para remoção agressiva de materiais; medida: 10”; tipo de dentes: bastarda; perfil: triangular bastarda. Ref:390053. CATMAT 237779"
+  },
+  {
+      "id": "304200000382",
+      "id_sipac": "316043",
+      "id_catmat": "478242",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA TRIANGULAR BASTARDA - 4\"",
+      "specification": ".CATMAT: 478242"
+  },
+  {
+      "id": "3042000000065",
+      "id_sipac": "2344475",
+      "id_catmat": "237780",
+      "date_record": "12/08/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LIMA TRIANGULAR MURÇA - 10\"",
+      "specification": "Lima de 10”; perfil: Lima Triangular; tipo de dente: Murça; indicada para utilização em acabamento final. Feita em material de qualidade, oferecendo maior resistência e durabilidade. CATMAT: 237780"
+  },
+  {
+      "id": "304200021610",
+      "id_sipac": "316930",
+      "id_catmat": "372758",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "LINHA DE NYLON PARA PEDREIRO COM 100 METROS",
+      "specification": "Linha de nylon 100% polietileno, diâmetro de 0,80mm, em rolos com 100 metros. Ref:849316.CATMAT 372758"
+  },
+  {
+      "id": "304200021222",
+      "id_sipac": "316891",
+      "id_catmat": "329425",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHADO COM CABO",
+      "specification": "Machado lenhador fabricado em aço forjado temperado, massa do machado de 3,5 lb / 1,5 kg; comprimento do machado de 203,0 mm; largura da lâmina do machado com 142,0 mm; dimensões do olho do machado: 60 mm x 30 mm; cabo de madeira com aproximadamente 97 cm. Ref.: 3119350200 ou similar. CATMAT 329425"
+  },
+  {
+      "id": "3042000000131",
+      "id_sipac": "2421865",
+      "id_catmat": "431244",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M10 X 1.5 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M10 com passo de 1,5 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT 431244"
+  },
+  {
+      "id": "3042000000132",
+      "id_sipac": "2421866",
+      "id_catmat": "431244",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M12 X 1.75 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M12 com passo de 1,75 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT APROXIMADO: 431244"
+  },
+  {
+      "id": "3042000000133",
+      "id_sipac": "2421867",
+      "id_catmat": "431244",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M16 X 2 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M16 com passo de 2,0 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT APROXIMADO 431244"
+  },
+  {
+      "id": "3042000000128",
+      "id_sipac": "2421858",
+      "id_catmat": "482720",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M4 X 0,7 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M4 com passo de 0,7 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT APROXIMADO: 482720"
+  },
+  {
+      "id": "3042000000129",
+      "id_sipac": "2421862",
+      "id_catmat": "431244",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M6 X 1.0 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M6 com passo de 1,0 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT APROXIMADO: 431244"
+  },
+  {
+      "id": "3042000000130",
+      "id_sipac": "2421864",
+      "id_catmat": "431244",
+      "date_record": "15/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MACHO MÁQUINA M8 X 1.25 MM (6H)",
+      "specification": "Macho máquina em aço-rápido, retificado, com canais helicoidais (aproximadamente 35º de hélice) à direita. A ferramenta deve ser indicada para furo não-passante (furo cego) e usinagem de material com cavaco longo. A geometria da ferramenta deve ser conforme a norma DIN 376. A ferramenta é destinada a uma rosca de classe 6H. Especificação Técnica -adequado para rosca M8 com passo de 1,0 mm; - adequado para máquina-ferramenta e haste cilíndrica; - material: aço rápido (sem ou com cobertura de TiN, TiAlN ou TiCN); - canal helicoidal à direita (com hélice de 35º ± 10º); - para usinagem de rosca da classe 6H; - ferramenta indicada para a usinagem de roscas em furos não passante e com formação de cavacos longos; - a geometria da ferramenta deve ser conforme a norma DIN 376. CATMAT APROXIMADO: 431244"
+  },
+  {
+      "id": "304200006780",
+      "id_sipac": "316667",
+      "id_catmat": "19046",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MANDRIL PARA FURADEIRA 1/2\"",
+      "specification": ".CATMAT: 19046"
+  },
+  {
+      "id": "3042000000097",
+      "id_sipac": "2377228",
+      "id_catmat": "19046",
+      "date_record": "30/03/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MANDRIL PARA FURADEIRA 3/8\"",
+      "specification": ".CATMAT: 19046"
+  },
+  {
+      "id": "3042000000362",
+      "id_sipac": "2514887",
+      "id_catmat": "239915",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MANGUEIRA DE NÍVEL CRISTAL, DIÂMETRO 1/4\", ESPESSURA DE 2,0MM, ROLO C/ 10M",
+      "specification": "MANGUEIRA DE NÍVEL CRISTAL, DIÂMETRO 1/4\", ESPESSURA DE 2,0MM, ROLO C/ 10M. CATMAT: 239915"
+  },
+  {
+      "id": "304200006771",
+      "id_sipac": "316666",
+      "id_catmat": "462324",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MÁQUINA MANUAL PARA CORTE DE CERÂMICA",
+      "specification": "Cortador de pisos e azulejos 19\" (50cm); Base confeccionada em chapa de aço; Guias tubulares em aço carbono cromado e mecanismo deslizante com buchas plásticas; Rodel fabricado em vídea (carboneto de tungstênio).CATMAT: 462324"
+  },
+  {
+      "id": "304200004000",
+      "id_sipac": "316397",
+      "id_catmat": "377603",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARRETA 1/2KG COM CABO",
+      "specification": "Marreta oitavada 500g; cabeça forjada e temperada em aço carbono especial e acabamento envernizado; cabo em madeira envernizada; fixação por cunha metálica; comprimento da cabeça: 89mm; comprimento total: 255mm; diâmetro do batente: 30mm. Ref:40508001. CATMAT: 377603"
+  },
+  {
+      "id": "304200000420",
+      "id_sipac": "316047",
+      "id_catmat": "377500",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARRETA 1KG COM CABO",
+      "specification": "Marreta oitavada 1000g; cabeça forjada em aço carbono especial; têmpera nas faces de impacto; bases polidas e envernizadas; cabeça com acabamento jateado; fixação por cunha metálica; cabo de madeira envernizado; comprimento da cabeça 98mm; comprimento total de 255mm; diâmetro do batente 42mm. Ref:40508002.CATMAT 377500"
+  },
+  {
+      "id": "304200000439",
+      "id_sipac": "316048",
+      "id_catmat": "377501",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARRETA 2KG COM CABO",
+      "specification": "Marreta oitavada 2000g; cabeça forjada e temperada em aço especial com acabamento jateado e envernizada; cabo em madeira envernizada fixado com cunha metálica; comprimento de 300mm; diâmetro do batente 44mm; comprimento da cabeça 125mm. Ref: 40508004.CATMAT 377501"
+  },
+  {
+      "id": "3042000000381",
+      "id_sipac": "2515264",
+      "id_catmat": "239335",
+      "date_record": "16/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARRETA 5KG COM CABO",
+      "specification": "Marreta com cabo longo, cabeça em aço nodular, cabo em madeira prensado mecanicamente, peso da cabeça: 5,0Kg."
+  },
+  {
+      "id": "304200000447",
+      "id_sipac": "316049",
+      "id_catmat": "326966",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARTELO BOLA - 1/2KG COM CABO",
+      "specification": "Martelo bola com cabo de madeira, 500g, comprimento total de 330 mm, comprimento da cabeça com 100 mm, diâmetro da cabeça com 25 mm, cabeça em aço resistente, cabo em madeira legítima. Ideal para golpear formões, talhadeiras para rebitar, deformar ou endireitar metais não endurecidos. CATMAT: 326966"
+  },
+  {
+      "id": "304200000455",
+      "id_sipac": "316050",
+      "id_catmat": "324204",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARTELO DE BORRACHA 60MM",
+      "specification": ".CATMAT: 324204"
+  },
+  {
+      "id": "304200005368",
+      "id_sipac": "316526",
+      "id_catmat": "245151",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARTELO DE UNHA COM CABO EM MADEIRA 25MM",
+      "specification": "Martelo de unha; cabeça forjada e temperada em aço carbono especial; acabamento jateado e cabeça envernizada; cabo em madeira envernizada fixado com epóxi; diâmetro da cabeça: 25mm; comprimento total de no mínimo 325mm; ideal para martelar e arrancar pregos. Ref:40370025.CATMAT 245151"
+  },
+  {
+      "id": "304200004434",
+      "id_sipac": "316436",
+      "id_catmat": "357230",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "MARTELO PENA 150G COM CABO DE MADEIRA",
+      "specification": "Cabeça forjada e temperada em aço especial; acabamento jateado e cabeça envernizada; cabo em madeira envernizada fixado com cunha metálica; dureza adequada na base de impacto e unha/pena que suporte o uso contínuo por longo períodos; peso de 150g; largura do batente de 17mm e comprimento total de 280mm. Ref:40443003. CATMAT: 357230"
+  },
+  {
+      "id": "304200021762",
+      "id_sipac": "2285307",
+      "id_catmat": "320022",
+      "date_record": "22/07/2008",
+      "unit": "PAR",
+      "group_sipac": "3042",
+      "name": "NAVALHA PARA PLAINA ELÉTRICA NAVAL",
+      "specification": "Navalha para plaina elétrica naval em cartela com duas unidades - marca bosch 2707.000.096.000 CATMAT:320022"
+  },
+  {
+      "id": "304200006739",
+      "id_sipac": "316662",
+      "id_catmat": "449493",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "NÍVEL DE MÃO",
+      "specification": "Nível de mão profissional; Estrutura fabricada em alumínio; Sistema de amortecimento para pequenos impactos; Perfil reforçado em viga I que garante melhor desempenho; Resultados positivos em seus trabalhos de nivelamento; Possuindo 3 bolhas, sendo:01 de prumo, 01 de nível e 01 de 45°. (para licitação) CATMAT: 449493"
+  },
+  {
+      "id": "304200020943",
+      "id_sipac": "316863",
+      "id_catmat": "466631",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PÁ DE BICO COM CABO DE MADEIRA",
+      "specification": "Pá de bico (pá redonda) fabricada em aço carbono especial em alta qualidade, temperada em todo o corpo da peça; o cabo todo em madeira de no mínimo 70cm, liso e aparelhado, sem nós e com o punho no formato de Y. Ref: 77459434.CATMAT 466631"
+  },
+  {
+      "id": "304200000471",
+      "id_sipac": "316052",
+      "id_catmat": "405532",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PÁ QUADRADA COM CABO DE MADEIRA",
+      "specification": "Pá quadrada fabricada em aço carbono especial em alta qualidade, temperada em todo o corpo da peça; o cabo em madeira de no mínimo 70cm, liso e aparelhado, sem nós e com o punho no formato de Y. Ref: 77464434. CATMAT 405532"
+  },
+  {
+      "id": "3042000000376",
+      "id_sipac": "2514908",
+      "id_catmat": "442124",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PÉ DE CABRA SIMPLES EM AÇO FORJADO COM PONTAS TEMPERADAS, DIÂMETRO MÍNIMO 5/8\", COMPRIMENTO MÍNIMO 60CM",
+      "specification": "PÉ DE CABRA SIMPLES EM AÇO FORJADO COM PONTAS TEMPERADAS, DIÂMETRO MÍNIMO 5/8\", COMPRIMENTO MÍNIMO 60CM. CATMAT: 442124"
+  },
+  {
+      "id": "3042000000322",
+      "id_sipac": "2510364",
+      "id_catmat": "224602",
+      "date_record": "24/08/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PENEIRA PARA PEDREIRO 50 X 80CM",
+      "specification": "Peneira utilizada na agricultura para peneiração dos grãos e também na construção civil, para peneiração de areia. Largura: 50,00 cm, altura: 6,00 cm, profundidade: 80,00 cm, peso: 2,30 kg, malha 6. Formato retangular. Material da estrutura em madeira, material da tela em arame galvanizado. CATMAT APROXIMADO 224602"
+  },
+  {
+      "id": "304200000188",
+      "id_sipac": "316023",
+      "id_catmat": "376821",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PICARETA CHIBANCA 4 LIBRAS COM CABO DE MADEIRA",
+      "specification": "Picareta chibanca com cabo de madeira, forjada em aço carbono especial de alta qualidade; sistema de encabamento com bucha plástica, garantindo a fixação do cabo com a lâmina; Tamanho do cabo: 90cm; Dimensões gerais (Comp. x Larg. x Alt.): 905 x 378 x 98mm. Ref:77305543. CATMAT: 376821"
+  },
+  {
+      "id": "304200000501",
+      "id_sipac": "316055",
+      "id_catmat": "376821",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PICARETA ESTREITA 5 LIBRAS COM CABO EM MADEIRA",
+      "specification": "Picareta estreita 5 libras em aço carbono especial forjado de alta qualidade; pintura eletrostática a pó; olho oval de 70 x 45mm; cabo de 90cm; cabo com acabamento envernizado; e sistema de encabamento com bucha plástica. Ref:77300553. CATMAT: 376821."
+  },
+  {
+      "id": "304200021757",
+      "id_sipac": "2274190",
+      "id_catmat": "247662",
+      "date_record": "24/01/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PODADOR DE GALHOS COM SERROTE E CABO METÁLICO EXTENSÍVEL",
+      "specification": "Podador de Galhos altos com cabo prolongador profissional; possui uma lâmina com afiamento especial que permite o corte em ambos os sentidos; ideal para podar arbustos e árvores; utilizado para cortar e podar galhos altos de difícil acesso; cabo metálico e extensível de 1,5 até 3 metros. Ref: 78380781. CATMAT 247662"
+  },
+  {
+      "id": "304200006763",
+      "id_sipac": "316665",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PONTA DE DIAMANTE PARA MAQUINA FERMAT DE CORTAR CERAMICA",
+      "specification": ""
+  },
+  {
+      "id": "3042000000209",
+      "id_sipac": "2485304",
+      "id_catmat": "336014",
+      "date_record": "10/10/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PONTEIRO - CINZEL PONTIAGUDO",
+      "specification": "Ponteiro cinzel pontiagudo com encaixe SDS-PLUS para martelo perfurador (martelete), diâmetro aproximado de 14mm, comprimento aproximado de trabalho 25cm. CATMAT: 336014"
+  },
+  {
+      "id": "304200021143",
+      "id_sipac": "316883",
+      "id_catmat": "234212",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PONTEIRO MANUAL COM EMPUNHADURA",
+      "specification": "Ponteiro com no mínimo 16 x 250mm (5/8\" x 10\"); ponteiro sextavado; corpo produzido em aço cromo vanádio e ponta temperada; acabamento pintado que proporcione maior resistência à oxidação/corrosão; cabo com empunhadura em borracha termoplástica, para proteção as mãos do usuário. CATMAT: 234212"
+  },
+  {
+      "id": "3042000000294",
+      "id_sipac": "2508555",
+      "id_catmat": "150177",
+      "date_record": "23/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PORTA-BEDAMES RETO 3/4",
+      "specification": "PORTA BEDAMES RETO. ALTURA 33 MM."
+  },
+  {
+      "id": "3042000000295",
+      "id_sipac": "2508578",
+      "id_catmat": "468702",
+      "date_record": "25/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PORTA BITS RETO PARA TORNEAMENTO 3/8\"",
+      "specification": "PORTA BITS RETO PARA TORNEAMENTO 3/8\". ALTURA 32 MM."
+  },
+  {
+      "id": "304200006712",
+      "id_sipac": "316660",
+      "id_catmat": "468648",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PRUMO DE PEDREIRO DE 0,5KG",
+      "specification": "prumo de pedreiro, em metal, com 0,5kg, tipo garrafa. CATMAT: 468648"
+  },
+  {
+      "id": "304200006704",
+      "id_sipac": "316659",
+      "id_catmat": "442255",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "PRUMO DE PEDREIRO DE 1KG",
+      "specification": "Prumo de pedreiro, em metal, tipo garrafa ou cone (a combinar), com 1 kg CATMAT: 442255"
+  },
+  {
+      "id": "3042000000363",
+      "id_sipac": "2514888",
+      "id_catmat": "481690",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "REBOLO DE CARBERTO DE TUGSTÊNCIO (WÍDIA) - VERDE, PARA AFIAÇÃO E FERRAMENTARIA, DIÂMETRO 203,2 MM - 8” (203,2MM X 19,0MM X 31,75MM) - 8” X 3/4” X 1.1/4”, GRÃO 80",
+      "specification": "REBOLO DE CARBERTO DE TUGSTÊNCIO (WÍDIA) - VERDE, PARA AFIAÇÃO E FERRAMENTARIA, DIÂMETRO 203,2 MM - 8” (203,2 X 19,0 X 31,75), GRÃO 80. CATMAT: 481690"
+  },
+  {
+      "id": "3042000000200",
+      "id_sipac": "2477479",
+      "id_catmat": "214039",
+      "date_record": "06/02/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "REBOLO GRÃO 100",
+      "specification": "Rebolo Grão 100 - rebolo de formato reto de carbeto de silício verde e granulometria 100. - Dimensões: 7\" de diâmetro externo, 1\" de espessura e 1 1/4\" de diâmetro do furo central (177,8 mm x 25,4 mm x 31,75 mm); - Aplicação: indicado para afiação ou retificação deferramentas de metal duro (widea). CATMAT: 214039"
+  },
+  {
+      "id": "3042000000201",
+      "id_sipac": "2477480",
+      "id_catmat": "375891",
+      "date_record": "07/02/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "REBOLO GRÃO 36",
+      "specification": "Rebolo de formato reto de óxido de alumínio comum e granulometria 36. Dimensões: 7'' de diâmetro externo. 1'' de espessura e 1.1/4'' de diâmetro do furo central (177,8 mm x 25,4 mm x 31,75 mm). Aplicação: indicado para operações industriais de desbastes, rebarbação, afiação e limpeza. CATMAT:375891"
+  },
+  {
+      "id": "304200006429",
+      "id_sipac": "316631",
+      "id_catmat": "355376",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "REGADOR DE PLÁSTICO - 10 LITROS",
+      "specification": "Material do regador: polipropileno; Capacidade do regador: 10 litros; Itens Inclusos: Bico tipo ducha (crivo). Ref: 6199012000. CATMAT 355376"
+  },
+  {
+      "id": "3042000000329",
+      "id_sipac": "2513143",
+      "id_catmat": "355376",
+      "date_record": "22/02/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "REGADOR (POLIPROPILENO OU POLIETILENO)",
+      "specification": "Regador, de material polipropileno ou polietileno, capacidade de 10 litros, acompanha bico tipo ducha (crivo) fino. CATMAT: 355376"
+  },
+  {
+      "id": "3042000000364",
+      "id_sipac": "2514889",
+      "id_catmat": "373514",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "RÉGUA DE PEDREIRO EM ALUMÍNIO, BITUBULAR, REFORÇADA, COM TAMPAS NAS EXTREMIDADES, DIMENSÕES 50,8 MM X 25,4 MM X 6000 MM. (2\" X 1\" X 6M). ESPESSURA MÍNIMA DA PAREDE DO PERFIL DE 1,00MM.",
+      "specification": "RÉGUA DE PEDREIRO EM ALUMÍNIO, BITUBULAR, REFORÇADA, COM TAMPAS NAS EXTREMIDADES, DIMENSÕES 50,8 MM X 25,4 MM X 6000 MM. (2\" X 1\" X 6M). ESPESSURA MÍNIMA DA PAREDE DO PERFIL DE 1,00MM. CATMAT: 373514"
+  },
+  {
+      "id": "3042000000365",
+      "id_sipac": "2514890",
+      "id_catmat": "482623",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "RODEL UNIVERSAL PARA CORTADOR DE PISO, HASTE EM AÇO CARBONO ZINCADO COM DISCO DE CARBONETO DE TUNGSTÊNIO, WÍDIA 80 X 7MM",
+      "specification": "RODEL UNIVERSAL PARA CORTADOR DE PISO, HASTE EM AÇO CARBONO ZINCADO COM DISCO DE CARBONETO DE TUNGSTÊNIO, WÍDIA 80 X 7MM. CATMAT: 482623"
+  },
+  {
+      "id": "3042000000366",
+      "id_sipac": "2514891",
+      "id_catmat": "425815",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "SACA POLIA (EXTRATOR DE ROLAMENTO) C/ 3 GARRAS ARTICULADAS GIRATÓRIAS, ACABAMENTO CROMADO, PARAFUSO DE ENCAIXE HEXAGONAL, ABERTURA 200MM (8\")",
+      "specification": "SACA POLIA (EXTRATOR DE ROLAMENTO) C/ 3 GARRAS ARTICULADAS GIRATÓRIAS, ACABAMENTO CROMADO, PARAFUSO DE ENCAIXE HEXAGONAL, ABERTURA 200MM (8\"). CATMAT: 425815"
+  },
+  {
+      "id": "304200020531",
+      "id_sipac": "316822",
+      "id_catmat": "312286",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "SERRA COPO - 16MM",
+      "specification": "Serra copo bi-metal com diâmetro de 16mm (5/8\") fixado na própria peça; passo constante; Profundidade de corte de 40mm; realize cortes rápidos de forma suave em, praticamente, todos os materiais; com dentes de aço rápido temperado soldados a um corpo de aço liga, resistentes ao calor e à abrasão. CATMAT: 312286"
+  },
+  {
+      "id": "304200007212",
+      "id_sipac": "316709",
+      "id_catmat": "380443",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "SERRA COPO - 19MM",
+      "specification": "Serra copo bi-metal com diâmetro de 19mm (3/4\") fixado na própria peça; passo constante; Profundidade de corte de 40mm; realize cortes rápidos de forma suave em, praticamente, todos os materiais; com dentes de aço rápido temperado soldados a um corpo de aço liga, resistentes ao calor e à abrasão.CATMAT:380443"
+  },
+  {
+      "id": "3042000000198",
+      "id_sipac": "2477083",
+      "id_catmat": "446792",
+      "date_record": "29/01/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "SERRA COPO - 75MM",
+      "specification": "Serra copo diamantado para uso em concreto, encaixe SDS-PLUS, comprimento aproximado de 40cm, diâmetro nominal 75mm (3”), acabamento de superfície liso, suportes e broca em aço rápido. CATMAT: 446792"
+  },
+  {
+      "id": "304200021760",
+      "id_sipac": "2280714",
+      "id_catmat": "362214",
+      "date_record": "21/05/2008",
+      "unit": "METRO",
+      "group_sipac": "3042",
+      "name": "SERRA DE FITA COM 1\" ###",
+      "specification": "para corte em madeira: CATMAT: 362214"
+  },
+  {
+      "id": "304200002628",
+      "id_sipac": "316265",
+      "id_catmat": "438642",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "SERROTE 18\"",
+      "specification": "Serrote com lâmina em aço especial temperado e lixado; dentes travados; 7 dentes por polegada; produto de alta qualidade; com tamanho de 18\". Ref:43200018. CATMAT: 438642"
+  },
+  {
+      "id": "304200000153",
+      "id_sipac": "316020",
+      "id_catmat": "271509",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TALHADEIRA DE ACO DE 10\"",
+      "specification": "Corpo em aço especial; barra sextavada; têmpera por indução nas duas extremidades; garantir sua resistência mecânica em uso intenso; pintura eletrostática para proteção excelente contra a corrosão; produzida e testadas conforme normas específicas. Ref:42700110. CATMAT 271509"
+  },
+  {
+      "id": "3042000000367",
+      "id_sipac": "2514893",
+      "id_catmat": "336013",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TALHADEIRA TIPO SDS-PLUS, COM PONTA DE METAL DURO, 20MM X 250MM",
+      "specification": "TALHADEIRA TIPO SDS-PLUS, COM PONTA DE METAL DURO, 20MM X 250MM. CATMAT: 336013"
+  },
+  {
+      "id": "3042000000368",
+      "id_sipac": "2514894",
+      "id_catmat": "449527",
+      "date_record": "06/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TELA EM AÇO GALVANIZADO PARA PENEIRAR AREIA GROSSA, MALHA Nº 4 A 5, ABERTURA ENTRE 4,0 E 5MM, DIÂMETRO FIO 20BWG, DIMENSÕES 1 X 25 M",
+      "specification": "TELA EM AÇO GALVANIZADO PARA PENEIRAR AREIA GROSSA, MALHA Nº 4 A 5, ABERTURA ENTRE 4,0 E 5MM, DIÂMETRO FIO 20 BWG. CATMAT: 449527"
+  },
+  {
+      "id": "304200000560",
+      "id_sipac": "316061",
+      "id_catmat": "317622",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TESOURA CERCA VIVA COM LÂMINA DE 12\"",
+      "specification": "Tesoura cerca viva; lâmina em aço carbono especial temperado que confere precisão de corte; lâmina possuindo um excelente fio feito em máquinas de desbaste automatizadas; lâmina de 12\"; tesoura própria para desbaste e acabamento de cerca viva, arbustos e para aparar a grama. Ref: 78332125.CATMAT 317622"
+  },
+  {
+      "id": "3042000000214",
+      "id_sipac": "2485309",
+      "id_catmat": "294262",
+      "date_record": "10/10/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TESOURA DE AVIAÇÃO - 10\"",
+      "specification": "Tesoura tipo aviação, corte reto; indicada para cortes retos em chapas macias de até 1mm de espessura. Utilizada em funilarias, serralherias e indústrias; comprimento total de 10\" (254 mm); material da lâmina em aço carbono. Ref:3599101000. CATMAT 294262"
+  },
+  {
+      "id": "304200000510",
+      "id_sipac": "316056",
+      "id_catmat": "248378",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TESOURA PARA CORTE DE ROSEIRA",
+      "specification": "Tesoura de poda de alta qualidade, ideal para poda de frutíferas, flores e plantas ornamentais; lâmina metálica, trava de segurança e cabo plástico anatômico e ergonômico proporcionando conforto ao operador. Ref:78300801. CATMAT 248378"
+  },
+  {
+      "id": "304200004230",
+      "id_sipac": "316420",
+      "id_catmat": "391934",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TORQUÊS - 8\"",
+      "specification": "Torques em aço cromo-vanádio; fosfatizado; cabeça polida e cabo plastificado; indicado para uso geral para grandes esforços cortantes e de torção; corte temperado por indução; tamanho mínimo 8\"(203mm); cabo do tipo plastificado para melhorar o isolamento. Ref: 3633008000. CATMAT 391934"
+  },
+  {
+      "id": "304200000595",
+      "id_sipac": "316064",
+      "id_catmat": "239308",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TRENA DE PRECISÃO - 20 METROS",
+      "specification": "Trena possuindo corpo fechado; comprimento: 20 metros; em plástico injetado; fita em fibra de vidro; com alto nível de precisão; testada conforme normas específicas. Ref:14162240. CATMAT 239308"
+  },
+  {
+      "id": "304200000609",
+      "id_sipac": "316065",
+      "id_catmat": "372609",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TRENA DE PRECISÃO - 50 METROS",
+      "specification": "Caixa plástica aberta (ABS). fita em fibra de vidro de alta resistência. resistente a umidade e variações de temperatura. manivela para recolhimento da fita. clipe metálico na ponta da fita. cabo ergonômico. largura da fita minimo: 12.5mm. graduação: mm/pol. Ref:860002. CATMAT 372609"
+  },
+  {
+      "id": "3042000000090",
+      "id_sipac": "2364775",
+      "id_catmat": "393216",
+      "date_record": "25/08/2011",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "TRENA DE PRECISÃO - 5 METROS",
+      "specification": "Trena de 5 metros e fita 19mm; Fita de aço com pintura anti-reflexo; Estojo anatômico em ABS de alta resistência; Com trava e presilha para cinto; Com alça de nylon; Gancho auto-ajustável na ponta da fita, permitindo medições internas e externas mais precisas; Graduação: mm/pol. Ref:3868570005. CATMAT 393216"
+  },
+  {
+      "id": "304200021749",
+      "id_sipac": "2246276",
+      "id_catmat": "447832",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "VÁLVULA DE SEGURANÇA ###",
+      "specification": "VÁLVULA DE SEGURANÇA ANTI-RETROCESSO PARA MAÇARICO E REGULADOR. CATMAT: 447832"
+  },
+  {
+      "id": "304200006860",
+      "id_sipac": "316674",
+      "id_catmat": "417310",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3042",
+      "name": "VASSOURA DE AÇO PARA FOLHAS",
+      "specification": "Vassoura regulável com 22 dentes em aço com cabo de madeira 120cm; possuir olho de 23 mm de diâmetro. Ref:77831721. CATMAT 417310"
+  }
+]]}
