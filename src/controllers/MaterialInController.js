@@ -63,7 +63,7 @@ class MaterialInController {
           [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`created_At`'), '%Y-%m-%d'), 'createdAt']],
         include: [{
           model: MaterialInItem,
-          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
+          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('specification'), 'specification'], [Sequelize.literal('unit'), 'unit'], 'quantity', 'value'],
           required: false,
           include: {
             model: Material,
