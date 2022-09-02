@@ -1,0 +1,692 @@
+{"sipac":[
+  {
+      "id": "3044000000032",
+      "id_sipac": "2507285",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "ADESIVO SINALIZAÇÃO DE SOLO EQUIPAMENTOS COMBATE A INCÊNDIO E ALARME CÓDIGO - E17",
+      "specification": "Fornecimento de sinalização de solo em adesivo com alta capacidade aderente para pisos convencionais. Símbolo quadrado medindo 1x1m, fundo vermelho 0,70x0,70m (C0 M100 Y91 K0 - CMYK) e borda amarela de largura 0,15m (C0 M9 Y94 K0 - CMYK). Código da placa: E17 da IT 20/2018 do CBM/RN, referente à sinalização de equipamentos de combate a incêndio e alarme.(CATMAT:150651)"
+  },
+  {
+      "id": "3044001000072",
+      "id_sipac": "2509094",
+      "id_catmat": "460721",
+      "date_record": "04/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "CONE REFLETIVO PARA SINALIZAÇÃO DE TRÂNSITO NBR 15071.",
+      "specification": "Cone refletivo para Sinalização de Trânsito em polietileno, altura de 75cm. Características técnicas: Cor: laranja e branco. Material: PVC com tratamento UV. Altura: 75cm. Base quadrada. Possui 2 faixas refletivas com refletividade mínima de 300 candelas/lux/m2. Peso aproximado de 4 quilos. Obedecendo a norma NBR 15071.(CATMAT:460721)"
+  },
+  {
+      "id": "3044001000073",
+      "id_sipac": "2509095",
+      "id_catmat": "271309",
+      "date_record": "04/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PEDESTAL PLÁSTICO ZEBRADO 95CM SUPORTE PARA CORRRENTE.",
+      "specification": "Pedestal plástico zebrado 95cm de altura ideal para isolamento de perímetro ou direcionamento de fluxo com dois ganchos em sua extremidade para encaixe de correntes plásticas. Base do pedestal na cor preto de diâmetro aproximado: 22 cm. Peso aproximado 4 Kg podendo variar para mais ou para menos em 8%. Cor: Preto Zebrado Amarelo.(CATMAT:271309)"
+  },
+  {
+      "id": "3044000000010",
+      "id_sipac": "2459025",
+      "id_catmat": "0",
+      "date_record": "13/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA ACRÍLICA DE INFORMAÇÃO TIPO 1",
+      "specification": "Placa de acrílico medindo 230x170mm, 4x0 cores, Tinta digital em Acrílico 100g -> 2,27 m². Possui espaço para número da sala, descritivo do uso e recado. Adesivo impresso no verso com as informações. Cores variadas a combinar. A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000011",
+      "id_sipac": "2459026",
+      "id_catmat": "0",
+      "date_record": "13/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA ACRÍLICA DE INFORMAÇÃO TIPO 2",
+      "specification": "Placa de acrílico medindo 230x170mm, possui espaço para número da sala e descritivo do uso, 4x0 cores, tinta digital em Acrílico 100g -> 0,59 m². Adesivo impresso no verso com as informações. Cores variadas a combinar. A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000014",
+      "id_sipac": "2459031",
+      "id_catmat": "0",
+      "date_record": "13/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA DE AVISO ESPECÍFICO",
+      "specification": "Placa de PVC medindo 210x297x3mm, cobertos com adesivo impresso. Tinta digital em Acrílico 100g -> 0,31m² -Cores variadas a combinar.A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000013",
+      "id_sipac": "2459030",
+      "id_catmat": "0",
+      "date_record": "13/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA DE AVISO INTERNA",
+      "specification": "Placa de PVC medindo 420x297x3mm, cobertos com adesivo impresso na cor do corredor. A fixação deve ser feita na parte interna de cada porta de sala de aula prática ou teórica. Tinta digital em Acrílico 100g -> 3,24m² . Cores variadas a combinar.A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000006",
+      "id_sipac": "2433860",
+      "id_catmat": "0",
+      "date_record": "05/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DE CO2",
+      "specification": "Placa de sinalização de CO2, fotoluminescente para sinalização de extintor de incêndio com as seguintes dimensões: 20 cm x 30 cm, confeccionado em poliestireno."
+  },
+  {
+      "id": "3044000000005",
+      "id_sipac": "2433859",
+      "id_catmat": "0",
+      "date_record": "05/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DE EXTINTOR DE ÁGUA",
+      "specification": "Placa de sinalização de extintor de água, fotoluminescente para sinalização de extintor de incêndio com as seguintes dimensões: 20 cm x 30 cm, confeccionado em poliestireno."
+  },
+  {
+      "id": "3044000000007",
+      "id_sipac": "2433861",
+      "id_catmat": "0",
+      "date_record": "05/02/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DE PÓ QUÍMICO",
+      "specification": "Placa de sinalização de pó químico, fotoluminescente para sinalização de extintor de incêndio com as seguintes dimensões: 20 cm x 30 cm, confeccionado em poliestireno."
+  },
+  {
+      "id": "304400000003",
+      "id_sipac": "2313450",
+      "id_catmat": "0",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DE SEGURANÇA",
+      "specification": "-PLACA DE SINALIZAÇÃO DE SEGURANÇA CONFECCIONADA EM VINIL; -DIMENSÕES APROXIMADAS: 25x18cm; -DIZERES A COMBINAR."
+  },
+  {
+      "id": "304400000004",
+      "id_sipac": "2313451",
+      "id_catmat": "0",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DE SEGURANÇA",
+      "specification": "-PLACA DE SINALIZAÇÃO DE SEGURANÇA CONFECCIONADA EM PVC; -DIMENSÕES APROXIMADAS: 50x35cm; -ESPESSURA: 2mm; -DEVE APRESENTAR OS SEGUINTES DIZERES: USO OBRIGATÓRIO DE EPIs."
+  },
+  {
+      "id": "3044000000004",
+      "id_sipac": "2412182",
+      "id_catmat": "0",
+      "date_record": "11/11/2013",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE SINALIZAÇÃO DUPLA, PARA ESTANTES FACE DUPLA",
+      "specification": "PLACA DE SINALIZAÇÃO DUPLA, PARA ESTANTES FACE DUPLA, DIMENSÕES 53 X 54 X 3 CM (A X L X P), CONFECCIONADO EM CHAPA DE AÇO DE BAIXO TEOR DE CARBONO, COM ESPESSURA MÍNIMA DE 0,90 MM, TRATADO POR PROCESSOS QUÍMICOS, ANTIFERRUGINOSO E FOSFATIZAÇÃO. SEM REBARBAS OU ARESTAS CORTANTES. PINTURA ELETROSTÁTICA EPÓXI EM PÓ, COM CAMADA MÍNIMA DE 70 MICRAS, DISPONÍVEIS PARA PEDIDO NA COR BRANCA. COMPOSTA POR 01 (UMA) PLACA SUPERIOR PARA TÍTULO E 02 (DUAS) INFERIORES PARA ACERVO. NÃO ACOMPANHA SERIGRAFIA. GARANTIA MÍNIMA DE 01 (UM) ANO."
+  },
+  {
+      "id": "3044001000062",
+      "id_sipac": "2507496",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO CIRCULAR (D= 50 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-3 AO R-40. (CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), circular (D=50cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos R-3 ao R-40 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000047",
+      "id_sipac": "2507355",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO CIRCULAR (D= 50 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-3 AO R-40. (NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), circular (D=50cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos R-3 ao R-40 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000061",
+      "id_sipac": "2507495",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO CIRCULAR (D= 50 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-3 AO R-40. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), circular (D=50cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos R-3 ao R-40 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000066",
+      "id_sipac": "2507500",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO OCTOGONAL (L=35 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-1.(CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), octogonal (L=35cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-1 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000050",
+      "id_sipac": "2507358",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO OCTOGONAL (L=35 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-1. (NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), octogonal (L=35cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-1 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000065",
+      "id_sipac": "2507499",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO OCTOGONAL (L=35 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-1. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), octogonal (L=35cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-1 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000054",
+      "id_sipac": "2507488",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO QUADRADA (L=50 CM) GRUPO ADVERTÊNCIA - CÓDIGOS A-1A AO A48. (CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), quadrada com L=50cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 01 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos A-1a ao A48 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000044",
+      "id_sipac": "2507352",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO QUADRADA (L=50 CM) GRUPO ADVERTÊNCIA - CÓDIGOS A-1A AO A48.(NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), quadrada com L=50cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 01 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos A-1a ao A48 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (NATAL E MACAÍBA/RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000053",
+      "id_sipac": "2507487",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO QUADRADA (L=50 CM) GRUPO ADVERTÊNCIA - CÓDIGOS A-1A AO A48. (SANTA CRUZ - RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), quadrada com L=50cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 01 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Códigos A-1a ao A48 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (SANTA CRUZ - RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000056",
+      "id_sipac": "2507490",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO ADVERTÊNCIA. (CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular80x110cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 02 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000045",
+      "id_sipac": "2507353",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO ADVERTÊNCIA. (NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular80x110cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 02 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000055",
+      "id_sipac": "2507489",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO ADVERTÊNCIA. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular80x110cm, tipo: grupo advertência, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 02 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000058",
+      "id_sipac": "2507492",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO INDICAÇÃO. (CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular 80x110cm, tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 2 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000046",
+      "id_sipac": "2507354",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO INDICAÇÃO. (NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular 80x110cm, tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 2 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000057",
+      "id_sipac": "2507491",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO EM AÇO GALVANIZADO RETANGULAR 80 CM X 110 CM GRUPO INDICAÇÃO. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular 80x110cm, tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 2 (dois) suportes de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000064",
+      "id_sipac": "2507498",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO TRIÂNGULAR (L=90 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-2.(CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), triangular (L=90cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-2 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000049",
+      "id_sipac": "2507357",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO TRIÂNGULAR (L=90 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-2. (NATAL E MACAÍBA)",
+      "specification": "FFornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), triangular (L=90cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-2 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000063",
+      "id_sipac": "2507497",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRANSITO EM AÇO GALVANIZADO TRIÂNGULAR (L=90 CM) GRUPO REGULAMENTAÇÃO - CÓDIGOS : R-2. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de confecção de placa de sinalização externa em chapa de aço galvanizado nº16 (espessura de 1,55 mm), triangular (L=90cm), tipo: grupo regulamentação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo padrões da resolução do CONTRAN nº 160 de de 2004 e suas posteriores alterações. Com 1 (um) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. Código R-2 do manual brasileiro de sinalização de trânsito em sua versão mais recente. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000060",
+      "id_sipac": "2507494",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO PARA ESTACIONAMENTO IDOSO/PESSOA COM DEFICIÊNCIA, EM AÇO GALVANIZADO RETANGULAR 60 CM X 90 CM GRUPO INDICAÇÃO. (CAICÓ-RN E CURRAIS NOVOS-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular (60x90cm), tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 1 (UM) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (CAICÓ-RN E CURRAIS NOVOS-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000048",
+      "id_sipac": "2507356",
+      "id_catmat": "150651",
+      "date_record": "20/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO PARA ESTACIONAMENTO IDOSO/PESSOA COM DEFICIÊNCIA, EM AÇO GALVANIZADO RETANGULAR 60 CM X 90 CM GRUPO INDICAÇÃO.(NATAL E MACAÍBA)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular (60x90cm), tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 1 (UM) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (NATAL E MACAÍBA) (CATMAT:150651)"
+  },
+  {
+      "id": "3044001000059",
+      "id_sipac": "2507493",
+      "id_catmat": "150651",
+      "date_record": "09/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA DE TRÂNSITO PARA ESTACIONAMENTO IDOSO/PESSOA COM DEFICIÊNCIA, EM AÇO GALVANIZADO RETANGULAR 60 CM X 90 CM GRUPO INDICAÇÃO. (SANTA CRUZ-RN)",
+      "specification": "Fornecimento, montagem e instalação de placa de sinalização externa em chapa de aço galvanizado nº 16 (espessura de 1,55 mm), retangular (60x90cm), tipo: grupo indicação, acabamento em pintura eletrostática, legenda em película refletiva GT e anti-vandalismo. Medidas atendendo a padrões da resolução do CONTRAN nº 160 de 2004 e suas posteriores alterações. Com 1 (UM) suporte de madeira maçaranduba medindo 0,05 x 0,06 x 3,20m, pintado com duas demãos, com tinta a base de borracha clorada ou esmalte sintético na cor branca. Sistema de fixação constituído de parafusos, arruelas, porcas e outros elementos metálicos em aço galvanizado. (SANTA CRUZ-RN) (CATMAT:150651)"
+  },
+  {
+      "id": "3044000000008",
+      "id_sipac": "2436501",
+      "id_catmat": "0",
+      "date_record": "11/05/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA EM BRONZE POLIDO (0,6 X 0,4 M)",
+      "specification": "Placa em bronze polido, gravada em alto relevo com parafusos sextavados cromados, medindo 0,60 x 0,40 m."
+  },
+  {
+      "id": "3044000000009",
+      "id_sipac": "2436502",
+      "id_catmat": "0",
+      "date_record": "11/05/2015",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA EM BRONZE POLIDO (0,7 X 0,6 M)",
+      "specification": "Placa em bronze polido, gravada em alto relevo com parafusos sextavados cromados, medindo 0,70 x 0,60 cm."
+  },
+  {
+      "id": "3044000000071",
+      "id_sipac": "2509089",
+      "id_catmat": "0",
+      "date_record": "01/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA IDENTIFICAÇÃO DE SAÍDA - ADESIVO SOBRE LUMINÁRIA DE EMERGÊNCIA",
+      "specification": "Fornecimento de ADESIVO (4 X 20)cm escrito SAÍDA, utilizado para colar sobre a luminária de emergência de parede. MAIS ESPECIFICAÇÕES NO ITEM 69 DO PR 105/2019 DA UASG 153079."
+  },
+  {
+      "id": "3044000000068",
+      "id_sipac": "2509086",
+      "id_catmat": "0",
+      "date_record": "01/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA IDENTIFICAÇÃO TIPO E5 - SINALIZAÇÃO DE EXTINTOR DE INCÊNDIO",
+      "specification": "Placa Tipo E5 conforme NPT-020 CBPM/PR. Sinalização indicando a localização dos extintores de incêndio. Símbolo: quadrada; cor do fundo: vermelho. Placa fotoluminescente em PVC 2mm de espessura, com laudo técnico da fotoluminescência e laudo técnico da capacidade anti-chama. Dimensões : (224 x 224)mm. Para distância máxima de visibilidade de 10 metros. MAIS ESPECIFICAÇÕES NO ITEM 26 DO PR 105/2019 DA UASG 153079."
+  },
+  {
+      "id": "3044000000067",
+      "id_sipac": "2509084",
+      "id_catmat": "0",
+      "date_record": "01/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA IDENTIFICAÇÃO TIPO S14 - SAÍDA DE EMERGÊNCIA",
+      "specification": "Placa Tipo S14 conforme NPT-020 CBPM/PR.Sinalização de orientação para rota de fuga. Indicação da saída de emergência com mensagem escrita \"SAÍDA\" e com pictograma, grafada no idioma português. Forma: retangular; cor do fundo: verde. Altura mínima das letras em placa: 85mm. Placa fotoluminescente em PVC 2mm de espessura, com laudo técnico da fotoluminescência e laudo técnico da capacidade anti-chama. Dimensões : (158 x 316)mm. Para distância máxima de visibilidade de 10 metros MAIS ESPECIFICAÇÕES NO ITEM 14 DO PR 105/2019 DA UASG 153079."
+  },
+  {
+      "id": "3044000000015",
+      "id_sipac": "2459075",
+      "id_catmat": "0",
+      "date_record": "14/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA - MAPA (1200X600MM)",
+      "specification": "PLACA EM PVC MEDINDO 1200x600mm COM ADESIVO IMPRESSO. Cores variadas a combinar.A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000016",
+      "id_sipac": "2459076",
+      "id_catmat": "0",
+      "date_record": "14/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACA - MAPA (420X297X3MM)",
+      "specification": "PLACA EM PVC MEDINDO 420x297x3mm PARA DESCRITIVO DAS SALAS.Cores variadas a combinar.A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000012",
+      "id_sipac": "2459027",
+      "id_catmat": "0",
+      "date_record": "13/10/2016",
+      "unit": "M²",
+      "group_sipac": "3044",
+      "name": "PLACAS DE BANHEIRO",
+      "specification": "Placa de PVC medindo 20x20cm, com adesivo impresso cobrindo todo o suporte. A fixação deve ser feita com adesivo dupla face em silicone. Tinta Digital em Acrílico 100g -> 0,44m² - Cores variadas a combinar.A fixação deve ser feita com adesivo dupla face em silicone."
+  },
+  {
+      "id": "3044000000036",
+      "id_sipac": "2507290",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA ATENÇÃO TIPO I EM PVC RETANGULAR 180 MM X 260 MM",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm e com aplicação de adesivo com sinalização de alerta com texto \"ATENÇÃO\" e \"ACESSO PERMITIDO SOMENTE A PESSOAL AUTORIZADO\" conforme especificações. O texto \"ATENÇÃO\" será na cor branca e os demais na cor preta, ambos em caixa alta, fonte univers 65 ou helvetica bold. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. A fixação deverá ser feita com fita dupla face. Dimensões 18x26cm.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000042",
+      "id_sipac": "2507327",
+      "id_catmat": "150651",
+      "date_record": "15/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA ATENÇÃO TIPO II EM PVC RETANGULAR 180 MM X 260 MM",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm e com aplicação de adesivo com sinalização de alerta com texto \"ATENÇÃO\" e \"NÃO ABRIR EM CARGA\" conforme especificações. O texto \"ATENÇÃO\" será na cor branca e os demais na cor preta, ambos em caixa alta, fonte univers 65 ou helvetica bold. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. A fixação deverá ser feita com fita dupla face. Dimensões 18x26cm.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000041",
+      "id_sipac": "2507296",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA COMPLEMENTAR EM PVC RETANGULAR 180 MM X 260 MM",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm, com aplicação de adesivo com sinalização de alerta conforme especificações a serem enviada pela Superintendência de Infraestrutura da UFRN. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. A fixação deverá ser feita com fita dupla face. Dimensões 18x26cm.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000021",
+      "id_sipac": "2507263",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA EM PVC EQUILÁTERO 136MM CÓDIGO - A1 A A7",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo triangular (equilátero, L=136mm), fundo: amarelo (C0 M9 Y94 K0 - CMYK), pictograma: preto (C0 M0 Y0 K100 - CMYK), faixa retangular: preta (C0 M0 Y0 K100 - CMYK). A fixação deverá ser feita com fita dupla face. Placas de código: A1 a A7 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de alerta. (CATMAT:150651)"
+  },
+  {
+      "id": "3044000000037",
+      "id_sipac": "2507291",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA EM PVC RETANGULAR 260 MM X 380 MM",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm e com aplicação de adesivo com sinalização de alerta conforme especificações. O texto \"PERIGO\" será na cor branca e os demais na cor preta, ambos em caixa alta, fonte univers 65 ou helvetica bold. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. A fixação deverá ser feita com fita dupla face. Dimensões 26x38cm.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000022",
+      "id_sipac": "2507265",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ALERTA EM PVC TRIÂNGULO 340MM CÓDIGO - A1 A A7",
+      "specification": "Fornecimento de placas em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir simbolo triangular (equilátero, L=340mm), fundo: amarelo (C0 M9 Y94 K0 - CMYK), pictograma: preto (C0 M0 Y0 K100 - CMYK), faixa retangular: preta (C0 M0 Y0 K100 - CMYK). A fixação deverá ser feita com fita dupla face. Placas de código: A1 a A7 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de alerta. (CATMAT:150651)"
+  },
+  {
+      "id": "3044000000020",
+      "id_sipac": "2507262",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO BÁSICA EM PVC CIRCULAR CÓDIGO - P1 A P5.",
+      "specification": "Fornecimento de placas circulares em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo circular (diâmetro= 151mm), fundo branco (N 9.5/ - Munsell Book of Colors®), pictograma: preto (C0 M0 Y0 K100 - CMYK), faixa circular e barra diametral: vermelha (C0 M100 Y91 K0 - CMYK). A fixação deverá ser feita com fita dupla face. Placas de código: P1 a P5 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização básica.(CATSER:150651)"
+  },
+  {
+      "id": "3044000000031",
+      "id_sipac": "2507284",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMBATE A INCÊNDIO E ALARME EM PVC QUADRADA 179 MM CÓDIGO - E1, E4 A E16",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo quadrado de dimensão L=179mm, fundo vermelho (C0 M100 Y91 K0 - CMYK), pictograma fotoluminescente. A fixação deverá ser feita com fita dupla face. Código das placas: E1, E4 a E16 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de equipamentos de combate a incêndio e alarme.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000035",
+      "id_sipac": "2507289",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMPLEMENTAR COM MENSAGENS ESCRITAS EM PVC CÓDIGO - M2",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=70mm x L=200mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com fita dupla face. Código da placa: C1 da IT 20/2018 do CBM/RN, referente à sinalização de indicação de rota de fuga.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000038",
+      "id_sipac": "2507292",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMPLEMENTAR CONFORME PROJETO - METRO QUADRADO.",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo com o texto a ser definido. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir dimensões a definir. Fundo: a definir, letras: Helvetica Bold, com fonte de tamanho >9mm. A fixação deverá ser feita com fita dupla face. A placa deverá ser confeccionada de acordo com a especificação do projeto enviada pela Superintendência de Infraestrutura da UFRN. (Unidade de medida, UNIDADE = Metro Quadrado - M²). (CATMAT:150651)"
+  },
+  {
+      "id": "3044000000039",
+      "id_sipac": "2507293",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMPLEMENTAR PVC QUADRADA 80 MM",
+      "specification": "Fornecimento e instalação de placa em PVC com espessura 1mm, aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo quadrado (h=80 mm x l=80 mm), fundo: Vermelho (C0 M100 Y91 K0 - CMYK), texto fotoluminescente. A fixação deverá ser feita com fita dupla face.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000043",
+      "id_sipac": "2507328",
+      "id_catmat": "150651",
+      "date_record": "15/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMPLEMENTAR TIPO II PVC RETANGULAR 180 MM X 100 MM",
+      "specification": "Fornecimento e instalação de placa em PVC com espessura 1mm, aplicação de adesivo fotoluminescente com texto \"ESCADA DE ACESSO A BOMBA DE INCÊNDIO\". As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (h= 180mm x l=100mm), fundo: Vermelho (C0 M100 Y91 K0 - CMYK), texto Fotoluminescente. A fixação deverá ser feita com fita dupla face.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000040",
+      "id_sipac": "2507294",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO COMPLEMENTAR TIPO I PVC RETANGULAR 180 MM X 100 MM",
+      "specification": "Fornecimento e instalação de placa em PVC com espessura 1mm, aplicação de adesivo fotoluminescente com texto \"ACESSO A BOMBA DE INCÊNDIO\". As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (h= 180mm x l=100mm), fundo: Vermelho (C0 M100 Y91 K0 - CMYK), texto Fotoluminescente. A fixação deverá ser feita com fita dupla face.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000033",
+      "id_sipac": "2507286",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO EQUIPAMENTOS COMBATE A INCÊNDIO E ALARME EM PVC CÓDIGO - E2 E E3",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo quadrado e dimensão da placa H=158 x L=316mm, fundo branco (N 9.5/ - Munsell Book of Colors®), pictograma fotoluminescente, acompanhado de mensagem escrita. A fixação deverá ser feita com fita dupla face. Placas de código: E2 e E3 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de equipamentos de combate a incêndio e alarme.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000034",
+      "id_sipac": "2507287",
+      "id_catmat": "150651",
+      "date_record": "13/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO INDICAÇÃO ROTA DE FUGA EM PVC RETANGULAR CÓDIGO - C1",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=70mm x L=200mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com fita dupla face. Código da placa: C1 da IT 20/2018 do CBM/RN, referente à sinalização de indicação de rota de fuga. (CATMAT:150651)"
+  },
+  {
+      "id": "3044000000029",
+      "id_sipac": "2507276",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC QUADRADA 179 MM CÓDIGO - S17",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm, aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo quadrado de dimensão L=179mm, fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. Texto a definir. A fixação deverá ser feita com fita dupla face. Código da placa: S17 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000023",
+      "id_sipac": "2507268",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 158 MM X 237 MM CÓDIGO - S1",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=158xL=316mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com fita dupla face. Código das placas: S2 a S11 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000024",
+      "id_sipac": "2507269",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 158 MM X 316 MM CÓDIGO - S2 A S11",
+      "specification": "Fornecimento de placa em PVC com espessura de 1mm e aplicação de adesivo Fotoluminescente, impermeável, resistente a incidência solar e a materiais/processo de limpeza, devem ainda possuir símbolo retangular (h=158mm x l=316mm), fundo: Verde (C79 M0 Y87 K76 - CMYK), pictograma: Fotoluminescente. A fixação deverá ser feita com fita dupla face. Código das placas: S2 a S11 do anexo B da Instrução Técnica nº 20/2018 do CBMRN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044002000051",
+      "id_sipac": "2507271",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 158 MM X 316 MM FIXAÇÃO LAJE OU TETO CÓDIGO - S2 A S11",
+      "specification": "Fornecimento de placa em PVC rígido com espessura 2mm e aplicação de adesivo fotoluminescente nos dois lados da placa. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=158xL=316mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com cabo de aço a ser fixado em laje/forro. Código das placas: S2 a S11 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000030",
+      "id_sipac": "2507277",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 158 MM X 395 MM CÓDIGO - S15",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=158xL=395mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com fita dupla face. Código da placa: S15 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000028",
+      "id_sipac": "2507274",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 158 MM X 474 MM CÓDIGO - S14 E S18",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=158xL=474mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente e fonte com tamanho >100mm. A fixação deverá ser feita com fita dupla face. Código das placas: S14 e S18 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000026",
+      "id_sipac": "2507272",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 253 MM X 506 MM CÓDIGO - S2 A S11",
+      "specification": "Fornecimento de placa em PVC com espessura 1mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=253xL=506mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com fita dupla face. Código das placas: S2 a S11 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044002000052",
+      "id_sipac": "2507273",
+      "id_catmat": "150651",
+      "date_record": "12/05/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZAÇÃO ORIENTAÇÃO E SALVAMENTO EM PVC RETANGULAR 253 MM X 506 MM FIXAÇÃO LAJE OU TETO CÓDIGO - S2 A S11",
+      "specification": "Fornecimento de placa em PVC rígido com espessura 2mm e aplicação de adesivo fotoluminescente. As placas e seus componentes deverão ser impermeáveis, resistentes a incidência solar e a materiais/processo de limpeza. As placas devem possuir símbolo retangular (H=253xL=506mm), fundo: verde (C79 M0 Y87 K76 - CMYK), pictograma: fotoluminescente. A fixação deverá ser feita com cabo de aço a ser fixado em laje/forro. Código das placas: S2 a S11 do anexo B da IT 20/2018 do CBM/RN, referente à sinalização de orientação e salvamento.(CATMAT:150651)"
+  },
+  {
+      "id": "3044000000069",
+      "id_sipac": "2509087",
+      "id_catmat": "0",
+      "date_record": "01/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZADORA TIPO C2 - SAÍDA À DIREITA",
+      "specification": "Placa Tipo C2 conforme NPT-020 CBPM/PR. Sinalização direção da rota de saída. Aplicação:Complementa uma sinalização básica de orientação e salvamento. Instaladas no sendo das saídas: à direita. Símbolo: quadrado; cor do fundo: verde. Placa fotoluminescente em PVC 2mm de espessura, com laudo técnico da fotoluminescência e laudo técnico da capacidade anti-chama. Dimensões : (224 x 224)mm. Para distância máxima de visibilidade de 10 metros MAIS ESPECIFICAÇÕES NO ITEM 43 DO PR 105/2019 DA UASG 153079."
+  },
+  {
+      "id": "3044000000070",
+      "id_sipac": "2509088",
+      "id_catmat": "0",
+      "date_record": "01/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3044",
+      "name": "PLACA SINALIZADORA TIPO C3 - SAÍDA À ESQUERDA",
+      "specification": "Placa Tipo C3 conforme NPT-020 CBPM/PR. Sinalização direção da rota de saída. Aplicação:Complementa uma sinalização básica de orientação e salvamento. Instaladas no sendo das saídas: à esquerda. Símbolo: quadrado; cor do fundo: verde. Placa fotoluminescente em PVC 2mm de espessura, com laudo técnico da fotoluminescência e laudo técnico da capacidade anti-chama. Dimensões : (224 x 224)mm. Para distância máxima de visibilidade de 10 metros. MAIS ESPECIFICAÇÕES NO ITEM 44 DO PR 105/2019 DA UASG 153079."
+  },
+  {
+      "id": "304400000002",
+      "id_sipac": "2297365",
+      "id_catmat": "0",
+      "date_record": "11/03/2009",
+      "unit": "Milh.",
+      "group_sipac": "3044",
+      "name": "PLAQUETA EM ALUMÍNIO LEVE DE IDENTIFICAÇÃO DE PATRIMÔNIO",
+      "specification": "Material: Plaqueta metálica de liga de alumínio leve, formato retangular, com semicírculo nas extremidades, com raio de 6,5mm. Auto adesiva (adesivo super resistente). Impressão foto-anodização selada/forqueada, resistente a thinner, álcool, querosene e outros produtos químicos. Impresso na cor azul com: “UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE”, “PATRIMÔNIO Nº”, com numeração seqüenciada, em algarismo arábico e o correspondente código de barras padrão 2 e 5, numeração a ser definida. A amostra deverá ser solicitada na Divisão de Patrimônio. Dimensões aproximadas: Largura: 45mm x Altura: 13mm x Espessura: 0,3mm."
+  },
+  {
+      "id": "304400000001",
+      "id_sipac": "2297363",
+      "id_catmat": "0",
+      "date_record": "11/03/2009",
+      "unit": "Milh.",
+      "group_sipac": "3044",
+      "name": "PLAQUETA METÁLICA DE IDENTIFICAÇÃO DE PATRIMÔNIO",
+      "specification": "PLAQUETA METÁLICA DE IDENTIFICAÇÃO DE PATRIMÔNIO Material: liga de alumínio leve, formato retangular. Furo nas laterais para fixação através de rebite, com diâmetro de 3mm, centralizado no sentido da altura e distância aproximada se 1mm do centro do furo às bordas laterais, tanto na direita quanto na esquerda. Impressão serigrafica de uma face, medindo 4,5 cm x 1,70 cm. Pintura em apoxi na cor azul com logotipo e nome da UFRN, palavra “PATRIMÔNIO Nº”, sem numeração. A amostra deverá ser solicitada na Divisão de Patrimônio. Dimensões: Largura: 50mm x Altura: 20mm x Espessura: 0,5mm."
+  }
+]}
