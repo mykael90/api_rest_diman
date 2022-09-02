@@ -1,0 +1,482 @@
+{"sipac":[
+  {
+    "id": 701001,
+    "position": "ADMINISTRADOR",
+    "level": "E"
+  },
+  {
+    "id": 701003,
+    "position": "ARQUEOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701004,
+    "position": "ARQUITETO E URBANISTA",
+    "level": "E"
+  },
+  {
+    "id": 701005,
+    "position": "ARQUIVISTA",
+    "level": "E"
+  },
+  {
+    "id": 701006,
+    "position": "ASSISTENTE SOCIAL",
+    "level": "E"
+  },
+  {
+    "id": 701009,
+    "position": "AUDITOR",
+    "level": "E"
+  },
+  {
+    "id": 701010,
+    "position": "BIBLIOTECARIO-DOCUMENTALISTA",
+    "level": "E"
+  },
+  {
+    "id": 701011,
+    "position": "BIOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701012,
+    "position": "BIOMEDICO",
+    "level": "E"
+  },
+  {
+    "id": 701015,
+    "position": "CONTADOR",
+    "level": "E"
+  },
+  {
+    "id": 701016,
+    "position": "COREOGRAFO",
+    "level": "E"
+  },
+  {
+    "id": 701023,
+    "position": "DIRETOR DE PRODUCAO",
+    "level": "E"
+  },
+  {
+    "id": 701024,
+    "position": "DIRETOR DE PROGRAMA",
+    "level": "E"
+  },
+  {
+    "id": 701026,
+    "position": "ECONOMISTA",
+    "level": "E"
+  },
+  {
+    "id": 701028,
+    "position": "EDITOR DE PUBLICACOES",
+    "level": "E"
+  },
+  {
+    "id": 701029,
+    "position": "ENFERMEIRO-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701030,
+    "position": "ENFERMEIRO DO TRABALHO",
+    "level": "E"
+  },
+  {
+    "id": 701031,
+    "position": "ENGENHEIRO-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701033,
+    "position": "ESTATISTICO",
+    "level": "E"
+  },
+  {
+    "id": 701034,
+    "position": "FARMACEUTICO-HABILITACAO",
+    "level": "E"
+  },
+  {
+    "id": 701037,
+    "position": "FISICO",
+    "level": "E"
+  },
+  {
+    "id": 701038,
+    "position": "FISIOTERAPEUTA",
+    "level": "E"
+  },
+  {
+    "id": 701043,
+    "position": "HISTORIADOR",
+    "level": "E"
+  },
+  {
+    "id": 701045,
+    "position": "JORNALISTA",
+    "level": "E"
+  },
+  {
+    "id": 701047,
+    "position": "MEDICO-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701048,
+    "position": "MEDICO VETERINARIO",
+    "level": "E"
+  },
+  {
+    "id": 701052,
+    "position": "MUSEOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701053,
+    "position": "MUSICO",
+    "level": "E"
+  },
+  {
+    "id": 701055,
+    "position": "NUTRICIONISTA-HABILITACAO",
+    "level": "E"
+  },
+  {
+    "id": 701058,
+    "position": "PEDAGOGO-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701060,
+    "position": "PSICOLOGO-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701061,
+    "position": "PRODUTOR CULTURAL",
+    "level": "E"
+  },
+  {
+    "id": 701063,
+    "position": "ODONTOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701064,
+    "position": "ODONTOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701066,
+    "position": "PROGRAMADOR VISUAL",
+    "level": "E"
+  },
+  {
+    "id": 701068,
+    "position": "QUIMICO",
+    "level": "E"
+  },
+  {
+    "id": 701071,
+    "position": "RESTAURADOR-AREA",
+    "level": "E"
+  },
+  {
+    "id": 701073,
+    "position": "REVISOR DE TEXTOS",
+    "level": "E"
+  },
+  {
+    "id": 701074,
+    "position": "ROTEIRISTA",
+    "level": "E"
+  },
+  {
+    "id": 701075,
+    "position": "SANITARISTA",
+    "level": "E"
+  },
+  {
+    "id": 701076,
+    "position": "SECRETARIO EXECUTIVO",
+    "level": "E"
+  },
+  {
+    "id": 701077,
+    "position": "SOCIOLOGO",
+    "level": "E"
+  },
+  {
+    "id": 701081,
+    "position": "TECNOLOGO-FORMACAO",
+    "level": "E"
+  },
+  {
+    "id": 701084,
+    "position": "TRADUTOR INTERPRETE",
+    "level": "E"
+  },
+  {
+    "id": 701085,
+    "position": "ZOOTECNISTA",
+    "level": "E"
+  },
+  {
+    "id": 701086,
+    "position": "ENGENHEIRO AGRONOMO",
+    "level": "E"
+  },
+  {
+    "id": 701087,
+    "position": "FARMACEUTICO",
+    "level": "E"
+  },
+  {
+    "id": 701088,
+    "position": "FARMACEUTICO BIOQUIMICO",
+    "level": "E"
+  },
+  {
+    "id": 701200,
+    "position": "ASSISTENTE EM ADMINISTRACAO",
+    "level": "D"
+  },
+  {
+    "id": 701203,
+    "position": "DESENHISTA-PROJETISTA",
+    "level": "D"
+  },
+  {
+    "id": 701205,
+    "position": "DIAGRAMADOR",
+    "level": "D"
+  },
+  {
+    "id": 701206,
+    "position": "EDITOR DE IMAGENS",
+    "level": "D"
+  },
+  {
+    "id": 701211,
+    "position": "REVISOR DE TEXTOS BRAILLE",
+    "level": "D"
+  },
+  {
+    "id": 701212,
+    "position": "RECREACIONISTA",
+    "level": "D"
+  },
+  {
+    "id": 701214,
+    "position": "TECNICO EM AGROPECUARIA",
+    "level": "D"
+  },
+  {
+    "id": 701216,
+    "position": "TECNICO EM ARQUIVO",
+    "level": "D"
+  },
+  {
+    "id": 701217,
+    "position": "TECNICO EM ARTES GRAFICAS",
+    "level": "D"
+  },
+  {
+    "id": 701221,
+    "position": "TECNICO EM AUDIOVISUAL",
+    "level": "D"
+  },
+  {
+    "id": 701224,
+    "position": "TECNICO EM CONTABILIDADE",
+    "level": "D"
+  },
+  {
+    "id": 701228,
+    "position": "TECNICO EM EDIFICACOES",
+    "level": "D"
+  },
+  {
+    "id": 701230,
+    "position": "TECNICO EM ELETROTECNICA",
+    "level": "D"
+  },
+  {
+    "id": 701231,
+    "position": "TECNICO EM ELETROMECANICA",
+    "level": "D"
+  },
+  {
+    "id": 701232,
+    "position": "TECNICO EM ELETROELETRONICA",
+    "level": "D"
+  },
+  {
+    "id": 701233,
+    "position": "TECNICO EM ENFERMAGEM",
+    "level": "D"
+  },
+  {
+    "id": 701239,
+    "position": "TECNICO EM GEOLOGIA",
+    "level": "D"
+  },
+  {
+    "id": 701241,
+    "position": "TECNICO EM HIGIENE DENTAL",
+    "level": "D"
+  },
+  {
+    "id": 701243,
+    "position": "TECNCICO EM INSTRUMENTACAO",
+    "level": "D"
+  },
+  {
+    "id": 701244,
+    "position": "TECNICO DE LABORATORIO AREA",
+    "level": "D"
+  },
+  {
+    "id": 701245,
+    "position": "TECNICO EM MECANICA",
+    "level": "D"
+  },
+  {
+    "id": 701255,
+    "position": "TECNICO EM PROTESE DENTARIA",
+    "level": "D"
+  },
+  {
+    "id": 701256,
+    "position": "TECNICO EM QUIMICA",
+    "level": "D"
+  },
+  {
+    "id": 701257,
+    "position": "TECNICO EM RADIOLOGIA",
+    "level": "D"
+  },
+  {
+    "id": 701261,
+    "position": "TECNICO EM SANEAMENTO",
+    "level": "D"
+  },
+  {
+    "id": 701264,
+    "position": "TECNICO EM TELECOMUNICACAO",
+    "level": "D"
+  },
+  {
+    "id": 701269,
+    "position": "VIGILANTE",
+    "level": "D"
+  },
+  {
+    "id": 701275,
+    "position": "TECNICO EM SECRETARIADO",
+    "level": "D"
+  },
+  {
+    "id": 701403,
+    "position": "ASSISTENTE DE ALUNO",
+    "level": "C"
+  },
+  {
+    "id": 701405,
+    "position": "AUXILIAR EM ADMINISTRACAO",
+    "level": "C"
+  },
+  {
+    "id": 701409,
+    "position": "AUXILIAR DE BIBLIOTECA",
+    "level": "C"
+  },
+  {
+    "id": 701410,
+    "position": "AUXILIAR DE CRECHE",
+    "level": "C"
+  },
+  {
+    "id": 701411,
+    "position": "AUXILIAR DE ENFERMAGEM",
+    "level": "C"
+  },
+  {
+    "id": 701412,
+    "position": "AUXILIAR DE SAUDE",
+    "level": "C"
+  },
+  {
+    "id": 701421,
+    "position": "CONTINUO",
+    "level": "C"
+  },
+  {
+    "id": 701422,
+    "position": "COZINHEIRO",
+    "level": "C"
+  },
+  {
+    "id": 701431,
+    "position": "FOTOGRAFO",
+    "level": "C"
+  },
+  {
+    "id": 701437,
+    "position": "ASSISTENTE DE LABORATORIO",
+    "level": "C"
+  },
+  {
+    "id": 701441,
+    "position": "MECANICO",
+    "level": "C"
+  },
+  {
+    "id": 701445,
+    "position": "MOTORISTA",
+    "level": "C"
+  },
+  {
+    "id": 701451,
+    "position": "OPERADOR DE LUZ",
+    "level": "C"
+  },
+  {
+    "id": 701452,
+    "position": "OPERADOR DE MAQUINAS AGRICOLAS",
+    "level": "C"
+  },
+  {
+    "id": 701454,
+    "position": "OPERADOR DE MAQUINA COPIADORA",
+    "level": "C"
+  },
+  {
+    "id": 701458,
+    "position": "PORTEIRO",
+    "level": "C"
+  },
+  {
+    "id": 701459,
+    "position": "RECEPCIONISTA",
+    "level": "C"
+  },
+  {
+    "id": 701463,
+    "position": "SONOPLASTA",
+    "level": "C"
+  },
+  {
+    "id": 701464,
+    "position": "TELEFONISTA",
+    "level": "C"
+  },
+  {
+    "id": 701830,
+    "position": "TECNICO EM ELETRONICA",
+    "level": "D"
+  }
+]}
