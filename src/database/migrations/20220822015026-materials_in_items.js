@@ -20,8 +20,8 @@ module.exports = {
           model: 'materials_in',
           key: 'id',
         },
-        onDelete: 'RESTRICT',
-        onUpdate: 'RESTRICT',
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       quantity: {
         type: Sequelize.DECIMAL(10, 2),
