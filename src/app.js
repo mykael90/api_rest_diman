@@ -16,6 +16,7 @@ import alunoRoutes from './routes/alunoRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 import materialRoutes from './routes/materialRoutes';
+import unidadeRoutes from './routes/unidadeRoutes';
 
 import loginRequired from './middlewares/loginRequired';
 
@@ -68,6 +69,7 @@ class App {
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
+    this.app.use('/unidades/', unidadeRoutes);
   }
 }
 

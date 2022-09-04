@@ -34,7 +34,7 @@ export default async (req, res, next) => {
     return next();
   } catch (e) {
     return res.status(401).json({
-      errors: ['Token expirado ou inválido'],
+      errors: [e.message],
     });
   }
 };

@@ -12,7 +12,8 @@ const inRoutes = new Router();
 router.use('/in/', inRoutes);
 
 // MATERIAL ROUTES
-router.get('/', materialController.index); // não precisa listar usuários
+router.get('/', materialController.index);
+router.post('/', materialController.store);
 
 // MATERIAL IN ROUTES
 inRoutes.get('/types', materialIntype.index);

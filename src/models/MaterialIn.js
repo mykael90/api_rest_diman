@@ -5,6 +5,7 @@ export default class MaterialIn extends Model {
     this.belongsToMany(models.Material, { through: models.MaterialInItem });
     this.belongsTo(models.MaterialIntype);
     this.belongsTo(models.User);
+    this.belongsTo(models.Unidade, { targetKey: 'id', foreignKey: 'cost_unit' });
 
     this.hasMany(models.MaterialInItem);
   }

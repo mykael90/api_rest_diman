@@ -17,6 +17,18 @@ class MaterialController {
       return res.json(e);
     }
   }
+
+  // Store
+  async store(req, res) {
+    try {
+      const material = await Material.create(req.body);
+      return res.json(material);
+    } catch (e) {
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
+    }
+  }
 }
 
 export default new MaterialController();

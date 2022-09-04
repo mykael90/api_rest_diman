@@ -29,7 +29,7 @@ module.exports = {
         'materials_in', // table name
         'req_unit', // new field name
         {
-          type: Sequelize.INTEGER(10),
+          type: Sequelize.BIGINT(20),
           allowNull: true,
         },
       ),
@@ -37,7 +37,7 @@ module.exports = {
         'materials_in', // table name
         'cost_unit', // new field name
         {
-          type: Sequelize.INTEGER(10),
+          type: Sequelize.BIGINT(20),
           allowNull: true,
         },
       ),
