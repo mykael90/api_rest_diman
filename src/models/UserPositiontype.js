@@ -7,17 +7,19 @@ export default class UserPositiontype extends Model {
   }
 
   static init(sequelize) {
-    super.init({
+    super.init(
+      {
 
-      id: {
-        type: Sequelize.INTEGER,
-        primaryKey: true,
-        unique: {
-          msg: 'O ID cadastrado já existe',
-        },
-        validate: {
-          notEmpty: {
-            msg: 'Campo não pode ficar vazio',
+        id: {
+          type: Sequelize.INTEGER,
+          primaryKey: true,
+          unique: {
+            msg: 'O ID cadastrado já existe',
+          },
+          validate: {
+            notEmpty: {
+              msg: 'Campo não pode ficar vazio',
+            },
           },
         },
 
@@ -42,7 +44,8 @@ export default class UserPositiontype extends Model {
 
       },
 
-    }, { sequelize, tableName: 'users_positiontypes', timestamps: false });
+      { sequelize, tableName: 'users_positiontypes', timestamps: false },
+    );
     return this;
   }
 }

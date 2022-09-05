@@ -20,12 +20,12 @@ module.exports = {
         allowNull: true,
       },
       birthdate: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.DATEONLY,
         allowNull: false,
       },
       filename_photo: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
         unique: true,
       },
       created_at: {
@@ -39,12 +39,7 @@ module.exports = {
     });
   },
 
-  async down() {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
+  async down(queryInterface) {
+    return queryInterface.dropTable('workers');
   },
 };

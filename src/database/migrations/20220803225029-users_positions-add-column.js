@@ -13,7 +13,7 @@ module.exports = {
         'users_positions', // table name
         'end', // new field name
         {
-          type: Sequelize.DATE,
+          type: Sequelize.DATEONLY,
           allowNull: true,
         },
       )]);

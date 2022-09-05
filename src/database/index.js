@@ -19,6 +19,8 @@ import MaterialIntype from '../models/MaterialIntype';
 import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
 
+import Unidade from '../models/Unidade';
+
 const models = [
   Aluno,
   User,
@@ -35,6 +37,7 @@ const models = [
   MaterialIntype,
   MaterialIn,
   MaterialInItem,
+  Unidade,
 ];
 
 const connection = new Sequelize(databaseConfig);
