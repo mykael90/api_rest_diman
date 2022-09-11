@@ -2,6 +2,7 @@ import { Router } from 'express';
 
 import materialController from '../controllers/MaterialController';
 import MaterialInController from '../controllers/MaterialInController';
+import MaterialInItemController from '../controllers/MaterialInItemController';
 
 import materialIntype from '../controllers/MaterialIntypeController';
 
@@ -15,7 +16,10 @@ router.use('/in/', inRoutes);
 router.get('/', materialController.index);
 router.post('/', materialController.store);
 
+
+
 // MATERIAL IN ROUTES
+inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
 
 inRoutes.get('/', MaterialInController.index);
