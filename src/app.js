@@ -11,12 +11,15 @@ import './database';
 
 import express from 'express';
 import homeRoutes from './routes/homeRoutes';
-import userRoutes, { userOpenedRouter as userOpenedRoutes } from './routes/userRoutes';
+import userRoutes, {
+  userOpenedRouter as userOpenedRoutes,
+} from './routes/userRoutes';
 import alunoRoutes from './routes/alunoRoutes';
 import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 import materialRoutes from './routes/materialRoutes';
 import unidadeRoutes from './routes/unidadeRoutes';
+import workerRoutes from './routes/workerRoutes';
 
 import loginRequired from './middlewares/loginRequired';
 
@@ -32,7 +35,7 @@ const whiteList = [
 
 const corsOptions = {
   origin(origin, callback) {
-    if ((whiteList.indexOf(origin)) !== -1 || !origin) {
+    if (whiteList.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
@@ -71,6 +74,7 @@ class App {
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
+    this.app.use('/workers/', workerRoutes);
   }
 }
 

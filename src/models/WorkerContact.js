@@ -1,9 +1,10 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class MaterialInItem extends Model {
+export default class WorkerContact extends Model {
   static associate(models) {
-    this.belongsTo(models.Workers);
-    this.belongsTo(models.ContactTypes);
+    console.log(models);
+    this.belongsTo(models.Worker);
+    this.belongsTo(models.ContactType);
   }
 
   static init(sequelize) {

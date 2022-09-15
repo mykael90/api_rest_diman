@@ -1,9 +1,10 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class Workers extends Model {
+export default class Worker extends Model {
   static associate(models) {
-    this.belongsToMany(models.ContactTypes, {
-      through: models.Workers_contact,
+    console.log(models);
+    this.belongsToMany(models.ContactType, {
+      through: models.WorkerContact,
     });
   }
 
@@ -45,5 +46,6 @@ export default class Workers extends Model {
 
       { sequelize, tableName: 'workers' }
     );
+    return this;
   }
 }
