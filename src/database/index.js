@@ -21,7 +21,7 @@ import MaterialInItem from '../models/MaterialInItem';
 
 import Unidade from '../models/Unidade';
 import Worker from '../models/Worker';
-import ContactType from '../models/ContactType';
+import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
 
 const models = [
@@ -41,7 +41,7 @@ const models = [
   MaterialIn,
   MaterialInItem,
   Unidade,
-  ContactType,
+  Contacttype,
   WorkerContact,
   Worker,
 ];
