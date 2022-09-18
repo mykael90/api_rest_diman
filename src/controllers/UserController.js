@@ -23,6 +23,7 @@ class UserController {
     try {
       const users = await User.findAll({
         attributes: ['id', 'name', 'username', 'email'],
+        order: ['name'],
       }); // retornar só esses 3 atributos
       return res.json(users);
     } catch (e) {
