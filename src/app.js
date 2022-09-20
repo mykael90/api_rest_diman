@@ -31,6 +31,7 @@ const whiteList = [
   'http://10.1.156.199:3000', // PC MYKAEL DIMAN
   'http://192.168.0.25:3000', // PC MYKAEL CASA
   'http://10.1.158.116:3000', // PC Alexandre DIMAN
+  'http://10.1.158.162:3000', 
 ];
 
 const corsOptions = {
