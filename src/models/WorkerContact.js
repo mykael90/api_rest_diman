@@ -3,7 +3,7 @@ import Sequelize, { Model } from 'sequelize';
 export default class WorkerContact extends Model {
   static associate(models) {
     this.belongsTo(models.Worker);
-    this.belongsTo(models.ContactType);
+    this.belongsTo(models.Contacttype);
   }
 
   static init(sequelize) {

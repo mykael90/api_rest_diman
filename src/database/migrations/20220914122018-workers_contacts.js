@@ -4,6 +4,7 @@ module.exports = {
       worker_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: 'workers',
           key: 'id',
@@ -11,9 +12,10 @@ module.exports = {
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE',
       },
-      contacttypes_id: {
+      contacttype_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: 'contacttypes',
           key: 'id',
