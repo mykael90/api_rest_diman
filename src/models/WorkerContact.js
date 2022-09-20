@@ -2,9 +2,8 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerContact extends Model {
   static associate(models) {
-    console.log(models);
     this.belongsTo(models.Worker);
-    this.belongsTo(models.ContactType);
+    this.belongsTo(models.Contacttype);
   }
 
   static init(sequelize) {
@@ -28,7 +27,7 @@ export default class WorkerContact extends Model {
         sequelize,
         tableName: 'workers_contact',
         timestamps: false,
-      }
+      },
     );
     return this;
   }

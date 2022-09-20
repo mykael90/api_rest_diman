@@ -1,4 +1,6 @@
 import Sequelize from 'sequelize';
+
+const env = process.env.NODE_ENV || 'development';
 import databaseConfig from '../config/database';
 
 import Aluno from '../models/Aluno';
@@ -21,7 +23,7 @@ import MaterialInItem from '../models/MaterialInItem';
 
 import Unidade from '../models/Unidade';
 import Worker from '../models/Worker';
-import ContactType from '../models/ContactType';
+import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
 
 const models = [
@@ -41,15 +43,15 @@ const models = [
   MaterialIn,
   MaterialInItem,
   Unidade,
-  ContactType,
+  Contacttype,
   WorkerContact,
   Worker,
 ];
 
-const connection = new Sequelize(databaseConfig);
+const connection = new Sequelize(databaseConfig[env]);
 
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models)
+  (model) => model.associate && model.associate(connection.models),
 );

@@ -2,10 +2,10 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class Worker extends Model {
   static associate(models) {
-    console.log(models);
     this.belongsToMany(models.ContactType, {
       through: models.WorkerContact,
     });
+    this.hasMany(models.WorkerContact);
   }
 
   static init(sequelize) {
