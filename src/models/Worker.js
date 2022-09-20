@@ -2,7 +2,7 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class Worker extends Model {
   static associate(models) {
-    this.belongsToMany(models.ContactType, {
+    this.belongsToMany(models.Contacttype, {
       through: models.WorkerContact,
     });
     this.hasMany(models.WorkerContact);
