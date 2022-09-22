@@ -1,4 +1,7 @@
+import Sequelize from 'sequelize';
+
 import Worker from '../models/Worker';
+import WorkerContact from '../models/WorkerContact';
 
 class WorkersController {
   // Index
@@ -16,6 +19,21 @@ class WorkersController {
           'rg',
         ],
         order: [['id', 'ASC']],
+        include: [
+          {
+            model: WorkerContact,
+            attributes: [
+              'contacttype_id',
+              // [
+              //   Sequelize.literal('`WorkersContact->Contacttype`.`type`'),
+              //   'name',
+              // ],
+              'contact',
+              'default',
+              'obs',
+            ],
+          },
+        ],
       });
       return res.json(result);
     } catch (e) {
@@ -26,7 +44,19 @@ class WorkersController {
   // Store
   async store(req, res) {
     try {
-      const workers = await Worker.create(req.body);
+      const workers = await Worker.create(
+        {
+          name: req.body.name,
+          email: req.body.email,
+          birthdate: req.body.birthdate,
+          cpf: req.body.cpf,
+          filename_photo: req.body.filename_photo,
+          rg: req.body.rg,
+        },
+        {
+          include: [WorkerContact],
+        }
+      );
       return res.json(workers);
     } catch (e) {
       return res.status(400).json({
