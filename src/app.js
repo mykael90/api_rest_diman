@@ -31,7 +31,8 @@ const whiteList = [
   'http://10.1.156.199:3000', // PC MYKAEL DIMAN
   'http://192.168.0.25:3000', // PC MYKAEL CASA
   'http://10.1.158.116:3000', // PC Alexandre DIMAN
-  'http://10.1.158.162:3000', 
+  'http://192.168.100.46:3000',
+  'http://10.1.158.162:3000',
 ];
 
 const corsOptions = {
@@ -65,7 +66,7 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
-
+    this.app.use('/workers/', workerRoutes);
     // Middleware de autenticação
     this.app.use(loginRequired);
 
@@ -75,7 +76,6 @@ class App {
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
-    this.app.use('/workers/', workerRoutes);
   }
 }
 

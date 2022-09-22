@@ -11,11 +11,6 @@ export default class Worker extends Model {
   static init(sequelize) {
     super.init(
       {
-        id: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
         name: {
           type: Sequelize.STRING,
           allowNull: false,
@@ -41,6 +36,14 @@ export default class Worker extends Model {
           type: Sequelize.STRING,
           allowNull: true,
           unique: true,
+        },
+        rg: {
+          type: Sequelize.STRING,
+          allowNull: false,
+        },
+        cpf: {
+          type: Sequelize.STRING,
+          allowNull: false,
         },
       },
 

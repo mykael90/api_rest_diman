@@ -44,11 +44,26 @@ class WorkersController {
   // Store
   async store(req, res) {
     try {
-      const workers = await Worker.create(req.body);
+      const workers = await Worker.create(
+        {
+          name: req.body.name,
+          email: req.body.email,
+          birthdate: req.body.birthdate,
+          cpf: req.body.cpf,
+          filename_photo: req.body.filename_photo,
+          rg: req.body.rg,
+
+          WorkerContacts: req.body.WorkerContacts,
+        },
+        {
+          include: [WorkerContact],
+        }
+      );
       return res.json(workers);
     } catch (e) {
+      console.log('erroCustomizado', e);
       return res.status(400).json({
-        errors: e.errors.map((err) => err.message),
+        errors: [e.message],
       });
     }
   }
