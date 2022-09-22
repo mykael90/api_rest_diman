@@ -52,6 +52,8 @@ class WorkersController {
           cpf: req.body.cpf,
           filename_photo: req.body.filename_photo,
           rg: req.body.rg,
+
+          WorkerContacts: req.body.WorkerContacts,
         },
         {
           include: [WorkerContact],
@@ -59,8 +61,9 @@ class WorkersController {
       );
       return res.json(workers);
     } catch (e) {
+      console.log('erroCustomizado', e);
       return res.status(400).json({
-        errors: e.errors.map((err) => err.message),
+        errors: [e.message],
       });
     }
   }

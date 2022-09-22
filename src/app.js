@@ -66,7 +66,7 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
-
+    this.app.use('/workers/', workerRoutes);
     // Middleware de autenticação
     this.app.use(loginRequired);
 
@@ -76,7 +76,6 @@ class App {
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
-    this.app.use('/workers/', workerRoutes);
   }
 }
 

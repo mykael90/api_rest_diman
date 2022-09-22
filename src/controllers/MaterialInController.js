@@ -17,18 +17,20 @@ class MaterialInController {
       // VERIFICAR SE ESSA REQUISIÇÃO JÁ FOI RECEBIDA
       if (exists) {
         return res.status(406).json({
-          errors: [`Recebimento não realizado, requisição ${req.body.req} já cadastrada no banco de dados`],
+          errors: [
+            `Recebimento não realizado, requisição ${req.body.req} já cadastrada no banco de dados`,
+          ],
         });
       }
 
       // VERIFICAR SE JÁ TEM OS MATERIAIS CADASTRADOS NO BANCO,
       // SE NÃO TIVER, CADASTRAR AUTOMATICAMENTE
-      const items = await Promise.all(req.body.items.map(
-        async (item) => ({
+      const items = await Promise.all(
+        req.body.items.map(async (item) => ({
           ...item,
           response: await Material.findByPk(item.MaterialId),
-        }),
-      ));
+        }))
+      );
 
       await items.forEach(async (item) => {
         if (!item.response) {
@@ -43,22 +45,24 @@ class MaterialInController {
 
       // ADICIONANDO A REQUISIÇÃO COM OS ITENS PROPRIAMENTE DITA
 
-      const result = await MaterialIn.create({
-        materialIntypeId: req.body.materialIntypeId,
-        req: req.body.req,
-        userId: req.body.userId,
-        value: req.body.value,
-        requiredBy: req.body.requiredBy,
-        reqMaintenance: req.body.reqMaintenance,
-        reqUnit: req.body.reqUnit,
-        costUnit: req.body.costUnit,
-        registerDate: req.body.registerDate,
+      const result = await MaterialIn.create(
+        {
+          materialIntypeId: req.body.materialIntypeId,
+          req: req.body.req,
+          userId: req.body.userId,
+          value: req.body.value,
+          requiredBy: req.body.requiredBy,
+          reqMaintenance: req.body.reqMaintenance,
+          reqUnit: req.body.reqUnit,
+          costUnit: req.body.costUnit,
+          registerDate: req.body.registerDate,
 
-        MaterialInItems: req.body.items,
-
-      }, {
-        include: [MaterialInItem],
-      });
+          MaterialInItems: req.body.items,
+        },
+        {
+          include: [MaterialInItem],
+        }
+      );
 
       return res.json(result);
     } catch (e) {
@@ -74,13 +78,22 @@ class MaterialInController {
   async index(req, res) {
     try {
       const result = await MaterialIn.findAll({
-        attributes: ['id',
+        attributes: [
+          'id',
           'materialIntypeId',
           'userId',
           [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
           [Sequelize.literal('`User`.`username`'), 'receivedBy'],
           'req',
-          [Sequelize.fn('format', Sequelize.col('`MaterialIn`.`value`'), 2, 'pt_BR'), 'value'],
+          [
+            Sequelize.fn(
+              'format',
+              Sequelize.col('`MaterialIn`.`value`'),
+              2,
+              'pt_BR'
+            ),
+            'value',
+          ],
 
           'requiredBy',
           'reqMaintenance',
@@ -88,32 +101,64 @@ class MaterialInController {
           'costUnit',
           [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
-          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`register_date`'), '%d/%m/%Y'), 'registerDate'],
+          [
+            Sequelize.fn(
+              'date_format',
+              Sequelize.col('`MaterialIn`.`register_date`'),
+              '%d/%m/%Y'
+            ),
+            'registerDate',
+          ],
 
-          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`created_At`'), '%d/%m/%Y'), 'createdAt'],
+          [
+            Sequelize.fn(
+              'date_format',
+              Sequelize.col('`MaterialIn`.`created_At`'),
+              '%d/%m/%Y'
+            ),
+            'createdAt',
+          ],
         ],
-        include: [{
-          model: MaterialInItem,
-          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('specification'), 'specification'], [Sequelize.literal('unit'), 'unit'], 'quantity', [Sequelize.fn('format', Sequelize.col('`MaterialInItems`.`value`'), 2, 'pt_BR'), 'value']],
-          required: false,
-          include: {
-            model: Material,
+        include: [
+          {
+            model: MaterialInItem,
+            attributes: [
+              'material_id',
+              [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
+              [Sequelize.literal('specification'), 'specification'],
+              [Sequelize.literal('unit'), 'unit'],
+              'quantity',
+              [
+                Sequelize.fn(
+                  'format',
+                  Sequelize.col('`MaterialInItems`.`value`'),
+                  2,
+                  'pt_BR'
+                ),
+                'value',
+              ],
+            ],
+            required: false,
+            include: {
+              model: Material,
+              attributes: [],
+              required: false,
+            },
+          },
+          {
+            model: User,
             attributes: [],
             required: false,
           },
-        }, {
-          model: User,
-          attributes: [],
-          required: false,
-        }, {
-          model: Unidade,
-          attributes: [],
-          required: false,
-        },
-        {
-          model: MaterialIntype,
-          required: false,
-        },
+          {
+            model: Unidade,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: MaterialIntype,
+            required: false,
+          },
         ],
       });
       return res.json(result);
@@ -128,13 +173,22 @@ class MaterialInController {
       console.log(JSON.stringify(req.params));
       const { reqMaintenance, year } = req.params;
       const result = await MaterialIn.findAll({
-        attributes: ['id',
+        attributes: [
+          'id',
           'materialIntypeId',
           'userId',
           [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
           [Sequelize.literal('`User`.`username`'), 'receivedBy'],
           'req',
-          [Sequelize.fn('format', Sequelize.col('`MaterialIn`.`value`'), 2, 'pt_BR'), 'value'],
+          [
+            Sequelize.fn(
+              'format',
+              Sequelize.col('`MaterialIn`.`value`'),
+              2,
+              'pt_BR'
+            ),
+            'value',
+          ],
 
           'requiredBy',
           'reqMaintenance',
@@ -142,35 +196,67 @@ class MaterialInController {
           'costUnit',
           [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
-          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`register_date`'), '%d/%m/%Y'), 'registerDate'],
+          [
+            Sequelize.fn(
+              'date_format',
+              Sequelize.col('`MaterialIn`.`register_date`'),
+              '%d/%m/%Y'
+            ),
+            'registerDate',
+          ],
 
-          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`created_At`'), '%d/%m/%Y'), 'createdAt'],
+          [
+            Sequelize.fn(
+              'date_format',
+              Sequelize.col('`MaterialIn`.`created_At`'),
+              '%d/%m/%Y'
+            ),
+            'createdAt',
+          ],
         ],
         where: {
           reqMaintenance: `${reqMaintenance}/${year}`,
         },
-        include: [{
-          model: MaterialInItem,
-          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('specification'), 'specification'], [Sequelize.literal('unit'), 'unit'], 'quantity', [Sequelize.fn('format', Sequelize.col('`MaterialInItems`.`value`'), 2, 'pt_BR'), 'value']],
-          required: false,
-          include: {
-            model: Material,
+        include: [
+          {
+            model: MaterialInItem,
+            attributes: [
+              'material_id',
+              [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
+              [Sequelize.literal('specification'), 'specification'],
+              [Sequelize.literal('unit'), 'unit'],
+              'quantity',
+              [
+                Sequelize.fn(
+                  'format',
+                  Sequelize.col('`MaterialInItems`.`value`'),
+                  2,
+                  'pt_BR'
+                ),
+                'value',
+              ],
+            ],
+            required: false,
+            include: {
+              model: Material,
+              attributes: [],
+              required: false,
+            },
+          },
+          {
+            model: User,
             attributes: [],
             required: false,
           },
-        }, {
-          model: User,
-          attributes: [],
-          required: false,
-        }, {
-          model: Unidade,
-          attributes: [],
-          required: false,
-        },
-        {
-          model: MaterialIntype,
-          required: false,
-        },
+          {
+            model: Unidade,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: MaterialIntype,
+            required: false,
+          },
         ],
       });
       return res.json(result);

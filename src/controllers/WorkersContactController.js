@@ -12,11 +12,12 @@ class WorkersContactController {
         attributes: [
           'contacttype_id',
           [Sequelize.literal('type'), 'type'],
-          'contact',
-          'default',
-          'obs',
+          [Sequelize.literal('contact'), 'contact'],
+          [Sequelize.literal('default'), 'default'],
+          [Sequelize.literal('obs'), 'obs'],
         ],
-        order: [['contacttype_id']],
+        group: ['contacttype_id'],
+        order: Sequelize.literal('type'),
         required: false,
         include: {
           model: Contacttype,
@@ -27,18 +28,6 @@ class WorkersContactController {
       return res.json(result);
     } catch (e) {
       return res.json(e);
-    }
-  }
-
-  // Store
-  async store(req, res) {
-    try {
-      const workersContact = await WorkerContact.create(req.body);
-      return res.json(workersContact);
-    } catch (e) {
-      return res.status(400).json({
-        errors: e.errors.map((err) => err.message),
-      });
     }
   }
 }

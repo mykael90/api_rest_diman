@@ -53,5 +53,5 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models),
+  (model) => model.associate && model.associate(connection.models)
 );
