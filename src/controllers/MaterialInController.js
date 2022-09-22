@@ -121,6 +121,63 @@ class MaterialInController {
       return res.json(e);
     }
   }
+
+  // Show
+  async show(req, res) {
+    try {
+      console.log(JSON.stringify(req.params));
+      const { reqMaintenance, year } = req.params;
+      const result = await MaterialIn.findAll({
+        attributes: ['id',
+          'materialIntypeId',
+          'userId',
+          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`User`.`username`'), 'receivedBy'],
+          'req',
+          [Sequelize.fn('format', Sequelize.col('`MaterialIn`.`value`'), 2, 'pt_BR'), 'value'],
+
+          'requiredBy',
+          'reqMaintenance',
+          'reqUnit',
+          'costUnit',
+          [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
+          [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
+          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`register_date`'), '%d/%m/%Y'), 'registerDate'],
+
+          [Sequelize.fn('date_format', Sequelize.col('`MaterialIn`.`created_At`'), '%d/%m/%Y'), 'createdAt'],
+        ],
+        where: {
+          reqMaintenance: `${reqMaintenance}/${year}`,
+        },
+        include: [{
+          model: MaterialInItem,
+          attributes: ['material_id', [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'], [Sequelize.literal('specification'), 'specification'], [Sequelize.literal('unit'), 'unit'], 'quantity', [Sequelize.fn('format', Sequelize.col('`MaterialInItems`.`value`'), 2, 'pt_BR'), 'value']],
+          required: false,
+          include: {
+            model: Material,
+            attributes: [],
+            required: false,
+          },
+        }, {
+          model: User,
+          attributes: [],
+          required: false,
+        }, {
+          model: Unidade,
+          attributes: [],
+          required: false,
+        },
+        {
+          model: MaterialIntype,
+          required: false,
+        },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      return res.json(e);
+    }
+  }
 }
 
 export default new MaterialInController();

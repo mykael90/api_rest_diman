@@ -16,12 +16,11 @@ router.use('/in/', inRoutes);
 router.get('/', materialController.index);
 router.post('/', materialController.store);
 
-
-
 // MATERIAL IN ROUTES
 inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
 
+inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
 inRoutes.get('/', MaterialInController.index);
 inRoutes.post('/', MaterialInController.store);
 
