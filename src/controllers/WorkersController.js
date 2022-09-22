@@ -44,7 +44,19 @@ class WorkersController {
   // Store
   async store(req, res) {
     try {
-      const workers = await Worker.create(req.body);
+      const workers = await Worker.create(
+        {
+          name: req.body.name,
+          email: req.body.email,
+          birthdate: req.body.birthdate,
+          cpf: req.body.cpf,
+          filename_photo: req.body.filename_photo,
+          rg: req.body.rg,
+        },
+        {
+          include: [WorkerContact],
+        }
+      );
       return res.json(workers);
     } catch (e) {
       return res.status(400).json({
