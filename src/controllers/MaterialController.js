@@ -14,7 +14,9 @@ class MaterialController {
       });
       return res.json(result);
     } catch (e) {
-      return res.json(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
     }
   }
 
@@ -25,7 +27,7 @@ class MaterialController {
       return res.json(material);
     } catch (e) {
       return res.status(400).json({
-        errors: e.errors.map((err) => err.message),
+        errors: [e.message],
       });
     }
   }

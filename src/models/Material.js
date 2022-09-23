@@ -3,8 +3,11 @@ import Sequelize, { Model } from 'sequelize';
 export default class Material extends Model {
   static associate(models) {
     this.belongsToMany(models.MaterialIn, { through: models.MaterialInItem });
+    this.belongsToMany(models.MaterialRestrict, { through: models.MaterialRestrictItem });
 
     this.hasMany(models.MaterialInItem);
+
+    this.hasOne(models.MaterialInventory, { sourceKey: 'id', foreignKey: 'material_id' });
   }
 
   static init(sequelize) {
@@ -64,5 +67,10 @@ export default class Material extends Model {
 
       { sequelize, tableName: 'materials' },
     );
+    this.addHook('afterCreate', async (material) => {
+      const { id: materialId } = material;
+      await sequelize.models.MaterialInventory.create({ materialId });
+    });
+    return this;
   }
 }

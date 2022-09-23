@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Sequelize, { Model } from 'sequelize';
 
 export default class MaterialIn extends Model {
@@ -8,6 +9,7 @@ export default class MaterialIn extends Model {
     this.belongsTo(models.Unidade, { targetKey: 'id', foreignKey: 'cost_unit' });
 
     this.hasMany(models.MaterialInItem);
+    this.hasMany(models.MaterialRestrict);
   }
 
   static init(sequelize) {
@@ -71,6 +73,24 @@ export default class MaterialIn extends Model {
 
     }, {
       sequelize, tableName: 'materials_in',
+    });
+
+    // RESTRINGIR TODOS OS MATERIAIS DA REQUISIÇÃO DE ENTRADA DE 'SIPAC' E 'RETORNO' LOGO APÓS RECEBIMENTO
+    this.addHook('afterCreate', async (item) => {
+      console.log('mykael', JSON.stringify(item));
+      if (item.materialIntypeId === '1' || item.materialIntypeId === '2') {
+        console.log(JSON.stringify(item));
+        await sequelize.models.MaterialRestrict.create(
+          {
+            materialInId: item.id,
+            userId: item.userId,
+            MaterialRestrictItems: item.MaterialInItems,
+          },
+          {
+            include: [sequelize.models.MaterialRestrictItem],
+          },
+        );
+      }
     });
     return this;
   }

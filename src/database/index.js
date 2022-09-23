@@ -20,6 +20,9 @@ import Material from '../models/Material';
 import MaterialIntype from '../models/MaterialIntype';
 import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
+import MaterialInventory from '../models/MaterialInventory';
+import MaterialRestrict from '../models/MaterialRestrict';
+import MaterialRestrictItem from '../models/MaterialRestrictItem';
 
 import Unidade from '../models/Unidade';
 import Worker from '../models/Worker';
@@ -42,6 +45,9 @@ const models = [
   MaterialIntype,
   MaterialIn,
   MaterialInItem,
+  MaterialRestrict,
+  MaterialRestrictItem,
+  MaterialInventory,
   Unidade,
   Contacttype,
   WorkerContact,
@@ -53,5 +59,5 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models)
+  (model) => model.associate && model.associate(connection.models),
 );
