@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Sequelize, { Model } from 'sequelize';
 
 export default class MaterialInItem extends Model {
@@ -22,6 +23,16 @@ export default class MaterialInItem extends Model {
     }, {
       sequelize, tableName: 'materials_in_items', timestamps: false,
     });
+
+    this.addHook('afterCreate', async (item) => {
+      const { freeInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
+      await sequelize.models.MaterialInventory.update({ freeInventory: Number(freeInventory) + Number(item.quantity) }, {
+        where: {
+          materialId: item.MaterialId,
+        },
+      });
+    });
+
     return this;
   }
 }

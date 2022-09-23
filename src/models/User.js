@@ -13,6 +13,7 @@ export default class User extends Model {
     this.hasOne(models.UserPhoto, { foreignKey: 'user_id' });
 
     this.hasMany(models.MaterialIn);
+    this.hasMany(models.MaterialRestrict);
   }
 
   static init(sequelize) {
@@ -72,6 +73,8 @@ export default class User extends Model {
     this.addHook('beforeSave', async (user) => {
       if (user.password) { user.password_hash = await bcryptjs.hash(user.password, 8); }
     });
+
+    return this;
   }
 
   passwordIsValid(password) {
