@@ -26,8 +26,8 @@ export default class MaterialOutItem extends Model {
 
     // ATUALIZAR SALDO DE MATERIAL `LIVRE`E `RESTRITO`
     this.addHook('afterCreate', async (item) => {
-      const { freeInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
-      await sequelize.models.MaterialInventory.update({ freeInventory: Number(freeInventory) - Number(item.quantity) }, {
+      const { releaseInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
+      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) - Number(item.quantity) }, {
         where: {
           materialId: item.MaterialId,
         },

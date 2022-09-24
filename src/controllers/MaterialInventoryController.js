@@ -15,9 +15,10 @@ class MaterialInventoryController {
             [Sequelize.literal('`Material`.`name`'), 'name'],
             [Sequelize.literal('`Material`.`unit`'), 'unit'],
             'initialQuantity',
-            'freeInventory',
+            'releaseInventory',
             'restrictInventory',
-            'total',
+            'freeInventory',
+            'totalInventory',
           ],
           include: {
             model: Material,

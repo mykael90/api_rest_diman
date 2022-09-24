@@ -19,7 +19,7 @@ export default class MaterialInventory extends Model {
         defaultValue: 0,
       },
 
-      freeInventory: {
+      releaseInventory: {
         type: Sequelize.DECIMAL,
         allowNull: true,
         defaultValue: 0,
@@ -29,11 +29,21 @@ export default class MaterialInventory extends Model {
         allowNull: true,
         defaultValue: 0,
       },
-      total: {
+      freeInventory: {
         type: Sequelize.VIRTUAL,
         get() {
           return Number(this.initialQuantity)
-          + Number(this.freeInventory)
+          + Number(this.releaseInventory);
+        },
+        set(value) {
+          throw new Error('Do not try to set the `total` value!');
+        },
+      },
+      totalInventory: {
+        type: Sequelize.VIRTUAL,
+        get() {
+          return Number(this.initialQuantity)
+          + Number(this.releaseInventory)
           + Number(this.restrictInventory);
         },
         set(value) {
