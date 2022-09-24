@@ -1,11 +1,11 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class MaterialRestrict extends Model {
+export default class MaterialRelease extends Model {
   static associate(models) {
-    this.belongsToMany(models.Material, { through: models.MaterialRestrictItem });
+    this.belongsToMany(models.Material, { through: models.MaterialReleaseItem });
     this.belongsTo(models.User);
 
-    this.hasMany(models.MaterialRestrictItem);
+    this.hasMany(models.MaterialReleaseItem);
   }
 
   static init(sequelize) {
@@ -27,7 +27,7 @@ export default class MaterialRestrict extends Model {
       },
 
     }, {
-      sequelize, tableName: 'materials_restrict',
+      sequelize, tableName: 'materials_release',
     });
     return this;
   }

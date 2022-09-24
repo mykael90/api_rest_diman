@@ -13,7 +13,10 @@ export default class User extends Model {
     this.hasOne(models.UserPhoto, { foreignKey: 'user_id' });
 
     this.hasMany(models.MaterialIn);
+    this.hasMany(models.MaterialOut);
     this.hasMany(models.MaterialRestrict);
+    this.hasMany(models.MaterialRelease);
+    this.hasMany(models.MaterialReserve);
   }
 
   static init(sequelize) {
