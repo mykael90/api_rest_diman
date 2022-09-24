@@ -29,6 +29,17 @@ export default class MaterialInventory extends Model {
         allowNull: true,
         defaultValue: 0,
       },
+      total: {
+        type: Sequelize.VIRTUAL,
+        get() {
+          return Number(this.initialQuantity)
+          + Number(this.freeInventory)
+          + Number(this.restrictInventory);
+        },
+        set(value) {
+          throw new Error('Do not try to set the `total` value!');
+        },
+      },
 
     }, {
       sequelize, tableName: 'materials_inventory', timestamps: false,

@@ -1,11 +1,31 @@
+import Sequelize from 'sequelize';
+
 import MaterialInventory from '../models/MaterialInventory';
+import Material from '../models/Material';
 
 class MaterialInventoryController {
   // Index
 
   async index(req, res) {
     try {
-      const result = await MaterialInventory.findAll();
+      const result = await MaterialInventory.findAll(
+        {
+          attributes: [
+            'materialId',
+            [Sequelize.literal('`Material`.`name`'), 'name'],
+            [Sequelize.literal('`Material`.`unit`'), 'unit'],
+            'initialQuantity',
+            'freeInventory',
+            'restrictInventory',
+            'total',
+          ],
+          include: {
+            model: Material,
+            attributes: [],
+            required: false,
+          },
+        },
+      );
       return res.json(result);
     } catch (e) {
       return res.status(400).json({
