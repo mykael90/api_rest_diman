@@ -48,6 +48,7 @@ outRoutes.get('/', MaterialOutController.index);
 outRoutes.post('/', MaterialOutController.store);
 
 // MATERIAL INVENTORY ROUTES
+inventoryRoutes.get('/complete', MaterialInventoryController.rawQueriesInventory);
 inventoryRoutes.get('/', MaterialInventoryController.index);
 inventoryRoutes.post('/', MaterialInventoryController.store);
 
