@@ -3,9 +3,13 @@ import Sequelize, { Model } from 'sequelize';
 export default class Material extends Model {
   static associate(models) {
     this.belongsToMany(models.MaterialIn, { through: models.MaterialInItem });
+    this.belongsToMany(models.MaterialOut, { through: models.MaterialOutItem });
     this.belongsToMany(models.MaterialRestrict, { through: models.MaterialRestrictItem });
+    this.belongsToMany(models.MaterialRelease, { through: models.MaterialReleaseItem });
+    this.belongsToMany(models.MaterialReserve, { through: models.MaterialReserveItem });
 
     this.hasMany(models.MaterialInItem);
+    this.hasMany(models.MaterialOutItem);
 
     this.hasOne(models.MaterialInventory, { sourceKey: 'id', foreignKey: 'material_id' });
   }

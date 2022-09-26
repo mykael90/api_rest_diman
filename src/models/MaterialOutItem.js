@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 import Sequelize, { Model } from 'sequelize';
 
-export default class MaterialRestrictItem extends Model {
+export default class MaterialOutItem extends Model {
   static associate(models) {
     this.belongsTo(models.Material);
-    this.belongsTo(models.MaterialRestrict);
+    this.belongsTo(models.MaterialOut);
   }
 
   static init(sequelize) {
@@ -21,13 +21,13 @@ export default class MaterialRestrictItem extends Model {
       },
 
     }, {
-      sequelize, tableName: 'materials_restrict_items', timestamps: false,
+      sequelize, tableName: 'materials_out_items', timestamps: false,
     });
 
     // ATUALIZAR SALDO DE MATERIAL `LIVRE`E `RESTRITO`
     this.addHook('afterCreate', async (item) => {
-      const { releaseInventory, restrictInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
-      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) - Number(item.quantity), restrictInventory: Number(restrictInventory) + Number(item.quantity) }, {
+      const { releaseInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
+      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) - Number(item.quantity) }, {
         where: {
           materialId: item.MaterialId,
         },

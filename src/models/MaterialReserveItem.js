@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 import Sequelize, { Model } from 'sequelize';
 
-export default class MaterialRestrictItem extends Model {
+export default class MaterialReserveItem extends Model {
   static associate(models) {
     this.belongsTo(models.Material);
-    this.belongsTo(models.MaterialRestrict);
+    this.belongsTo(models.MaterialReserve);
   }
 
   static init(sequelize) {
@@ -21,7 +21,7 @@ export default class MaterialRestrictItem extends Model {
       },
 
     }, {
-      sequelize, tableName: 'materials_restrict_items', timestamps: false,
+      sequelize, tableName: 'materials_reserve_items', timestamps: false,
     });
 
     // ATUALIZAR SALDO DE MATERIAL `LIVRE`E `RESTRITO`
