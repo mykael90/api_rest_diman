@@ -2,7 +2,6 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class Provider extends Model {
   static associate(models) {
-    console.log(models);
     this.hasMany(models.Contract);
   }
 

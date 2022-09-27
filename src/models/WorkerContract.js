@@ -1,6 +1,6 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class WorkersContract extends Model {
+export default class WorkerContract extends Model {
   static associate(models) {
     this.belongsTo(models.Worker);
     this.belongsTo(models.Contract);

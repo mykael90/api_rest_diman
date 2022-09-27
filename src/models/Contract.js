@@ -5,9 +5,8 @@ export default class Contract extends Model {
     this.belongsToMany(models.Worker, {
       through: models.WorkerContract,
     });
-
     this.hasMany(models.WorkerContract);
-    this.belongsTo(models.Providers);
+    this.belongsTo(models.Provider);
   }
 
   static init(sequelize) {
@@ -19,7 +18,11 @@ export default class Contract extends Model {
           autoIncrement: true,
           primaryKey: true,
         },
-        codigo_sipac: {
+        provedorId: {
+          type: Sequelize.INTEGER,
+          allowNull: false,
+        },
+        codigoSipac: {
           type: Sequelize.STRING(45),
           allowNull: false,
         },
@@ -35,7 +38,7 @@ export default class Contract extends Model {
           type: Sequelize.DATEONLY,
           allowNull: false,
         },
-        max_end: {
+        maxEnd: {
           type: Sequelize.DATEONLY,
           allowNull: false,
         },
