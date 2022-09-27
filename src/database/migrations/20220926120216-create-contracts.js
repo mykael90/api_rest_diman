@@ -10,7 +10,6 @@ module.exports = {
       provider_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
-        primaryKey: true,
         references: {
           model: 'providers',
           key: 'id',
