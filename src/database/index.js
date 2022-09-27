@@ -35,6 +35,10 @@ import Unidade from '../models/Unidade';
 import Worker from '../models/Worker';
 import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
+import WorkerContract from '../models/WorkerContract';
+import Contract from '../models/Contract';
+import Provider from '../models/Provider';
+import WorkerJobtype from '../models/WorkerJobtype';
 
 const models = [
   Aluno,
@@ -65,6 +69,10 @@ const models = [
   Unidade,
   Contacttype,
   WorkerContact,
+  WorkerContract,
+  WorkerJobtype,
+  Provider,
+  Contract,
   Worker,
 ];
 
@@ -73,7 +81,7 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models),
+  (model) => model.associate && model.associate(connection.models)
 );
 
 export default connection;
