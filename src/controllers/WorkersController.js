@@ -2,6 +2,7 @@ import Sequelize from 'sequelize';
 
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
+import WorkerContract from '../models/WorkerContract';
 
 class WorkersController {
   // Index
@@ -22,17 +23,12 @@ class WorkersController {
         include: [
           {
             model: WorkerContact,
-            attributes: [
-              'contacttype_id',
-              // [
-              //   Sequelize.literal('`WorkersContact->Contacttype`.`type`'),
-              //   'name',
-              // ],
-              'contact',
-              'default',
-              'obs',
-            ],
+            attributes: ['contacttype_id', 'contact', 'default', 'obs'],
           },
+          // {
+          //   model: WorkerContract,
+          //   attributes: ['start', 'end'],
+          // },
         ],
       });
       return res.json(result);
