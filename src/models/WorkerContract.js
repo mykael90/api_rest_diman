@@ -10,21 +10,21 @@ export default class WorkerContract extends Model {
   static init(sequelize) {
     super.init(
       {
-        workerId: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          allowNull: false,
-        },
-        contractId: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          allowNull: false,
-        },
-        workerJobtypesId: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          allowNull: false,
-        },
+        // workerId: {
+        //   type: Sequelize.INTEGER,
+        //   primaryKey: true,
+        //   allowNull: false,
+        // },
+        // contractId: {
+        //   type: Sequelize.INTEGER,
+        //   primaryKey: true,
+        //   allowNull: false,
+        // },
+        // workerJobtypeId: {
+        //   type: Sequelize.INTEGER,
+        //   primaryKey: true,
+        //   allowNull: false,
+        // },
         start: {
           type: Sequelize.DATEONLY,
           allowNull: false,

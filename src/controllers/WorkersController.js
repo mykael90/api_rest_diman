@@ -3,6 +3,7 @@ import Sequelize from 'sequelize';
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
 
 class WorkersController {
   // Index
@@ -25,14 +26,22 @@ class WorkersController {
             model: WorkerContact,
             attributes: ['contacttype_id', 'contact', 'default', 'obs'],
           },
-          // {
-          //   model: WorkerContract,
-          //   attributes: ['start', 'end'],
-          // },
+          {
+            model: WorkerContract,
+            attributes: [
+              // 'workerId',
+              // 'contractId',
+              // 'workerJobtypeId',
+              'start',
+              'end',
+            ],
+            include: [{ model: WorkerJobtype }],
+          },
         ],
       });
       return res.json(result);
     } catch (e) {
+      console.log(e);
       return res.json(e);
     }
   }
