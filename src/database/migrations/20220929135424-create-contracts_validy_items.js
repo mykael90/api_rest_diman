@@ -13,7 +13,7 @@ module.exports = {
         onUpdate: 'CASCADE',
       },
       start: {
-        type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
         allowNull: false,
         primaryKey: true,
         references: {
