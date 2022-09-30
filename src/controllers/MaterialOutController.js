@@ -44,7 +44,7 @@ class MaterialOutController {
         attributes: [
           'id',
           'materialOuttypeId',
-          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
           'reqMaintenance',
           'userId',
           'authorizedBy',
