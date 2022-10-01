@@ -9,6 +9,7 @@ module.exports = {
       property_sipac_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: 'properties_sipac',
           key: 'id',
