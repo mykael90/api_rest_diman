@@ -32,13 +32,18 @@ import MaterialReserve from '../models/MaterialReserve';
 import MaterialReserveItem from '../models/MaterialReserveItem';
 
 import Unidade from '../models/Unidade';
+
 import Worker from '../models/Worker';
 import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
+
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
-import WorkerJobtype from '../models/WorkerJobtype';
+
+import BuildingSipac from '../models/BuildingSipac';
+import PropertySipac from '../models/PropertySipac';
 
 const models = [
   Aluno,
@@ -74,6 +79,8 @@ const models = [
   Provider,
   Contract,
   Worker,
+  PropertySipac,
+  BuildingSipac,
 ];
 
 const connection = new Sequelize(databaseConfig[env]);
@@ -81,7 +88,7 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models)
+  (model) => model.associate && model.associate(connection.models),
 );
 
 export default connection;

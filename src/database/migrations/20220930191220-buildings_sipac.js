@@ -22,6 +22,11 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+
+      coordinates: {
+        type: Sequelize.GEOMETRY('POINT'),
+        allowNull: true,
+      },
     });
   },
 

@@ -19,6 +19,7 @@ import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 import materialRoutes from './routes/materialRoutes';
 import unidadeRoutes from './routes/unidadeRoutes';
+import propertyRoutes from './routes/propertyRoutes';
 import workerRoutes from './routes/workerRoutes';
 
 import loginRequired from './middlewares/loginRequired';
@@ -76,6 +77,7 @@ class App {
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
+    this.app.use('/properties/', propertyRoutes);
   }
 }
 

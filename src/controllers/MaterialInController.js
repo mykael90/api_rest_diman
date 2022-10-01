@@ -29,7 +29,7 @@ class MaterialInController {
         req.body.items.map(async (item) => ({
           ...item,
           response: await Material.findByPk(item.MaterialId),
-        }))
+        })),
       );
 
       await items.forEach(async (item) => {
@@ -61,7 +61,7 @@ class MaterialInController {
         },
         {
           include: [MaterialInItem],
-        }
+        },
       );
 
       return res.json(result);
@@ -90,7 +90,7 @@ class MaterialInController {
               'format',
               Sequelize.col('`MaterialIn`.`value`'),
               2,
-              'pt_BR'
+              'pt_BR',
             ),
             'value',
           ],
@@ -105,7 +105,7 @@ class MaterialInController {
             Sequelize.fn(
               'date_format',
               Sequelize.col('`MaterialIn`.`register_date`'),
-              '%d/%m/%Y'
+              '%d/%m/%Y',
             ),
             'registerDate',
           ],
@@ -114,7 +114,7 @@ class MaterialInController {
             Sequelize.fn(
               'date_format',
               Sequelize.col('`MaterialIn`.`created_At`'),
-              '%d/%m/%Y'
+              '%d/%m/%Y',
             ),
             'createdAt',
           ],
@@ -133,7 +133,7 @@ class MaterialInController {
                   'format',
                   Sequelize.col('`MaterialInItems`.`value`'),
                   2,
-                  'pt_BR'
+                  'pt_BR',
                 ),
                 'value',
               ],
@@ -185,7 +185,7 @@ class MaterialInController {
               'format',
               Sequelize.col('`MaterialIn`.`value`'),
               2,
-              'pt_BR'
+              'pt_BR',
             ),
             'value',
           ],
@@ -200,7 +200,7 @@ class MaterialInController {
             Sequelize.fn(
               'date_format',
               Sequelize.col('`MaterialIn`.`register_date`'),
-              '%d/%m/%Y'
+              '%d/%m/%Y',
             ),
             'registerDate',
           ],
@@ -209,7 +209,7 @@ class MaterialInController {
             Sequelize.fn(
               'date_format',
               Sequelize.col('`MaterialIn`.`created_At`'),
-              '%d/%m/%Y'
+              '%d/%m/%Y',
             ),
             'createdAt',
           ],
@@ -231,7 +231,7 @@ class MaterialInController {
                   'format',
                   Sequelize.col('`MaterialInItems`.`value`'),
                   2,
-                  'pt_BR'
+                  'pt_BR',
                 ),
                 'value',
               ],
