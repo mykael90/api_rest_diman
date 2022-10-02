@@ -1,0 +1,1472 @@
+{"sipac":[
+  {
+      "id": "3028000000223",
+      "id_sipac": "2515694",
+      "id_catmat": "383535",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ABRIGO PARA EXTINTOR DE INCÊNDIO 75X30X25",
+      "specification": "Abrigo para Extintor de Incêndio, fabricado em aço galvanizado, acabamento em pintura (vermelha) por processo eletrostático, possui visor de acrílico e adesivo com a inscrição \"incêndio\". O Abrigo para extintor está disponível na dimensão: 75 x 30 x 25 cm.(CATMAT 383535)"
+  },
+  {
+      "id": "3028000000224",
+      "id_sipac": "2515695",
+      "id_catmat": "37745",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ABRIGO PARA MANGUEIRAS DE INCÊNDIO E HIDRANTES 90 X 60 X 17",
+      "specification": "ABRIGO PARA MANGUEIRAS DE INCÊNDIO E HIDRANTES EM CHAPA DE AÇO 20, MEDINDO 90 x 60 x 17, PINTURA ELETROSTATICA NA COR VERMELHA. POSSUI UMA PORTA COM VISOR E CESTO MEIA LUA INTERNO FIXO. ACOMPANHA PLACA EM PVC COM INSCRIÇÃO INCÊNDIO. (CATMAT 37745)"
+  },
+  {
+      "id": "3028000000250",
+      "id_sipac": "2515981",
+      "id_catmat": "224356",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ACIONADOR MANUAL CONVENCIONAL COM SIRENE",
+      "specification": "Alarme sonoro contra-incêndio, material caixa: metálico, tipo: quebrar vidro, acionamento: botoeira, largura: 110 mm, altura: 150 mm, profundidade: 40 mm, alimentação: 12 v, cor: vermelha, potência sirene: não conhecido db, características opcionais: sem sirene, características adicionais: com martelo quebra-vidro. (CATMAT 224356)"
+  },
+  {
+      "id": "3028000000233",
+      "id_sipac": "2515704",
+      "id_catmat": "338062",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ADAPTADOR STORZ 1.1/2\" X 2.1/2\"",
+      "specification": "ADAPTADOR ENGATE, TIPO: RÁPIDO STORZ, MATERIAL: METAL, DIÂMETRO ROSCA: 1 1,2 X 2 1,2 POL, APLICAÇÃO: MANGUEIRA COMBATE INCÊNDIO, CARACTERÍSTICAS ADICIONAIS: ROSCA MACHO. (CATMAT 338062)"
+  },
+  {
+      "id": "3028000000234",
+      "id_sipac": "2515705",
+      "id_catmat": "338062",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ADAPTADOR STORZ 2.1/2\"",
+      "specification": "ADAPTADOR ENGATE, TIPO: RÁPIDO STORZ, MATERIAL: METAL, DIÂMETRO ROSCA: 2 1,2 X 2 1,2 POL, APLICAÇÃO: MANGUEIRA COMBATE INCÊNDIO, CARACTERÍSTICAS ADICIONAIS: ROSCA MACHO. (CATMAT 338062)"
+  },
+  {
+      "id": "3028000000062",
+      "id_sipac": "2364276",
+      "id_catmat": "240136",
+      "date_record": "16/08/2011",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "AVENTAL DE PROTEÇÃO EM PVC",
+      "specification": "- Avental em PVC; - Dupla face; - Medidas mínimas: 120 (A) x 70 (L) cm; - Impermeável a líquidos não corrosivos; - Com tiras de ajuste do mesmo material; - Cor: Branco; - Aprovado com ensaio de resistência nível 2, no mínimo. - Certificado de Aprovação do Ministério do Trabalho e Emprego. CATMAT: 240136"
+  },
+  {
+      "id": "3028000000003",
+      "id_sipac": "2321218",
+      "id_catmat": "475757",
+      "date_record": "02/02/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "AVENTAL DE PROTEÇÃO RADIOLÓGICA",
+      "specification": "Avental de proteção radiológica padrão; Tamanho aproximado 110(a)x60(l)cm; Proteção mínima de 0,50mm Pb (frente); Proteção mínima de 0,25mm Pb e (costas); Acabamento em nylon impermeável; Peso aproximado: 9,80kg; Obedece à norma NBR IEC 61331-3:2004; Registrado no ministério da saúde; Certificado no ministério do trabalho (C.A.) (CATMAT: 475757)"
+  },
+  {
+      "id": "302800001551",
+      "id_sipac": "309825",
+      "id_catmat": "396950",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "AVENTAL DE RASPA",
+      "specification": "- Confeccionado em raspa de couro; - Com tiras e fivelas ajustáveis; - Tamanho grande (0,9m de comprimento); - Certificado de aprovação do MTE (CA). CATMAT: 396950"
+  },
+  {
+      "id": "3028000000239",
+      "id_sipac": "2515968",
+      "id_catmat": "150926",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BARRA ANTI-PÂNICO PARA PORTA DE UMA FOLHA COM FECHADURA E CHAVE",
+      "specification": "BARRAS ANTI-PÂNICO PARA PORTAS DE FOLHA SIMPLES, MODELO PUSH, COM FECHADURA E CHAVE, FABRICADAS EM AÇO GALVANIZADO.LARGURA TOTAL INSTALADA POR FOLHA 100CM (PODENDO SER REDUZIDA CONFORME O TAMANHO DA PORTA). CERTIFICADA DE ACORDO COM AS NORMAS DA ABNT NBR 11785. .(CATMAT 150926)"
+  },
+  {
+      "id": "3028000000240",
+      "id_sipac": "2515969",
+      "id_catmat": "150926",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BARRA ANTI-PÂNICO PARA PORTA DUPLA COM FECHADURA E CHAVE",
+      "specification": "BARRAS ANTI-PÂNICO PARA PORTA DUPLA, MODELO PUSH, COM FECHADURA E CHAVE, FABRICADAS EM AÇO GALVANIZADO .LARGURA TOTAL INSTALADA POR FOLHA 100CM (PODENDO SER REDUZIDA CONFORME O TAMANHO DA PORTA). CERTIFICADA DE ACORDO COM AS NORMAS DA ABNT NBR 11785. .(CATMAT 150926)"
+  },
+  {
+      "id": "3028000000235",
+      "id_sipac": "2515706",
+      "id_catmat": "220090",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BICO PARA SPRINKLERS 68° VERMELHO - TIPO PENDENTE",
+      "specification": "SISTEMA COMBATE INCÊNDIO, CONEXÃO LATÃO, TEMPERATURA ROMPIMENTO SENSOR:68 Â°C, COR LI­QUIDO SENSOR: VERMELHA (CATMAT 220090)."
+  },
+  {
+      "id": "3028000000236",
+      "id_sipac": "2515707",
+      "id_catmat": "220090",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BICO PARA SPRINKLERS 68° VERMELHO - TIPO SIDEWALL",
+      "specification": "BICO PARA SPRINKLERS 68° VERMELHO - TIPO SIDEWALL, CONEXÃO LATÃO,(CATMAT 220090)"
+  },
+  {
+      "id": "3028000000237",
+      "id_sipac": "2515708",
+      "id_catmat": "220090",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BICO PARA SPRINKLERS 68° VERMELHO - TIPO UPRIGHT",
+      "specification": "BICO PARA SPRINKLERS 68° VERMELHO - TIPO UPRIGHT, MATERIAL LATÃO(CATMAT 220090)"
+  },
+  {
+      "id": "3028000000256",
+      "id_sipac": "2516048",
+      "id_catmat": "129488",
+      "date_record": "02/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BOMBA PREVENÇÃO CONTRA INCENDIO 12,5 CV",
+      "specification": "MOTOBOMBA CENTRÍFUGA PREVENÇÃO CONTRA INCÊNDIO. POTÊNCIA 12,5CV. TRIFÁSICA. SUCÇÃO Ø 2 1/2\" E RECALQUE Ø 2 1/2\". CARACTERÍSTICAS HIDRÁULICAS - ALTURA MANOMÉTRICA TOTAL 48 m.c.a. E VAZÃO 36,7 m³/h. INCLUSO KIT CONTRAFLANGE. (CATMAT 129488)"
+  },
+  {
+      "id": "3028000000253",
+      "id_sipac": "2516045",
+      "id_catmat": "129488",
+      "date_record": "02/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BOMBA PREVENÇÃO CONTRA INCÊNDIO 3CV",
+      "specification": "MOTOBOMBA CENTRÍFUGA PREVENÇÃO CONTRA INCÊNDIO, CONFECCIONADO EM FERRO FUNDIDO. POTÊNCIA 3CV. TRIFÁSICA. SUCÇÃO Ø 2 1/2\" E RECALQUE Ø 2 1/2\". CARACTERÍSTICAS HIDRÁULICAS - ALTURA MANOMÉTRICA TOTAL 26 m.c.a. E VAZÃO 10,9 m³/h. INCLUSO KIT CONTRAFLANGE (CATMAT 129488)"
+  },
+  {
+      "id": "3028000000254",
+      "id_sipac": "2516046",
+      "id_catmat": "129488",
+      "date_record": "02/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BOMBA PREVENÇÃO CONTRA INCÊNDIO 5 CV",
+      "specification": "MOTOBOMBA CENTRÍFUGA PREVENÇÃO CONTRA INCÊNDIO. POTÊNCIA 5CV. TRIFÁSICA. SUCÇÃO Ø 2 1/2\" E RECALQUE Ø 2 1/2\". CARACTERÍSTICAS HIDRÁULICAS - ALTURA MANOMÉTRICA TOTAL 30 m.c.a. E VAZÃO 22,8 m³/h. INCLUSO KIT CONTRAFLANGE. (CATMAT 129488)"
+  },
+  {
+      "id": "3028000000255",
+      "id_sipac": "2516047",
+      "id_catmat": "129488",
+      "date_record": "02/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "BOMBA PREVENÇÃO CONTRA INCENDIO 7,5 CV",
+      "specification": "MOTOBOMBA CENTRÍFUGA PREVENÇÃO CONTRA INCÊNDIO. POTÊNCIA 7,5CV. TRIFÁSICA. SUCÇÃO Ø 2 1/2\" E RECALQUE Ø 2 1/2\". CARACTERÍSTICAS HIDRÁULICAS - ALTURA MANOMÉTRICA TOTAL 38 m.c.a. E VAZÃO 32,7 m³/h. INCLUSO KIT CONTRAFLANGE. (CATMAT 129488)"
+  },
+  {
+      "id": "302800001600",
+      "id_sipac": "2254322",
+      "id_catmat": "373566",
+      "date_record": "16/03/2007",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "BOTA PARA PROTEÇÃO DE ELETRICISTA NUMERAÇÃO A COMBINAR",
+      "specification": "Bota para proteção de eletricidade cano alto vaqueta curtida ao cromo hidrofugado com sola antiderrapante aprovado para uso em ambiente energizado, cor preta. CATMAT: 373566"
+  },
+  {
+      "id": "302800000160",
+      "id_sipac": "309690",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO - 20MM (> CADEADO COM CORPO DE LATÃO E HASTES DE AÇO TEMPERADO; > ACOMPANHAM 2 CHAVES.)",
+      "specification": "> Cadeado com corpo de latão e hastes de aço temperado; > Acompanham 2 chaves."
+  },
+  {
+      "id": "302800001625",
+      "id_sipac": "2276649",
+      "id_catmat": "391565",
+      "date_record": "13/03/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "#CADEADO 25MM LATÂO",
+      "specification": "Cadeado, material: latão maciço, material haste: aço inoxidável, altura média 50,76 mm, Corpo entre 25,5 mm x 25,5 mm, Modelo: Tradicional; 2 chaves. Atendem a norma ABNT NBR 15271: 2013.(CATMAT:391565)"
+  },
+  {
+      "id": "302800001626",
+      "id_sipac": "2276650",
+      "id_catmat": "457221",
+      "date_record": "13/03/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "#CADEADO 30MM LATÃO",
+      "specification": "Cadeado, material: latão maciço, material haste: aço inoxidável, altura média 56,95 mm, Corpo entre 30 mm x 30 mm, Modelo: Tradicional; 2 chaves. Atendem a norma ABNT NBR 15271: 2013.(CATMAT:457221)"
+  },
+  {
+      "id": "302800001627",
+      "id_sipac": "2276651",
+      "id_catmat": "339785",
+      "date_record": "13/03/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO 40MM LATÃO.",
+      "specification": "Cadeado, material: latão maciço, material haste: aço inoxidável, altura média 64,35 mm, Corpo entre 40 mm x 33 mm, Modelo: Tradicional; 2 chaves. Atendem a norma ABNT NBR 15271: 2013.(CATMAT:339785)"
+  },
+  {
+      "id": "302800000217",
+      "id_sipac": "309695",
+      "id_catmat": "0",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO - 45MM (> CADEADO COM CORPO DE LATÃO E HASTES DE AÇO TEMPERADO; > ACOMPANHAM 2 CHAVES.)",
+      "specification": "> Cadeado com corpo de latão e hastes de aço temperado; > Acompanham 2 chaves."
+  },
+  {
+      "id": "302800001607",
+      "id_sipac": "2254880",
+      "id_catmat": "0",
+      "date_record": "28/03/2007",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO 50MM COM MESMO SEGREDO (> CADEADO COM CORPO DE LATÃO E HASTES DE AÇO TEMPERADO; > ACOMPANHAM 2 CHAVES.)",
+      "specification": "Cadeado 50mm com mesmo segredo em todo o pedido (empenho). (> Cadeado com corpo de latão e hastes de aço temperado; > Acompanham 2 chaves.)"
+  },
+  {
+      "id": "302800000250",
+      "id_sipac": "309698",
+      "id_catmat": "351602",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO 60MM LATÃO",
+      "specification": "Cadeado, material: latão maciço, material haste: aço inoxidável, altura média 91,5 mm, Corpo entre 60 mm x 47 mm, Modelo: Tradicional; 2 chaves. Atendem a norma ABNT NBR 15271: 2013.(CATMAT:351602)"
+  },
+  {
+      "id": "302800001684",
+      "id_sipac": "2303812",
+      "id_catmat": "236534",
+      "date_record": "02/06/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO COM CHAVES TETRA 50MM",
+      "specification": "Cadeado com chave Tetra de 50mm. Corpo: Latão Maciço; Tambor: Latão Maciço; 2 X Chaves: Latão Niquelado; Mola: Aço Inoxidável; Pino e Contra Pino de Latão; Segredos: Aleatórios; Nível de Segurança de 4 a 5. Corpo do cadeado com orifício de descarga de água.(CATMAT:236534)"
+  },
+  {
+      "id": "302800001686",
+      "id_sipac": "2303816",
+      "id_catmat": "396020",
+      "date_record": "02/06/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO COM CHAVES TETRA 70MM",
+      "specification": "Cadeado com chave Tetra de 70mm. Corpo: Latão Maciço; Tambor: Latão Maciço; 2 X Chaves: Latão Niquelado; Mola: Aço Inoxidável; Pino e Contra Pino de Latão; Segredos: Aleatórios; Nível de Segurança de 4 a 5. Corpo do cadeado com orifício de descarga de água.(CATMAT: 396020)"
+  },
+  {
+      "id": "3028000000238",
+      "id_sipac": "2515967",
+      "id_catmat": "0",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CADEADO LARGURA 40 MM",
+      "specification": "CADEADO, MATERIAL: LATÃO MACIÇO, MATERIAL HASTE: AÇO CEMENTADO, LARGURA 40 MM, DIÂMETRO HASTE APROXIMADO 6 MM. MAIS ESPECIFICAÇÕES NO ITEM 27, PR 01/2021, UASG 158512."
+  },
+  {
+      "id": "302800001688",
+      "id_sipac": "2305471",
+      "id_catmat": "150630",
+      "date_record": "22/06/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - COURO NOBUCK E FECHAMENTO COM CADARÇO",
+      "specification": "- TIPO BOTA; - MATERIAL: COURO NOBUCK; - SOLADO: POLIURETANO BI-DENSIDADE; - COR: PRETO; - CANO CURTO; - BIQUEIRA: POLIPROPRILENO/POLIURETANO; - DORSO ACOLCHOADO: SIM; - FECHAMENTO: CADARÇO DE ALGODÃO COM ILHOSES; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; (CATMAT: 150630)"
+  },
+  {
+      "id": "3028000000260",
+      "id_sipac": "2520295",
+      "id_catmat": "458415",
+      "date_record": "01/09/2022",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - COURO NOBUCK E FECHAMENTO COM CADARÇO (DL)",
+      "specification": "- TIPO BOTA; - MATERIAL: COURO NOBUCK; - SOLADO: POLIURETANO BI-DENSIDADE; - COR: PRETO; - CANO CURTO; - BIQUEIRA: POLIPROPRILENO/POLIURETANO; - DORSO ACOLCHOADO: SIM; - FECHAMENTO: CADARÇO DE ALGODÃO COM ILHOSES; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; (CATMAT: 458415)"
+  },
+  {
+      "id": "302800001689",
+      "id_sipac": "2305472",
+      "id_catmat": "459720",
+      "date_record": "22/06/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - COURO NOBUCK E FECHAMENTO COM VELCRO",
+      "specification": "- TIPO BOTA; - MATERIAL: COURO NOBUCK; - SOLADO: POLIURETANO BI-DENSIDADE; - COR: PRETO; - CANO CURTO; - BIQUEIRA: POLIPROPRILENO/POLIURETANO; - DORSO ACOLCHOADO: SIM; - FECHAMENTO: VELCRO; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; CATMAT: 459720"
+  },
+  {
+      "id": "3028000000025",
+      "id_sipac": "2332646",
+      "id_catmat": "459894",
+      "date_record": "12/05/2010",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - PVC (MATERIAL E SOLADO EM PEÇA ÚNICA)",
+      "specification": "- TIPO BOTA; - MATERIAL: PVC; - SOLADO: PVC (MATERIAL E SOLADO EM PEÇA ÚNICA); - COR: PRETO/BRANCO; - CANO CURTO; - COM FORRAÇÃO TÉRMICA; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; CATMAT: 459894"
+  },
+  {
+      "id": "302800001313",
+      "id_sipac": "309801",
+      "id_catmat": "332404",
+      "date_record": "",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - VAQUETA",
+      "specification": "- TIPO BOTA; - MATERIAL: VAQUETA; - SOLADO: PVC; - COR: PRETO; - CANO CURTO; - BIQUEIRA: POLIPROPILENO/POLIURETANO; - DORSO ACOLCHOADO: NÃO; - FECHAMENTO: CADARÇO DE ALGODÃO; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; CATMAT: 332404"
+  },
+  {
+      "id": "302800001578",
+      "id_sipac": "2241671",
+      "id_catmat": "404342",
+      "date_record": "",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO CURTO - VAQUETA COM SOLADO DE POLIURETANO BI-DENSIDADE E FECHAMENTO ELÁSTICO",
+      "specification": "- TIPO BOTA; - MATERIAL: VAQUETA; - SOLADO: POLIURETANO BI-DENSIDADE; - COR: PRETO; - CANO CURTO; - BIQUEIRA: AÇO; - DORSO ACOLCHOADO: SIM; - FECHAMENTO: ELÁSTICO; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO; CATMAT: 404342"
+  },
+  {
+      "id": "302800001722",
+      "id_sipac": "2313379",
+      "id_catmat": "459894",
+      "date_record": "16/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO EXTRA CURTO - PVC",
+      "specification": "-CALÇADO DE SEGURANÇA TIPO BOTA; -CONFECCIONADA EM POLICLORETO DE VINILA (PVC) INJETADO EM UMA SÓ PEÇA; -IMPERMEÁVEL; -CANO EXTRA CURTO; -FORRAÇÃO TÉRMICA; -COR AZUL; -NUMERAÇÃO A COMBINAR; -APLICAÇÃO: INDÚSTRIA QUÍMICA, PETROQUÍMICA, GALVANOPLASTIAS, TRANSPORTADORA DE PRODUTOS QUÍMICOS, POSTOS DE GASOLINA, SANEAMENTO BÁSICO, ATERROS SANITÁRIOS, SERVIÇOS DE HIGIENE E LIMPEZA, JARDINAGEM, E OUTRAS ÁREAS AFINS; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO."
+  },
+  {
+      "id": "302800001721",
+      "id_sipac": "2313372",
+      "id_catmat": "464769",
+      "date_record": "16/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO BOTA CANO LONGO - PVC",
+      "specification": "- TIPO BOTA; - MATERIAL: PVC; - SOLADO: PVC (MATERIAL E SOLADO EM PEÇA ÚNICA); - COR: PRETO/BRANCO; - CANO LONGO; - COM FORRAÇÃO TÉRMICA; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO;"
+  },
+  {
+      "id": "302800001718",
+      "id_sipac": "2313351",
+      "id_catmat": "328881",
+      "date_record": "16/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO SAPATO CANO CURTO - VAQUETA",
+      "specification": "- TIPO SAPATO; - MATERIAL: VAQUETA; - SOLADO: POLIURETANO BI-DENSIDADE; - COR: PRETO; - CANO CURTO; - SEM BIQUEIRA DE AÇO; - DORSO ACOLCHOADO: NÃO; - FECHAMENTO: CADARÇO DE ALGODÃO; - TAMANHO A DEFINIR (38 A 44); - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO;(CATMAT:328881)"
+  },
+  {
+      "id": "302800001717",
+      "id_sipac": "2313347",
+      "id_catmat": "378747",
+      "date_record": "16/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CALÇADO DE SEGURANÇA TIPO SAPATO FEMININO CANO CURTO - VAQUETA SEM CADARÇO",
+      "specification": "- TIPO SAPATO FEMININO - MATERIAL: VAQUETA; - POLIURETANO BIDENSIDADE; - COR BRANCO (USO HOSPITALAR); - CANO CURTO; - SEM CADARÇO; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO. CATMAT: 378747"
+  },
+  {
+      "id": "3028000000125",
+      "id_sipac": "2401961",
+      "id_catmat": "441220",
+      "date_record": "29/05/2013",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CAPACETE DE SEGURANÇA COM JUGULAR E QUEIXEIRA",
+      "specification": "- Capacete de segurança da classe B, tipo II, com suspensões: Fika Firme (STAZ-ON), Faz-Trac (com catraca) e One Touch. Todas com jugular e Faz-Trac Force com queixeira. Cor branco. Aprovado para proteção contra impactos de objetos sobre o crânio e contra choques elétricos. Marcação do Selo do Inmetro: CONFORME PORTARIA INMETRO Nº 118 DE 05 DE MAIO DE 2009 e com número do CA no equipamento. CATMAT: 441220"
+  },
+  {
+      "id": "302800001373",
+      "id_sipac": "309807",
+      "id_catmat": "441220",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CAPACETE PARA PROTEÇÃO",
+      "specification": "- Capacete para uso na indústria; - Tipo II; - Classe A - Fabricado por injeção em polietileno de alta densidade (PEAD); - Com carneira em polietileno de baixa densidade; - Tira absorvente de suor; - Ajuste da suspensão através de pinos; - Cor a definir (Branca, Vermelha, Azul, Laranja, Verde, Cinza e Amarelo); - Certificado de Aprovação do Ministério do Trabalho e Emprego. CATMAT: 441220"
+  },
+  {
+      "id": "3028000000039",
+      "id_sipac": "2345214",
+      "id_catmat": "336793",
+      "date_record": "24/08/2010",
+      "unit": "CONJUNTO",
+      "group_sipac": "3028",
+      "name": "CARTUCHO/FILTRO QUÍMICO CONTRA GASES ÁCIDOS E VAPORES ORGÂNICOS PARA RESPIRADOR FACIAL INTEIRA",
+      "specification": "Cartucho/ filtro químico, indicado para proteção respiratória contra Vapores Orgânicos/ Gases Ácidos, até 1000 ppm (MCU), deve ser utilizado com Respiradores Semifaciais e Faciais inteiros. Cor do rótulo de identificação: Amarelo. Cartucho Classe 1. Tipo de conexão: conforme especificação do respirador. Validade: 5 anos após data de fabricação. CATMAT: 336793"
+  },
+  {
+      "id": "302800001711",
+      "id_sipac": "2313341",
+      "id_catmat": "461891",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "CARTUCHO/FILTRO QUÍMICO CONTRA VAPORES ORGÂNICOS PARA RESPIRADOR SEMIFACIAL",
+      "specification": "Cartucho/ filtro químico, indicado para proteção respiratória contra Vapores Orgânicos, deve ser utilizado com Respiradores Semifaciais e Faciais inteiros. O cartucho pode ser utilizado para concentrações de vapor de até 10 vezes o limite de exposição permissível (PEL) usando-se peças semifaciais, ou até 100 vezes o PEL quando se usa peças faciais inteiras com testes quantitativos de ajuste. Cor do rótulo de identificação: Preto/Letras brancas. Cartucho Classe 1. Tipo de conexão: conforme especificação do respirador. Validade: 5 anos após data de fabricação."
+  },
+  {
+      "id": "3028000000258",
+      "id_sipac": "2519723",
+      "id_catmat": "481290",
+      "date_record": "29/08/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CHAPÉU AUSTRALIANO COM PROTEÇÃO DE NUCA",
+      "specification": "COM ABA TOTAL, FORRO NA CABEÇA, ALÇA DE PESCOÇO COM AJUSTE E PROTEÇÃO DA NUCA; - PROTEÇÃO DA NUCA DESTACÁVEL; - MATERIAL: TECIDO EM ALGODÃO; FECHO EM PLÁSTICO; FORRO EM ALGODÃO. CATMAT: 481290."
+  },
+  {
+      "id": "3028000000245",
+      "id_sipac": "2515974",
+      "id_catmat": "326146",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CHAVE DE FLUXO TIPO PALHETA 1 POLEGADA",
+      "specification": "CHAVE DE FLUXO DE ÁGUA PALHETA INCÊNDIO 1\" A 4\" POLEGADA. (CATMAT 326146)"
+  },
+  {
+      "id": "3028000000228",
+      "id_sipac": "2515699",
+      "id_catmat": "338062",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CHAVE DUPLA PARA ENGATE STORZ Ø 2.1/2\" X 1.1/2\"",
+      "specification": "Chave Storz dupla em Latão Chave para engate rápido (Storz) 1.1⁄2 ou 2.1⁄2 , espessura 7,5mm. Para engatar e desengatar conexões de engate rápido tipo storz nos diâmetros de 1.1⁄2 ou 2.1⁄2. (CATMAT 338062)"
+  },
+  {
+      "id": "3028000000199",
+      "id_sipac": "2508588",
+      "id_catmat": "281429",
+      "date_record": "25/09/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CINTO ERGONÔMICO LOMBAR",
+      "specification": "CINTO ERGONÔMICA PERMITE CORRIGIR O MOVIMENTO DA FLEXÃO DORSAL/LOMBAR PARA AJUDAR A TER UMA BOA POSTURA E PROTEGER A COLUNA DE MANEIRA PREVENTIVA, EVITANDO LESÕES NAS VÉRTEBRAS AO LEVANTAR PESOS. DESCRIÇÃO: CINTO ERGONÔMICO CONFECCIONADO EM ELÁSTICO REFORÇADO, COSTURA EM NYLON DE ALTA RESISTÊNCIA QUE GARANTE DURABILIDADE, HASTES DE PVC MALEÁVEL NA REGIÃO LOMBAR PARA EVITAR DEFORMAÇÃO DA FAIXA LOMBAR, POSSUI AJUSTE DUPLO, SUSPENSÓRIOS CONFECCIONADOS EM ELÁSTICO COM REGULAGEM DE COMPRIMENTO E VELCRO DE MÁXIMA ADERÊNCIA. APLICAÇÕES LEVANTAMENTO DE PESO CARGA E DESCARGA DE MATERIAIS MOTORISTA, SEGURANÇA, CONTROLE DE QUALIDADE, MANUTENÇÃO E OUTROS OUTRAS ATIVIDADES QUE ACIONE A COLUNA IDEAL TAMBÉM PARA: PRATICANTES DE EXERCÍCIOS QUE ALTA CARGA FUNCIONAIS TREINOS DE ALTA PERFORMANCE.(CATMAT:281429)"
+  },
+  {
+      "id": "302800001657",
+      "id_sipac": "2287712",
+      "id_catmat": "312068",
+      "date_record": "11/09/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CINTURÃO DE SEGURANÇA TIPO PÁRA-QUEDISTA",
+      "specification": "Cinturão de segurança tipo pára-quedista, confeccionado em cadarço de material sintético com duas fivelas com pino, confeccionados em aço (forjado) para ajuste no suspensório, uma fivela simples em pino, confeccionadas em aço (estampado), para fechamento peitoral, duas fivelas duplas sem pino.Confeccionadas em aço (estampado), para ajuste nas pernas e uma meia argola em “D”, confeccionada em aço (forjado), na parte traseira regulável ao cinto através de um passador de plástico de alta resistência. CERTIFICADO DE APROVAÇÃO EXPEDIDO PELO MINISTÉRIO DO TRABALHO E EMPREGO CATMAT: 312068"
+  },
+  {
+      "id": "3028000000134",
+      "id_sipac": "2420646",
+      "id_catmat": "288502",
+      "date_record": "06/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "COLAR CERVICAL PARA RESGATE (VÁRIOS TAMANHOS)",
+      "specification": "- Tamanhos: BB / PED. / PP / P / M / G / GG (à definir); - Confeccionado em polietileno, de alta densidade, em 1/16 mm, reforçado na parte da frente com mais um milímetro, permitindo uma maior resistência e apoio; - Revestido de espuma macia – tipo “EVA” macio especial (Etil – Vinil Acetado); - Fecho em velcro de 05 mm em um dos lados, em cores de padrão universal. - Deve possui, também, um botão preto, que permite a montagem, bem como o tamanho do colar, pela forma universal de medida nos dedos; - Na parte posterior (nuca) deve possuir 02 aberturas para a palpação e ventilação; na frente, uma abertura que permite a palpação do pulso carotídeo e acesso à traquéia; - Não deve possuir botões ou apoio de metal, ferro, alumínio ou outro material (os botões são de plásticos, permitindo totalmente a Rádio Transparência); - Indicado para imobilização da cervical (pescoço) para resgate, transporte e socorro de pacientes.(CATMAT:288502)"
+  },
+  {
+      "id": "3028000000135",
+      "id_sipac": "2420647",
+      "id_catmat": "288502",
+      "date_record": "06/05/2014",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CONJUNTO DE IMOBILIZADOR LATERAL DE CABEÇA PARA SOCORRO MÉDICO",
+      "specification": "- Material dos blocos: Copolímero de Etil Vinil Acetado (E.V.A.), mais PEBD. - Características gerais - bloco e base. Confeccionado no material acima especificado, de células fechadas e recobertas com tintas de emborrachamento a frio na cor amarela. De fácil limpeza com água e sabão neutro. Translúcida e refletiva (a tinta). Composto de 90% (noventa por cento) dos descritivos já mencionados de base de apoios dos velcros em tecidos sintéticos - atóxico mesmo depois de emborrachado. Constituem de 03 peças - tijolos e base - mais 02 peças do mesmo material. Sendo a testeira e queijeira, além de tiras de polipropileno de 30 cm de espessura, tendo cada fita 85 cm de comprimento. Seu velcro 50 cm, na cor preta, costurados e colados. A base e os tijolos têm as seguintes medidas aproximadas: base 40 X 26 cm, blocos 28 X 0,8 cm. Medidas do Aparelho: Tijolos medindo comprimento de 25 cm, largura 0,7 cm e a altura de 15 cm. Base: forma retangular para a fixação na cabeça de pranchas; medidas, comprimento de 40 cm, largura de 26 cm e espessura de 0,2 cm. Componentes do conjunto: Velcro - nos tijolos, velcro de 50 mm de largura, preto, com aproximadamente 18 cm em cada tira, totalizando 72 cm em velcros, na base, também dois velcros de 100 mm, costurado. Testeiras, com quatro tiras de 0,30 mm cada, totalizando 85 cm cada tira. E no conjunto de quatro tiras. Apoios em queixo, e testa - dois apoios, com material citado, transpassado, por fita de polipropileno, e totalmente emborrachado a frio. Cada apoio tem o comprimento de 26 cm em E.V.A. PEBD, além das fitas de 0,30 cm em polipropileno. Fitas de apoio à prancha - possui três fitas de polipropileno de 0,30 cm com comprimento aproximado de 28 cm com fecho em velcro preto, da mesma medida de largura.(CATMAT:288502)"
+  },
+  {
+      "id": "3028000000203",
+      "id_sipac": "2508859",
+      "id_catmat": "0",
+      "date_record": "05/11/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "CONJUNTO SISTEMA IRRIGAÇÃO",
+      "specification": "Marca: Lonax Fabricante: Lonax Modelo / Versão: 8 x 100 Descrição Detalhada do Objeto Ofertado: Bobina de lona plástica preta 8 x 100 m cor preta com espessura de 200 micras, rolo de 100 metros. Marca / Fabricante / Modelo: Lonax / 8 x 100."
+  },
+  {
+      "id": "3028000000112",
+      "id_sipac": "2381296",
+      "id_catmat": "271213",
+      "date_record": "25/05/2012",
+      "unit": "METRO",
+      "group_sipac": "3028",
+      "name": "CORRENTE DE ISOLAMENTO DE ÁREA, EM PVC, 5,2 X 21 X 38MM",
+      "specification": "material: PVC / poliuretano rígido dimensões: 5,2 x 21 x 38mm cores: amarelo e preto para isolamento de áreas Obs.: rolo com mínimo de 100m (contínuos)(CATMAT:271213)"
+  },
+  {
+      "id": "3028000000114",
+      "id_sipac": "2381298",
+      "id_catmat": "271213",
+      "date_record": "25/05/2012",
+      "unit": "METRO",
+      "group_sipac": "3028",
+      "name": "CORRENTE DE ISOLAMENTO DE ÁREA, EM PVC, 9 X 28 X 60MM",
+      "specification": "material: PVC / poliuretano rígido dimensões: 9 x 28 x 60mm cores: amarelo e preto para isolamento de áreas Obs.: rolo com mínimo de 100m (contínuos) (CATMAT: 271213)"
+  },
+  {
+      "id": "3028000000252",
+      "id_sipac": "2515983",
+      "id_catmat": "220090",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "DETECTOR DE FUMAÇA ÓPTICO",
+      "specification": "DETECTOR DE FUMAÇA CONVENCIONAL - TIPO ÓPTICO - COM TENSÃO DE OPERAÇÃO 12/24 Vdc, COMPATÍVEL COM EQUIPAMENTOS QUE TEM ENTRADA NA/NF, LED INDICATIVO DE SITUAÇÕES DE ALARME, PARA USO EM AMBIENTES INTERNOS(CATMAT 220090)"
+  },
+  {
+      "id": "302800001673",
+      "id_sipac": "2298069",
+      "id_catmat": "226670",
+      "date_record": "24/03/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ENCERADO LONA 8 TAMANHO 8 X 6M",
+      "specification": "Encerado lona 8 tamanho 8 x 6m. Cobertura confeccionada com lonas 100% algodão, fabricadas com fios retorcidos, que recebem exclusivo processo de repelência. São unidas com tripla costura e a bainha tem reforço para ilhóses que possuem acabamento em zinco bicromatizado. Espessura: 1,0 mm – Peso: 703 g/m2 – Resistência à tração (Kgf/cm): Urdume=35 / Trama=30 - Resistência ao rasgo (Kgf): Urdume=6 / Trama=4. (CATMAT:226670)"
+  },
+  {
+      "id": "3028000000227",
+      "id_sipac": "2515698",
+      "id_catmat": "284354",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ESGUICHO DE JATO CÔNICO 1.1/2\" (16MM)",
+      "specification": "ESGUICHO JATO SÓLIDO 38 MM COM REQUINTE 16 MM | FABRICADO EM: LATÃO. DIÂMETRO: 1.½” POLEGADAS. (CATMAT 284354)"
+  },
+  {
+      "id": "3028000000226",
+      "id_sipac": "2515697",
+      "id_catmat": "284354",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ESGUICHO DE JATO REGULÁVEL 1.1/2\" (16MM)",
+      "specification": "ESGUICHO DE JATO REGULÁVEL 1.1/2\" (16MM), FABRICADO EM LATÃO, POSSUI TRÊS REGULAGENS: FECHADO, JATO SÓLIDO E JATO NEBLINA. (CATMAT 284354)"
+  },
+  {
+      "id": "3028000000129",
+      "id_sipac": "2403118",
+      "id_catmat": "336793",
+      "date_record": "05/07/2013",
+      "unit": "CONJUNTO",
+      "group_sipac": "3028",
+      "name": "FILTRO/CARTUCHO PARA RESPIRADOR PURIFICADOR DE AR TIPO PEÇA SEMIFACIAL E/OU FACIAL",
+      "specification": "Aplicação: proteção contra vapores orgânicos + gases ácidos. Validade mínima de três anos. Garantia de 12 meses após recebimento. Apresentar certificado de Aprovação do Ministério do Trabalho e Emprego. O filtro deve ser, obrigatoriamente, acoplável ao respirador purificador de ar tipo semifacial modelo 6200 (CA Nº 4115) e tipo facial inteira modelo 6800 (CA Nº 7298). A embalagem com 02 unidades. CATMAT: 336793"
+  },
+  {
+      "id": "302800001640",
+      "id_sipac": "2286245",
+      "id_catmat": "0",
+      "date_record": "04/08/2008",
+      "unit": "Rolo",
+      "group_sipac": "3028",
+      "name": "FITA ADESIVA PARA DEMARCAÇÃO DE PISOS - VERMELHA",
+      "specification": "Largura x comprimento da fita para demarcação: 48mmx30m; Material da fita para demarcação:Costado macio de PVC com polímero plástico,revestido com uma camada resistente de borracha adesiva; Espessura da fita para demarcação com no mínimo:0,15mm; possuir costado de PVC macio com polímero plástico, revestido com uma camada resistente de borracha adesiva; com tempo de validade superior a 18 meses no momento da entrega do almoxarifado da infra. (para licitação)"
+  },
+  {
+      "id": "3028000000049",
+      "id_sipac": "2353199",
+      "id_catmat": "238773",
+      "date_record": "01/12/2010",
+      "unit": "Rolo",
+      "group_sipac": "3028",
+      "name": "FITA ANTIDERRAPANTE CINZA",
+      "specification": "-FITA COMPOSTA DE CAMADA ABRASIVA ANTIDERRAPANTE; -COR CINZA; -ROLO DE 5cmX15m (LXC); -APLICAÇÃO: PREVENÇÃO CONTRA QUEDAS E ESCORREGÕES.(CATMAT:238773)"
+  },
+  {
+      "id": "3028000000047",
+      "id_sipac": "2349525",
+      "id_catmat": "236614",
+      "date_record": "30/09/2010",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "FITA DE DETECÇÃO MODELO DS-B2-N",
+      "specification": "Fita de segurança para serem colocadas em material bibliográfico, para ser colocada entre as páginas de livros e perióticos. FITA DETECÇÃO MAGNÉTICA, TIPO DUPLA FACE, MODELO DS-B2-N, COMPRIMENTO 165 MM, LARGURA 4 MM, TIPO USO LIVRO, REVISTAS , PERIÓDICOS, F CARACTERÍSTICAS ADICIONAIS COMPATÍVEL UNIDADE PADRÃO 3M-1365 E 1370 Caixa contendo 1000 unidades."
+  },
+  {
+      "id": "302800001608",
+      "id_sipac": "2255590",
+      "id_catmat": "380041",
+      "date_record": "16/04/2007",
+      "unit": "Rolo",
+      "group_sipac": "3028",
+      "name": "FITA DE TRAFEGO TIPO ZEBRADA EM AMARELO E PRETO",
+      "specification": "Rolo com 200 metros sem adesivo, largura da fita: 7cm. CATMAT/CATSER: 380041"
+  },
+  {
+      "id": "302800001687",
+      "id_sipac": "2303899",
+      "id_catmat": "0",
+      "date_record": "02/06/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "FONTE ESTABILIZADA APLICADA A C.F.T.V",
+      "specification": "- TENSÃO DE ENTRADA 110/220 VAC, - SUPORTA ATE 16 CÂMERAS, - SAÍDA: 13,8VDC/10A GARANTIA MÍNIMA DE 1 ANO; ASSISTÊNCIA TÉCNICA REGIONAL NO PERÍODO DA GARANTIA."
+  },
+  {
+      "id": "3028000000248",
+      "id_sipac": "2515979",
+      "id_catmat": "476619",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "KIT CENTRAL ALARME DE INCÊNDIO PARA 24 SETRORES",
+      "specification": "KIT CENTRAL DE INCÊNDIO BIVOLT - PARA 24 SETRORES - INCLUSO 8 BOTOEIRAS ACIONADORAS MANUAIS E 8 SIRENES ÁUDIO VISUAIS (CATMAT 476619)"
+  },
+  {
+      "id": "3028000000249",
+      "id_sipac": "2515980",
+      "id_catmat": "476619",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "KIT CENTRAL DE INCÊNDIO BIVOLT - COM ALARME E DETECÇÃO DE FUMAÇA",
+      "specification": "KIT CENTRAL DE INCÊNDIO BIVOLT - PARA 12 SETORES - INCLUSO BATERIA, 3 BOTOEIRAS ACIONADORAS MANUAIS, 3 SIRENES ÁUDIO VISUAIS E 10 DETECTORES DE INCÊNDIO ÓPTICO DE FUMAÇA(CATMAT 476619)"
+  },
+  {
+      "id": "3028000000160",
+      "id_sipac": "2461855",
+      "id_catmat": "318293",
+      "date_record": "27/12/2016",
+      "unit": "CONJUNTO",
+      "group_sipac": "3028",
+      "name": "KIT EPI PARA APLICAÇÃO DE AGROTÓXICO",
+      "specification": "Equipamento de proteção individual para aplicação de agrotóxico, com certificado de aprovação pelo INMETRO. Composto de: - bota, calça, jaleco, máscara com filtro para produtos químicos, touca árabe, viseira, luva de borracha cano longo e avental.(CATMAT: 318293 )"
+  },
+  {
+      "id": "3028000000148",
+      "id_sipac": "2434885",
+      "id_catmat": "404381",
+      "date_record": "11/03/2015",
+      "unit": "CENTO",
+      "group_sipac": "3028",
+      "name": "LACRE SEGURANÇA 160MM",
+      "specification": "LACRE DE SEGURANÇA; - MATERIAL POLIPROPILENO; - MEDIDAS MÍNIMAS APROXIMADAS: - 160MM DE COMPRIMENTO; - 1,1 MM DE ESPESSURA E 12 MM DE LARGURA NA PARTE NUMERADA; - E 3,2 MM DE ESPESSURA NA BRAÇADEIRA; - CORREIA (FITA) DE AMARRAÇÃO COM UMA FACE DENTADA (TRAVAS TIPO ESCADA); - SISTEMA DE TRAVAMENTO INVIOLÁVEL; - RESISTÊNCIA APROXIMADA À RUPTURA 10 KGF; - CÓDIGO COM NUMERAÇÃO SEQUENCIAL GRAVADO EM BAIXO RELEVO PELO PROCESSO HOT STAMPING CONTENDO 08 DÍGITOS (SEM REPETIÇÃO A CADA DEMANDA); - NAS CORES: AZUL, AMARELA, BRANCA E LARANJA; - OUTROS NOMES: ABRAÇADEIRA, LACRE ESCANDINHA, LACRE ESCADA OU LACRE ESCAMA; - APROVADO EM TESTE DE APLICAÇÃO AO USO EM SERVIÇO. - APRESENTAÇÃO: PACOTE CONTENDO 100 UNIDADES.(CATMAT:404381)"
+  },
+  {
+      "id": "302800001669",
+      "id_sipac": "2297374",
+      "id_catmat": "232276",
+      "date_record": "11/03/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA DE MALHA DE AÇO",
+      "specification": "-LUVA DE MALHA DE AÇO INOX PARA PROTEÇÃO CONTRA PERFURAÇÃO E CORTE, Cano curto e tamanho médio. INDICADA PARA DESTROS E CANHOTOS, 5 DEDOS, PULSEIRA DE POLYESTER AJUSTÁVEL, FECHO DE BOTÃO DE PRESSÃO. -APLICAÇÃO: INDUSTRIA ALIMENTÍCIA, COZINHAS INDUSTRIAIS, RESTAURANTES, INDÚSTRIA TÊXTIL E OUTROS. -CERTIFICADA E APROVADA PELO MINISTÉRIO DO TRABALHO E EMPREGO (CAT), NORMA MT 11:1977. CATMAT: 232276"
+  },
+  {
+      "id": "3028000000155",
+      "id_sipac": "2446059",
+      "id_catmat": "435198",
+      "date_record": "19/01/2016",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA DE NITRILO PARA PROCEDIMENTO",
+      "specification": "Luva de nitrilo para procedimento fabricada em nitrilo no tamanho G. - Não estéril; - Sem pó bioabsorvível -Ambidestra; - Texturizada; - Antiderrapante; - Caixa contendo 100 unidades.(CATMAT:435198)"
+  },
+  {
+      "id": "3028000000054",
+      "id_sipac": "2359446",
+      "id_catmat": "150196",
+      "date_record": "29/04/2011",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE PROTEÇAO CONTRA AGENTES QUIMICOS",
+      "specification": "- Confeccionado em látex nitrílico; - Para uso em central de material e expurgo; - PUNHO LONGO; - Interior liso; - Palma antiderrapante em alto relevo; - Acabamento clorinado; - Medidas mínimas: 45 (C) cm x 0,55 (E) mm; - Tamanho a definir (7, 8 e 9); - CERTIFICADA E APROVADA PELO MINISTÉRIO DO TRABALHO E EMPREGO (CA), NORMA MT 11:1977. (CATMAT:150196)"
+  },
+  {
+      "id": "3028000000001",
+      "id_sipac": "2321166",
+      "id_catmat": "150196",
+      "date_record": "02/02/2010",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA DE PROTEÇÃO CONTRA AGENTES QUÍMICOS",
+      "specification": "-LUVA DE PROCEDIMENTO CONFECCIONADA EM BORRACHA NITRÍLICA; -SEM CERAS, LUBRIFICANTES OU SILICONES EM SUA FORMULAÇÃO; -PUNHO COM VIROLA, FORRO TALCADO, PALMA E DEDOS ÁSPEROS. -DEVE APRESENTAR ALTA RESISTÊNCIA MECÂNICA E PROTEÇÃO CONTRA RESPINGO DE PRODUTOS QUÍMICOS; -ESPESSURA MÍNIMA: 10 mm; -CAIXA C/ 100 UNID; -TAMANHO A COMBINAR; -CERTIFICADA E APROVADA PELO MINISTÉRIO DO TRABALHO E EMPREGO (CA), NORMA MT 11:1977.(CATMAT:150196)"
+  },
+  {
+      "id": "3028000000055",
+      "id_sipac": "2359448",
+      "id_catmat": "150196",
+      "date_record": "29/04/2011",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE PROTEÇÃO CONTRA AGENTES QUÍMICOS",
+      "specification": "- Confeccionado em látex nitrílico; - Para uso em central de material e expurgo; - Interior liso; - Palma antiderrapante em alto relevo; - Acabamento clorinado; - Medidas mínimas: 32 (C) cm x 0,28 (E) mm; - Tamanho a definir (7, 8 e 9); - CERTIFICADA E APROVADA PELO MINISTÉRIO DO TRABALHO E EMPREGO (CA), NORMA MT 11:1977.(CATMAT:150196)"
+  },
+  {
+      "id": "302800001574",
+      "id_sipac": "2241666",
+      "id_catmat": "322138",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA DE PROTEÇÃO EM RASPA DE COURO CANO 7CM",
+      "specification": "-LUVA DE SEGURANÇA CONFECCIONADA EM RASPA DE COURO AMACIADO; - COSTURA DUPLA COM FIOS DE ALGODÃO -REFORÇO INTERNO; -TAMANHO DO CANO: 7 CENTÍMETROS; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO; -APLICAÇÃO: PROTEÇÃO DAS MÃOS CONTRA AGENTES ABRASIVOS E ESCORIANTES. COM TIRA DE REFORÇO EXTERNO EM RASPA ENTRO O DEDO POLEGAR E INDICADOR.(CATMAT:322138 )"
+  },
+  {
+      "id": "302800001710",
+      "id_sipac": "2313340",
+      "id_catmat": "355664",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA COM PIGMENTOS EM PVC",
+      "specification": "-LUVA DE SEGURANÇA TRICOTADA EM FIOS DE ALGODÃO E POLIESTER, PIGMENTOS EM PVC ANTIDERRAPANTES NA PALMA E FACE PALMAR DOS DEDOS, PUNHO COM ELÁSTICO; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO; -APLICAÇÃO: PROTEÇÃO CONTRA AGENTES MECÂNICOS. CATMAT: 355664"
+  },
+  {
+      "id": "302800001638",
+      "id_sipac": "2285066",
+      "id_catmat": "355666",
+      "date_record": "16/07/2008",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE COBERTURA",
+      "specification": "Aplicação: Luva de segurança de cobertura para proteção das mãos do usuário contra agentes abrasivos e cortantes, para SER USADA SOBRE LUVAS DE BORRACHA, PARA ALTA E BAIXA TENSÃO. Modelo: 5 dedos. Material: couro e reforço interno na costura, com fivela para ajuste no dorso. Apresentar: Certificado de Aprovação de Equipamentos de Proteção Individual do M.T.E.(CATMAT:355666)"
+  },
+  {
+      "id": "302800001704",
+      "id_sipac": "2313207",
+      "id_catmat": "231749",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE LÁTEX NATURAL",
+      "specification": "- DEVE POSSUIR PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES, CONTRA AGENTES TÉRMICOS (CALOR DE CONTATO) E CONTRA AGENTES QUÍMICOS (ÁLCOOIS PRIMÁRIOS (A), CETONAS (B), AMINAS (G), BASES INORGÂNICAS (K) E ÁCIDOS MINERAIS INORGÂNICOS (L)); -LUVA DE SEGURANÇA; -CONFECCIONADA EM LÁTEX NATURAL; -REVESTIDA INTERNAMENTE COM FLOCOS DE ALGODÃO; -PALMA ANTI-DERRAPANTE; -COMPRIMENTO CANO APROXIMADAMENTE: 07cm; -TAMANHO A COMBINAR; - COR A COMBINAR; - ANTIALÉRGICA; - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO. CATMAT: 231749"
+  },
+  {
+      "id": "302800001703",
+      "id_sipac": "2313204",
+      "id_catmat": "222681",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE LÁTEX NITRÍLICO",
+      "specification": "-LUVA DE SEGURANÇA, CONFECCIONADA COM SUPORTE TÊXTIL 100% ALGODÃO, REVESTIMENTO EM LÁTEX NITRÍLICO, PALMA DA MÃO LISA, TAMANHO ÚNICO. -APLICAÇÃO: ATIVIDADES QUE REQUEIRAM PROTEÇÃO DAS MAÕS CONTRA RISCOS MECÂNICOS E CONTATOS COM PRODUTOS QUÍMICOS. - CERTIFICADO DE APROVAÇÃO NO MINISTÉRIO DO TRABALHO E EMPREGO;(CATMAT:222681)"
+  },
+  {
+      "id": "302800001701",
+      "id_sipac": "2313199",
+      "id_catmat": "222667",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE PVC PALMA LISA (CURTA)",
+      "specification": "-Luva de segurança confeccionada com suporte têxtil 100% algodão. -Palma, dedos e dorso com revestimento de cloreto de plivinila (PVC). -Punho de malha elastizado. -Curta. -Palma da mão lisa -Tamanho a combinar. -Aplicação: Atividades que requeiram proteção das mãos contra riscos mecânicos. -Certificado de Aprovação do Ministério do Trabalho e Emprego.(CATMAT:222667)"
+  },
+  {
+      "id": "302800001699",
+      "id_sipac": "2313197",
+      "id_catmat": "222667",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE PVC PALMA LISA (LONGA)",
+      "specification": "-Luva de segurança, confeccionada com suporte têxtil 100% algodão com revestimento total de cloreto de plivinila (PVC), longa (40 cm), palma da mão lisa, tamanho a definir. - Deve possuir proteção CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES E CONTRA AGENTES QUÍMICOS (CETONAS (B), BASES INORGÂNICAS (K), ÁCIDOS MINERAIS INORGÂNICOS (L)); -Certificado de Aprovação do Ministério do Trabalho e Emprego. CATMAT: 222667"
+  },
+  {
+      "id": "302800001709",
+      "id_sipac": "2313339",
+      "id_catmat": "440936",
+      "date_record": "15/09/2009",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA DE RASPA DE COURO",
+      "specification": "-LUVA DE SEGURANÇA CONFECCIONADA EM RASPA DE COURO; -REFORÇO INTERNO; -TAMANHO DO PUNHO: 20cm; - COM REFORÇO NA PALMA E NOS DEDOS, COSTURA DUPLA COM FIOS DE ALGODÃO, COM TIRA DE REFORÇO EXTERNO EM RASPA ENTRE O DEDO POLEGAR E O INDICADOR. -APLICAÇÃO: PROTEÇÃO DAS MÃOS CONTRA AGENTES ABRASIVOS E ESCORIANTES; - Deve ser aprovado para PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO; CATMAT: 440936"
+  },
+  {
+      "id": "3028000000072",
+      "id_sipac": "2371907",
+      "id_catmat": "120936",
+      "date_record": "22/11/2011",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA EM VAQUETA",
+      "specification": "- Confeccionada em vaqueta; - PARA SOBREPOR LUVA DE ALTA TENSÃO; - Punho em raspa de couro com no mínimo 10 cm; - Tira de reforço externo em vaqueta entre os dedos polegar e indicador e tira no dorso para ajuste; - Com Certificado de Aprovação do Ministério do Trabalho e Emprego (CA).(CATMAT:120936)"
+  },
+  {
+      "id": "302800000454",
+      "id_sipac": "309717",
+      "id_catmat": "430008",
+      "date_record": "",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA EM VAQUETA, COM ELÁSTICO",
+      "specification": "Aplicação: proteção das mãos em trabalhos que requeiram tato, maleabilidade e resistência a abrasão; Material: confeccionada em vaqueta, com reforço interno na palma, acabamento com viés no punho; Característica: cano curto, com elástico; Modelo: cinco dedos; Tamanho a definir; Deve ser aprovado CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES; CERTIFICADA E APROVADA PELO MINISTÉRIO DO TRABALHO E EMPREGO (CA), NORMA MT 11:1977. CATMAT: 430008"
+  },
+  {
+      "id": "3028000000011",
+      "id_sipac": "2323662",
+      "id_catmat": "384876",
+      "date_record": "17/03/2010",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA DE SEGURANÇA ISOLANTE PARA ALTA TENSÃO 20KV",
+      "specification": "Aplicação: atividades que requeiram protação das mãos do usuário contra choques elétricos. Luva de borracha isolante para alta tensão. Classe 2, para uso até 17.000 Volts. Certificado de aprovação do Ministério do Trabalho e Emprego. Tamanho a combinar. CATMAT: 384876"
+  },
+  {
+      "id": "3028000000018",
+      "id_sipac": "2325003",
+      "id_catmat": "441486",
+      "date_record": "30/03/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA DE SILICONE - 28CM",
+      "specification": "- LUVA DE SILICONE; - TAMANHO APROXIMADO: 28X12cm; - RESISTENTE A NO MÍNIMO 210ºC; - COM ORIFÍCIO PASSANTE PARA PENDURAR; - USO EM FORNOS CONVENCIONAIS E MICROONDAS; - LAVÁVEL EM LAVA LOUÇAS; - CORES A COMBINAR. CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO. CATMAT: 441486"
+  },
+  {
+      "id": "3028000000154",
+      "id_sipac": "2446061",
+      "id_catmat": "304173",
+      "date_record": "19/01/2016",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA DE VINIL SEM PÓ - TAM G",
+      "specification": "Luva de vinil sem pó para procedimentos não-Cirúrgico e contra agentes químicos. - Policloreto de vinila; - Lisa; - Ambidestra; - Não estéril; - Tamanho G; - Caixa contendo 100 unidades CATMAT: 304173"
+  },
+  {
+      "id": "3028000000218",
+      "id_sipac": "2512989",
+      "id_catmat": "338212",
+      "date_record": "15/02/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA ISOLANTE PARA BAIXA TENSÃO",
+      "specification": "LUVA DE SEGURANÇA ISOLANTE DE BORRACHA, CLASSE 00, TIPO I, COMPRIMENTO 14\" -MÁXIMA TENSÃO TESTADA: CA: 500V / CC: 750V -ACABAMENTO: PUNHO COM VIROLA -POLÍMERO SINTÉTICO DE POLI-ISOPRENO -MATERIAL: 0,65 MM -ESPESSURA MÁXIMA: 0,45 MM -ESPESSURA MÍNIMA 360 MM -COR: PRETA -CLASSE 00"
+  },
+  {
+      "id": "302800001644",
+      "id_sipac": "2286523",
+      "id_catmat": "0",
+      "date_record": "11/08/2008",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO AMBIDESTRA TAMANHO EXTRA \"PP\"",
+      "specification": "CAIXA COM 100 UNIDADES."
+  },
+  {
+      "id": "3028000000060",
+      "id_sipac": "2362287",
+      "id_catmat": "375934",
+      "date_record": "13/06/2011",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO - TAM G",
+      "specification": "Material Látex; Sem Pó; Tamanho G; Caixa c/ 100 luvas. CERTIFICADA E APROVADA PELO MINISTÉRIO DA ECONOMIA. De acordo com a RDC n° 356/20 da ANVISA e NR-6 do Ministério da Economia. CATMAT:375934"
+  },
+  {
+      "id": "3028000000059",
+      "id_sipac": "2362286",
+      "id_catmat": "443397",
+      "date_record": "13/06/2011",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO - TAM M",
+      "specification": "Material Látex; Sem Pó; Tamanho M; Caixa c/ 100 luvas. CERTIFICADA E APROVADA PELO MINISTÉRIO DA ECONOMIA. De acordo com a RDC n° 356/20 da ANVISA e NR-6 do Ministério da Economia. CATMAT:443397"
+  },
+  {
+      "id": "3028000000215",
+      "id_sipac": "2511988",
+      "id_catmat": "443397",
+      "date_record": "29/11/2021",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO - TAM M (ITEM REFERENTE Ã€ COTA RESERVADA PARA ME/EPP)",
+      "specification": "Material LÃ¡tex; Sem PÃ³; Tamanho M; Caixa c/ 100 luvas. CERTIFICADA E APROVADA PELO MINISTÃ‰RIO DA ECONOMIA. De acordo com a RDC nÂ° 356/20 da ANVISA e NR-6 do MinistÃ©rio da Economia. (ITEM REFERENTE Ã€ COTA RESERVADA PARA ME/EPP) CATMAT:443397"
+  },
+  {
+      "id": "3028000000058",
+      "id_sipac": "2362285",
+      "id_catmat": "375935",
+      "date_record": "13/06/2011",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO - TAM P",
+      "specification": "Material Látex; Sem Pó; Tamanho P; Caixa c/ 100 luvas. CERTIFICADA E APROVADA PELO MINISTÉRIO DA ECONOMIA. De acordo com a RDC n° 356/20 da ANVISA e NR-6 do Ministério da Economia. CATMAT:375935"
+  },
+  {
+      "id": "3028000000216",
+      "id_sipac": "2511989",
+      "id_catmat": "375935",
+      "date_record": "29/11/2021",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROCEDIMENTO - TAM P (ITEM REFERENTE A COTA RESERVADA PARA ME/EPP)",
+      "specification": "Material LÃƒÂ¡tex; Sem PÃƒÂ³; Tamanho P; Caixa c/ 100 luvas. CERTIFICADA E APROVADA PELO MINISTÃƒÂ‰RIO DA ECONOMIA. De acordo com a RDC nÃ‚Â° 356/20 da ANVISA e NR-6 do MinistÃƒÂ©rio da Economia. (ITEM REFERENTE ÃƒÂ€ COTA RESERVADA PARA ME/EPP) CATMAT:375935"
+  },
+  {
+      "id": "3028000000259",
+      "id_sipac": "2519728",
+      "id_catmat": "350578",
+      "date_record": "29/08/2022",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA PARA PROTEÇÃO CONTRA AGENTES MEC NICOS, QUÍMICOS E TÉRMICOS ATÉ 350 °C",
+      "specification": "LUVA PARA PROTEÇÃO DAS MÃOS DO USUÁRIO CONTRA AGENTES ABRASIVOS, ESCORIANTES, CORTANTES E PERFURANTES, CONTRA AGENTES TÉRMICOS (PEQUENAS CHAMAS, CALOR DE CONTATO E RESPINGOS DE METAIS FUNDIDOS), CONTRA AGENTES TÉRMICOS (FRIO) E CONTRA AGENTES QUÍMICOS. CATMAT: 350578."
+  },
+  {
+      "id": "3028000000188",
+      "id_sipac": "2506243",
+      "id_catmat": "423464",
+      "date_record": "10/03/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA PLÁSTICA DESCARTÁVEL - TAM ÚNICO",
+      "specification": "Luva plástica descartável tamanho único. CATMAT: 423464"
+  },
+  {
+      "id": "3028000000123",
+      "id_sipac": "2396449",
+      "id_catmat": "437575",
+      "date_record": "05/04/2013",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "LUVAS EM PVC/VINIL (POLVILHO CLORETO PLASTISOL)",
+      "specification": "Luvas em PVC/Vinil (polvilho Cloreto Plastisol), látex free, ambidestras, resistente, com tensão de ruptura mínima, atendendo ao padrão AQL 1,5, Totalmente impermeável à água e outrs fluídos, com resistência a ácidos, bases gorduras e álcoois. - Comprimento de 240mm da ponta do dedo médio a bainha. - Pulverizada com pó-bio-absorvível à base de amido de milho. - Alta sensibilidade. - Não estéril. - Caixa contendo 100 unidades CATMAT: 437575"
+  },
+  {
+      "id": "3028000000091",
+      "id_sipac": "2380743",
+      "id_catmat": "461010",
+      "date_record": "22/05/2012",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "LUVA TÉRMICA - ARAMIDA",
+      "specification": "LUVA PARA ALTAS TEMPERATURAS, SUPORTA ATÉ 800ºC, LUVA DE SEGURANÇA COM PALMA, DORSO DO POLEGAR, PARTE INTERNA DO PUNHO, PROTETOR DE VEIA EM RASPA DE COURO, REFORÇO ESTERNO TIPO ESQUELETO NO DORSO E NO DORSO DO POLEGAR EM TECIDO DE ARAMIDA CARBONA ALUMINIZADO. COMPRIMENTO DO PUNHO DE 20 CM. PROTEÇÃO TÉRMICA, ABRASÃO E FORNO. POSSUI CERTIFICADO DE APROVAÇÃO EXPEDIDO PELO MINISTÉRIO DA ECONOMIA. CATMAT: 461010"
+  },
+  {
+      "id": "3028000000131",
+      "id_sipac": "2406498",
+      "id_catmat": "423699",
+      "date_record": "26/08/2013",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "LUVA TÉRMICA EM SILICONE",
+      "specification": "Luva térmica em silicone - cor preta - tamanho 37cm - resistente a temperatura mínima de 210° C - permite o uso de máquina de lavar louças para a higienização. CATMAT: 423699"
+  },
+  {
+      "id": "3028000000075",
+      "id_sipac": "2374430",
+      "id_catmat": "116734",
+      "date_record": "03/02/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MACACÃO DE SEGURANÇA PARA AGROTÓXICO/INSETICIDA E AMBIENTES ÚMIDOS",
+      "specification": "- Macacão de segurança para aplicação de agrotóxico; - Confeccionado em polipropileno 60 gramas de duas camadas, sendo não tecido (TNT) de 30 gramas na parte interna e filme de não tecido 30 gramas respirável e impermeável na parte externa; - Com capuz com cadarço de nailon para ajuste ou elástico, fechamento frontal através de três botões metálicos de pressão, zíper de plástico ou velcro, com elástico no fechamento dos punhos e tornozelos; - Tamanho a definir (M/G/GG); - Certificado de Aprovação (C.A) no MTE. CATMAT: 116734"
+  },
+  {
+      "id": "3028000000229",
+      "id_sipac": "2515700",
+      "id_catmat": "220074",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MANGUEIRA DE COMBATE A INCÊNDIO TIPO 2 Ø1.1/2\" 15 METROS",
+      "specification": "MANGUEIRA COMBATE INCÊNDIO, MATERIAL: POLIÉSTER, REVESTIMENTO INTERNO: BORRACHA VULCANIZADA, PESO: 6,20 KG, COMPRIMENTO: 15 M, DIÂMETRO: 1 1,2 POL (CATMAT 220074)"
+  },
+  {
+      "id": "3028000000230",
+      "id_sipac": "2515701",
+      "id_catmat": "220074",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MANGUEIRA DE COMBATE A INCÊNDIO TIPO 2 Ø2.1/2\" DE 15 METROS",
+      "specification": "MANGUEIRA DE INCÊNDIO TIPO 2, NA COR BRANCA, REVESTIDA EXTERNAMENTE COM REFORÇO TÊXTIL CONFECCIONADO 100% EM FIO POLIÉSTER DE ALTA TENACIDADE E INTERNAMENTE COM TUBO DE BORRACHA SINTÉTICA NA COR PRETA; MONTADA COM UNIÃO EM LATÃO TIPO ENGATE RÁPIDO (STORZ) CONFORME NBR 14349, POSSUI EXCELENTE RESISTÊNCIA A RUPTURA, ABRASÃO E DETERIORAÇÃO POR BOLOR E FUNGOS. EM CONFORMIDADE COM A NORMA ABNT – NBR 11861 E COM CERTIFICADO DA MARCA DE CONFORMIDADE ABNT N° 40.015/15 (1.1/2”) E 40.014/15 (2.1/2”). (CATMAT 220074)"
+  },
+  {
+      "id": "3028000000174",
+      "id_sipac": "2487175",
+      "id_catmat": "234340",
+      "date_record": "04/12/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MANGUEIRA P/ GÁS GLP",
+      "specification": "ipo padrão de plástico PVC transparente, trançada, com tarja amarela, exibindo a inscrição NBR 8613, o prazo de validade (5 anos) e o nome do fabricante, diâmetro interno 3/8 (10mm +/-0,3), comprimento deve ser de 1,25m. CATMAT: 234340"
+  },
+  {
+      "id": "3028000000206",
+      "id_sipac": "2509236",
+      "id_catmat": "397905",
+      "date_record": "18/01/2021",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARA DE PROTEÇÃO SEM VÁLVULA - PFF2 (S) /N95",
+      "specification": "Máscara Peça Facial Filtrante tipo 2 (PFF2), classe \"S\", SEM Válvula, confeccionada em manta sintética. Finalidade: proteção contra poeiras, fumos e névoas tóxicas. Fixação por cinta elástica com ajuste no rosto. Modelo dobrável. Tamanho único. Cor: branca ou azul. Características adicionais: n95,pff2(s), mínimo filtração 95% partículas até 0,3. Com Certificado de Aprovação válido. (CATMAT:397905)"
+  },
+  {
+      "id": "3028000000103",
+      "id_sipac": "2381114",
+      "id_catmat": "6742",
+      "date_record": "23/05/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARA ESCUDO PARA SOLDADOR",
+      "specification": "MÁSCARA DE SOLDA CONFECCIONADO EM CELERON COM PEGA MÃO. O VISOR FIXO SUPORTA UMA PLACA COM FILTRO DE LUZ CONFECCIONADO EM VIDRO DE TONALIDADE 12. - Certificado de Aprovação do Ministério do Trabalho e Emprego(CATMAT:6742)"
+  },
+  {
+      "id": "3028000000204",
+      "id_sipac": "2509022",
+      "id_catmat": "397905",
+      "date_record": "26/11/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARA MULTIUSO - N95/PFF2-CA 44241",
+      "specification": "Marca: SUPERSAFETY Fabricante: SUPERSAFETY Modelo / Versão: PFF2 Sem Valvula / SS95 Descrição Detalhada do Objeto Ofertado: Máscara multiuso, material: manta sintética com tratamento eletrostático, tipo uso: descartável, finalidade: proteção contra poeiras, fumos e névoas tóxicas, tipo correia: cinta elástica com ajuste no rosto, tamanho: único, cor: branca ou azul, características adicionais: n95,pff2,mínimo filtração 95% partículas até 0,3. Validade: 30/06/2025 Nº. do Processo: 14021.134011/2020-19 Produto: Nacional Equipamento: RESPIRADOR PURIFICADOR DE AR TIPO PEÇA SEMIFACIAL FILTRANTE PARA PARTÍCULAS PFF2 Descrição: Respirador purificador de ar tipo peça semifacial filtrante para partículas, classe \"S\", formato dobrável, Marca Super Safety. Aprovado para: PROTEÇÃO DAS VIAS RESPIRATÓRIAS CONTRA POEIRAS, NÉVOAS E FUMOS (PFF2). CA 44241-(CATMAT:397905)"
+  },
+  {
+      "id": "3028000000026",
+      "id_sipac": "2332647",
+      "id_catmat": "397905",
+      "date_record": "12/05/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARA RESPIRADOR PURIFICADOR DE AR, PEÇA SEMI-FACIAL, COM VÁLVULA (PFF-2)",
+      "specification": "- Aplicação: filtrar poeiras, névoas e fumos (penetração máxima através do filtro de 6%); - Material: microfibras sintéticas combinadas em camadas e tratadas eletrostaticamente para reter apenas os materiais particulados (poeiras, névoas e fumos) presentes no ambiente; - Valvulado; - Certificado de aprovação de equipamentos de proteção individual expedido pelo Ministério do Trabalho e Emprego.) CATMAT: 397905"
+  },
+  {
+      "id": "302800001707",
+      "id_sipac": "2313333",
+      "id_catmat": "338681",
+      "date_record": "15/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARA RESPIRADOR PURIFICADOR DE AR, PEÇA SEMI-FACIAL, SEM VÁLVULA DE EXALAÇÃO (PFF1-VO)",
+      "specification": "- MÁSCARA RESPIRADOR PURIFICADOR DE AR, PEÇA SEMI-FACIAL, SEM VÁLVULA DE EXALAÇÃO; - APLICAÇÃO: INDICADO PARA PROTEÇÃO CONTRA POEIRA, NÉVOA E VAPORES ORGÂNICOS ATÉ 50 PPM; - EM FORMATO CONCHA, SEM MANUTENÇÃO; - CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO (MTE);(CATMAT:338681)"
+  },
+  {
+      "id": "302800000470",
+      "id_sipac": "309719",
+      "id_catmat": "382418",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MASCARA RESPIRADOR PURIFICADOR DE AR, PEÇA SEMI-FACIAL, SEM VÁLVULA (PFF-1).",
+      "specification": "- Aplicação: indicado para proteção contra POEIRAS e NÉVOAS; - Material: camadas filtrantes de fibras sintéticas tratadas eletrostaticamente, possui duas tiras de elástico para fixação; - Sem válvula; -Descartável - Com filtro de eficiencia P-1 (especifico para névoas e poeiras).(CATMAT:382418)"
+  },
+  {
+      "id": "3028000000097",
+      "id_sipac": "2380794",
+      "id_catmat": "231102",
+      "date_record": "22/05/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MASCARA RESPIRADOR SEMIFACIAL (GASES ÁCIDOS E VAPORES ORGÂNICOS)",
+      "specification": "MÁSCARA RESPIRADOR PURIFICADOR DE AR DE SEGURANÇA TIPO PEÇA SEMIFACIAL, NO TAMANHO MÉDIO, COM CORPO CONFECCIONADO EM BORRACHA OU SILICONE, NAS CORES PRETA OU CINZA, O CORPO DA PEÇA DEVE POSSUIR TRÊS ABERTURAS: UMA CENTRAL E DUAS LATERAIS. NAS ABERTURAS LATERAIS SÃO FIXADOS DOIS SUPORTES, NOS QUAIS OS FILTROS SÃO POSICIONADOS, DOTADOS DE ROSCA INTERNA, ANEL DE VEDAÇÃO, TAMPA COM ENCAIXE TIPO PRESSÃO E, EM SUA PARTE TRASEIRA, DE UMA VÁLVULA DE INALAÇÃO (CADA SUPORTE). A ABERTURA LOCALIZADA NA PARTE CENTRAL DO CORPO DA PEÇA DEVE POSSUIR UM DISPOSITIVO DOTADO INTERNAMENTE,, DE UMA VÁLVULA DE EXALAÇÃO E DE UMA TAMPA TIPO PRESSÃO. POSSUIR UMA RANHA METÁLICA QUE PROPORCIONE UMA PRESSÃO UNIFORME JUNTO A FACE. NAS EXTREMIDADES DAS PONTAS DEVEM EXISTIR QUATRO FIVELAS PRETAS, ATRAVÉS DAS QUAIS PASSAM AS PONTAS DE DOIS TIRANTES ELÁSTICOS AJUSTÁVEIS: UM TIRANTE LOCALIZADO NA PARTE SUPERIOR E O OUTRO NA PARTE INFERIOR. NO TIRANTE LOCALIZADO NA PARTE SUPERIOR, DEVEM ENCONTRAR-SE COSTURADAS DUAS ALÇAS PLÁSTICAS PARA O ENCAIXE NA CABEÇA DO USUÁRIO E NO TIRANTE LOCALIZADO NA PARTE INFERIOR, UMA FIVELA DE FECHAMENTO DEVE APRESENTAR CERTIFICADO DE APROVAÇÃO (CA) JUNTO AO MTE( MINISTÉRIO DO TRABALHO E EMPREGO). ESTAR DENTRO DAS NORMAS NBR 1394/96 (PEÇA SEMIFACIAL). POSSUIR VALIDADE DE NO MÍNIMO TRÊS ANOS. AORESENTAR GARANTIA DE 12 MESES. EQUIPADO COM 4 JOGOS DE 2 FILTROS= 8 PARA GASES ÁCIDOS E VAPORES ORGÂNICOS.(CATMAT:231102)"
+  },
+  {
+      "id": "3028000000101",
+      "id_sipac": "2380802",
+      "id_catmat": "341473",
+      "date_record": "22/05/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MASCARA RESPIRADOR SEMIFACIAL (POEIRA P1)",
+      "specification": "MÁSCARA RESPIRADOR PURIFICADOR DE AR DE SEGURANÇA TIPO PEÇA SEMIFACIAL, NO TAMANHO MÉDIO, COM CORPO CONFECCIONADO EM BORRACHA OU SILICONE, NAS CORES PRETA OU CINZA, O CORPO DA PEÇA DEVE POSSUIR TRÊS ABERTURAS: UMA CENTRAL E DUAS LATERAIS. NAS ABERTURAS LATERAIS SÃO FIXADOS DOIS SUPORTES, NOS QUAIS OS FILTROS SÃO POSICIONADOS, DOTADOS DE ROSCA INTERNA, ANEL DE VEDAÇÃO, TAMPA COM ENCAIXE TIPO PRESSÃO E, EM SUA PARTE TRASEIRA, DE UMA VÁLVULA DE INALAÇÃO (CADA SUPORTE). A ABERTURA LOCALIZADA NA PARTE CENTRAL DO CORPO DA PEÇA DEVE POSSUIR UM DISPOSITIVO DOTADO INTERNAMENTE,, DE UMA VÁLVULA DE EXALAÇÃO E DE UMA TAMPA TIPO PRESSÃO. POSSUIR UMA RANHA METÁLICA QUE PROPORCIONE UMA PRESSÃO UNIFORME JUNTO A FACE. NAS EXTREMIDADES DAS PONTAS DEVEM EXISTIR QUATRO FIVELAS PRETAS, ATRAVÉS DAS QUAIS PASSAM AS PONTAS DE DOIS TIRANTES ELÁSTICOS AJUSTÁVEIS: UM TIRANTE LOCALIZADO NA PARTE SUPERIOR E O OUTRO NA PARTE INFERIOR. NO TIRANTE LOCALIZADO NA PARTE SUPERIOR, DEVEM ENCONTRAR-SE COSTURADAS DUAS ALÇAS PLÁSTICAS PARA O ENCAIXE NA CABEÇA DO USUÁRIO E NO TIRANTE LOCALIZADO NA PARTE INFERIOR, UMA FIVELA DE FECHAMENTO DEVE APRESENTAR CERTIFICADO DE APROVAÇÃO (CA) JUNTO AO MTE( MINISTÉRIO DO TRABALHO E EMPREGO). ESTAR DENTRO DAS NORMAS NBR 1394/96 (PEÇA SEMIFACIAL). POSSUIR VALIDADE DE NO MÍNIMO TRÊS ANOS. AORESENTAR GARANTIA DE 12 MESES. EQUIPADO COM 4 JOGOS DE 2 FILTROS= 8 PARA POEIRA P1. CATMAT: 341473"
+  },
+  {
+      "id": "3028000000205",
+      "id_sipac": "2509135",
+      "id_catmat": "470060",
+      "date_record": "11/12/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "MÁSCARAS PROTEÇÃO USO NÃO PROFISSIONAL MODELO 3D.",
+      "specification": "Máscaras de proteção de uso não profissional modelo 3d de tecido, confeccionada com tripla camada em tecido, modelo 3D, elástico ajustável e que garanta conforto, preferencialmente com clip nasal. Deve seguir as “ORIENTAÇÕES GERAIS da ANVISA\"; As formas e estruturas aceitas são descritas na Seção 8 da ABNT PR 1002. Cor a combinar.(CATMAT:470060)"
+  },
+  {
+      "id": "3028000000191",
+      "id_sipac": "2507843",
+      "id_catmat": "391856",
+      "date_record": "30/07/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE PROTEÇÃO PARA LASERTERAPIA",
+      "specification": "PRODUTO INDICADO PARA A PROTEÇÃO DOS OLHOS DURANTE A APLICAÇÃO DE LASERTERAPIA. POSSUE CAPACIDADE DE PROTEÇÃO CONTRA RAIOS UVA, UVB E INFRAVERMELHO, E É RECOMENDADO PARA TODOS OS COMPRIMENTOS DE ONDA NOS TRATAMENTOS DE LASERTERAPIA. MATERIAL: LENTES EM POLICARBONATO(CATMAT:391856)"
+  },
+  {
+      "id": "3028000000006",
+      "id_sipac": "2321308",
+      "id_catmat": "375953",
+      "date_record": "03/02/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "OCULOS DE PROTEÇAO RADIOLOGICA",
+      "specification": "- ÓCULOS DE PROTEÇÃO FRONTAL E LATERAL; - MATERIAL: ACRÍLICO; - LENTES DE VIDRO PLUMBÍFERO COM EQUIVALÊNCIA MÍNIMA EM CHUMBO DE 0,75MMPB; - CONFORMIDADE COM A NORMA NBR IEC 61331-3:2004; - REGISTRADO NO MINISTÉRIO DA SAÚDE; - CERTIFICADO NO MINISTÉRIO DO TRABALHO E EMPREGO (C.A.).(CATMAT375953)"
+  },
+  {
+      "id": "302800001715",
+      "id_sipac": "2313345",
+      "id_catmat": "417399",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE SEGURANÇA",
+      "specification": "-ÓCULOS DE SEGURANÇA COM LENTES DE POLICARBONATO NA COR CINZA; -SISTEMA DUPLO ANTI-RISCO; -SISTEMA DUPLO ANTI-EMBAÇANTE; -PROTEÇÃO ULTRA VIOLETA; -HASTES COM SISTEMA DE REGULAGEM DE ÂNGULO E COMPRIMENTO; -HASTES EMBORRACHADAS COM EXTREMIDADES FLEXÍVEIS; -APLICAÇÃO: UTILIZADO EM ATIVIDADES EXTERNAS QUE REQUEIRAM PROTEÇÃO DOS OLHOS CONTRA ALTA INCIDÊNCIA DE LUMINOSIDADE; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO.(CATMAT: 417399)"
+  },
+  {
+      "id": "3028000000093",
+      "id_sipac": "2380745",
+      "id_catmat": "221262",
+      "date_record": "22/05/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE SEGURANÇA",
+      "specification": "ÓCULOS PARA SOLDA OXI-ACETILENO, COM LENTES DE PROTEÇÃO UV, LENTE FATOR 6, COM ESTRUTURA EM PVC COM TIRA DE FIXAÇÃO EM MATERIAL ELASTÔMERO POSSUINDO REGULAGEM. POSSUI CERTIFICADO DE APROVAÇÃO EXPEDIDO PELO MINISTÉRIO DO TRABALHO E EMPREGO.(CATMAT:221262)"
+  },
+  {
+      "id": "302800001713",
+      "id_sipac": "2313343",
+      "id_catmat": "234327",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE SEGURANÇA COM LENTES DE POLICARBONATO E HASTES EMBORRACHADAS",
+      "specification": "-ÓCULOS DE SEGURANÇA COM LENTES DE POLICARBONATO DE ALTA TRANSPARÊNCIA; -SISTEMA DUPLO ANTI-RISCO; -SISTEMA DUPLO ANTI-EMBAÇANTE; -PROTEÇÃO ULTRA VIOLETA; -HASTES COM SISTEMA DE REGULAGEM DE ÂNGULO E COMPRIMENTO; -HASTES EMBORRACHADAS COM EXTREMIDADES FLEXÍVEIS; -APLICAÇÃO: UTILIZADO EM ATIVIDADES INDUSTRIAIS, LABORATORIAIS E DE PROFISSIONAIS DE SAÚDE; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO. CATMAT: 234327"
+  },
+  {
+      "id": "302800001714",
+      "id_sipac": "2313344",
+      "id_catmat": "221270",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE SEGURANÇA COM LENTES E HASTES DE POLICARBONATO",
+      "specification": "-ÓCULOS DE SEGURANÇA COM LENTES DE POLICARBONATO DE ALTA TRANSPARÊNCIA; -HASTES RESISTENTES CONFECCIONADAS NO MESMO MATERIAL DAS LENTES; -PERMITE SOBREPOSIÇÃO COM ÓCULOS DE GRAU; -APLICAÇÃO: ATIVIDADES QUE REQUEIRAM PROTEÇÃO DOS OLHOS CONTRA PARTÍCULAS VOLANTES, POEIRA OU RESPINGOS; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO.(CATMAT:221270)"
+  },
+  {
+      "id": "3028000000024",
+      "id_sipac": "2332645",
+      "id_catmat": "450515",
+      "date_record": "12/05/2010",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "ÓCULOS DE SEGURANÇA TIPO ÁGUIA",
+      "specification": "Material: lentes em policarbonato com tratamento anti-risco, com armação e visor curvo confeccionados em uma única peça de policarbonato. Proteção UVA e UVB. Ótima resistência a impacto. Acompanha cordão de segurança. Cor: Cristal transparente. Com Certificado de Calibração do Ministério do Trabalho e Emprego.(CATMAT:450515)"
+  },
+  {
+      "id": "3028000000247",
+      "id_sipac": "2515976",
+      "id_catmat": "326146",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PAINEL DE COMANDO ELÉTRICO PARA DUAS BOMBAS DE INCÊNDIO",
+      "specification": "PAINEL DE COMANDO ELÉTRICO PARA DUAS BOMBAS DE INCÊNDIO - PARTIDAS DE 10 CV E 5 CV - CHAVES SELETORAS AUTOMÁTICO E MANUAL, BOTOEIRAS LIGA/DESLIGA E SINALEIROS PARA INDICAÇÃO DAS BOMBAS LIGADAS E DESLIGADAS - INCLUSO MATERIAL COMPLEMENTAR NECESSÁRIO PARA AUTOMAÇÃO DOS COMANDOS ELÉTRICOS. (CATMAT 326146)"
+  },
+  {
+      "id": "3028000000246",
+      "id_sipac": "2515975",
+      "id_catmat": "318186",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PAINEL DE COMANDO ELÉTRICO PARA UMA BOMBA DE INCÊNDIO",
+      "specification": "PAINEL DE COMANDO ELÉTRICO PARA UMA BOMBA DE INCÊNDIO - PARTIDA DE 5 CV - CHAVE SELETORA AUTOMÁTICO E MANUAL, BOTOEIRA LIGA/DESLIGA E SINALEIRO PARA INDICAÇÃO DE BOMBA LIGADA E DESLIGADA - INCLUSO MATERIAL COMPLEMENTAR NECESSÁRIO PARA AUTOMAÇÃO DOS COMANDOS ELÉTRICOS (CATMAT 318186)"
+  },
+  {
+      "id": "3028000000087",
+      "id_sipac": "2380723",
+      "id_catmat": "38016",
+      "date_record": "22/05/2012",
+      "unit": "PAR",
+      "group_sipac": "3028",
+      "name": "PERNEIRA EM RASPA DE COURO",
+      "specification": "PERNEIRA DE SEGURANÇA CONFECCIONADA EM COURO DE RASPA CURTIDO AO CROMO, COM FECHAMENTO EM VELCRO NAS LATERAIS PARA FIXAÇÃO E AJUSTE COM PROTEÇÃO SOBRE O METATARSO EM COURO DE RASPA. POSSUI CERTIFICADO DO MINISTÉRIO DO TRABALHO E DO EMPREGO. CATMAT: 38016"
+  },
+  {
+      "id": "3028000000242",
+      "id_sipac": "2515971",
+      "id_catmat": "391524",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PORTA CORTA FOGO P90 160X210",
+      "specification": "PORTA CORTA FOGO P90 (RESISTÊNCIA AO FOGO DE 90 MIN) COM MARCO, DOBRADIÇA E BARRA ANTIPÂNICO COM FECHADURA E CHAVE. DIMENSÃO 1,60 X 2,10 m (DUAS FOLHAS). (CATMAT 391524)"
+  },
+  {
+      "id": "3028000000243",
+      "id_sipac": "2515972",
+      "id_catmat": "391524",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PORTA CORTA FOGO P90 180X210",
+      "specification": "PORTA CORTA FOGO P90 (RESISTÊNCIA AO FOGO DE 90 MIN) COM MARCO, DOBRADIÇA E BARRA ANTIPÂNICO COM FECHADURA E CHAVE. DIMENSÃO 1,80 X 2,10 m (DUAS FOLHAS). (CATMAT 391524)"
+  },
+  {
+      "id": "3028000000241",
+      "id_sipac": "2515970",
+      "id_catmat": "391524",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PORTA CORTA FOGO P90 90X210",
+      "specification": "PORTA CORTA FOGO P90 (RESISTÊNCIA AO FOGO DE 90 MIN) COM MARCO, DOBRADIÇA E BARRA ANTIPÂNICO COM FECHADURA E CHAVE. DIMENSÃO 0,90 X 2,10 m (UMA FOLHA) (CATMAT 391524)"
+  },
+  {
+      "id": "3028000000257",
+      "id_sipac": "2516381",
+      "id_catmat": "391524",
+      "date_record": "10/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PORTA CORTA FOGO (PCF 90)1,68 X 2,50 (LARGURA X ALTURA)",
+      "specification": "Denominação: Porta corta fogo (PCF 90). dimensões: 1,68 x 2,50 (largura x altura), 90 min. de resistência à incêndio. (CATMAT: 391524)"
+  },
+  {
+      "id": "302800001599",
+      "id_sipac": "2254321",
+      "id_catmat": "0",
+      "date_record": "16/03/2007",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTEÇÃO METÁLICA PARA SERRA ELÉTRICA",
+      "specification": "."
+  },
+  {
+      "id": "302800001723",
+      "id_sipac": "2313393",
+      "id_catmat": "377969",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR AUDITIVO CIRCUM-AURICULAR TIPO CONCHA",
+      "specification": "-PROTETOR AUDITIVO CIRCUM-AURICULAR TIPO CONCHA; -POSSUI ESPUMA NA PARTE SUPERIOR DA HASTE; -PRESSÃO DA HASTE AJUSTÁVEL; -ALTURA DA CONCHA AJUSTÁVEL; - NÍVEL DE REDUÇÃO DE RUÍDO NRR IGUAL OU SUPERIOR A 23 DBA -APLICAÇÃO: ATIVIDADES QUE REQUEIRAM PROTEÇÃO DO SISTEMA AUDITIVO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR-15, ANEXOS I E II; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO.(CATMAT:377969)"
+  },
+  {
+      "id": "302800001575",
+      "id_sipac": "2241668",
+      "id_catmat": "359485",
+      "date_record": "",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR AURICULAR DE INSERÇÃO DE ESPUMA COM CORDÃO",
+      "specification": "PROTETOR AURICULAR DE INSERÇÃO, COM ESPUMA MACIA E MOLDÁVEL AO CANAL AUDITIVO, MATERIAL HIPOALERGÊNICO, CORDÃO EM POLIESTER, CORDÃO E ESPUMA NA COR LARANJA PARA FÁCIL VIZUALIZAÇÃO.(CATMAT:359485)"
+  },
+  {
+      "id": "302800001724",
+      "id_sipac": "2313401",
+      "id_catmat": "234413",
+      "date_record": "16/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR AURICULAR DE INSERÇÃO TIPO CÔNICO ONDULADO",
+      "specification": "-PROTETOR AUDITIVO DE INSERÇÃO; -FORMATO CÔNICO ONDULADO; -CONFECCIONADO EM SILICONE COM 3 FLANGES -CORDÃO EM POLIESTER; -NÍVEL DE REDUÇÃO DE RUÍDO NRR IGUAL OU SUPERIOR A 17 DBA -CORDÃO E ESPUMA NA COR LARANJA PARA FÁCIL VIZUALIZAÇÃO; -APLICAÇÃO: ATIVIDADES QUE REQUEIRAM PROTEÇÃO DO SISTEMA AUDITIVO CONTRA NÍVEIS DE PRESSÃO SONORA SUPERIORES AO ESTABELECIDO NA NR-15, ANEXOS I E II; -CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO. CATMAT: 234413"
+  },
+  {
+      "id": "3028000000222",
+      "id_sipac": "2515692",
+      "id_catmat": "63231",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR DE EXTINTOR DE INCÊNDIO AP 10 L",
+      "specification": "CAPA PLÁSTICA RESISTENTE A INTEMPÉRIES PARA EXTINTOR DE ÁGUA PRESSURIZADA DE 1OL COM ABERTURA DA PARTE POSTERIOR PARA FÁCIL RETIRADA, CONTENDO NA PARTE FRONTAL INFORMAÇÕES BÁSICAS DO PRODUTO(63231)"
+  },
+  {
+      "id": "3028000000221",
+      "id_sipac": "2515690",
+      "id_catmat": "63231",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR DE EXTINTOR DE INCÊNDIO CO2 06 KG",
+      "specification": "CAPA PLÁSTICA RESISTENTE A INTEMPÉRIES PARA EXTINTOR DE CO2 COM ABERTURA DA PARTE POSTERIOR PARA FÁCIL RETIRADA, CONTENDO NA PARTE FRONTAL INFORMAÇÕES BÁSICAS DO PRODUTO. (63231)"
+  },
+  {
+      "id": "3028000000220",
+      "id_sipac": "2515689",
+      "id_catmat": "63231",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR DE EXTINTOR DE INCÊNDIO PQS 04 KG",
+      "specification": "CAPA PLÁSTICA RESISTENTE A INTEMPÉRIES PARA EXTINTOR DE ÁGUA PRESSURIZADA PQS 4 KG COM ABERTURA DA PARTE POSTERIOR PARA FÁCIL RETIRADA, CONTENDO NA PARTE FRONTAL INFORMAÇÕES BÁSICAS DO PRODUTO. (CATMAT 63231)"
+  },
+  {
+      "id": "3028000000219",
+      "id_sipac": "2515688",
+      "id_catmat": "63231",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "PROTETOR DE EXTINTOR DE INCÊNDIO PQS 12 KG",
+      "specification": "CAPA PLÁSTICA RESISTENTE A INTEMPÉRIES PARA EXTINTOR DE ÁGUA PRESSURIZADA PQS 12KG COM ABERTURA DA PARTE POSTERIOR PARA FÁCIL RETIRADA, CONTENDO NA PARTE FRONTAL INFORMAÇÕES BÁSICAS DO PRODUTO. (CATMAT 63231)"
+  },
+  {
+      "id": "3028000000173",
+      "id_sipac": "2487174",
+      "id_catmat": "239773",
+      "date_record": "04/12/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "REGULADOR PARA GÁS GLP - BOTIJÃO 13KG",
+      "specification": "Regulador para botijão tipo padrão de baixa pressão, com vazão nominal de 1Kg/h, material: alumínio fundido, utilizado para botijões GLP P-13 e mangueiras 3/8, validade de 05 (cinco) anos. - Em conformidade com a NBR 8473. CATMAT: 239773"
+  },
+  {
+      "id": "3028000000111",
+      "id_sipac": "2381195",
+      "id_catmat": "313379",
+      "date_record": "23/05/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "RESPIRADOR BIOLÓGICO",
+      "specification": "Respirador semi-facial descartável, P2-N95, provido de fita de alumínio para ajuste no nariz e dois elastômeros de fixação. Possuir certificado de aprovação – CA expedido pelo ministério do trabalho e emprego CATMAT: 313379"
+  },
+  {
+      "id": "302800001663",
+      "id_sipac": "2288279",
+      "id_catmat": "231102",
+      "date_record": "22/09/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "RESPIRADOR PEÇA FACIAL INTEIRA",
+      "specification": "máscara respirador purificador de ar de segurança, tipo peça facial inteira, no tamanho médio, com corpo confeccionado em borracha ou silicone, borda interna e encaixe de queixo para ajuste. A peça facial deve possuir um visor constituído de material rígido transparente (policarbonato ou acrílico), fixado ao corpo da mesma através de encaixe específico. Na parte frontal inferior do corpo de cada peça, deve existir abertura utilizada para o encaixe de dispositivo confeccionado em material plástico rígido. Deve apresentar em sua parte dianteira, um bocal com rosca interna, onde são rosqueados os filtros mecânicos com invólucro de metal e os filtros químicos e combinados das classes 1 e 2 com formato redondo. A peça deve apresentar preso a este bocal, um adaptador dotado de uma rosca externa em sua parte traseira e de uma rosca interna com anel de borracha em sua parte dianteira, para ser utilizada com filtros de formato oval, que possuem diâmetro de rosca menor do que o do dispositivo onde os demais filtros são rosqueados. Na parte interna do bocal, deve encontrar-se fixada uma válvula de inalação. Na parte traseira do dispositivo, deve localizar-se o diafragma de voz e se encaixa a mascarilha (nosecup), dotada, em sua parte superior, de duas válvulas de inalação. Presença de uma válvula de exalação e de uma tampa de material plástico com encaixe tipo pressão. A peça deve possuir um tirante de cabeça com ao menos 3 pontos de fixação, e preso às bordas da mesma por meio dispositivos com ajuste rápido. Na borda inferior da peça, devem ser fixadas as pontas de uma tira de material plástico, utilizada para descanso da peça no pescoço do usuário. Estar dentro das normas nbr 13695/96 (peça facial inteira). Possuir validade de 5 anos após a fabricação (lacrado) e apresentar garantia de 12 meses após recebimento. Possuir Certificado de Aprovação do Ministério da Economia."
+  },
+  {
+      "id": "302800001659",
+      "id_sipac": "2288270",
+      "id_catmat": "231104",
+      "date_record": "22/09/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "RESPIRADOR PEÇA SEMIFACIAL",
+      "specification": "máscara respirador purificador de ar de segurança tipo peça semifacial, no tamanho médio, com corpo confeccionado em borracha ou silicone, nas cores preta, cinza ou azul. O corpo da peça deve possuir três aberturas: uma central e duas laterais. Nas aberturas laterais são fixados dois suportes, nos quais os filtros são posicionados, dotados de rosca interna, anel de vedação, tampa com encaixe tipo pressão e, em sua parte traseira, de uma válvula de inalação (cada suporte). A abertura localizada na parte central do corpo da peça deve possuir um dispositivo dotado, internamente, de uma válvula de exalação e de uma tampa tipo pressão. Possuir dispositivo de fixação que proporcione uma pressão uniforme junto à face. Nas extremidades das pontas devem existir recursos através dos quais passem as pontas de dois tirantes elásticos ajustáveis: um tirante localizado na parte superior e o outro, na parte inferior. No tirante localizado na parte superior, devem encontrar-se costuradas duas alças plásticas (ou recurso similar) para o encaixe na cabeça do usuário, e no tirante localizado na parte inferior, uma fivela de fechamento. Estar dentro das normas NBR 13694/96 (peça semifacial). Possuir validade de 5 anos após a fabricação (lacrado) e apresentar garantia de 12 meses após recebimento. Certificado de Aprovação do Ministério da Economia."
+  },
+  {
+      "id": "302800001705",
+      "id_sipac": "2313276",
+      "id_catmat": "382418",
+      "date_record": "15/09/2009",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "RESPIRADOR PURIFICADOR DE AR, DESCARTÁVEL, VALVULADO (PFF-1)",
+      "specification": "- RESPIRADOR PURIFICADOR DE AR, PEÇA SEMI-FACIAL, VALVULADO; - APLICAÇÃO: INDICADO PARA PROTEÇÃO CONTRA POEIRA E NÉVOA. - RESPIRADOR PURIFICADOR DE AR, TIPO PEÇA SEMIFACIAL EM FORMATO CONCHA, VALVULADO, SEM MANUTENÇÃO, VÁLVULA DE EXALAÇÃO COM POSICIONAMENTO FRONTAL, SISTEMA DE VÁLVULA SOLDADA AO RESPIRADOR; - CERTIFICADO DE APROVAÇÃO DO MINISTÉRIO DO TRABALHO E EMPREGO (MTE);(CATMAT:382418)"
+  },
+  {
+      "id": "3028000000251",
+      "id_sipac": "2515982",
+      "id_catmat": "224347",
+      "date_record": "01/06/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "SIRENES ÁUDIO VISUAIS 2 SONS PARA ALARME",
+      "specification": "Alarme sonoro contra-incêndio, material caixa: metálico, tipo: quebrar vidro, acionamento: quebrar vidro, largura: 110 mm, altura: 150 mm, profundidade: 40 mm, alimentação: 12 v, cor: vermelha, potência sirene: 105 db, características opcionais: com sirene, características adicionais: com martelo quebra-vidro. (CATMAT 224347)"
+  },
+  {
+      "id": "3028000000117",
+      "id_sipac": "2381659",
+      "id_catmat": "40215",
+      "date_record": "01/06/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "SUPORTE PARA EXTINTOR 10 KG",
+      "specification": "- Suporte para extintor em aço inox polido (piso) - Que facilite o apoio e retirada e a visualização da identificação do extintor; - Suporte para extintor de 10kg(CATMAT:40215)"
+  },
+  {
+      "id": "3028000000115",
+      "id_sipac": "2381657",
+      "id_catmat": "40215",
+      "date_record": "01/06/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "SUPORTE PARA EXTINTOR 12 KG",
+      "specification": "- Suporte para extintor em aço inox polido (piso) - Que facilite o apoio e retirada e a visualização da identificação do extintor - Suporte para extintor de 12kg(CATMAT:40215)"
+  },
+  {
+      "id": "3028000000116",
+      "id_sipac": "2381658",
+      "id_catmat": "40215",
+      "date_record": "01/06/2012",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "SUPORTE PARA EXTINTOR 6 KG",
+      "specification": "- Suporte para extintor em aço inox polido (piso) - Que facilite o apoio e retirada e a visualização da identificação do extintor; - Suporte para extintor de 6kg. (CATMAT:40215)"
+  },
+  {
+      "id": "3028000000165",
+      "id_sipac": "2477594",
+      "id_catmat": "40215",
+      "date_record": "09/02/2018",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "SUPORTE TRIPÉ PARA EXTINTOR 12 KG",
+      "specification": "Suporte de Extintor tipo tripé - Bicromatizado - Para extintores de 8 a 12 Kg CO2/AP/PQS - com Placa e Haste de Sinalização inclusas. Suporte fabricado em ferro redondo com acabamento bicromatizado, tratamento anti-corrosivo e pés de borracha.(CATMAT:40215)"
+  },
+  {
+      "id": "302800001658",
+      "id_sipac": "2287713",
+      "id_catmat": "38032",
+      "date_record": "11/09/2008",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "TALABARTE DE SEGURANÇA",
+      "specification": "Talabarte de segurança confeccionado em material sintético (poliéster), dotado de absorvedor de energia, com dois mosquetões de aço forjado, de dupla trava, com abertura de 25mm, fixos através de costuras reforçadas nas extremidades.(CATMAT:38032)"
+  },
+  {
+      "id": "3028000000225",
+      "id_sipac": "2515696",
+      "id_catmat": "358098",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "TAMPÃO CONEXAO HR 60 X 40 CM",
+      "specification": "TAMPÃO CONEXÃO, MATERIAL: FERRO FUNDIDO, DIÂMETRO: 40 X 60 CM, USO: INSTALAÇÃO COMBATE A INCENDIO (CATMAT 358098)"
+  },
+  {
+      "id": "3028000000232",
+      "id_sipac": "2515703",
+      "id_catmat": "358095",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "TAMPÃO STORZ 1.1/2\"",
+      "specification": "TAMPÃO CONEXÃO, MATERIAL: LATÃO DE ALTA RESISTÊNCIA GALVANIZADO, TIPO CONEXÃO: STORZ, DIÂMETRO: 1 1,2 POL, USO: INSTALAÇÃO COMBATE A INCENDIO, POSIÇÃO ROSCA: EXTERNA. (CATMAT 358095)"
+  },
+  {
+      "id": "3028000000231",
+      "id_sipac": "2515702",
+      "id_catmat": "358095",
+      "date_record": "25/05/2022",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "TAMPÃO STORZ 2.1/2\"",
+      "specification": "TAMPÃO CONEXÃO, MATERIAL: LATÃO DE ALTA RESISTÊNCIA GALVANIZADO, TIPO CONEXÃO: STORZ, DIÂMETRO: 2 1,2 POL, USO: INSTALAÇÃO COMBATE A INCENDIO, POSIÇÃO ROSCA: EXTERNA. (CATMAT 358095)"
+  },
+  {
+      "id": "3028000000189",
+      "id_sipac": "2507605",
+      "id_catmat": "91146",
+      "date_record": "26/06/2020",
+      "unit": "UNIDADE",
+      "group_sipac": "3028",
+      "name": "TAPETE DEMARCATÓRIO PARA EXTINTOR DE INCÊNDIO",
+      "specification": "TAPETE DEMARCATÓRIO PARA EXTINTOR DE INCÊNDIO. FABRICADO EM VINIL SINTÉTICO 1 M². POSSUI 70 CM DE BASE VERMELHA E QUATRO BORDAS LATERAIS DE 15 CM AMARELAS. VULCANIZADO, 10 MM DE ESPESSURA, 100% PVC, USO INTERNO E EXTERNO, FÁCIL LIMPEZA (LAVÁVEL), ALTA DURABILIDADE, RESISTENTE AO ALTO TRÁFEGO, NÃO PROPAGADOR DE CHAMAS. UTILIZADO PARA SUBSTITUIÇÃO DE PINTURAS OU ADESIVAMENTOS FEITOS PARA DEMARCAR HIDRANTES E EXTINTORES DE ACORDO COM IT-20 DO CORPO DE BOMBEIROS.(CATMAT:91146)"
+  },
+  {
+      "id": "3028000000027",
+      "id_sipac": "2332648",
+      "id_catmat": "332930",
+      "date_record": "12/05/2010",
+      "unit": "CAIXA",
+      "group_sipac": "3028",
+      "name": "TOUCA SANFONADA BRANCA DESCARTÁVEL",
+      "specification": "Material: Confeccionada em TNT, 100% polipropileno, material descartável, atóxico, gramatura 20g/m2, sanfonada, branca. Elástico duplo costurado nas extremidade. Caixa com 100 unidades. Tamanho padrão. CATMAT: 332930"
+  }
+]}

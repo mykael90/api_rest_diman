@@ -17,9 +17,13 @@ class MaterialInventoryController {
             [Sequelize.literal('`Material`.`unit`'), 'unit'],
             [Sequelize.fn('FORMAT', Sequelize.col('initial_quantity'), '2'), 'initialQuantity'],
             [Sequelize.fn('FORMAT', Sequelize.col('release_inventory'), '2'), 'releaseInventory'],
+            [Sequelize.fn('FORMAT', Sequelize.col('reserve_inventory'), '2'), 'reserveInventory'],
             [Sequelize.fn('FORMAT', Sequelize.col('restrict_inventory'), '2'), 'restrictInventory'],
             'freeInventory',
             'totalInventory',
+            [Sequelize.currencyBr('initial_value'), 'initialValue'],
+            [Sequelize.currencyBr('last_value'), 'lastValue'],
+            [Sequelize.fn('IFNULL', Sequelize.currencyBr('last_value'), Sequelize.currencyBr('initial_value')), 'value'],
           ],
           include: {
             model: Material,

@@ -85,15 +85,7 @@ class MaterialInController {
           [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
           [Sequelize.literal('`User`.`username`'), 'receivedBy'],
           'req',
-          [
-            Sequelize.fn(
-              'format',
-              Sequelize.col('`MaterialIn`.`value`'),
-              2,
-              'pt_BR',
-            ),
-            'value',
-          ],
+          [Sequelize.currencyBr('`MaterialIn`.`value`'), 'value'],
 
           'requiredBy',
           'reqMaintenance',
@@ -101,22 +93,11 @@ class MaterialInController {
           'costUnit',
           [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialIn`.`register_date`'),
-              '%d/%m/%Y',
-            ),
-            'registerDate',
-          ],
-
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialIn`.`created_At`'),
-              '%d/%m/%Y',
-            ),
-            'createdAt',
+          [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'resgisterDate'],
+          [Sequelize.dataBr(
+            '`MaterialIn`.`register_date`',
+          ),
+          'createdAt',
           ],
         ],
         include: [
@@ -128,15 +109,7 @@ class MaterialInController {
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
               'quantity',
-              [
-                Sequelize.fn(
-                  'format',
-                  Sequelize.col('`MaterialInItems`.`value`'),
-                  2,
-                  'pt_BR',
-                ),
-                'value',
-              ],
+              [Sequelize.currencyBr('`MaterialInItems`.`value`'), 'value'],
             ],
             required: false,
             include: {
@@ -180,15 +153,7 @@ class MaterialInController {
           [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
           [Sequelize.literal('`User`.`username`'), 'receivedBy'],
           'req',
-          [
-            Sequelize.fn(
-              'format',
-              Sequelize.col('`MaterialIn`.`value`'),
-              2,
-              'pt_BR',
-            ),
-            'value',
-          ],
+          [Sequelize.currencyBr('`MaterialIn`.`value`'), 'value'],
 
           'requiredBy',
           'reqMaintenance',
@@ -255,6 +220,7 @@ class MaterialInController {
           },
           {
             model: MaterialIntype,
+            attributes: [],
             required: false,
           },
         ],
