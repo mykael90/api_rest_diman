@@ -24,7 +24,7 @@ export default class MaterialInventory extends Model {
         allowNull: true,
       },
 
-      lastValue: {
+      updatedValue: {
         type: Sequelize.DECIMAL(10, 2),
         allowNull: true,
       },

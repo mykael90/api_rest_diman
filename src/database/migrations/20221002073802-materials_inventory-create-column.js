@@ -3,7 +3,7 @@ module.exports = {
     return Promise.all([
       queryInterface.addColumn(
         'materials_inventory', // table name
-        'last_value', // new field name
+        'updated_value', // new field name
         {
           type: Sequelize.DECIMAL(10, 2),
           allowNull: true,

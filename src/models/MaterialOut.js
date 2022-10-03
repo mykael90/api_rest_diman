@@ -65,6 +65,10 @@ export default class MaterialOut extends Model {
         type: Sequelize.TEXT,
         allowNull: true,
       },
+      value: {
+        type: Sequelize.DECIMAL(10, 2),
+        allowNull: true,
+      },
 
     }, {
       sequelize, tableName: 'materials_out',

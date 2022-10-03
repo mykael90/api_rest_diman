@@ -22,8 +22,8 @@ class MaterialInventoryController {
             'freeInventory',
             'totalInventory',
             [Sequelize.currencyBr('initial_value'), 'initialValue'],
-            [Sequelize.currencyBr('last_value'), 'lastValue'],
-            [Sequelize.fn('IFNULL', Sequelize.currencyBr('last_value'), Sequelize.currencyBr('initial_value')), 'value'],
+            [Sequelize.currencyBr('updated_value'), 'updatedValue'],
+            [Sequelize.fn('IFNULL', Sequelize.currencyBr('updated_value'), Sequelize.currencyBr('initial_value')), 'value'],
           ],
           include: {
             model: Material,

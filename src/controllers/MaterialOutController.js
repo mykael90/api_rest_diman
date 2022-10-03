@@ -16,6 +16,7 @@ class MaterialOutController {
           userId: req.body.userId,
           authorizedBy: req.body.authorizedBy,
           workerId: req.body.workerId,
+          value: req.body.value,
           campusId: req.body.campusId,
           propertyId: req.body.propertyId,
           buildingId: req.body.buildingId,
@@ -54,6 +55,7 @@ class MaterialOutController {
           'buildingId',
           'place',
           'obs',
+          [Sequelize.currencyBr('`MaterialOut`.`value`'), 'value'],
           [
             Sequelize.fn(
               'date_format',
@@ -79,6 +81,7 @@ class MaterialOutController {
               [Sequelize.literal('`MaterialOutItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
+              [Sequelize.currencyBr('`MaterialOutItems`.`value`'), 'value'],
               'quantity',
             ],
             required: false,
