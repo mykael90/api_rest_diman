@@ -1,6 +1,6 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class contractValidyItems extends Model {
+export default class ContractValidyItems extends Model {
   // static associate(models) {
   // }
 
