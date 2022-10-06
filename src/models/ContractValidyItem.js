@@ -1,8 +1,9 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class ContractValidyItems extends Model {
-  // static associate(models) {
-  // }
+export default class ContractValidyItem extends Model {
+  static associate(models) {
+    // this.belongsTo(models.workerJobtype);
+  }
 
   static init(sequelize) {
     super.init(

@@ -1,8 +1,9 @@
 import Sequelize, { Model } from 'sequelize';
 
 export default class ContractValidytype extends Model {
-  // static associate(models) {
-  // }
+  static associate(models) {
+    this.hasMany(models.ContractValidy);
+  }
 
   static init(sequelize) {
     super.init(

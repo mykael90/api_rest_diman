@@ -40,7 +40,7 @@ import Contract from '../models/Contract';
 import Provider from '../models/Provider';
 import WorkerJobtype from '../models/WorkerJobtype';
 import ContractValidy from '../models/ContractValidy';
-import ContractValidyItems from '../models/ContractValidyItems';
+import ContractValidyItem from '../models/ContractValidyItem';
 import ContractValidytype from '../models/ContractValidytype';
 import Address from '../models/Address';
 import WorkerAddress from '../models/WorkerAddress';
@@ -79,7 +79,7 @@ const models = [
   Provider,
   Contract,
   ContractValidy,
-  ContractValidyItems,
+  ContractValidyItem,
   ContractValidytype,
   Address,
   WorkerAddress,

@@ -1,8 +1,13 @@
 import Sequelize, { Model } from 'sequelize';
 
 export default class Address extends Model {
-  // static associate(models) {
-  // }
+  static associate(models) {
+    this.belongsToMany(models.Worker, {
+      through: models.WorkerAddress,
+    });
+
+    this.hasMany(models.WorkerAddress);
+  }
 
   static init(sequelize) {
     super.init(

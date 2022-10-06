@@ -1,8 +1,10 @@
 import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerAddress extends Model {
-  // static associate(models) {
-  // }
+  static associate(models) {
+    this.belongsTo(models.Worker);
+    this.belongsTo(models.Address);
+  }
 
   static init(sequelize) {
     super.init(

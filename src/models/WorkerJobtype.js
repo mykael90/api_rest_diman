@@ -6,7 +6,7 @@ export default class WorkerJobtype extends Model {
     this.belongsToMany(models.Worker, {
       through: models.WorkerContract,
     });
-
+    // this.hasMany(models.ContractValidyItem);
     this.hasMany(models.WorkerContract);
   }
 
