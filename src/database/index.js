@@ -42,6 +42,8 @@ import WorkerJobtype from '../models/WorkerJobtype';
 import ContractValidy from '../models/ContractValidy';
 import ContractValidyItems from '../models/ContractValidyItems';
 import ContractValidytype from '../models/ContractValidytype';
+import Address from '../models/Address';
+import WorkerAddress from '../models/WorkerAddress';
 
 const models = [
   Aluno,
@@ -79,6 +81,8 @@ const models = [
   ContractValidy,
   ContractValidyItems,
   ContractValidytype,
+  Address,
+  WorkerAddress,
   Worker,
 ];
 
