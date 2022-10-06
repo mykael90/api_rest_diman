@@ -37,9 +37,10 @@ inRoutes.get('/types', materialIntype.index);
 
 inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
 inRoutes.get('/', MaterialInController.index);
+inRoutes.get('/rl', MaterialInController.indexRL);
 inRoutes.post('/', MaterialInController.store);
 
-// MATERIAL IN ROUTES
+// MATERIAL OUT ROUTES
 // outRoutes.get('/items', MaterialOutItemController.index);
 // outRoutes.get('/types', materialOuttype.index);
 
