@@ -7,6 +7,11 @@ import MaterialInItem from '../models/MaterialInItem';
 import User from '../models/User';
 import Unidade from '../models/Unidade';
 
+import MaterialRestrict from '../models/MaterialRestrict';
+import MaterialRestrictItem from '../models/MaterialRestrictItem';
+import MaterialRelease from '../models/MaterialRelease';
+import MaterialReleaseItem from '../models/MaterialReleaseItem';
+
 import removeAccent from '../asset/script/removeAccent';
 
 class MaterialInController {
@@ -221,6 +226,76 @@ class MaterialInController {
           {
             model: MaterialIntype,
             attributes: [],
+            required: false,
+          },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      return res.json(e);
+    }
+  }
+
+  // Index with Restrictions and Releases
+
+  async indexRL(req, res) {
+    try {
+      const result = await MaterialIn.findAll({
+        attributes: [
+          'id',
+          'materialIntypeId',
+          'userId',
+          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`User`.`username`'), 'receivedBy'],
+          'req',
+          [Sequelize.currencyBr('`MaterialIn`.`value`'), 'value'],
+
+          'requiredBy',
+          'reqMaintenance',
+          'reqUnit',
+          'costUnit',
+          [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
+          [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
+          [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'registerDate'],
+          [Sequelize.dataBr(
+            '`MaterialIn`.`register_date`',
+          ),
+          'createdAt',
+          ],
+        ],
+        include: [
+          {
+            model: MaterialRestrict,
+            include: {
+              model: MaterialRestrictItem,
+              attributes: [
+                'material_id',
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`name`'), 'name'],
+                [Sequelize.literal('specification'), 'specification'],
+                [Sequelize.literal('unit'), 'unit'],
+                'quantity',
+                [Sequelize.currencyBr('`MaterialRestricts->MaterialRestrictItems`.`value`'), 'value'],
+              ],
+              required: false,
+              include: {
+                model: Material,
+                attributes: [],
+                required: false,
+              },
+            },
+          },
+          {
+            model: User,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: Unidade,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: MaterialIntype,
             required: false,
           },
         ],

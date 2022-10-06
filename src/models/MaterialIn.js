@@ -10,6 +10,7 @@ export default class MaterialIn extends Model {
 
     this.hasMany(models.MaterialInItem);
     this.hasMany(models.MaterialRestrict);
+    this.hasMany(models.MaterialRelease);
   }
 
   static init(sequelize) {
