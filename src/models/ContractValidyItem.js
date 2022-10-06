@@ -2,7 +2,7 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class ContractValidyItem extends Model {
   static associate(models) {
-    // this.belongsTo(models.workerJobtype);
+    this.belongsTo(models.WorkerJobtype);
   }
 
   static init(sequelize) {

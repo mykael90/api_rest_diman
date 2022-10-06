@@ -5,9 +5,9 @@ export default class Contract extends Model {
     this.belongsToMany(models.Worker, {
       through: models.WorkerContract,
     });
-    // this.belongsToMany(models.ContractValidytype, {
-    //   through: models.ContractValidy,
-    // });
+    this.belongsToMany(models.ContractValidytype, {
+      through: models.ContractValidy,
+    });
     this.hasMany(models.WorkerContract);
     this.belongsTo(models.Provider);
   }
