@@ -1,12 +1,4 @@
-const data = require('../JSON/materials3028JSON.json');
-
-const date = new Date();
-const dateMariaDB = `${date.getUTCFullYear()}-${
-  (`00${date.getUTCMonth() + 1}`).slice(-2)}-${
-  (`00${date.getUTCDate()}`).slice(-2)} ${
-  (`00${date.getUTCHours()}`).slice(-2)}:${
-  (`00${date.getUTCMinutes()}`).slice(-2)}:${
-  (`00${date.getUTCSeconds()}`).slice(-2)}`;
+const data = require('../JSON/roleTypesJSON.json');
 
 function removeAccent(text) {
   text = text.toUpperCase();
@@ -19,20 +11,12 @@ function removeAccent(text) {
   return text;
 }
 
-const arr = data.sipac;
-
-arr.forEach((obj) => {
-  delete obj.date_record;
-  obj.name = removeAccent(obj.name);
-  obj.unit = removeAccent(obj.unit);
-  obj.specification = removeAccent(obj.specification);
-  obj.created_at = dateMariaDB;
-  obj.updated_at = dateMariaDB;
+data.forEach((obj) => {
 });
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('materials', arr, {});
+    await queryInterface.bulkInsert('users_roletypes', data, {});
   },
 
   async down(queryInterface, Sequelize) {

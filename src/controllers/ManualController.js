@@ -2,7 +2,7 @@ import Sequelize, { QueryTypes } from 'sequelize';
 
 import MaterialInventory from '../models/MaterialInventory';
 
-const data = require('../database/JSON/prices3024.json');
+const data = [];
 
 class ManualController {
   // Update

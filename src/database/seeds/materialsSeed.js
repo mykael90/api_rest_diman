@@ -1,4 +1,4 @@
-const data = require('../JSON/materials3024JSON.json');
+const data = require('../JSON/materials.json');
 
 const date = new Date();
 const dateMariaDB = `${date.getUTCFullYear()}-${
@@ -19,10 +19,7 @@ function removeAccent(text) {
   return text;
 }
 
-const arr = data.sipac;
-
-arr.forEach((obj) => {
-  delete obj.date_record;
+data.forEach((obj) => {
   obj.name = removeAccent(obj.name);
   obj.unit = removeAccent(obj.unit);
   obj.specification = removeAccent(obj.specification);
@@ -32,7 +29,7 @@ arr.forEach((obj) => {
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('materials', arr, {});
+    await queryInterface.bulkInsert('materials', data, {});
   },
 
   async down(queryInterface, Sequelize) {
