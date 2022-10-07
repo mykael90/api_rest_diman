@@ -1,6 +1,11 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     return queryInterface.createTable('contracts_validy_items', {
+      id: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        primaryKey: true,
+      },
       contract_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
@@ -23,15 +28,9 @@ module.exports = {
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE',
       },
-      worker_jobtype_id: {
-        type: Sequelize.INTEGER,
+      name: {
+        type: Sequelize.STRING,
         allowNull: false,
-        references: {
-          model: 'workers_jobtypes',
-          key: 'id',
-        },
-        onDelete: 'CASCADE',
-        onUpdate: 'CASCADE',
       },
       quantity: {
         type: Sequelize.DECIMAL(10, 2),
