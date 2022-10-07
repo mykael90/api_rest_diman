@@ -266,13 +266,19 @@ class MaterialInController {
         include: [
           {
             model: MaterialRestrict,
-            include: {
+            attributes: [
+              'id',
+              'userId',
+              [Sequelize.literal('`MaterialRestricts->User`.`username`'), 'userName'],
+              [Sequelize.dataBr('`MaterialRestricts`.`created_at`'), 'createdAt'],
+            ],
+            include: [{
               model: MaterialRestrictItem,
               attributes: [
                 'material_id',
                 [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`name`'), 'name'],
-                [Sequelize.literal('specification'), 'specification'],
-                [Sequelize.literal('unit'), 'unit'],
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`specification`'), 'specification'],
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`unit`'), 'unit'],
                 'quantity',
                 [Sequelize.currencyBr('`MaterialRestricts->MaterialRestrictItems`.`value`'), 'value'],
               ],
@@ -282,7 +288,41 @@ class MaterialInController {
                 attributes: [],
                 required: false,
               },
-            },
+            }, {
+              model: User,
+              attributes: [],
+              required: false,
+            }],
+          },
+          {
+            model: MaterialRelease,
+            attributes: [
+              'id',
+              'userId',
+              [Sequelize.literal('`MaterialReleases->User`.`username`'), 'userName'],
+              [Sequelize.dataBr('`MaterialReleases`.`created_at`'), 'createdAt'],
+            ],
+            include: [{
+              model: MaterialReleaseItem,
+              attributes: [
+                'material_id',
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`name`'), 'name'],
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`specification`'), 'specification'],
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`unit`'), 'unit'],
+                'quantity',
+                [Sequelize.currencyBr('`MaterialReleases->MaterialReleaseItems`.`value`'), 'value'],
+              ],
+              required: false,
+              include: {
+                model: Material,
+                attributes: [],
+                required: false,
+              },
+            }, {
+              model: User,
+              attributes: [],
+              required: false,
+            }],
           },
           {
             model: User,

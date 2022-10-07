@@ -78,9 +78,7 @@ export default class MaterialIn extends Model {
 
     // RESTRINGIR TODOS OS MATERIAIS DA REQUISIÇÃO DE ENTRADA DE 'SIPAC' E 'RETORNO' LOGO APÓS RECEBIMENTO
     this.addHook('afterCreate', async (item) => {
-      console.log('mykael', JSON.stringify(item));
-      if (item.materialIntypeId === '1' || item.materialIntypeId === '2') {
-        console.log(JSON.stringify(item));
+      if (Number(item.materialIntypeId) <= 3) {
         await sequelize.models.MaterialRestrict.create(
           {
             materialInId: item.id,
