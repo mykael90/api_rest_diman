@@ -26,7 +26,7 @@ class MaterialOutController {
 
   // Index
 
-  async index1(req, res) {
+  async index(req, res) {
     try {
       const result = await MaterialOut.findAll({
         attributes: [
@@ -89,22 +89,6 @@ class MaterialOutController {
           },
         ],
       });
-      return res.json(result);
-    } catch (e) {
-      console.log(e);
-      return res.status(400).json({
-        errors: [e.message],
-      });
-    }
-  }
-
-  async index(req, res) {
-    try {
-      const result = await MaterialOut.findAll(
-        {
-          include: [MaterialOutItem],
-        },
-      );
       return res.json(result);
     } catch (e) {
       console.log(e);
