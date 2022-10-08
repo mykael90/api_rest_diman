@@ -109,7 +109,7 @@ class MaterialInController {
           {
             model: MaterialInItem,
             attributes: [
-              'material_id',
+              ['material_id', 'materialId'],
               [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
@@ -191,7 +191,7 @@ class MaterialInController {
           {
             model: MaterialInItem,
             attributes: [
-              'material_id',
+              ['material_id', 'materialId'],
               [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
@@ -275,7 +275,7 @@ class MaterialInController {
             include: [{
               model: MaterialRestrictItem,
               attributes: [
-                'material_id',
+                ['material_id', 'materialId'],
                 [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`name`'), 'name'],
                 [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`specification`'), 'specification'],
                 [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`unit`'), 'unit'],
@@ -305,7 +305,7 @@ class MaterialInController {
             include: [{
               model: MaterialReleaseItem,
               attributes: [
-                'material_id',
+                ['material_id', 'materialId'],
                 [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`name`'), 'name'],
                 [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`specification`'), 'specification'],
                 [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`unit`'), 'unit'],
