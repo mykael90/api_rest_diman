@@ -265,6 +265,31 @@ class MaterialInController {
         ],
         include: [
           {
+            model: MaterialInItem,
+            attributes: [
+              ['material_id', 'materialId'],
+              [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
+              [Sequelize.literal('`MaterialInItems->Material`.`specification`'), 'specification'],
+              [Sequelize.literal('`MaterialInItems->Material`.`unit`'), 'unit'],
+              'quantity',
+              [
+                Sequelize.fn(
+                  'format',
+                  Sequelize.col('`MaterialInItems`.`value`'),
+                  2,
+                  'pt_BR',
+                ),
+                'value',
+              ],
+            ],
+            required: false,
+            include: {
+              model: Material,
+              attributes: [],
+              required: false,
+            },
+          },
+          {
             model: MaterialRestrict,
             attributes: [
               'id',

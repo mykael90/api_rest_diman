@@ -10,20 +10,7 @@ class MaterialOutController {
   async store(req, res) {
     try {
       const result = await MaterialOut.create(
-        {
-          materialOuttypeId: req.body.materialOuttypeId,
-          reqMaintenance: req.body.reqMaintenance,
-          userId: req.body.userId,
-          authorizedBy: req.body.authorizedBy,
-          workerId: req.body.workerId,
-          value: req.body.value,
-          campusId: req.body.campusId,
-          propertyId: req.body.propertyId,
-          buildingId: req.body.buildingId,
-          place: req.body.place,
-          obs: req.body.obs,
-          MaterialOutItems: req.body.items,
-        },
+        req.body,
         {
           include: [MaterialOutItem],
         },
@@ -39,7 +26,7 @@ class MaterialOutController {
 
   // Index
 
-  async index(req, res) {
+  async index1(req, res) {
     try {
       const result = await MaterialOut.findAll({
         attributes: [
@@ -102,6 +89,22 @@ class MaterialOutController {
           },
         ],
       });
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
+  async index(req, res) {
+    try {
+      const result = await MaterialOut.findAll(
+        {
+          include: [MaterialOutItem],
+        },
+      );
       return res.json(result);
     } catch (e) {
       console.log(e);
