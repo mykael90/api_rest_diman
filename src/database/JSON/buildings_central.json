@@ -1,0 +1,1322 @@
+[
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 6,
+    "name": "ADM. CENTRAL - DIRETORIA DE ATENÇÃO À SAÚDE DO SERVIDOR"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 5,
+    "name": "ADM. CENTRAL - DIRETORIA DE DESENVOLVIMENTO DE PESSOAS"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 10,
+    "name": "ADM. CENTRAL - DIVISÃO DE TRANSPORTES E OFICINAS (DTO)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 12,
+    "name": "ADM. CENTRAL - DIVISÃO DE TRANSPORTES E OFICINAS (DTO - GARAGENS)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 11,
+    "name": "ADM. CENTRAL - DIVISÃO DE TRANSPORTES E OFICINAS (DTO - GUARITA)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 13,
+    "name": "ADM. CENTRAL - DIVISÃO DE TRANSPORTES E OFICINAS (DTO - OFICINAS)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 1,
+    "name": "ADM. CENTRAL - ESCOLA DE MÚSICA (EMUFRN)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 14,
+    "name": "ADM. CENTRAL - FUNDAÇÃO NORTERIOGRANDENSE DE PESQUISA E CULTURA (FUNPEC)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 7,
+    "name": "ADM. CENTRAL - NÚCELO PERMANENTE DE CONCURSOS - COMPERVE"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 4,
+    "name": "ADM. CENTRAL - PRAÇA DE EVENTOS (PRAÇA CÍVICA DO CAMPUS)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 17,
+    "name": "ADM. CENTRAL - SEDIS - SECRETARIA DE EDUCAÇÃO A DISTÂNCIA"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 15,
+    "name": "ADM. CENTRAL - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE101)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 3,
+    "name": "ADM. CENTRAL - TEMPLO ECUMÊNICO (CAPELA DO CAMPUS)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 8,
+    "name": "CCHLA - DEPARTAMENTO DE ARTES (DEART)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 9,
+    "name": "CCHLA - ESTAÇÃO CLIMATOLÓGICA"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 16,
+    "name": "CCSA - UNIDADE EDUCACIONAL INFANTIL (UEI)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 2,
+    "name": "CE - NÚCLEO DE EDUCAÇÃO INFANTIL (NEI)"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 18,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 19,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 20,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 1,
+    "rip_id": "1761.00463.500-2",
+    "id": 21,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 66,
+    "name": "ADM. CENTRAL - ALMOXARIFADO DE GASES INFLAMÁVEIS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 62,
+    "name": "ADM. CENTRAL - DIRETORIA DE GESTÃO DA INFORMAÇÃO - ARQUIVO GERAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 27,
+    "name": "ADM. CENTRAL - DMP - ALMOXARIFADO CENTRAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 37,
+    "name": "ADM. CENTRAL - DMP - DIRETORIA DE MATERIAL E PATRIMÔNIO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 38,
+    "name": "ADM. CENTRAL - DMP - SETOR DE LICITAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 26,
+    "name": "ADM. CENTRAL - DMP - SETOR DE PATRIMÔNIO MÓVEL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 64,
+    "name": "ADM. CENTRAL - DSP - DIRETORIA DE SEGURANÇA PATRIMONIAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 10,
+    "name": "ADM. CENTRAL - EDITORA UNIVERSITÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 60,
+    "name": "ADM. CENTRAL - NUPLAM - NÚCLEO DE PESQUISA EM ALIMENTOS E MEDICAMENTOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 68,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE201)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 69,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE201)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 61,
+    "name": "ADM. CENTRAL - SIN - SUPERINTENDÊNCIA DE INFRAESTRUTURA - CENTRAL MAT."
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 177,
+    "name": "CB - ADMINISTRAÇÃO DO CENTRO DE BIOCIÊNCIAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 2,
+    "name": "CB - BIOTÉRIO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 70,
+    "name": "CB - CASA DE VEGETAÇÃO DESATIVADA I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 71,
+    "name": "CB - CASA DE VEGETAÇÃO DESATIVADA II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 67,
+    "name": "CB - DEPÓSITO DE RESÍDUOS RADIOATIVOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 7,
+    "name": "CB - INSTITUTO DE MEDICINA TROPICAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 3,
+    "name": "CB - LABORATÓRIO DE BIOLOGIA DE MICORRIZAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 5,
+    "name": "CB - LABORATÓRIO DE ENTOMOLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 8,
+    "name": "CB - LABORATÓRIO DE INVESTIGAÇÃO DE MATRIZES VEGETAIS ENERGÉTICAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 6,
+    "name": "CB - MUSEU DE CIÊNCIAS MORFOLÓGICAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 4,
+    "name": "CB - NÚCLEO DE PRIMATOLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 1,
+    "name": "CB - SETOR DE AULAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 11,
+    "name": "CB - SUBESTAÇÃO ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 183,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 184,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 185,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 186,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 96,
+    "name": "ADM. CENTRAL - CANTINA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 101,
+    "name": "ADM. CENTRAL - DEPARTAMENTO DE INFORMÁTICA APLICADA (DIMAP)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 179,
+    "name": "ADM. CENTRAL - INSTITUTO INTERNACIONAL DE FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 95,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE301)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 103,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE302)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 97,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE301)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 99,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE302)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 100,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE303)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 107,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE304)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 102,
+    "name": "ADM. CENTRAL - SUPERINTENDÊNCIA DE INFORMÁTICA (SINFO)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 76,
+    "name": "CCET - ANFITEATROS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 84,
+    "name": "CCET - DEPARTAMENTO DE FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 82,
+    "name": "CCET - DFTE - LABORATÓRIO I DE FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 85,
+    "name": "CCET - DFTE - LABORATÓRIO II DE FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 83,
+    "name": "CCET - DFTE - OFICINAS DO DEPARTAMENTO DE FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 86,
+    "name": "CCET - DGEF - ESTAÇÃO DE RASTREAMENTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 93,
+    "name": "CCET - DGEF - LABORATÓRIO DE GEOFÍSICA APLICADA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 87,
+    "name": "CCET - DG - LABORATÓRIO DE GEOFÍSICA E GEOLOGIA DO PETRÓLEO I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 168,
+    "name": "CCET - DG - LABORATÓRIO DE GEOFÍSICA E GEOLOGIA DO PETRÓLEO II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 88,
+    "name": "CCET - DG - LABORATÓRIO DE GEOQUÍMICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 170,
+    "name": "CCET - DG - LABORATÓRIOS DE ANÁLISES ESTRATIGRÁFICAS E INSTRUMENTAÇÃO MARINHA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 89,
+    "name": "CCET - DG - LABORATÓRIOS DE GEOLOGIA I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 169,
+    "name": "CCET - DG - LABORATÓRIOS DE GEOPROCESSAMENTO / GEOLOGIA E GEOFÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 167,
+    "name": "CCET - DIMAP - DEPARTAMENTO DE INFORMÁTICA E MATEMÁTICA APLICADA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 77,
+    "name": "CCET - IQ - LABORATÓRIO CENTRAL DE ESTUDOS DO PETRÓLEO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 172,
+    "name": "CCET - IQ - LABORATÓRIO DE CIMENTOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 73,
+    "name": "CCET - IQ - LABORATÓRIO DE RESSONÂNCIA MAGNÉTICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 75,
+    "name": "CCET - IQ - LABORATÓRIO I DE QUÍMICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 78,
+    "name": "CCET - IQ - LABORATÓRIO II DE QUÍMICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 171,
+    "name": "CCET - IQ - LABORATÓRIO III DE QUÍMICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 176,
+    "name": "CCET - LAPET - LABORATÓRIO DE PESQUISA EM PETRÓLEO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 74,
+    "name": "CCET - NÚCLEO DE APOIO A PESQUISA EM PETRÓLEO E GÁS NATURAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 57,
+    "name": "CCET - NÚCLEO DE PROCESSAMENTO PRIMÁRIO E REUSO DE ÁGUAS RENOVÁVEIS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 79,
+    "name": "CCET - PAVILHÃO ADMINISTRATIVO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 72,
+    "name": "CCET - SETOR DE AULAS TEÓRICAS III"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 20,
+    "name": "CT - CASA DE MÁQUINAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 16,
+    "name": "CT - DARQ - LABORATÓRIOS DE ARQUITETURA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 81,
+    "name": "CT - DARQ - LABSEC - ESTOCAGEM DE MATERIAL DO LABORATÓRIO DE SISTEMAS ESTRUTURAS E CONSTRUTIVOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 199,
+    "name": "CTEC - COMPLEXO TECNOLÓGICO DE ENGENHARIA -"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 91,
+    "name": "CT - LABORATÓRIO DE ANÁLISES DE PETRÓLEO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 163,
+    "name": "CT - LABORATÓRIOS DAS NOVAS ENGENHARIAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 92,
+    "name": "CT - LAMP - LABORATÓRIO DE AVALIAÇÃO DE MEDIÇÃO EM PETRÓLEO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 18,
+    "name": "CT - LANCHONETE DO SETOR DE AULAS IV"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 17,
+    "name": "CT - LARHISA - LABORATÓRIO DE RECURSOS HÍDRICO E SANEAMENTO AMBIENTAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 109,
+    "name": "CT - LAUT - LABORATÓRIO DE AUTOMAÇÃO EM PETRÓLEO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 105,
+    "name": "CT - LECA - LABORATÓRIO DE ENGENHARIA DA COMPUTAÇÃO E AUTOMAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 162,
+    "name": "CT - NPITI - NÚCLEO DE PESQUISA E INOVAÇÃO EM TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 106,
+    "name": "CT - NTI - LABORATÓRIO DE ENGENHARIA DE ALIMENTOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 108,
+    "name": "CT - NTI - LABTEX - LABORATÓRIO DE ENGENHARIA TEXTIL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 104,
+    "name": "CT - NTI - LAI - LAB. ACESSIBILIDADE INTEGRADA / CT - PEC - PROG. PÓS-GRADUAÇÃO EM ENGENHARIA CIVIL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 94,
+    "name": "CT - NTI - LAMTRE/CATRE - LAB MONIT TRAT REUSO DE RESÍDUOS IND PETRÓLEO/LAB CENTRAL TRAT RESÍDUOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 98,
+    "name": "CT - NTI-LEAFT-LAB ENG ALTERNATIVAS E FENÔMENOS TRANSP/LAB MAT NANOESTRUTURADOS E REATORES CATALÍTICOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 161,
+    "name": "CE - NTI-LIME/LABMETROL-LAB INSTIT MICROSCOPIA ELETRÔNICA E CARACTERIZAÇÃO DE MATERIAIS/LAB METROLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 14,
+    "name": "CT - NTI - NÚCLEO DE TECNOLOGIA INDUSTRIAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 80,
+    "name": "CT - NUPEG II - NÚCLEO DE PESQUISA EM PETRÓLEO E GÁS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 90,
+    "name": "CT - NUPEG I - NÚCLEO DE PESQUISA EM PETRÓLEO E GÁS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 19,
+    "name": "CT - OCA - ORGANIZAÇÃO DOS CENTROS ACADÊMICOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 13,
+    "name": "CT - PAVILHÃO ADMINISTRATIVO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 15,
+    "name": "CT - SETOR DE AULAS IV"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 12,
+    "name": "ECT - ESCOLA DE CIÊNCIA E TECNOLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 187,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 188,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 189,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 190,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 119,
+    "name": "ADM. CENTRAL - CANTINA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 124,
+    "name": "ADM. CENTRAL - CANTINA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 118,
+    "name": "ADM. CENTRAL - DIRETÓRIO CENTRAL DOS ESTUDANTES (DCE)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 127,
+    "name": "ADM. CENTRAL - SEDE DA ADURN"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 111,
+    "name": "ADM. CENTRAL - SIN/DIMAN - DIRETORIA DE MANUTENÇÃO - MANUT. INSTALAÇÕES TELEFÔNICAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 112,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE401)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 121,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE402)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 125,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE403)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 115,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE401A)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 116,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE401B)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 120,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE402)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 122,
+    "name": "ADM. CENTRAL - SIN - SUBESTAÇÃO ELÉTRICA ABRIGADA (SE403)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 110,
+    "name": "ADM. CENTRAL - SUPERINTENDÊNCIA DE COMUNICAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 126,
+    "name": "CCHLA - CENTROS ACADÊMICOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 128,
+    "name": "CCHLA - INSTITUTO ÁGORA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 117,
+    "name": "CCHLA - LABORATÓRIO DE ARQUEOLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 24,
+    "name": "CCHLA - LABORATÓRIO DE COMUNICAÇÃO (LABCOM)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 23,
+    "name": "CCHLA - LABORATÓRIO DE PSICOLOGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 123,
+    "name": "CCHLA - NÚCLEO DE ESTUDOS EM POLÍTICAS PÚBLICAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 21,
+    "name": "CCHLA - PAVILHÃO ADMINISTRATIVO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 25,
+    "name": "CCHLA - SEPA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 22,
+    "name": "CCHLA - SETOR DE AULAS II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 114,
+    "name": "CCSA - CENTROS ACADÊMICOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 29,
+    "name": "CCSA - NÚCLEO DE PESQUISA EM CIÊNCIAS SOCIAIS (NEPSA I)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 30,
+    "name": "CCSA - NÚCLEO DE PESQUISA EM CIÊNCIAS SOCIAIS (NEPSA II)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 28,
+    "name": "CCSA - PAVILHÃO ADMINISTRATIVO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 31,
+    "name": "CCSA - SETOR DE AULAS I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 32,
+    "name": "CCSA - SETOR DE AULAS V"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 113,
+    "name": "CCSA - SETOR DE PRÁTICA FORENSE"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 166,
+    "name": "CE - CENTRO DE EDUCAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 191,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 192,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 193,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 194,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 142,
+    "name": "ADM. CENTRAL - DAD - CAMPO DE FUTEBOL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 145,
+    "name": "ADM. CENTRAL - DAD - CAMPO DE MINI-FUTEBOL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 140,
+    "name": "ADM. CENTRAL - DAD - CAMPO DE VOLEY DE PRAIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 46,
+    "name": "ADM. CENTRAL - DAD - DIVISÃO DE ATIVIDADES DESPORTIVAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 47,
+    "name": "ADM. CENTRAL - DAD - GINÁSIO POLIESPORTIVO I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 59,
+    "name": "ADM. CENTRAL - DAD - GINÁSIO POLIESPORTIVO II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 139,
+    "name": "ADM. CENTRAL - DAD - NÚCLEO DE YOGA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 48,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 52,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - APOIO PISCINA SEMIOLÍMPICAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 51,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - CASA DE BOMBAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 56,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - CASA DE MÁQUINAS PISCINA 02"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 50,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - PISCINA OLÍMPICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 53,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - PISCINA SEMIOLÍMPICA 01"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 54,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - PISCINA SEMIOLÍMPICA 02"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 55,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - TANQUE DE REMO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 49,
+    "name": "ADM. CENTRAL - DAD - PARQUE AQUÁTICO - VESTUÁRIO/ARQUIBANCADA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 58,
+    "name": "ADM. CENTRAL - DAD - PARQUE OLÍMPICO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 141,
+    "name": "ADM. CENTRAL - DAD - PISTA DE ATLETISMO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 143,
+    "name": "ADM. CENTRAL - DAD - QUADRA POLIESPORTIVA DESCOBERTA I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 144,
+    "name": "ADM. CENTRAL - DAD - QUADRA POLIESPORTIVA DESCOBERTA II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 63,
+    "name": "ADM. CENTRAL - IMD - INSTITUTO METRÓPOLE DIGITAL"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 39,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - COMPLEXO CAMPUS I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 40,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - COMPLEXO CAMPUS II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 41,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - COMPLEXO CAMPUS III"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 178,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - COMPLEXO CAMPUS - INFRAESTRUTURA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 42,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - COMPLEXO CAMPUS IV"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 146,
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA DE PÓS-GRADUAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 165,
+    "name": "ADM. CENTRAL - RESTAURANTE UNIVERSITÁRIO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 160,
+    "name": "ADM. CENTRAL - SIN - ABRIGO DO QUADRO GERAL DE DISTRIBUIÇÃO DE ENERGIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 158,
+    "name": "ADM. CENTRAL - SIN - CASA DE BOMBAS DO ESGOTO TRATADO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 149,
+    "name": "ADM. CENTRAL - SIN - CASA DE BOMBAS MOTO-REDUTOR I"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 150,
+    "name": "ADM. CENTRAL - SIN - CASA DE BOMBAS MOTO-REDUTOR II"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 153,
+    "name": "ADM. CENTRAL - SIN - DECANTADOR SECUNDÁRIO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 130,
+    "name": "ADM. CENTRAL - SIN/DIMAN - DIRETORIA DE MANUTENÇÃO - ADMINISTRAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 131,
+    "name": "ADM. CENTRAL - SIN/DIMAN - DIRETORIA DE MANUTENÇÃO - ALOJAMENTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 132,
+    "name": "ADM. CENTRAL - SIN/DIMAN - DIRETORIA DE MANUTENÇÃO - CENTRAL DE MEDIÇÃOELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 137,
+    "name": "ADM. CENTRAL - SIN/DSU - DEPÓSITO DE EQUIPAMENTOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 138,
+    "name": "ADM. CENTRAL - SIN/DSU - DIVISÃO DE SERVIÇOS URBANOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 152,
+    "name": "ADM. CENTRAL - SIN - ESTUFA HIDROPONIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 147,
+    "name": "ADM. CENTRAL - SIN/ETE - LABORATÓRIO DE ANÁLISE DE QDE. E ADM. ESTAÇÃO DE TRAT. DE ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 136,
+    "name": "ADM. CENTRAL - SIN - GALPÃO DE COLETA SELETIVA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 135,
+    "name": "ADM. CENTRAL - SIN - RESERVATÓRIO ELEVADO (RE501)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 156,
+    "name": "ADM. CENTRAL - SIN - SISTEMA DE CLORAÇÃO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 129,
+    "name": "ADM. CENTRAL - SIN - SUPERINTENDÊNCIA DE INFRAESTRUTURA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 134,
+    "name": "ADM. CENTRAL - SIN - SUPERINTENDÊNCIA DE INFRAESTRUTURA - ÁREA DE PRODUÇÃO DE MUDAS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 157,
+    "name": "ADM. CENTRAL - SIN - TANQUES DE ARMAZENAMENTO DE ESGOTO TRATADO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 155,
+    "name": "ADM. CENTRAL - SIN - TANQUES DE ARMAZENAMENTO DE IODO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 159,
+    "name": "ADM. CENTRAL - SIN - TANQUES DE ARMAZ. ESGOTO BRUTO E ALOJAMENTO DOS OPERADORES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 154,
+    "name": "ADM. CENTRAL - SIN - TANQUES DO PROSAB"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 181,
+    "name": "ADM. CENTRAL - SIN - UNIDADE DE TRATAMENTO DE RESÍDUOS SÓLIDOS"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 148,
+    "name": "ADM. CENTRAL - SIN - VALO DE OXIDAÇÃO (VO)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 164,
+    "name": "CCS - DEPARTAMENTO DE EDUCAÇÃO FÍSICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 36,
+    "name": "CCS - DEPARTAMENTO DE FISIOTERAPIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 9,
+    "name": "CCS - DEPARTAMENTO DE NUTRIÇÃO / DEPARTAMENTO DE SAÚDE COLETIVA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 151,
+    "name": "CT - ETE - PROSAB - LABORATÓRIO DO PROGRAMA DE PESQUISA EM SANEAMENTO BÁSICO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 34,
+    "name": "EEN - ESCOLA DE ENFERMAGEM DE NATAL (ANEXO I)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 35,
+    "name": "EEN - ESCOLA DE ENFERMAGEM DE NATAL (ANEXO II)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 33,
+    "name": "EEN - ESCOLA DE ENFERMAGEM DE NATAL / CCS - DEPARTAMENTO DE ENFERMAGEM"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 180,
+    "name": "ICE - INSTITUTO DO CÉREBRO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 195,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 196,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 197,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 198,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 45,
+    "name": "ADM. CENTRAL - BIBLIOTECA CENTRAL ZILA MAMEDE (BCZM)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 44,
+    "name": "ADM. CENTRAL - CENTRO DE CONVIVÊNCIAS DJALMA MARINHO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 43,
+    "name": "ADM. CENTRAL - REITORIA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 200,
+    "name": "ADM. CENTRAL - REITORIA - CORREGEDORIA (PRÓX. SALA COLEGIADOS SUPERIORES)"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 65,
+    "name": "CB - MUSEU DE ANATOMIA COMPARATIVA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 173,
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 174,
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 175,
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES"
+  },
+  {
+    "property_sipac_id": 29,
+    "rip_id": "1761.00464.500-8",
+    "id": 182,
+    "name": "INFRAESTRUTURA DE REDE VIÁRIA"
+  }
+]

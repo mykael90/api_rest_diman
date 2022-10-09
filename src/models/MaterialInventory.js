@@ -19,12 +19,27 @@ export default class MaterialInventory extends Model {
         defaultValue: 0,
       },
 
+      initialValue: {
+        type: Sequelize.DECIMAL(10, 2),
+        allowNull: true,
+      },
+
+      updatedValue: {
+        type: Sequelize.DECIMAL(10, 2),
+        allowNull: true,
+      },
+
       releaseInventory: {
         type: Sequelize.DECIMAL(10, 2),
         allowNull: true,
         defaultValue: 0,
       },
       restrictInventory: {
+        type: Sequelize.DECIMAL(10, 2),
+        allowNull: true,
+        defaultValue: 0,
+      },
+      reserveInventory: {
         type: Sequelize.DECIMAL(10, 2),
         allowNull: true,
         defaultValue: 0,
@@ -44,6 +59,7 @@ export default class MaterialInventory extends Model {
         get() {
           return (Number(this.initialQuantity)
           + Number(this.releaseInventory)
+          + Number(this.reserveInventory)
           + Number(this.restrictInventory)).toFixed(2);
         },
         set(value) {

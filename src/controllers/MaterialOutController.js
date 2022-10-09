@@ -10,19 +10,7 @@ class MaterialOutController {
   async store(req, res) {
     try {
       const result = await MaterialOut.create(
-        {
-          materialOuttypeId: req.body.materialOuttypeId,
-          reqMaintenance: req.body.reqMaintenance,
-          userId: req.body.userId,
-          authorizedBy: req.body.authorizedBy,
-          workerId: req.body.workerId,
-          campusId: req.body.campusId,
-          propertyId: req.body.propertyId,
-          buildingId: req.body.buildingId,
-          place: req.body.place,
-          obs: req.body.obs,
-          MaterialOutItems: req.body.items,
-        },
+        req.body,
         {
           include: [MaterialOutItem],
         },
@@ -44,8 +32,9 @@ class MaterialOutController {
         attributes: [
           'id',
           'materialOuttypeId',
-          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
           'reqMaintenance',
+          'reqMaterial',
           'userId',
           'authorizedBy',
           'workerId',
@@ -54,6 +43,7 @@ class MaterialOutController {
           'buildingId',
           'place',
           'obs',
+          [Sequelize.currencyBr('`MaterialOut`.`value`'), 'value'],
           [
             Sequelize.fn(
               'date_format',
@@ -79,6 +69,7 @@ class MaterialOutController {
               [Sequelize.literal('`MaterialOutItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
+              [Sequelize.currencyBr('`MaterialOutItems`.`value`'), 'value'],
               'quantity',
             ],
             required: false,

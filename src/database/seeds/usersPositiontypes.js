@@ -1,4 +1,4 @@
-const data = require('../JSON/positionsTypesJSON.json');
+const data = require('../JSON/usersPositionstypes.json');
 
 function removeAccent(text) {
   text = text.toUpperCase();
@@ -11,15 +11,13 @@ function removeAccent(text) {
   return text;
 }
 
-const arr = data.sipac;
-
-arr.forEach((obj) => {
+data.forEach((obj) => {
   obj.position = removeAccent(obj.position);
 });
 
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('users_positiontypes', arr, {});
+    await queryInterface.bulkInsert('users_positiontypes', data, {});
   },
 
   async down(queryInterface, Sequelize) {

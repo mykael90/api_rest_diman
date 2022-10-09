@@ -32,18 +32,26 @@ import MaterialReserve from '../models/MaterialReserve';
 import MaterialReserveItem from '../models/MaterialReserveItem';
 
 import Unidade from '../models/Unidade';
+
 import Worker from '../models/Worker';
 import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
+
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
+
 import WorkerJobtype from '../models/WorkerJobtype';
 import ContractValidy from '../models/ContractValidy';
 import ContractValidyItem from '../models/ContractValidyItem';
 import ContractValidytype from '../models/ContractValidytype';
 import Address from '../models/Address';
 import WorkerAddress from '../models/WorkerAddress';
+
+import BuildingSipac from '../models/BuildingSipac';
+import PropertySipac from '../models/PropertySipac';
+
 
 const models = [
   Aluno,
@@ -84,6 +92,8 @@ const models = [
   Address,
   WorkerAddress,
   Worker,
+  PropertySipac,
+  BuildingSipac,
 ];
 
 const connection = new Sequelize(databaseConfig[env]);
@@ -91,7 +101,18 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models)
+  (model) => model.associate && model.associate(connection.models),
+);
+
+// CUSTOMIZED FUNCTIONS SEQUELIZE
+// (simplifica as consultas, para não ter que repetir todas essas funções nos controllers)
+
+Sequelize.currencyBr = (column) => Sequelize.fn('CONCAT', Sequelize.literal('\'R$ \''), Sequelize.fn('FORMAT', Sequelize.col(column), '2', 'pt_BR'));
+
+Sequelize.dataBr = (column) => Sequelize.fn(
+  'date_format',
+  Sequelize.col(column),
+  '%d/%m/%Y',
 );
 
 export default connection;

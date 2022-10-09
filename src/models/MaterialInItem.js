@@ -26,7 +26,7 @@ export default class MaterialInItem extends Model {
 
     this.addHook('afterCreate', async (item) => {
       const { releaseInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
-      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) + Number(item.quantity) }, {
+      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) + Number(item.quantity), updatedValue: Number(item.value) }, {
         where: {
           materialId: item.MaterialId,
         },

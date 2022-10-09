@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "job": "ALMOXARIFE"
+  },
+  {
+    "id": 2,
+    "job": "ARMADOR DE FERRAGENS"
+  },
+  {
+    "id": 3,
+    "job": "ARQUITETO"
+  },
+  {
+    "id": 4,
+    "job": "ASSISTENTE ADMINISTRATIVO"
+  },
+  {
+    "id": 5,
+    "job": "AUXILIAR DE ALMOXARIFADO"
+  },
+  {
+    "id": 6,
+    "job": "AUXILIAR DE ELETRICISTA"
+  },
+  {
+    "id": 7,
+    "job": "AUXILIAR DE ELETRICISTA"
+  },
+  {
+    "id": 8,
+    "job": "AUXILIAR DE PEDREIRO"
+  },
+  {
+    "id": 9,
+    "job": "BOLSISTA"
+  },
+  {
+    "id": 10,
+    "job": "BOMBEIRO HIDRAULICO"
+  },
+  {
+    "id": 11,
+    "job": "CALCETEIRO"
+  },
+  {
+    "id": 12,
+    "job": "CARPINTEIRO"
+  },
+  {
+    "id": 13,
+    "job": "CARPINTEIROASSISTENTE"
+  },
+  {
+    "id": 14,
+    "job": "COPEIRO"
+  },
+  {
+    "id": 15,
+    "job": "ELETRICISTA"
+  },
+  {
+    "id": 16,
+    "job": "ENCARREGADO OPERACIONAL"
+  },
+  {
+    "id": 17,
+    "job": "ENGENHEIRO CIVIL"
+  },
+  {
+    "id": 18,
+    "job": "ENGENHEIRO ELÉTRICO"
+  },
+  {
+    "id": 19,
+    "job": "ENGENHEIRO MECÂNICO"
+  },
+  {
+    "id": 20,
+    "job": "ESTAGIÁRIO"
+  },
+  {
+    "id": 21,
+    "job": "JARDINEIRO"
+  },
+  {
+    "id": 22,
+    "job": "LUSTRADOR"
+  },
+  {
+    "id": 23,
+    "job": "MANTEIRO"
+  },
+  {
+    "id": 24,
+    "job": "MARCENEIRO"
+  },
+  {
+    "id": 25,
+    "job": "MESTRE DE OBRAS"
+  },
+  {
+    "id": 26,
+    "job": "MOTORISTA"
+  },
+  {
+    "id": 27,
+    "job": "OPERADOR DE MAQUINAS"
+  },
+  {
+    "id": 28,
+    "job": "PEDREIRO"
+  },
+  {
+    "id": 29,
+    "job": "PINTOR"
+  },
+  {
+    "id": 30,
+    "job": "SERRALHEIRO"
+  },
+  {
+    "id": 31,
+    "job": "SERVENTE"
+  },
+  {
+    "id": 32,
+    "job": "SOLDADOR"
+  },
+  {
+    "id": 33,
+    "job": "TÉCNICO EM EDIFICAÇÕES"
+  },
+  {
+    "id": 34,
+    "job": "TÉCNICO EM ELETRÔNICA"
+  },
+  {
+    "id": 35,
+    "job": "TÉCNICO EM ELETROTÉCNICA"
+  },
+  {
+    "id": 36,
+    "job": "TÉCNICO EM TELEFONIA"
+  }
+]

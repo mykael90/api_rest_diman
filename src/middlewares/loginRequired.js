@@ -33,7 +33,13 @@ export default async (req, res, next) => {
     req.UserEmail = email;
     return next();
   } catch (e) {
-    return res.status(401).json({
+    console.log(JSON.stringify(e));
+
+    if (e.name === 'TokenExpiredError') {
+      return res.status(401).json({
+        errors: ['Token expirado, realize o login novamente.'],
+      });
+    } return res.status(401).json({
       errors: [e.message],
     });
   }

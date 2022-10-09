@@ -7,7 +7,7 @@ module.exports = {
       },
       {
         id: 2,
-        type: 'DESCARTE',
+        type: 'BENEFICIAMENTO',
       },
       {
         id: 3,
@@ -15,15 +15,23 @@ module.exports = {
       },
       {
         id: 4,
-        type: 'DOACAO',
+        type: 'EMPRESTIMO',
       },
       {
         id: 5,
-        type: 'EXTRAVIO',
+        type: 'DESCARTE',
       },
       {
         id: 6,
-        type: 'EMPRESTIMO',
+        type: 'INFRA',
+      },
+      {
+        id: 7,
+        type: 'DOACAO',
+      },
+      {
+        id: 8,
+        type: 'EXTRAVIO',
       },
 
     ], {});

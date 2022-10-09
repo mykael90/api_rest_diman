@@ -4,6 +4,7 @@ export default class MaterialRestrict extends Model {
   static associate(models) {
     this.belongsToMany(models.Material, { through: models.MaterialRestrictItem });
     this.belongsTo(models.User);
+    this.belongsTo(models.MaterialIn);
 
     this.hasMany(models.MaterialRestrictItem);
   }

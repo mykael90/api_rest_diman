@@ -19,7 +19,9 @@ import tokenRoutes from './routes/tokenRoutes';
 import fotoRoutes from './routes/fotoRoutes';
 import materialRoutes from './routes/materialRoutes';
 import unidadeRoutes from './routes/unidadeRoutes';
+import propertyRoutes from './routes/propertyRoutes';
 import workerRoutes from './routes/workerRoutes';
+import manualRoutes from './routes/manualRoutes';
 
 import loginRequired from './middlewares/loginRequired';
 
@@ -63,6 +65,7 @@ class App {
 
   routes() {
     // Rotas abertas
+
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
@@ -76,6 +79,8 @@ class App {
     this.app.use('/fotos/', fotoRoutes);
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
+    this.app.use('/properties/', propertyRoutes);
+    this.app.use('/manualupdates/', manualRoutes);
   }
 }
 
