@@ -1,4 +1,4 @@
-const data = require('../JSON/roleTypesJSON.json');
+const data = require('../JSON/usersRoletypes.json');
 
 const date = new Date();
 const dateMariaDB = `${date.getUTCFullYear()}-${

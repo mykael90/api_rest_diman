@@ -40,7 +40,7 @@ export default class Worker extends Model {
 
         birthdate: {
           type: Sequelize.STRING,
-          allowNull: false,
+          allowNull: true,
         },
 
         filename_photo: {
@@ -50,15 +50,15 @@ export default class Worker extends Model {
         },
         rg: {
           type: Sequelize.STRING,
-          allowNull: false,
+          allowNull: true,
         },
         cpf: {
           type: Sequelize.STRING,
-          allowNull: false,
+          allowNull: true,
         },
       },
 
-      { sequelize, tableName: 'workers' }
+      { sequelize, tableName: 'workers' },
     );
     return this;
   }

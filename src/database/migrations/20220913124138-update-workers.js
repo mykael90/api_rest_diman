@@ -7,7 +7,7 @@ module.exports = {
         'cpf', // new field name
         {
           type: Sequelize.STRING(14),
-          allowNull: false,
+          allowNull: true,
         }
       ),
       queryInterface.addColumn(
@@ -15,7 +15,7 @@ module.exports = {
         'rg', // new field name
         {
           type: Sequelize.STRING(11),
-          allowNull: false,
+          allowNull: true,
         }
       ),
     ]);

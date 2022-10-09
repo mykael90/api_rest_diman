@@ -124,5 +124,23 @@
     "email": "marcos.alves@ufrn.br",
     "password": 1528241,
     "name": "MARCOS ANTONIO ALVES DA SILVA"
+  },
+  {
+    "username": "tulio.bento.705",
+    "email": "tulio.bento.705@ufrn.br",
+    "password": 123456,
+    "name": "ÁKYLLYS TÚLIO BENTO FREIRE"
+  },
+  {
+    "username": "alexandre.guimaraes.085",
+    "email": "alexandre.guimaraes.085@ufrn.br",
+    "password": 123456,
+    "name": "ALEXANDRE CESAR DE OLIVEIRA GUIMARÃES"
+  },
+  {
+    "username": "erilene.henrique.050",
+    "email": "erilene.henrique.050@ufrn.br",
+    "password": 123456,
+    "name": "ERILENE DE ARAUJO HENRIQUE"
   }
 ]
