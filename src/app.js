@@ -69,11 +69,12 @@ class App {
     this.app.use('/', homeRoutes);
     this.app.use('/tokens/', tokenRoutes);
     this.app.use('/users/', userOpenedRoutes);
-    this.app.use('/workers/', workerRoutes);
+
     // Middleware de autenticação
     this.app.use(loginRequired);
 
     // Rotas fechadas
+    this.app.use('/workers/', workerRoutes);
     this.app.use('/users/', userRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);

@@ -19,6 +19,7 @@ class WorkersController {
           'cpf',
           'filename_photo',
           'rg',
+          [Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job'],
         ],
         order: [['id', 'ASC']],
         include: [
@@ -62,7 +63,7 @@ class WorkersController {
         },
         {
           include: [WorkerContact],
-        }
+        },
       );
       return res.json(workers);
     } catch (e) {
@@ -70,6 +71,50 @@ class WorkersController {
       return res.status(400).json({
         errors: [e.message],
       });
+    }
+  }
+
+  // IndexActives = funcionários com contrato ativo
+
+  async indexActives(req, res) {
+    try {
+      const result = await Worker.findAll({
+        attributes: [
+          'id',
+          'name',
+          'email',
+          'birthdate',
+          'cpf',
+          'filename_photo',
+          'rg',
+          [Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job'],
+        ],
+        order: [['id', 'ASC']],
+        include: [
+          {
+            model: WorkerContact,
+            attributes: ['contacttype_id', 'contact', 'default', 'obs'],
+          },
+          {
+            model: WorkerContract,
+            attributes: [
+              // 'workerId',
+              // 'contractId',
+              // 'workerJobtypeId',
+              'start',
+              'end',
+            ],
+            where: {
+              end: null,
+            },
+            include: [{ model: WorkerJobtype }],
+          },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.json(e);
     }
   }
 }
