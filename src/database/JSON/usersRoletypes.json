@@ -1,0 +1,52 @@
+[
+  {
+    "id": 100,
+    "role": "adm",
+    "description": "administrador"
+  },
+  {
+    "id": 200,
+    "role": "adm_materials",
+    "description": "administrador modulo materriais"
+  },
+  {
+    "id": 201,
+    "role": "super_materials",
+    "description": "super usuário modulo materiais"
+  },
+  {
+    "id": 202,
+    "role": "common_materials",
+    "description": "usuário comum modulo materiais"
+  },
+  {
+    "id": 300,
+    "role": "adm_workers",
+    "description": "administrador modulo colaboradores"
+  },
+  {
+    "id": 301,
+    "role": "super_workers",
+    "description": "super usuário modulo colaboradores"
+  },
+  {
+    "id": 302,
+    "role": "common_workers",
+    "description": "usuário comum modulo colaboradores"
+  },
+  {
+    "id": 400,
+    "role": "adm_suppliers",
+    "description": "administrador modulo fornecedores"
+  },
+  {
+    "id": 401,
+    "role": "super_suppliers",
+    "description": "super usuário modulo fornecedores"
+  },
+  {
+    "id": 402,
+    "role": "common_suppliers",
+    "description": "usuário comum modulo fornecedores"
+  }
+]

@@ -26,6 +26,10 @@ export default class MaterialOut extends Model {
           },
         },
       },
+      reqMaterial: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
 
       userId: {
         type: Sequelize.INTEGER,

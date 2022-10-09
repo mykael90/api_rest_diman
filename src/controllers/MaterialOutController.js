@@ -10,20 +10,7 @@ class MaterialOutController {
   async store(req, res) {
     try {
       const result = await MaterialOut.create(
-        {
-          materialOuttypeId: req.body.materialOuttypeId,
-          reqMaintenance: req.body.reqMaintenance,
-          userId: req.body.userId,
-          authorizedBy: req.body.authorizedBy,
-          workerId: req.body.workerId,
-          value: req.body.value,
-          campusId: req.body.campusId,
-          propertyId: req.body.propertyId,
-          buildingId: req.body.buildingId,
-          place: req.body.place,
-          obs: req.body.obs,
-          MaterialOutItems: req.body.items,
-        },
+        req.body,
         {
           include: [MaterialOutItem],
         },
@@ -47,6 +34,7 @@ class MaterialOutController {
           'materialOuttypeId',
           [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
           'reqMaintenance',
+          'reqMaterial',
           'userId',
           'authorizedBy',
           'workerId',

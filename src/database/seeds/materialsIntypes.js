@@ -3,11 +3,11 @@ module.exports = {
     await queryInterface.bulkInsert('materials_intypes', [
       {
         id: 1,
-        type: 'SIPAC',
+        type: 'RM AUTO',
       },
       {
         id: 2,
-        type: 'FORNECEDOR',
+        type: 'RM MANUAL',
       },
       {
         id: 3,
@@ -15,11 +15,19 @@ module.exports = {
       },
       {
         id: 4,
-        type: 'DOACAO',
+        type: 'FORNECEDOR',
       },
       {
         id: 5,
-        type: 'INICIAL',
+        type: 'DOACAO',
+      },
+      {
+        id: 6,
+        type: 'INFRA',
+      },
+      {
+        id: 7,
+        type: 'CONVERSÃO',
       },
 
     ], {});
