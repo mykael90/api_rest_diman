@@ -25,7 +25,7 @@ module.exports = {
       },
       contract: {
         type: Sequelize.STRING(10),
-        allowNull: false,
+        allowNull: true,
       },
       start: {
         type: Sequelize.DATEONLY,

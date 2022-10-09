@@ -42,6 +42,10 @@ module.exports = {
         type: Sequelize.DATEONLY,
         allowNull: true,
       },
+      located: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
     });
   },
 

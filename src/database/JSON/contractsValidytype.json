@@ -1,0 +1,22 @@
+[
+  {
+    "id":1,
+    "type":"INICIAL"
+  },
+  {
+    "id":2,
+    "type":"RENOVAÇÃO"
+  },
+  {
+    "id":3,
+    "type":"ADITIVO"
+  },
+  {
+    "id":4,
+    "type":"REALINHAMENTO"
+  },
+  {
+    "id":5,
+    "type":"SUPRESSÃO"
+  }
+]

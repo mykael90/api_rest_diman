@@ -17,7 +17,7 @@ module.exports = {
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE',
       },
-      contract_validytype: {
+      contract_validytype_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
@@ -29,7 +29,7 @@ module.exports = {
       },
       end: {
         type: Sequelize.DATEONLY,
-        allowNull: false,
+        allowNull: true,
       },
       value: {
         type: Sequelize.DECIMAL(10, 2),

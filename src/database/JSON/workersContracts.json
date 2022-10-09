@@ -1,0 +1,856 @@
+[
+  {
+    "worker_id": 1,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 2,
+    "worker_jobtype_id": 11,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 3,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 4,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 5,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 6,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 7,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 8,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 9,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 10,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 11,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 12,
+    "worker_jobtype_id": 2,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 13,
+    "worker_jobtype_id": 11,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 14,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 15,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "ETE-PLANTÃO"
+  },
+  {
+    "worker_id": 16,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 17,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 18,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 19,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 20,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 21,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 22,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 23,
+    "worker_jobtype_id": 24,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 24,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 25,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 26,
+    "worker_jobtype_id": 6,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 27,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 28,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 29,
+    "worker_jobtype_id": 29,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 30,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 31,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 32,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 33,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 34,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 35,
+    "worker_jobtype_id": 29,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 36,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 37,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 38,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 39,
+    "worker_jobtype_id": 2,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 40,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 41,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 42,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 43,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 44,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 45,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 46,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "ETE-PLANTÃO"
+  },
+  {
+    "worker_id": 47,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 48,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 49,
+    "worker_jobtype_id": 11,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 50,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 51,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 52,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 53,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 54,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 55,
+    "worker_jobtype_id": 29,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 56,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 57,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 58,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 59,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 60,
+    "worker_jobtype_id": 29,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 61,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 62,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 63,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 64,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 65,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 66,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 67,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 68,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 69,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 70,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 71,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 72,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 73,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 74,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 75,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 76,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 77,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 78,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 79,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 80,
+    "worker_jobtype_id": 11,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 81,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 82,
+    "worker_jobtype_id": 6,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 83,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 84,
+    "worker_jobtype_id": 32,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 85,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "ETE-PLANTÃO"
+  },
+  {
+    "worker_id": 86,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "ETE-PLANTÃO"
+  },
+  {
+    "worker_id": 87,
+    "worker_jobtype_id": 27,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 88,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 89,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 90,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 91,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 92,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 93,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 94,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 95,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 96,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 97,
+    "worker_jobtype_id": 24,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 98,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 99,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 100,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "NATAL"
+  },
+  {
+    "worker_id": 101,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 102,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 103,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 104,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 105,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 106,
+    "worker_jobtype_id": 29,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 107,
+    "worker_jobtype_id": 10,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 108,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 109,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 110,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 111,
+    "worker_jobtype_id": 24,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 112,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 113,
+    "worker_jobtype_id": 28,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 114,
+    "worker_jobtype_id": 8,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 115,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 116,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 117,
+    "worker_jobtype_id": 24,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 118,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 119,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 120,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMACS"
+  },
+  {
+    "worker_id": 121,
+    "worker_jobtype_id": 15,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  },
+  {
+    "worker_id": 122,
+    "worker_jobtype_id": 12,
+    "contract_id": "1",
+    "start": "01/09/2022",
+    "located": "DIMAN"
+  }
+]

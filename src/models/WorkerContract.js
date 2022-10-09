@@ -33,9 +33,13 @@ export default class WorkerContract extends Model {
           type: Sequelize.DATEONLY,
           allowNull: true,
         },
+        located: {
+          type: Sequelize.STRING,
+          allowNull: true,
+        },
       },
 
-      { sequelize, tableName: 'workers_contracts', timestamps: false }
+      { sequelize, tableName: 'workers_contracts', timestamps: false },
     );
     return this;
   }

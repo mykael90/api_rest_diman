@@ -57,19 +57,19 @@ class UserQuerys {
         },
         {
           model: UserPositiontype,
-          required: true,
+          required: false,
           attributes: ['id', 'position'],
           through: { attributes: ['matSiape', 'start', 'end'], where: { 'end': null } },
         },
         {
           model: UserRoletype,
-          required: true,
+          required: false,
           attributes: ['id', 'role'],
           through: { attributes: [], where: { } },
         },
         {
           model: UserThirdtype,
-          required: true,
+          required: false,
           attributes: ['id', 'job'],
           through: { attributes: [], where: { } },
         }],

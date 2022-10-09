@@ -8,13 +8,13 @@ export default class ContractValidy extends Model {
   static init(sequelize) {
     super.init(
       {
-        contractValidytype: {
+        contractValidytypeId: {
           type: Sequelize.INTEGER,
           allowNull: false,
         },
         end: {
           type: Sequelize.DATEONLY,
-          allowNull: false,
+          allowNull: true,
         },
         value: {
           type: Sequelize.DECIMAL(10, 2),
@@ -22,7 +22,7 @@ export default class ContractValidy extends Model {
         },
       },
 
-      { sequelize, tableName: 'contracts_validy', timestamps: false }
+      { sequelize, tableName: 'contracts_validy', timestamps: false },
     );
     return this;
   }

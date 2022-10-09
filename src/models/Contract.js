@@ -43,11 +43,11 @@ export default class Contract extends Model {
         },
         maxEnd: {
           type: Sequelize.DATEONLY,
-          allowNull: false,
+          allowNull: true,
         },
       },
 
-      { sequelize, tableName: 'contracts', timestamps: false }
+      { sequelize, tableName: 'contracts', timestamps: false },
     );
     return this;
   }

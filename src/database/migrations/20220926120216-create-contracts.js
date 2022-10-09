@@ -35,7 +35,7 @@ module.exports = {
       },
       max_end: {
         type: Sequelize.DATEONLY,
-        allowNull: false,
+        allowNull: true,
       },
     });
   },

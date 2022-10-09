@@ -25,7 +25,7 @@
   },
   {
     "id": 7,
-    "job": "AUXILIAR DE ELETRICISTA"
+    "job": "AUXILIAR DE MANUTENÇÃO"
   },
   {
     "id": 8,
@@ -142,5 +142,9 @@
   {
     "id": 36,
     "job": "TÉCNICO EM TELEFONIA"
+  },
+  {
+    "id": 37,
+    "job": "TÉCNICO EM GASES ESPECIAIS"
   }
 ]

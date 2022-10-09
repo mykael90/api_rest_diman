@@ -19,7 +19,7 @@ export default class ContractValidytype extends Model {
         },
       },
 
-      { sequelize, tableName: 'contracts_validytype', timestamps: false }
+      { sequelize, tableName: 'contracts_validytype', timestamps: false },
     );
     return this;
   }
