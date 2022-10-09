@@ -5,13 +5,18 @@ export default class Worker extends Model {
     this.belongsToMany(models.Contacttype, {
       through: models.WorkerContact,
     });
-    // this.belongsToMany(models.Contract, {
-    //   through: models.WorkerContract,
-    // });
-    // this.belongsToMany(models.WorkerJobtype, {
-    //   through: models.WorkerContract,
-    // });
+    this.belongsToMany(models.Address, {
+      through: models.WorkerAddress,
+    });
+    this.belongsToMany(models.Contract, {
+      through: models.WorkerContract,
+    });
+    this.belongsToMany(models.WorkerJobtype, {
+      through: models.WorkerContract,
+    });
+    this.hasMany(models.WorkerAddress);
     this.hasMany(models.WorkerContact);
+    this.hasMany(models.WorkerContract);
   }
 
   static init(sequelize) {

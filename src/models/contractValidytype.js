@@ -1,13 +1,8 @@
 import Sequelize, { Model } from 'sequelize';
 
-export default class WorkerJobtype extends Model {
+export default class ContractValidytype extends Model {
   static associate(models) {
-    console.log(models);
-    this.belongsToMany(models.Worker, {
-      through: models.WorkerContract,
-    });
-    // this.hasMany(models.ContractValidyItem);
-    this.hasMany(models.WorkerContract);
+    this.hasMany(models.ContractValidy);
   }
 
   static init(sequelize) {
@@ -18,13 +13,13 @@ export default class WorkerJobtype extends Model {
           allowNull: false,
           primaryKey: true,
         },
-        job: {
+        type: {
           type: Sequelize.STRING,
           allowNull: false,
         },
       },
 
-      { sequelize, tableName: 'workers_jobtypes', timestamps: false }
+      { sequelize, tableName: 'contracts_validytype', timestamps: false }
     );
     return this;
   }

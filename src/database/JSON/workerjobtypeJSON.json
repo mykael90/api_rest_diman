@@ -1,0 +1,132 @@
+{
+  "jobtype": [
+      {
+          "id": "1",
+          "job": "ALMOXARIFE"
+      },
+      {
+          "id": "2",
+          "job": "ARQUITETO"
+      },
+      {
+          "id": "3",
+          "job": "ASSISTENTE ADMINISTRATIVO"
+      },
+      {
+          "id": "4",
+          "job": "AUXILIAR DE ALMOXARIFADO"
+      },
+      {
+          "id": "5",
+          "job": "BOMBEIRO HIDRÁULICO"
+      },
+      {
+          "id": "6",
+          "job": "BOLSISTA"
+      },
+      {
+          "id": "7",
+          "job": "CALCETEIRO"
+      },
+      {
+          "id": "8",
+          "job": "CARPINTEIRO"
+      },
+      {
+          "id": "9",
+          "job": "CARPINTEIRO ASSISTENTE"
+      },
+      {
+          "id": "10",
+          "job": "COPEIRO"
+      },
+      {
+          "id": "11",
+          "job": "ELETRICISTA"
+      },
+      {
+          "id": "12",
+          "job": "ENCARREGADO OPERACIONAL"
+      },
+      {
+          "id": "13",
+          "job": "ENGENHEIRO CIVIL"
+      },
+      {
+          "id": "14",
+          "job": "ENGENHEIRO ELÉTRICO"
+      },
+      {
+          "id": "15",
+          "job": "ENGENHEIRO MECÂNICO"
+      },
+      {
+          "id": "16",
+          "job": "ESTAGIÁRIO"
+      },
+      {
+          "id": "17",
+          "job": "JARDINEIRO"
+      },
+      {
+          "id": "18",
+          "job": "LUSTRADOR"
+      },
+      {
+          "id": "19",
+          "job": "MANTEIRO"
+      },
+      {
+          "id": "20",
+          "job": "MARCENEIRO"
+      },
+      {
+          "id": "21",
+          "job": "MESTRE DE OBRAS"
+      },
+      {
+          "id": "22",
+          "job": "MOTORISTA"
+      },
+      {
+          "id": "23",
+          "job": "OPERADOR DE MÁQUINAS"
+      },
+      {
+          "id": "24",
+          "job": "PEDREIRO"
+      },
+      {
+          "id": "25",
+          "job": "PINTOR"
+      },
+      {
+          "id": "26",
+          "job": "SERRALHEIRO"
+      },
+      {
+          "id": "27",
+          "job": "SERVENTE"
+      },
+      {
+          "id": "28",
+          "job": "SOLDADOR"
+      },
+      {
+          "id": "29",
+          "job": "TÉCNICO EM EDIFICAÇÕES"
+      },
+      {
+          "id": "30",
+          "job": "TÉCNICO EM ELETRÔNICA"
+      },
+      {
+          "id": "31",
+          "job": "TÉCNICO EM ELETROTÉCNICA"
+      },
+      {
+          "id": "32",
+          "job": "TÉCNICO EM TELEFONIA"
+      }
+  ]
+}
