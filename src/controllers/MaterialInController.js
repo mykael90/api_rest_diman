@@ -370,6 +370,145 @@ class MaterialInController {
       return res.json(e);
     }
   }
+
+  // Show with Restrictions and Releases
+
+  async showRL(req, res) {
+    try {
+      const { reqMaintenance, year } = req.params;
+      const result = await MaterialIn.findAll({
+        attributes: [
+          'id',
+          'materialIntypeId',
+          'userId',
+          [Sequelize.literal('`MaterialIntype`.`type`'), 'type'],
+          [Sequelize.literal('`User`.`username`'), 'receivedBy'],
+          'req',
+          [Sequelize.currencyBr('`MaterialIn`.`value`'), 'value'],
+
+          'requiredBy',
+          'reqMaintenance',
+          'reqUnit',
+          'costUnit',
+          [Sequelize.literal('`Unidade`.`sigla`'), 'costUnitSigla'],
+          [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
+          [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'registerDate'],
+          [Sequelize.dataBr(
+            '`MaterialIn`.`register_date`',
+          ),
+          'createdAt',
+          ],
+        ],
+        where: {
+          reqMaintenance: `${reqMaintenance}/${year}`,
+        },
+        include: [
+          {
+            model: MaterialInItem,
+            attributes: [
+              ['material_id', 'materialId'],
+              [Sequelize.literal('`MaterialInItems->Material`.`name`'), 'name'],
+              [Sequelize.literal('`MaterialInItems->Material`.`specification`'), 'specification'],
+              [Sequelize.literal('`MaterialInItems->Material`.`unit`'), 'unit'],
+              'quantity',
+              [
+                Sequelize.fn(
+                  'format',
+                  Sequelize.col('`MaterialInItems`.`value`'),
+                  2,
+                  'pt_BR',
+                ),
+                'value',
+              ],
+            ],
+            required: false,
+            include: {
+              model: Material,
+              attributes: [],
+              required: false,
+            },
+          },
+          {
+            model: MaterialRestrict,
+            attributes: [
+              'id',
+              'userId',
+              [Sequelize.literal('`MaterialRestricts->User`.`username`'), 'userName'],
+              [Sequelize.dataBr('`MaterialRestricts`.`created_at`'), 'createdAt'],
+            ],
+            include: [{
+              model: MaterialRestrictItem,
+              attributes: [
+                ['material_id', 'materialId'],
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`name`'), 'name'],
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`specification`'), 'specification'],
+                [Sequelize.literal('`MaterialRestricts->MaterialRestrictItems->Material`.`unit`'), 'unit'],
+                'quantity',
+                [Sequelize.currencyBr('`MaterialRestricts->MaterialRestrictItems`.`value`'), 'value'],
+              ],
+              required: false,
+              include: {
+                model: Material,
+                attributes: [],
+                required: false,
+              },
+            }, {
+              model: User,
+              attributes: [],
+              required: false,
+            }],
+          },
+          {
+            model: MaterialRelease,
+            attributes: [
+              'id',
+              'userId',
+              [Sequelize.literal('`MaterialReleases->User`.`username`'), 'userName'],
+              [Sequelize.dataBr('`MaterialReleases`.`created_at`'), 'createdAt'],
+            ],
+            include: [{
+              model: MaterialReleaseItem,
+              attributes: [
+                ['material_id', 'materialId'],
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`name`'), 'name'],
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`specification`'), 'specification'],
+                [Sequelize.literal('`MaterialReleases->MaterialReleaseItems->Material`.`unit`'), 'unit'],
+                'quantity',
+                [Sequelize.currencyBr('`MaterialReleases->MaterialReleaseItems`.`value`'), 'value'],
+              ],
+              required: false,
+              include: {
+                model: Material,
+                attributes: [],
+                required: false,
+              },
+            }, {
+              model: User,
+              attributes: [],
+              required: false,
+            }],
+          },
+          {
+            model: User,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: Unidade,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: MaterialIntype,
+            required: false,
+          },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      return res.json(e);
+    }
+  }
 }
 
 export default new MaterialInController();

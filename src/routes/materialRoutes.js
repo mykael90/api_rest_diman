@@ -36,6 +36,7 @@ inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
 
 inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
+inRoutes.get('/rl/:reqMaintenance/:year', MaterialInController.showRL);
 inRoutes.get('/', MaterialInController.index);
 inRoutes.get('/rl', MaterialInController.indexRL);
 inRoutes.post('/', MaterialInController.store);
