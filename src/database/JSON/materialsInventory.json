@@ -1119,10 +1119,10 @@
 		"material_id" : 302400005130,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 1.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 11.60,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 8.85
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400005157,
@@ -1245,10 +1245,10 @@
 		"material_id" : 302400005912,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 10.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 1.22,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 1.22
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400005920,
@@ -3036,10 +3036,10 @@
 		"material_id" : 302400023678,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 8.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 203.12,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 249.99
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400023708,
@@ -3054,10 +3054,10 @@
 		"material_id" : 302400023848,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 2.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 3.69,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 3.69
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400023880,
@@ -3567,10 +3567,10 @@
 		"material_id" : 302400029247,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 1.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 6.15,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 6.15
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400029251,
@@ -4052,11 +4052,11 @@
 	{
 		"material_id" : 302400029656,
 		"initial_quantity" : 0.00,
-		"release_inventory" : 1.00,
-		"restrict_inventory" : 3.00,
+		"release_inventory" : 0.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 54.19,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 67.82
+		"updated_value" : null
 	},
 	{
 		"material_id" : 302400029660,
@@ -10640,11 +10640,11 @@
 	{
 		"material_id" : 3024000000028,
 		"initial_quantity" : 0.00,
-		"release_inventory" : 1.00,
+		"release_inventory" : 0.00,
 		"restrict_inventory" : 0.00,
 		"initial_value" : 96.50,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 96.49
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000029,
@@ -10784,11 +10784,11 @@
 	{
 		"material_id" : 3024000000105,
 		"initial_quantity" : 0.00,
-		"release_inventory" : 1.00,
+		"release_inventory" : 0.00,
 		"restrict_inventory" : 0.00,
 		"initial_value" : 65.92,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 61.04
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000106,
@@ -10902,10 +10902,10 @@
 		"material_id" : 3024000000131,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 15.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 0.28,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 0.28
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000134,
@@ -11010,10 +11010,10 @@
 		"material_id" : 3024000000175,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 1.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 4.19,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 4.19
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000177,
@@ -11100,10 +11100,10 @@
 		"material_id" : 3024000000358,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 50.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 1.23,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 1.23
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000361,
@@ -11513,11 +11513,11 @@
 	{
 		"material_id" : 3024000000929,
 		"initial_quantity" : 0.00,
-		"release_inventory" : 1.00,
+		"release_inventory" : 0.00,
 		"restrict_inventory" : 10.00,
 		"initial_value" : 10.10,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 10.10
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3024000000938,
@@ -13458,10 +13458,10 @@
 		"material_id" : 3026000000657,
 		"initial_quantity" : 0.00,
 		"release_inventory" : 0.00,
-		"restrict_inventory" : 60.00,
+		"restrict_inventory" : 0.00,
 		"initial_value" : 9.65,
 		"reserve_inventory" : 0.00,
-		"updated_value" : 9.65
+		"updated_value" : null
 	},
 	{
 		"material_id" : 3026000000658,
