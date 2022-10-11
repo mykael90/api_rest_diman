@@ -5,6 +5,7 @@ import MaterialOuttype from '../models/MaterialOuttype';
 import Material from '../models/Material';
 import MaterialOutItem from '../models/MaterialOutItem';
 import User from '../models/User';
+import Worker from '../models/Worker';
 
 class MaterialOutController {
   async store(req, res) {
@@ -36,7 +37,10 @@ class MaterialOutController {
           'reqMaintenance',
           'reqMaterial',
           'userId',
+          [Sequelize.literal('`User`.`username`'), 'userUsername'],
           'authorizedBy',
+          [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
+          [Sequelize.literal('`Worker`.`name`'), 'removedBy'],
           'workerId',
           'campusId',
           'propertyId',
@@ -65,7 +69,7 @@ class MaterialOutController {
           {
             model: MaterialOutItem,
             attributes: [
-              'material_id',
+              ['material_id', 'materialId'],
               [Sequelize.literal('`MaterialOutItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
               [Sequelize.literal('unit'), 'unit'],
@@ -81,6 +85,16 @@ class MaterialOutController {
           },
           {
             model: User,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: User,
+            as: 'authorizer',
+            required: false,
+          },
+          {
+            model: Worker,
             attributes: [],
             required: false,
           },

@@ -17,6 +17,8 @@ export default class Worker extends Model {
     this.hasMany(models.WorkerAddress);
     this.hasMany(models.WorkerContact);
     this.hasMany(models.WorkerContract);
+
+    this.hasMany(models.MaterialOut);
   }
 
   static init(sequelize) {

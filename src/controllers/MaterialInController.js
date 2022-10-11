@@ -78,6 +78,40 @@ class MaterialInController {
     }
   }
 
+  // RETORNOS
+  async storeReturn(req, res) {
+    try {
+      const result = await MaterialIn.create(
+        req.body,
+        {
+          include: [MaterialInItem],
+        },
+      );
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
+  async index1(req, res) {
+    try {
+      const result = await MaterialIn.findAll(
+        {
+          include: [MaterialInItem],
+        },
+      );
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   // Index
 
   async index(req, res) {
@@ -100,7 +134,7 @@ class MaterialInController {
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
           [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'registerDate'],
           [Sequelize.dataBr(
-            '`MaterialIn`.`register_date`',
+            '`MaterialIn`.`created_at`',
           ),
           'createdAt',
           ],

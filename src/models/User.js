@@ -14,6 +14,7 @@ export default class User extends Model {
 
     this.hasMany(models.MaterialIn);
     this.hasMany(models.MaterialOut);
+    this.hasMany(models.MaterialOut, { as: 'authorizer', sourceKey: 'id', foreignKey: 'authorizedBy' });
     this.hasMany(models.MaterialRestrict);
     this.hasMany(models.MaterialRelease);
     this.hasMany(models.MaterialReserve);

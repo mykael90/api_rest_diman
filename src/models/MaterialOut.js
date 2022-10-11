@@ -5,6 +5,8 @@ export default class MaterialOut extends Model {
     this.belongsToMany(models.Material, { through: models.MaterialOutItem });
     this.belongsTo(models.MaterialOuttype);
     this.belongsTo(models.User);
+    this.belongsTo(models.User, { as: 'authorizer', sourceKey: 'id', foreignKey: 'authorizedBy' });
+    this.belongsTo(models.Worker);
     this.hasMany(models.MaterialOutItem);
   }
 
