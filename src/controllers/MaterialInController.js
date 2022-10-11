@@ -292,7 +292,7 @@ class MaterialInController {
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
           [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'registerDate'],
           [Sequelize.dataBr(
-            '`MaterialIn`.`register_date`',
+            '`MaterialIn`.`created_at`',
           ),
           'createdAt',
           ],
@@ -428,7 +428,7 @@ class MaterialInController {
           [Sequelize.literal('`Unidade`.`nome_unidade`'), 'costUnitNome'],
           [Sequelize.dataBr('`MaterialIn`.`register_date`'), 'registerDate'],
           [Sequelize.dataBr(
-            '`MaterialIn`.`register_date`',
+            '`MaterialIn`.`created_at`',
           ),
           'createdAt',
           ],
