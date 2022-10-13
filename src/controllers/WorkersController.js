@@ -4,11 +4,12 @@ import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
+import WorkerAddress from '../models/WorkerAddress';
 
 class WorkersController {
   // Index
 
-  async index(req, res) {
+  async index1(req, res) {
     try {
       const result = await Worker.findAll({
         attributes: [
@@ -47,24 +48,35 @@ class WorkersController {
     }
   }
 
+  async index(req, res) {
+    try {
+      const result = await Worker.findAll({
+        include: [
+          {
+            model: WorkerContact,
+          },
+          {
+            model: WorkerContract,
+            include: [{ model: WorkerJobtype }],
+          },
+          {
+            model: WorkerAddress,
+          },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.json(e);
+    }
+  }
+
   // Store
   async store(req, res) {
     try {
-      const workers = await Worker.create(
-        {
-          name: req.body.name,
-          email: req.body.email,
-          birthdate: req.body.birthdate,
-          cpf: req.body.cpf,
-          filename_photo: req.body.filename_photo,
-          rg: req.body.rg,
-
-          WorkerContacts: req.body.WorkerContacts,
-        },
-        {
-          include: [WorkerContact],
-        },
-      );
+      const workers = await Worker.create(req.body, {
+        include: [WorkerContact, WorkerContract],
+      });
       return res.json(workers);
     } catch (e) {
       console.log('erroCustomizado', e);
