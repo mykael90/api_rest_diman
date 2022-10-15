@@ -79,7 +79,11 @@ class AlunoController {
         });
       }
 
-      const newData = await aluno.update(req.body);
+      const newData = await aluno.update(req.body, {
+        where: {
+          id,
+        },
+      });
       return res.json(newData);
     } catch (e) {
       return res.status(400).json({

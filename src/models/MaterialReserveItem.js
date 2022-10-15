@@ -24,10 +24,10 @@ export default class MaterialReserveItem extends Model {
       sequelize, tableName: 'materials_reserve_items', timestamps: false,
     });
 
-    // ATUALIZAR SALDO DE MATERIAL `LIVRE`E `RESTRITO`
+    // ATUALIZAR SALDO DE MATERIAL `LIVRE`E `RESERVADO`
     this.addHook('afterCreate', async (item) => {
-      const { releaseInventory, restrictInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
-      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) - Number(item.quantity), restrictInventory: Number(restrictInventory) + Number(item.quantity) }, {
+      const { releaseInventory, reserveInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
+      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) - Number(item.quantity), reserveInventory: Number(reserveInventory) + Number(item.quantity) }, {
         where: {
           materialId: item.MaterialId,
         },

@@ -4,26 +4,13 @@ import MaterialReserve from '../models/MaterialReserve';
 import Material from '../models/Material';
 import MaterialReserveItem from '../models/MaterialReserveItem';
 import User from '../models/User';
+import Worker from '../models/Worker';
 
 class MaterialReserveController {
   async store(req, res) {
     try {
       const result = await MaterialReserve.create(
-        {
-          reqMaintenance: req.body.reqMaintenance,
-          userId: req.body.userId,
-          authorizedBy: req.body.authorizedBy,
-          workerId: req.body.workerId,
-          campusId: req.body.campusId,
-          separatedAt: req.body.separatedAt,
-          withdrawnAt: req.body.withdrawnAt,
-          canceledAt: req.body.canceledAt,
-          propertyId: req.body.propertyId,
-          buildingId: req.body.buildingId,
-          place: req.body.place,
-          obs: req.body.obs,
-          MaterialReserveItems: req.body.items,
-        },
+        req.body,
         {
           include: [MaterialReserveItem],
         },
@@ -42,57 +29,62 @@ class MaterialReserveController {
   async index(req, res) {
     try {
       const result = await MaterialReserve.findAll({
-        attributes: [
-          'id',
-          'reqMaintenance',
-          'userId',
-          'authorizedBy',
-          'workerId',
-          'campusId',
-          'propertyId',
-          'buildingId',
-          'place',
-          'obs',
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialReserve`.`created_At`'),
-              '%d/%m/%Y',
-            ),
-            'createdAt',
+        attributes: {
+          include: [
+            [Sequelize.literal('`User`.`username`'), 'userUsername'],
+            [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
+            [Sequelize.currencyBr('`MaterialReserve`.`value`'), 'valueBr'],
+            [Sequelize.literal('`Worker`.`name`'), 'workerName'],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialReserve`.`intended_Use`'),
+                '%d/%m/%Y',
+              ),
+              'intendedUseBr',
+            ],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialReserve`.`created_At`'),
+                '%d/%m/%Y',
+              ),
+              'createdAtBr',
+            ],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialReserve`.`separated_At`'),
+                '%d/%m/%Y',
+              ),
+              'separatedAtBr',
+            ],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialReserve`.`withdrawn_At`'),
+                '%d/%m/%Y',
+              ),
+              'withdrawnAtBr',
+            ],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialReserve`.`canceled_At`'),
+                '%d/%m/%Y',
+              ),
+              'canceledAtBr',
+            ],
           ],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialReserve`.`separated_At`'),
-              '%d/%m/%Y',
-            ),
-            'separatedAt',
-          ],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialReserve`.`withdrawn_At`'),
-              '%d/%m/%Y',
-            ),
-            'withdrawnAt',
-          ],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialReserve`.`canceled_At`'),
-              '%d/%m/%Y',
-            ),
-            'canceledAt',
-          ],
-        ],
+        },
         include: [
           {
             model: MaterialReserveItem,
             attributes: [
-              'material_id',
+              ['material_id', 'materialId'],
               [Sequelize.literal('`MaterialReserveItems->Material`.`name`'), 'name'],
               [Sequelize.literal('specification'), 'specification'],
+              [Sequelize.currencyBr('`MaterialReserveItems`.`value`'), 'value'],
               [Sequelize.literal('unit'), 'unit'],
               'quantity',
             ],
@@ -105,6 +97,16 @@ class MaterialReserveController {
           },
           {
             model: User,
+            attributes: [],
+            required: false,
+          },
+          {
+            model: User,
+            as: 'authorizer',
+            required: false,
+          },
+          {
+            model: Worker,
             attributes: [],
             required: false,
           },

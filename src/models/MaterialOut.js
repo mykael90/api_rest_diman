@@ -75,10 +75,15 @@ export default class MaterialOut extends Model {
         type: Sequelize.DECIMAL(10, 2),
         allowNull: true,
       },
+      materialReserveId: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
 
     }, {
       sequelize, tableName: 'materials_out',
     });
+
     return this;
   }
 }
