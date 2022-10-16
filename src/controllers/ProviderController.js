@@ -6,7 +6,6 @@ class ProviderController {
   async index(req, res) {
     try {
       const result = await Provider.findAll({
-        attributes: ['id', 'cpfCnpj', 'razaoSocial', 'nomeFantasia'],
         order: [['id', 'ASC']],
       });
       return res.json(result);

@@ -20,6 +20,7 @@ import fotoRoutes from './routes/fotoRoutes';
 import materialRoutes from './routes/materialRoutes';
 import unidadeRoutes from './routes/unidadeRoutes';
 import propertyRoutes from './routes/propertyRoutes';
+import providerRoutes from './routes/providerRoutes';
 import workerRoutes from './routes/workerRoutes';
 import manualRoutes from './routes/manualRoutes';
 
@@ -81,6 +82,7 @@ class App {
     this.app.use('/materials/', materialRoutes);
     this.app.use('/unidades/', unidadeRoutes);
     this.app.use('/properties/', propertyRoutes);
+    this.app.use('/providers/', providerRoutes);
     this.app.use('/manualupdates/', manualRoutes);
   }
 }

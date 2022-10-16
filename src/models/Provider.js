@@ -8,28 +8,23 @@ export default class Provider extends Model {
   static init(sequelize) {
     super.init(
       {
-        id: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
-        cpf_cnpj: {
+        cpfCnpj: {
           type: Sequelize.STRING(20),
           allowNull: false,
         },
 
-        razao_social: {
+        razaoSocial: {
           type: Sequelize.STRING,
           allowNull: false,
         },
 
-        nome_fantasia: {
+        nomeFantasia: {
           type: Sequelize.STRING,
           allowNull: false,
         },
       },
 
-      { sequelize, tableName: 'providers', timestamps: false }
+      { sequelize, tableName: 'providers', timestamps: false },
     );
     return this;
   }
