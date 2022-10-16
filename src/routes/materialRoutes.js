@@ -52,6 +52,7 @@ outRoutes.post('/', MaterialOutController.store);
 
 // MATERIAL INVENTORY ROUTES
 inventoryRoutes.put('/:materialId', MaterialInventoryController.update);
+inventoryRoutes.get('/:materialId', MaterialInventoryController.show);
 inventoryRoutes.get('/complete', MaterialInventoryController.rawQueriesInventory);
 inventoryRoutes.get('/', MaterialInventoryController.index);
 inventoryRoutes.post('/', MaterialInventoryController.store);
@@ -65,6 +66,8 @@ releaseRoutes.get('/', MaterialReleaseController.index);
 releaseRoutes.post('/', MaterialReleaseController.store);
 
 // MATERIAL RESERVE ROUTES
+reserveRoutes.put('/:materialReserveId', MaterialReserveController.update);
+reserveRoutes.get('/actives', MaterialReserveController.indexActives);
 reserveRoutes.get('/', MaterialReserveController.index);
 reserveRoutes.post('/', MaterialReserveController.store);
 

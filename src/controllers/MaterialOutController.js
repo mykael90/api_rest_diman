@@ -90,6 +90,7 @@ class MaterialOutController {
           },
           {
             model: User,
+            attributes: [],
             as: 'authorizer',
             required: false,
           },
