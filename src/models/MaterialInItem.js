@@ -26,11 +26,20 @@ export default class MaterialInItem extends Model {
 
     this.addHook('afterCreate', async (item) => {
       const { releaseInventory } = await sequelize.models.MaterialInventory.findByPk(item.MaterialId);
-      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) + Number(item.quantity), updatedValue: Number(item.value) }, {
+
+      await sequelize.models.MaterialInventory.update({ releaseInventory: Number(releaseInventory) + Number(item.quantity) }, {
         where: {
           materialId: item.MaterialId,
         },
       });
+      // SE FOR ENTRADA POR DOAÇÃO NÃO ATUALIZA O VALOR (JA QUE VEM NULO O ITEM.VALUE)
+      if (item.value) {
+        await sequelize.models.MaterialInventory.update({ updatedValue: Number(item.value) }, {
+          where: {
+            materialId: item.MaterialId,
+          },
+        });
+      }
     });
 
     return this;

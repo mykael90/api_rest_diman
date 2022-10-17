@@ -20,7 +20,7 @@ export default class Unidade extends Model {
           },
         },
       },
-      id_sipac: {
+      idSipac: {
         type: Sequelize.INTEGER,
         unique: {
           msg: 'O ID_SIPAC cadastrado já existe',
@@ -31,7 +31,7 @@ export default class Unidade extends Model {
           },
         },
       },
-      nome_unidade: {
+      nomeUnidade: {
         type: Sequelize.STRING,
         validate: {
           notEmpty: {
@@ -47,15 +47,15 @@ export default class Unidade extends Model {
         type: Sequelize.STRING,
 
       },
-      id_unidade_gestora: {
+      idUnidadeGestora: {
         type: Sequelize.INTEGER,
 
       },
-      id_unidade_responsavel: {
+      idUnidadeResponsavel: {
         type: Sequelize.INTEGER,
 
       },
-      data_criacao: {
+      dataCriacao: {
         type: Sequelize.DATEONLY,
         validate: {
           notEmpty: {
@@ -63,23 +63,23 @@ export default class Unidade extends Model {
           },
         },
       },
-      data_extincao: {
+      dataExtincao: {
         type: Sequelize.DATEONLY,
 
       },
-      classificacao_unidade: {
+      classificacaoUnidade: {
         type: Sequelize.STRING,
 
       },
-      nivel_organizacional: {
+      nivelOrganizacional: {
         type: Sequelize.STRING,
 
       },
-      tipo_unidade_organizacional: {
+      tipoUnidadeOrganizacional: {
         type: Sequelize.STRING,
 
       },
-      area_atuacao_unidade: {
+      areaAtuacaoUnidade: {
         type: Sequelize.STRING,
 
       },

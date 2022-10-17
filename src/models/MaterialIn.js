@@ -25,6 +25,10 @@ export default class MaterialIn extends Model {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      providerId: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
 
       req: {
         type: Sequelize.STRING,
@@ -66,9 +70,18 @@ export default class MaterialIn extends Model {
         type: Sequelize.INTEGER,
         allowNull: true,
       },
+      invoice: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
 
       registerDate: {
         type: Sequelize.DATEONLY,
+        allowNull: true,
+      },
+
+      obs: {
+        type: Sequelize.TEXT,
         allowNull: true,
       },
 
