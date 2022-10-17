@@ -34,7 +34,7 @@ router.post('/', materialController.store);
 // MATERIAL IN ROUTES
 inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
-inRoutes.post('/return', MaterialInController.storeReturn);
+inRoutes.post('/general', MaterialInController.storeGeneral);
 
 inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
 inRoutes.get('/rl/:reqMaintenance/:year', MaterialInController.showRL);

@@ -79,7 +79,7 @@ class MaterialInController {
   }
 
   // RETORNOS
-  async storeReturn(req, res) {
+  async storeGeneral(req, res) {
     try {
       const result = await MaterialIn.create(
         req.body,
