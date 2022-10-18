@@ -5,49 +5,10 @@ import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
 import WorkerAddress from '../models/WorkerAddress';
+import Address from '../models/Address';
 
 class WorkersController {
   // Index
-
-  async index1(req, res) {
-    try {
-      const result = await Worker.findAll({
-        attributes: [
-          'id',
-          'name',
-          'email',
-          'birthdate',
-          'cpf',
-          'filename_photo',
-          'rg',
-          [Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job'],
-        ],
-        order: [['id', 'ASC']],
-        include: [
-          {
-            model: WorkerContact,
-            attributes: ['contacttype_id', 'contact', 'default', 'obs'],
-          },
-          {
-            model: WorkerContract,
-            attributes: [
-              // 'workerId',
-              // 'contractId',
-              // 'workerJobtypeId',
-              'start',
-              'end',
-            ],
-            include: [{ model: WorkerJobtype }],
-          },
-        ],
-      });
-      return res.json(result);
-    } catch (e) {
-      console.log(e);
-      return res.json(e);
-    }
-  }
-
   async index(req, res) {
     try {
       const result = await Worker.findAll({
@@ -60,7 +21,7 @@ class WorkersController {
             include: [{ model: WorkerJobtype }],
           },
           {
-            model: WorkerAddress,
+            model: Address,
           },
         ],
       });
@@ -75,7 +36,17 @@ class WorkersController {
   async store(req, res) {
     try {
       const workers = await Worker.create(req.body, {
-        include: [WorkerContact, WorkerContract],
+        include: [
+          {
+            model: WorkerContact,
+          },
+          {
+            model: WorkerContract,
+          },
+          {
+            model: Address,
+          },
+        ],
       });
       return res.json(workers);
     } catch (e) {

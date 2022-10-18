@@ -9,6 +9,10 @@ export default class WorkerContact extends Model {
   static init(sequelize) {
     super.init(
       {
+        contacttypeId: {
+          type: Sequelize.INTEGER,
+          primaryKey: true,
+        },
         contact: {
           type: Sequelize.STRING(45),
           allowNull: false,

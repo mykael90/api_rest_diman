@@ -1,4 +1,5 @@
 import WorkerAddress from '../models/WorkerAddress';
+import Address from '../models/Address';
 
 class WorkerAddressController {
   // Index
