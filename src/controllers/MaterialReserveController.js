@@ -43,37 +43,25 @@ class MaterialReserveController {
               ),
               'intendedUseBr',
             ],
-            [
-              Sequelize.fn(
-                'date_format',
-                Sequelize.col('`MaterialReserve`.`created_At`'),
-                '%d/%m/%Y',
-              ),
-              'createdAtBr',
+            [Sequelize.dataHoraBr(
+              '`MaterialReserve`.`created_at`',
+            ),
+            'createdAtBr',
             ],
-            [
-              Sequelize.fn(
-                'date_format',
-                Sequelize.col('`MaterialReserve`.`separated_At`'),
-                '%d/%m/%Y',
-              ),
-              'separatedAtBr',
+            [Sequelize.dataHoraBr(
+              '`MaterialReserve`.`separated_At`',
+            ),
+            'separatedAtBr',
             ],
-            [
-              Sequelize.fn(
-                'date_format',
-                Sequelize.col('`MaterialReserve`.`withdrawn_At`'),
-                '%d/%m/%Y',
-              ),
-              'withdrawnAtBr',
+            [Sequelize.dataHoraBr(
+              '`MaterialReserve`.`withdrawn_At`',
+            ),
+            'withdrawnAtBr',
             ],
-            [
-              Sequelize.fn(
-                'date_format',
-                Sequelize.col('`MaterialReserve`.`canceled_At`'),
-                '%d/%m/%Y',
-              ),
-              'canceledAtBr',
+            [Sequelize.dataHoraBr(
+              '`MaterialReserve`.`canceled_At`',
+            ),
+            'canceledAtBr',
             ],
           ],
         },

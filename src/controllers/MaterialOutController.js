@@ -48,13 +48,10 @@ class MaterialOutController {
           'place',
           'obs',
           [Sequelize.currencyBr('`MaterialOut`.`value`'), 'value'],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialOut`.`created_At`'),
-              '%d/%m/%Y',
-            ),
-            'createdAt',
+          [Sequelize.dataHoraBr(
+            '`MaterialOut`.`created_at`',
+          ),
+          'createdAt',
           ],
           [
             Sequelize.fn(

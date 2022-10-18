@@ -114,5 +114,10 @@ Sequelize.dataBr = (column) => Sequelize.fn(
   Sequelize.col(column),
   '%d/%m/%Y',
 );
+Sequelize.dataHoraBr = (column) => Sequelize.fn(
+  'date_format',
+  Sequelize.col(column),
+  '%d/%m/%Y %H:%i',
+);
 
 export default connection;
