@@ -9,6 +9,8 @@ import MaterialRestrictController from '../controllers/MaterialRestrictControlle
 import MaterialReleaseController from '../controllers/MaterialReleaseController';
 import MaterialReserveController from '../controllers/MaterialReserveController';
 
+import MaterialRawController from '../controllers/MaterialRawController';
+
 import materialIntype from '../controllers/MaterialIntypeController';
 
 const router = new Router();
@@ -19,6 +21,7 @@ const inventoryRoutes = new Router();
 const restrictRoutes = new Router();
 const releaseRoutes = new Router();
 const reserveRoutes = new Router();
+const rawRoutes = new Router();
 
 router.use('/in/', inRoutes);
 router.use('/out/', outRoutes);
@@ -26,6 +29,7 @@ router.use('/inventory/', inventoryRoutes);
 router.use('/restrict/', restrictRoutes);
 router.use('/release/', releaseRoutes);
 router.use('/reserve/', reserveRoutes);
+router.use('/raw/', rawRoutes);
 
 // MATERIAL ROUTES
 router.get('/', materialController.index);
@@ -53,7 +57,6 @@ outRoutes.post('/', MaterialOutController.store);
 // MATERIAL INVENTORY ROUTES
 inventoryRoutes.put('/:materialId', MaterialInventoryController.update);
 inventoryRoutes.get('/:materialId', MaterialInventoryController.show);
-inventoryRoutes.get('/complete', MaterialInventoryController.rawQueriesInventory);
 inventoryRoutes.get('/', MaterialInventoryController.index);
 inventoryRoutes.post('/', MaterialInventoryController.store);
 
@@ -70,5 +73,9 @@ reserveRoutes.put('/:materialReserveId', MaterialReserveController.update);
 reserveRoutes.get('/actives', MaterialReserveController.indexActives);
 reserveRoutes.get('/', MaterialReserveController.index);
 reserveRoutes.post('/', MaterialReserveController.store);
+
+// MATERIAL RAW ROUTES
+rawRoutes.post('/maintenanceBalanceOutput', MaterialRawController.maintenanceBalanceOutput);
+rawRoutes.get('/balance', MaterialRawController.balance);
 
 export default router;
