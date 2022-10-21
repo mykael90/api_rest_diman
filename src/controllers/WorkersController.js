@@ -12,6 +12,10 @@ class WorkersController {
   async index(req, res) {
     try {
       const result = await Worker.findAll({
+        attributes: {
+          include: [[Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job']],
+        },
+        order: [['name', 'ASC']],
         include: [
           {
             model: WorkerContact,
