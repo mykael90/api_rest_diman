@@ -79,6 +79,11 @@ export default class MaterialOut extends Model {
         type: Sequelize.INTEGER,
         allowNull: true,
       },
+      userReplacement:
+      {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
 
     }, {
       sequelize, tableName: 'materials_out',

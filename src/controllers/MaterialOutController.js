@@ -61,7 +61,7 @@ class MaterialOutController {
             ),
             'updatedAt',
           ],
-        ],
+          'userReplacement'],
         include: [
           {
             model: MaterialOutItem,
