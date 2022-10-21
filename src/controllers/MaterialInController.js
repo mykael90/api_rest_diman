@@ -138,7 +138,7 @@ class MaterialInController {
           ),
           'createdAt',
           ],
-        ],
+          'obs'],
         include: [
           {
             model: MaterialInItem,
@@ -217,6 +217,7 @@ class MaterialInController {
             ),
             'createdAt',
           ],
+          'obs',
         ],
         where: {
           reqMaintenance: `${reqMaintenance}/${year}`,
@@ -296,6 +297,7 @@ class MaterialInController {
           ),
           'createdAt',
           ],
+          'obs',
         ],
         include: [
           {
@@ -432,6 +434,7 @@ class MaterialInController {
           ),
           'createdAt',
           ],
+          'obs',
         ],
         where: {
           reqMaintenance: `${reqMaintenance}/${year}`,
