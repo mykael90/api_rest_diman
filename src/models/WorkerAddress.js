@@ -9,8 +9,8 @@ export default class WorkerAddress extends Model {
   static init(sequelize) {
     super.init(
       {
-        addressType: {
-          type: Sequelize.INTEGER,
+        title: {
+          type: Sequelize.STRING,
         },
       },
 

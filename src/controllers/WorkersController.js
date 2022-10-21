@@ -4,39 +4,24 @@ import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
+import WorkerAddress from '../models/WorkerAddress';
+import Address from '../models/Address';
 
 class WorkersController {
   // Index
-
   async index(req, res) {
     try {
       const result = await Worker.findAll({
-        attributes: [
-          'id',
-          'name',
-          'email',
-          'birthdate',
-          'cpf',
-          'filename_photo',
-          'rg',
-          [Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job'],
-        ],
-        order: [['id', 'ASC']],
         include: [
           {
             model: WorkerContact,
-            attributes: ['contacttype_id', 'contact', 'default', 'obs'],
           },
           {
             model: WorkerContract,
-            attributes: [
-              // 'workerId',
-              // 'contractId',
-              // 'workerJobtypeId',
-              'start',
-              'end',
-            ],
             include: [{ model: WorkerJobtype }],
+          },
+          {
+            model: Address,
           },
         ],
       });
@@ -50,21 +35,19 @@ class WorkersController {
   // Store
   async store(req, res) {
     try {
-      const workers = await Worker.create(
-        {
-          name: req.body.name,
-          email: req.body.email,
-          birthdate: req.body.birthdate,
-          cpf: req.body.cpf,
-          filename_photo: req.body.filename_photo,
-          rg: req.body.rg,
-
-          WorkerContacts: req.body.WorkerContacts,
-        },
-        {
-          include: [WorkerContact],
-        },
-      );
+      const workers = await Worker.create(req.body, {
+        include: [
+          {
+            model: WorkerContact,
+          },
+          {
+            model: WorkerContract,
+          },
+          {
+            model: Address,
+          },
+        ],
+      });
       return res.json(workers);
     } catch (e) {
       console.log('erroCustomizado', e);

@@ -4,6 +4,8 @@ import WorkersController from '../controllers/WorkersController';
 
 import AddressController from '../controllers/AddressController';
 import ContactTypesController from '../controllers/ContactTypesController';
+import JobtypeController from '../controllers/WorkerJobtypeController';
+import ContractController from '../controllers/ContractController';
 
 const router = new Router();
 const inRoutes = new Router();
@@ -17,5 +19,7 @@ router.post('/', WorkersController.store);
 router.get('/address', AddressController.index);
 
 inRoutes.get('/contacttypes', ContactTypesController.index);
+inRoutes.get('/jobtypes', JobtypeController.index);
+inRoutes.get('/contracts', ContractController.index);
 
 export default router;
