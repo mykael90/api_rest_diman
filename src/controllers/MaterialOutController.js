@@ -61,7 +61,7 @@ class MaterialOutController {
             ),
             'updatedAt',
           ],
-          'userReplacement'],
+          'userReplacementId'],
         include: [
           {
             model: MaterialOutItem,
@@ -105,6 +105,38 @@ class MaterialOutController {
       return res.json(result);
     } catch (e) {
       console.log(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
+  // Update
+  async update(req, res) {
+    try {
+      const { id } = req.params;
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'MaterialOutId não enviado',
+        });
+      }
+
+      const materialOut = await MaterialOut.findByPk(id);
+
+      if (!materialOut) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de Saída de Material não localizado no banco',
+        });
+      }
+
+      const result = await MaterialOut.update(req.body, {
+        where: {
+          id,
+        },
+      });
+      return res.json(result);
+    } catch (e) {
       return res.status(400).json({
         errors: [e.message],
       });
