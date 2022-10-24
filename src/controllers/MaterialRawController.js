@@ -16,6 +16,28 @@ class MaterialRawController {
     }
   }
 
+  async consumeOutput(req, res) {
+    try {
+      const result = await Material.sequelize.query(`select DATE(outItem.createdAtOut) as createdAtOut, DATE_FORMAT(DATE(outItem.createdAtOut),'%d/%m/%Y') as createdAtOutBr, oi.material_id as materialIdOut,  outItem.reqMaintenance, outItem.place as place, outItem.workerName, outItem.authorizedBy,materials.name, materials.unit, SUM(oi.quantity) as sumQuantityOut,  CONCAT('R$ ',FORMAT(MAX(oi.value), 2, 'pt_BR')) as maxPriceValueOutBr, MAX(oi.value) as maxPriceValueOut, SUM(oi.quantity)*MAX(oi.value) as totalPrice, outItem.outtypeId, iiReturn.sumQuantityIn as SumQuantityReturned,   (SUM(oi.quantity) - ifnull(iiReturn.sumQuantityIn,0)) as sumEffectiveQuantityOut, COUNT(oi.material_id) as outputFrequency from ((materials_out_items as oi left join (select o.id, o.req_maintenance as reqMaintenance, o.worker_id, w.name as workerName, o.authorized_by, u.username as authorizedBy, o.material_outtype_id as outtypeId, o.created_at as createdAtOut, o.place as place from materials_out as o left join workers as w on o.worker_id=w.id left join users as u on o.authorized_by=u.id) as outItem on oi.material_out_id = outItem.id)  left join (select ii.material_id as materialIdIn, SUM(ii.quantity) as sumQuantityIn, i.req_maintenance  from materials_in_items as ii left join materials_in as i on ii.material_in_id = i.id where i.material_intype_id=3 group by ii.material_id, i.req_maintenance) as iiReturn on oi.material_id=iiReturn.materialIdIn AND outItem.reqMaintenance=iiReturn.req_maintenance) left join materials on oi.material_id=materials.id where (outItem.outtypeId=1) group by oi.material_id, outItem.reqMaintenance, DATE(outItem.createdAtOut) having (createdAtOut BETWEEN CAST('${req.body.startDate}' AS DATE) AND CAST('${req.body.endDate}' AS DATE) AND sumEffectiveQuantityOut>0) order by DATE(createdAtOut)`, { type: QueryTypes.SELECT });
+      return res.json(result);
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
+  async provisionInput(req, res) {
+    try {
+      const result = await Material.sequelize.query(`select DATE(inItem.createdAtIn) as createdAtIn, DATE_FORMAT(DATE(inItem.createdAtIn),'%d/%m/%Y') as createdAtInBr, ii.material_id as materialIdIn,  inItem.reqMaintenance, inItem.requiredBy, materials.name, materials.unit, SUM(ii.quantity) as sumQuantityIn,  CONCAT('R$ ',FORMAT(MAX(ii.value), 2, 'pt_BR')) as maxPriceValueInBr, inItem.intypeId, inItem.intype, COUNT(ii.material_id) as inputFrequency, SUM(ii.quantity)*MAX(ii.value) as totalPrice, inItem.receivedBy from materials_in_items as ii left join (select i.id, i.req_maintenance as reqMaintenance, i.required_by as requiredBy, i.material_intype_id as intypeId, it.type as intype, i.created_at as createdAtIn, u.username as receivedBy from materials_in as i left join materials_intypes as it on i.material_intype_id=it.id left join users as u on i.user_id=u.id) as inItem on ii.material_in_id = inItem.id left join materials on ii.material_id=materials.id where (inItem.intypeId<>3) group by ii.material_id, DATE(inItem.createdAtIn) having createdAtIn BETWEEN CAST('${req.body.startDate}' AS DATE) AND CAST('${req.body.endDate}' AS DATE) order by DATE(createdAtIn)`, { type: QueryTypes.SELECT });
+      return res.json(result);
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   async maintenanceBalanceOutput(req, res) {
     let other = '';
     if (req.body.deficit) other = 'AND quantityBalance<0';

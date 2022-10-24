@@ -77,6 +77,8 @@ reserveRoutes.post('/', MaterialReserveController.store);
 
 // MATERIAL RAW ROUTES
 rawRoutes.post('/maintenanceBalanceOutput', MaterialRawController.maintenanceBalanceOutput);
+rawRoutes.post('/consumeOutput', MaterialRawController.consumeOutput);
+rawRoutes.post('/provisionInput', MaterialRawController.provisionInput);
 rawRoutes.get('/balance', MaterialRawController.balance);
 
 export default router;
