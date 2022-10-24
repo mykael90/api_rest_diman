@@ -27,6 +27,17 @@ class MaterialRawController {
     }
   }
 
+  async materialsRelevanceBalance(req, res) {
+    try {
+      const result = await Material.sequelize.query('(select ii.material_id as materialId, materials.name, materials.unit, materials.specification, ifnull(COUNT(ii.material_id),0) as frequencyInput, ifnull(SUM(ii.quantity),0) as sumInput, ifnull(oi.frequencyOutput,0) as frequencyOutput, ifnull(oi.sumOutput,0) as sumOutput,  ifnull(COUNT(ii.material_id),0) +  ifnull(oi.frequencyOutput,0) as sumFrequency,  ifnull(SUM(ii.quantity),0) - ifnull(oi.sumOutput,0) as balance  from materials_in_items as ii left join (select moi.material_id as material_id, COUNT(moi.material_id) as frequencyOutput, SUM(moi.quantity) as sumOutput from materials_out_items as moi group by moi.material_id) as oi on ii.material_id = oi.material_id left join materials on ii.material_id=materials.id group by ii.material_id  union  select oi.material_id as materialId, materials.name, materials.unit, materials.specification, ifnull(ii.frequencyInput,0) as frequencyInput, ifnull(ii.sumInput,0) as sumInput, ifnull(COUNT(oi.material_id),0) as frequencyOutput, ifnull(SUM(oi.quantity),0) as sumOutput,  ifnull(ii.frequencyInput,0) +  ifnull(COUNT(oi.material_id),0) as sumFrequency,  ifnull(ii.sumInput,0) - ifnull(SUM(oi.quantity),0) as balance  from materials_out_items as oi left join (select mii.material_id as material_id, COUNT(mii.material_id) as frequencyInput, SUM(mii.quantity) as sumInput from materials_in_items as mii group by mii.material_id) as ii on oi.material_id = ii.material_id left join materials on oi.material_id=materials.id group by oi.material_id)  order by sumFrequency desc', { type: QueryTypes.SELECT });
+      return res.json(result);
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   async provisionInput(req, res) {
     try {
       const result = await Material.sequelize.query(`select DATE(inItem.createdAtIn) as createdAtIn, DATE_FORMAT(DATE(inItem.createdAtIn),'%d/%m/%Y') as createdAtInBr, ii.material_id as materialIdIn,  inItem.reqMaintenance, inItem.requiredBy, materials.name, materials.unit, SUM(ii.quantity) as sumQuantityIn,  CONCAT('R$ ',FORMAT(MAX(ii.value), 2, 'pt_BR')) as maxPriceValueInBr, inItem.intypeId, inItem.intype, COUNT(ii.material_id) as inputFrequency, SUM(ii.quantity)*MAX(ii.value) as totalPrice, inItem.receivedBy from materials_in_items as ii left join (select i.id, i.req_maintenance as reqMaintenance, i.required_by as requiredBy, i.material_intype_id as intypeId, it.type as intype, i.created_at as createdAtIn, u.username as receivedBy from materials_in as i left join materials_intypes as it on i.material_intype_id=it.id left join users as u on i.user_id=u.id) as inItem on ii.material_in_id = inItem.id left join materials on ii.material_id=materials.id where (inItem.intypeId<>3) group by ii.material_id, DATE(inItem.createdAtIn) having createdAtIn BETWEEN CAST('${req.body.startDate}' AS DATE) AND CAST('${req.body.endDate}' AS DATE) order by DATE(createdAtIn)`, { type: QueryTypes.SELECT });

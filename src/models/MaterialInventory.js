@@ -67,6 +67,18 @@ export default class MaterialInventory extends Model {
         },
       },
 
+      userIdInititalQuantity:
+      {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
+
+      dateInitialQuantity:
+        {
+          type: Sequelize.DATE,
+          allowNull: true,
+        },
+
     }, {
       sequelize, tableName: 'materials_inventory', timestamps: false,
     });
