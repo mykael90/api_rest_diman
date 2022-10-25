@@ -3,7 +3,7 @@ module.exports = {
     return Promise.all([
       queryInterface.addColumn(
         'materials_inventory', // table name
-        'user_id_initital_quantity', // new field name
+        'user_id_initial_quantity', // new field name
         {
           type: Sequelize.INTEGER,
           allowNull: true,

@@ -67,7 +67,7 @@ export default class MaterialInventory extends Model {
         },
       },
 
-      userIdInititalQuantity:
+      userIdInitialQuantity:
       {
         type: Sequelize.INTEGER,
         allowNull: true,
