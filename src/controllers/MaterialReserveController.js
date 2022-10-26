@@ -118,6 +118,8 @@ class MaterialReserveController {
         attributes: {
           include: [
             [Sequelize.literal('`User`.`username`'), 'userUsername'],
+            [Sequelize.literal('`authorizer`.`name`'), 'authorizerName'],
+            [Sequelize.literal('`authorizer`.`id`'), 'authorizerId'],
             [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
             [Sequelize.currencyBr('`MaterialReserve`.`value`'), 'valueBr'],
             [Sequelize.literal('`Worker`.`name`'), 'workerName'],
