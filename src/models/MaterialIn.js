@@ -11,6 +11,8 @@ export default class MaterialIn extends Model {
     this.hasMany(models.MaterialInItem);
     this.hasMany(models.MaterialRestrict);
     this.hasMany(models.MaterialRelease);
+
+    this.belongsTo(models.MaterialOut, { as: 'MaterialReturned', sourceKey: 'id', foreignKey: 'returnId' });
   }
 
   static init(sequelize) {
@@ -82,6 +84,10 @@ export default class MaterialIn extends Model {
 
       obs: {
         type: Sequelize.TEXT,
+        allowNull: true,
+      },
+      returnId: {
+        type: Sequelize.INTEGER,
         allowNull: true,
       },
 

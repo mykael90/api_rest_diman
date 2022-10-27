@@ -6,6 +6,8 @@ import Material from '../models/Material';
 import MaterialOutItem from '../models/MaterialOutItem';
 import User from '../models/User';
 import Worker from '../models/Worker';
+import MaterialIn from '../models/MaterialIn';
+import MaterialInItem from '../models/MaterialInItem';
 
 class MaterialOutController {
   async store(req, res) {
@@ -68,8 +70,8 @@ class MaterialOutController {
             attributes: [
               ['material_id', 'materialId'],
               [Sequelize.literal('`MaterialOutItems->Material`.`name`'), 'name'],
-              [Sequelize.literal('specification'), 'specification'],
-              [Sequelize.literal('unit'), 'unit'],
+              [Sequelize.literal('`MaterialOutItems->Material`.`specification`'), 'specification'],
+              [Sequelize.literal('`MaterialOutItems->Material`.`unit`'), 'unit'],
               [Sequelize.currencyBr('`MaterialOutItems`.`value`'), 'value'],
               'quantity',
             ],
@@ -84,6 +86,30 @@ class MaterialOutController {
             model: User,
             attributes: [],
             required: false,
+          },
+          {
+            model: MaterialIn,
+            // attributes: ['id'],
+            as: 'MaterialReturned',
+            required: false,
+            include:
+              {
+                model: MaterialInItem,
+                attributes: [
+                  ['material_id', 'materialId'],
+                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`name`'), 'name'],
+                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`specification`'), 'specification'],
+                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`unit`'), 'unit'],
+                  'quantity',
+                  [Sequelize.currencyBr('`MaterialReturned->MaterialInItems`.`value`'), 'value'],
+                ],
+                required: false,
+                include: {
+                  model: Material,
+                  attributes: [],
+                  required: false,
+                },
+              },
           },
           {
             model: User,
