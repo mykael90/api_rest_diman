@@ -89,7 +89,10 @@ class MaterialOutController {
           },
           {
             model: MaterialIn,
-            // attributes: ['id'],
+            attributes: ['id', 'value', [Sequelize.currencyBr('`MaterialReturned`.`value`'), 'valueBr'], ['created_at', 'createdAt'], [Sequelize.dataHoraBr(
+              '`MaterialReturned`.`created_at`',
+            ),
+            'createdAtBr']],
             as: 'MaterialReturned',
             required: false,
             include:
