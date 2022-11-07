@@ -26,6 +26,10 @@ import manualRoutes from './routes/manualRoutes';
 
 import loginRequired from './middlewares/loginRequired';
 
+import scheduledTasks from './scheduledTasks';
+
+scheduledTasks();
+
 const whiteList = [
   'https://react.mme.eng.br',
   'http://localhost:3000',

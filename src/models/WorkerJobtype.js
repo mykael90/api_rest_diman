@@ -2,7 +2,6 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerJobtype extends Model {
   static associate(models) {
-    console.log(models);
     this.belongsToMany(models.Worker, {
       through: models.WorkerContract,
     });
@@ -24,7 +23,7 @@ export default class WorkerJobtype extends Model {
         },
       },
 
-      { sequelize, tableName: 'workers_jobtypes', timestamps: false }
+      { sequelize, tableName: 'workers_jobtypes', timestamps: false },
     );
     return this;
   }
