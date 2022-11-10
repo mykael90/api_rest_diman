@@ -3,6 +3,8 @@ import Sequelize, { Model } from 'sequelize';
 export default class PropertySipac extends Model {
   static associate(models) {
     this.hasMany(models.BuildingSipac, { as: 'buildingsSipac', sourceKey: 'id', foreignKey: 'propertySipacId' });
+
+    this.hasMany(models.MaterialOut, { as: 'propertiesSipac', sourceKey: 'id', foreignKey: 'propertyId' });
   }
 
   static init(sequelize) {

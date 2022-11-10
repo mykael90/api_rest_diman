@@ -32,38 +32,28 @@ class MaterialOutController {
   async index(req, res) {
     try {
       const result = await MaterialOut.findAll({
-        attributes: [
-          'id',
-          'materialOuttypeId',
-          [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
-          'reqMaintenance',
-          'reqMaterial',
-          'userId',
-          [Sequelize.literal('`User`.`username`'), 'userUsername'],
-          'authorizedBy',
-          [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
-          [Sequelize.literal('`Worker`.`name`'), 'removedBy'],
-          'workerId',
-          'campusId',
-          'propertyId',
-          'buildingId',
-          'place',
-          'obs',
-          [Sequelize.currencyBr('`MaterialOut`.`value`'), 'value'],
-          [Sequelize.dataHoraBr(
-            '`MaterialOut`.`created_at`',
-          ),
-          'createdAt',
-          ],
-          [
-            Sequelize.fn(
-              'date_format',
-              Sequelize.col('`MaterialOut`.`updated_At`'),
-              '%d/%m/%Y',
+        attributes: {
+          include: [
+            [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
+            [Sequelize.literal('`User`.`username`'), 'userUsername'],
+            [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
+            [Sequelize.literal('`Worker`.`name`'), 'removedBy'],
+            [Sequelize.currencyBr('`MaterialOut`.`value`'), 'valueBr'],
+            [Sequelize.dataHoraBr(
+              '`MaterialOut`.`created_at`',
             ),
-            'updatedAt',
+            'createdAtBr',
+            ],
+            [
+              Sequelize.fn(
+                'date_format',
+                Sequelize.col('`MaterialOut`.`updated_At`'),
+                '%d/%m/%Y',
+              ),
+              'updatedAtBr',
+            ],
           ],
-          'userReplacementId'],
+        },
         include: [
           {
             model: MaterialOutItem,
