@@ -169,9 +169,9 @@ class MaterialReserveController {
             ],
           ],
         },
-        // order: [
-        //   ['intendedUse', 'ASC'],
-        // ],
+        order: [
+          ['intendedUse', 'ASC'],
+        ],
         where: {
           [Op.and]: [
             { withdrawnAt: { [Op.is]: null } },
