@@ -65,6 +65,9 @@ class MaterialReserveController {
             ],
           ],
         },
+        // order: [
+        //   ['intendedUse', 'ASC'],
+        // ],
         include: [
           {
             model: MaterialReserveItem,
@@ -100,6 +103,7 @@ class MaterialReserveController {
             required: false,
           },
         ],
+
       });
       return res.json(result);
     } catch (e) {
@@ -165,9 +169,9 @@ class MaterialReserveController {
             ],
           ],
         },
-        order: [
-          ['intendedUse', 'DESC'],
-        ],
+        // order: [
+        //   ['intendedUse', 'ASC'],
+        // ],
         where: {
           [Op.and]: [
             { withdrawnAt: { [Op.is]: null } },
