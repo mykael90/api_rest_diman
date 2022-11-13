@@ -29,7 +29,13 @@ class MaterialInventoryController {
             model: Material,
             attributes: [],
             required: false,
+            order: [
+              ['name', 'ASC'],
+            ],
           },
+          order: [
+            [Sequelize.col('name'), 'ASC'],
+          ],
         },
       );
       return res.json(result);
