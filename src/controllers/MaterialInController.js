@@ -1,4 +1,4 @@
-import Sequelize from 'sequelize';
+import Sequelize, { Op } from 'sequelize';
 
 import MaterialIn from '../models/MaterialIn';
 import MaterialIntype from '../models/MaterialIntype';
@@ -182,7 +182,6 @@ class MaterialInController {
   // Show
   async show(req, res) {
     try {
-      console.log(JSON.stringify(req.params));
       const { reqMaintenance, year } = req.params;
       const result = await MaterialIn.findAll({
         attributes: [
@@ -299,6 +298,9 @@ class MaterialInController {
           ],
           'obs',
         ],
+        where: {
+          materialIntypeId: { [Op.lte]: 3 },
+        },
         include: [
           {
             model: MaterialInItem,
@@ -399,6 +401,9 @@ class MaterialInController {
             model: MaterialIntype,
             required: false,
           },
+        ],
+        order: [
+          ['id', 'DESC'],
         ],
       });
       return res.json(result);
