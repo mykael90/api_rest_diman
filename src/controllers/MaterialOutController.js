@@ -6,19 +6,26 @@ import Material from '../models/Material';
 import MaterialOutItem from '../models/MaterialOutItem';
 import User from '../models/User';
 import Worker from '../models/Worker';
+import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
 import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
 
 class MaterialOutController {
   async store(req, res) {
     try {
-      const result = await MaterialOut.create(
-        req.body,
-        {
-          include: [MaterialOutItem],
-        },
-      );
-      return res.json(result);
+      const result = await MaterialOut.sequelize.transaction(async (t) => {
+        const materialOut = await MaterialOut.create(
+          req.body,
+          {
+            include: [MaterialOutItem],
+            transaction: t,
+          },
+        );
+        return res.json(materialOut);
+      });
+      console.log('olhe mykael', result);
+      return result;
     } catch (e) {
       console.log(e);
       return res.status(400).json({
@@ -112,8 +119,13 @@ class MaterialOutController {
           },
           {
             model: Worker,
-            attributes: [],
             required: false,
+            include: {
+              model: WorkerContract,
+              include: {
+                model: WorkerJobtype,
+              },
+            },
           },
           {
             model: MaterialOuttype,
