@@ -24,7 +24,6 @@ class MaterialOutController {
         );
         return res.json(materialOut);
       });
-      console.log('olhe mykael', result);
       return result;
     } catch (e) {
       console.log(e);
