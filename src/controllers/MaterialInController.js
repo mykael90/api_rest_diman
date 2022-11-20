@@ -301,6 +301,7 @@ class MaterialInController {
         ],
         where: {
           materialIntypeId: { [Op.lte]: 3 },
+          req: { [Op.not]: null },
         },
         include: [
           {
