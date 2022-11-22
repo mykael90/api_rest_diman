@@ -5,19 +5,37 @@ import { extname, resolve } from 'path';
 const aleatorio = () => Math.floor(Math.random() * 10000 + 10000);
 
 export default {
-  fileFilter: (req, file, cb) => {
-    console.log(file.mimetype);
-    if (file.mimetype !== 'image/png' && file.mimetype !== 'image/jpeg') {
-      return cb(new multer.MulterError('Arquivo precisa ser do tipo PNG ou JPG'));
-    }
-    return cb(null, true);
+  workers: {
+    fileFilter: (req, file, cb) => {
+      if (file.mimetype !== 'image/png' && file.mimetype !== 'image/jpeg') {
+        return cb(new multer.MulterError('Arquivo precisa ser do tipo PNG ou JPG'));
+      }
+      return cb(null, true);
+    },
+    storage: multer.diskStorage({
+      destination: (req, file, cb) => {
+        cb(null, resolve(__dirname, '..', '..', 'uploads', 'workers', 'images'));
+      },
+      filename: (req, file, cb) => {
+        cb(null, `worker_${Date.now()}_${aleatorio()}${extname(file.originalname)}`);
+      },
+    }),
   },
-  storage: multer.diskStorage({
-    destination: (req, file, cb) => {
-      cb(null, resolve(__dirname, '..', '..', 'uploads', 'workers', 'images'));
+
+  users: {
+    fileFilter: (req, file, cb) => {
+      if (file.mimetype !== 'image/png' && file.mimetype !== 'image/jpeg') {
+        return cb(new multer.MulterError('Arquivo precisa ser do tipo PNG ou JPG'));
+      }
+      return cb(null, true);
     },
-    filename: (req, file, cb) => {
-      cb(null, `${Date.now()}_${aleatorio()}${extname(file.originalname)}`);
-    },
-  }),
+    storage: multer.diskStorage({
+      destination: (req, file, cb) => {
+        cb(null, resolve(__dirname, '..', '..', 'uploads', 'users', 'images'));
+      },
+      filename: (req, file, cb) => {
+        cb(null, `user_${Date.now()}_${aleatorio()}${extname(file.originalname)}`);
+      },
+    }),
+  },
 };

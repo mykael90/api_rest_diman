@@ -11,7 +11,7 @@ import ContractController from '../controllers/ContractController';
 
 import multerConfig from '../config/multerConfig';
 
-const upload = multer(multerConfig);
+const upload = multer(multerConfig.workers);
 
 const router = new Router();
 const inRoutes = new Router();

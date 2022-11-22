@@ -64,7 +64,7 @@ class WorkersController {
   // Store Upload
   async storeUpload(req, res) {
     try {
-      return res.json(req.file);
+      return res.json(req.body);
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({
