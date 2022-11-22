@@ -61,6 +61,18 @@ class WorkersController {
     }
   }
 
+  // Store Upload
+  async storeUpload(req, res) {
+    try {
+      return res.json(req.file);
+    } catch (e) {
+      console.log('erroCustomizado', e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   // IndexActives = funcionários com contrato ativo
 
   async indexActives(req, res) {
