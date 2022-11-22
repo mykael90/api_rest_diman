@@ -37,20 +37,22 @@ class MaterialInController {
         })),
       );
 
-      await items.forEach(async (item) => {
+      items.forEach(async (item) => {
         if (!item.response) {
-          await Material.create({
-            id: item.MaterialId,
-            groupSipac: item.MaterialId.substr(0, 4),
-            name: removeAccent(item.name),
-            unit: item.unit,
-          });
+          await Material.create(
+            {
+              id: item.MaterialId,
+              groupSipac: item.MaterialId.substr(0, 4),
+              name: removeAccent(item.name),
+              unit: item.unit,
+            },
+          );
         }
       });
 
       // ADICIONANDO A REQUISIÇÃO COM OS ITENS PROPRIAMENTE DITA
 
-      const result = await MaterialIn.create(
+      const materialIn = await MaterialIn.create(
         {
           materialIntypeId: req.body.materialIntypeId,
           req: req.body.req,
@@ -68,8 +70,7 @@ class MaterialInController {
           include: [MaterialInItem],
         },
       );
-
-      return res.json(result);
+      return res.json(materialIn);
     } catch (e) {
       console.log(e);
       return res.status(400).json({
@@ -81,13 +82,13 @@ class MaterialInController {
   // RETORNOS
   async storeGeneral(req, res) {
     try {
-      const result = await MaterialIn.create(
+      const materialIn = await MaterialIn.create(
         req.body,
         {
           include: [MaterialInItem],
         },
       );
-      return res.json(result);
+      return res.json(materialIn);
     } catch (e) {
       console.log(e);
       return res.status(400).json({
@@ -300,6 +301,7 @@ class MaterialInController {
         ],
         where: {
           materialIntypeId: { [Op.lte]: 3 },
+          req: { [Op.not]: null },
         },
         include: [
           {
