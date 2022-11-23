@@ -1,5 +1,8 @@
 import Sequelize from 'sequelize';
 
+import fs from 'fs';
+import { extname, resolve } from 'path';
+
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
@@ -64,6 +67,12 @@ class WorkersController {
   // Store Upload
   async storeUpload(req, res) {
     try {
+      console.log(req.body, req.file);
+      const path = resolve(__dirname, '..', '..', 'uploads', 'workers', 'images');
+      const fileName = `worker_id_${req.body.id}`;
+      const extFile = extname(req.file.originalname);
+      fs.writeFileSync(`${path}/${fileName}${extFile}`, req.file.buffer);
+      console.log('file mem uploaded');
       return res.json(req.file);
     } catch (e) {
       console.log('erroCustomizado', e);
