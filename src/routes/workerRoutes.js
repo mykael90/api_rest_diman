@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import UploadController from '../controllers/UploadController';
+
 import WorkersContactController from '../controllers/WorkersContactController';
 import WorkersController from '../controllers/WorkersController';
 
@@ -8,7 +10,7 @@ import ContactTypesController from '../controllers/ContactTypesController';
 import JobtypeController from '../controllers/WorkerJobtypeController';
 import ContractController from '../controllers/ContractController';
 
-import { photoController } from '../config/multerConfig';
+import { photoMulter } from '../config/multerConfig';
 
 const router = new Router();
 const inRoutes = new Router();
@@ -18,11 +20,12 @@ router.use('/', inRoutes);
 router.get('/actives', WorkersController.indexActives);
 router.post(
   '/upload',
-  photoController,
+  photoMulter,
   WorkersController.storeUpload,
+  UploadController.storeWorker,
 );
 router.get('/', WorkersController.index);
-router.post('/', WorkersController.store);
+router.post('/', photoMulter, WorkersController.store, UploadController.storeWorker);
 
 router.get('/address', AddressController.index);
 

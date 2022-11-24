@@ -39,9 +39,10 @@ class WorkersController {
     }
   }
 
-  // Store
-  async store(req, res) {
+  // Store with upload (if necessary)
+  async store(req, res, next) {
     try {
+      console.log(req.body);
       const workers = await Worker.create(req.body, {
         include: [
           {
@@ -55,25 +56,9 @@ class WorkersController {
           },
         ],
       });
-      return res.json(workers);
-    } catch (e) {
-      console.log('erroCustomizado', e);
-      return res.status(400).json({
-        errors: [e.message],
-      });
-    }
-  }
-
-  // Store Upload
-  async storeUpload(req, res) {
-    try {
-      console.log(req.body, req.file);
-      const path = resolve(__dirname, '..', '..', 'uploads', 'workers', 'images');
-      const fileName = `worker_id_${req.body.id}`;
-      const extFile = extname(req.file.originalname);
-      fs.writeFileSync(`${path}/${fileName}${extFile}`, req.file.buffer);
-      console.log('file mem uploaded');
-      return res.json(req.file);
+      if (!req.file) return res.json(workers);
+      req.result = { ...workers.dataValues };
+      return next();
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({
