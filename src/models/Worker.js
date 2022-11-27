@@ -46,7 +46,7 @@ export default class Worker extends Model {
           allowNull: true,
         },
 
-        filename_photo: {
+        filenamePhoto: {
           type: Sequelize.STRING,
           allowNull: true,
           unique: true,

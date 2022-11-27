@@ -1,4 +1,4 @@
-import Sequelize, { QueryTypes } from 'sequelize';
+import Sequelize from 'sequelize';
 
 import MaterialInventory from '../models/MaterialInventory';
 import Material from '../models/Material';

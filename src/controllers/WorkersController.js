@@ -1,13 +1,12 @@
 import Sequelize from 'sequelize';
 
-import fs from 'fs';
-import { extname, resolve } from 'path';
+import { extname } from 'path';
 
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
-import WorkerAddress from '../models/WorkerAddress';
+// import WorkerAddress from '../models/WorkerAddress';
 import Address from '../models/Address';
 
 class WorkersController {
@@ -57,8 +56,19 @@ class WorkersController {
         ],
       });
       if (!req.file) return res.json(workers);
+
+      // If has file --->
       req.result = { ...workers.dataValues };
-      return next();
+      req.dimensionResized = 600; // new dimension to photo
+      const fileExtension = extname(req.file.originalname);
+      req.fileName = `${Worker.name.toLowerCase()}_${req.result.id}${fileExtension}`;
+      // update filename field on database
+      await Worker.update({ filenamePhoto: req.fileName }, {
+        where: {
+          id: req.result.id,
+        },
+      });
+      return next(); // go to uploadController
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({

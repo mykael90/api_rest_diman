@@ -2,7 +2,7 @@ import { Router } from 'express';
 
 import UploadController from '../controllers/UploadController';
 
-import WorkersContactController from '../controllers/WorkersContactController';
+// import WorkersContactController from '../controllers/WorkersContactController';
 import WorkersController from '../controllers/WorkersController';
 
 import AddressController from '../controllers/AddressController';
@@ -18,12 +18,6 @@ const inRoutes = new Router();
 router.use('/', inRoutes);
 
 router.get('/actives', WorkersController.indexActives);
-router.post(
-  '/upload',
-  photoMulter,
-  WorkersController.storeUpload,
-  UploadController.storeWorker,
-);
 router.get('/', WorkersController.index);
 router.post('/', photoMulter, WorkersController.store, UploadController.storeWorker);
 
