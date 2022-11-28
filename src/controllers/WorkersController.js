@@ -80,7 +80,7 @@ class WorkersController {
   // Update
   async update(req, res, next) {
     try {
-      const { id } = req.params;
+      const { id } = req.body;
 
       if (!id) {
         return res.status(400).json({
@@ -121,6 +121,16 @@ class WorkersController {
       return res.status(400).json({
         errors: [e.message],
       });
+    }
+  }
+
+  // Show
+  async show(req, res) {
+    try {
+      const worker = await Worker.findByPk(req.params.id);
+      return res.json(worker);
+    } catch (e) {
+      return res.json(null);
     }
   }
 
