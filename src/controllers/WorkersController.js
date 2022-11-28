@@ -77,6 +77,53 @@ class WorkersController {
     }
   }
 
+  // Update
+  async update(req, res, next) {
+    try {
+      const { id } = req.params;
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'WorkerId não enviado',
+        });
+      }
+
+      const worker = await Worker.findByPk(id);
+
+      if (!worker) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de Worker não localizado no banco',
+        });
+      }
+
+      const result = await Worker.update(req.body, {
+        where: {
+          id,
+        },
+      });
+
+      console.log(result);
+
+      if (!req.file) return res.json(result);
+
+      // If has file --->
+      req.dimensionResized = 600; // new dimension to photo
+      const fileExtension = extname(req.file.originalname);
+      req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
+      // update filename field on database
+      // await Worker.update({ filenamePhoto: req.fileName }, {
+      //   where: {
+      //     id: req.result.id,
+      //   },
+      // });
+      return next(); // go to uploadController
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   // IndexActives = funcionários com contrato ativo
 
   async indexActives(req, res) {

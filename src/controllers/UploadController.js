@@ -18,7 +18,9 @@ class UploadController {
           fit: 'inside', // both sides must be lower than 'dimensionResized'
           // eslint-disable-next-line max-len
           withoutEnlargement: true, // if image's original width or height is less than specified width and height, sharp will do nothing(i.e no enlargement)
-        }).toBuffer();
+        })
+        .withMetadata()
+        .toBuffer();
 
       fs.writeFileSync(`${uploadPath.worker}/${fileName}`, req.file.buffer);
       console.log('file uploaded');

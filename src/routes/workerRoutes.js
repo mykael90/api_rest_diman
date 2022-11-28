@@ -20,6 +20,7 @@ router.use('/', inRoutes);
 router.get('/actives', WorkersController.indexActives);
 router.get('/', WorkersController.index);
 router.post('/', photoMulter, WorkersController.store, UploadController.storeWorker);
+router.put('/:id', photoMulter, WorkersController.update, UploadController.storeWorker);
 
 router.get('/address', AddressController.index);
 
