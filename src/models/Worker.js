@@ -1,4 +1,5 @@
 import Sequelize, { Model } from 'sequelize';
+import appConfig from '../config/appConfig';
 
 export default class Worker extends Model {
   static associate(models) {
@@ -46,11 +47,20 @@ export default class Worker extends Model {
           allowNull: true,
         },
 
-        filename_photo: {
+        filenamePhoto: {
           type: Sequelize.STRING,
           allowNull: true,
           unique: true,
         },
+
+        urlPhoto: {
+          type: Sequelize.VIRTUAL,
+          get() {
+            if (!this.getDataValue('filenamePhoto')) return `${appConfig.url}/workers/images/default.png`;
+            return `${appConfig.url}/workers/images/${this.getDataValue('filenamePhoto')}`;
+          },
+        },
+
         rg: {
           type: Sequelize.STRING,
           allowNull: true,

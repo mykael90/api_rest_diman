@@ -1,10 +1,12 @@
 import Sequelize from 'sequelize';
 
+import { extname } from 'path';
+
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
-import WorkerAddress from '../models/WorkerAddress';
+// import WorkerAddress from '../models/WorkerAddress';
 import Address from '../models/Address';
 
 class WorkersController {
@@ -36,9 +38,10 @@ class WorkersController {
     }
   }
 
-  // Store
-  async store(req, res) {
+  // Store with upload (if necessary)
+  async store(req, res, next) {
     try {
+      console.log(req.body);
       const workers = await Worker.create(req.body, {
         include: [
           {
@@ -52,7 +55,20 @@ class WorkersController {
           },
         ],
       });
-      return res.json(workers);
+      if (!req.file) return res.json(workers);
+
+      // If has file --->
+      req.result = { ...workers.dataValues };
+      req.dimensionResized = 600; // new dimension to photo
+      const fileExtension = extname(req.file.originalname);
+      req.fileName = `${Worker.name.toLowerCase()}_${req.result.id}${fileExtension}`;
+      // update filename field on database
+      await Worker.update({ filenamePhoto: req.fileName }, {
+        where: {
+          id: req.result.id,
+        },
+      });
+      return next(); // go to uploadController
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({
@@ -61,15 +77,60 @@ class WorkersController {
     }
   }
 
-  // Store Upload
-  async storeUpload(req, res) {
+  // Update
+  async update(req, res, next) {
     try {
-      return res.json(req.body);
+      const { id } = req.body;
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'WorkerId não enviado',
+        });
+      }
+
+      const worker = await Worker.findByPk(id);
+
+      if (!worker) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de Worker não localizado no banco',
+        });
+      }
+
+      const result = await Worker.update(req.body, {
+        where: {
+          id,
+        },
+      });
+
+      console.log(result);
+
+      if (!req.file) return res.json(result);
+
+      // If has file --->
+      req.dimensionResized = 600; // new dimension to photo
+      const fileExtension = extname(req.file.originalname);
+      req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
+      // update filename field on database
+      // await Worker.update({ filenamePhoto: req.fileName }, {
+      //   where: {
+      //     id: req.result.id,
+      //   },
+      // });
+      return next(); // go to uploadController
     } catch (e) {
-      console.log('erroCustomizado', e);
       return res.status(400).json({
         errors: [e.message],
       });
+    }
+  }
+
+  // Show
+  async show(req, res) {
+    try {
+      const worker = await Worker.findByPk(req.params.id);
+      return res.json(worker);
+    } catch (e) {
+      return res.json(null);
     }
   }
 
