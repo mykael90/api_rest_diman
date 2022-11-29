@@ -111,11 +111,11 @@ class WorkersController {
       const fileExtension = extname(req.file.originalname);
       req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
       // update filename field on database
-      // await Worker.update({ filenamePhoto: req.fileName }, {
-      //   where: {
-      //     id: req.result.id,
-      //   },
-      // });
+      await Worker.update({ filenamePhoto: req.fileName }, {
+        where: {
+          id,
+        },
+      });
       return next(); // go to uploadController
     } catch (e) {
       return res.status(400).json({
