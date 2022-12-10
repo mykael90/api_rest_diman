@@ -66,6 +66,8 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(express.static(resolve(__dirname, '..', 'uploads')));
+    this.app.use('/uploads/', express.static(resolve(__dirname, '..', 'uploads')));
+    // this.app.use('/uploads/', express.static(resolve(__dirname, '..', 'uploads', 'workers', 'images')));
   }
 
   routes() {
