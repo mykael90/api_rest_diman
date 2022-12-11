@@ -33,10 +33,15 @@ scheduledTasks();
 const whiteList = [
   'https://react.mme.eng.br',
   'http://localhost:3000',
+  'http://localhost',
   'https://www.wikipedia.org',
   'http://10.1.159.210:3000', // PC MYKAEL DIMAN OLD
   'http://10.1.156.199:3000', // PC MYKAEL DIMAN
   'http://192.168.0.25:3000', // PC MYKAEL CASA
+  'https://192.168.0.25', // PC MYKAEL CASA
+  'https://192.168.0.25:3002', // PC MYKAEL CASA
+  'https://192.168.0.25:443', // PC MYKAEL CASA
+  'http://192.168.0.25', // PC MYKAEL CASA
   'http://10.1.158.116:3000', // PC Alexandre DIMAN
   'http://192.168.100.46:3000',
   'http://10.1.158.162:3000',
