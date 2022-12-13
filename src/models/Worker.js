@@ -56,8 +56,8 @@ export default class Worker extends Model {
         urlPhoto: {
           type: Sequelize.VIRTUAL,
           get() {
-            if (!this.getDataValue('filenamePhoto')) return `${appConfig.url}/workers/images/default.png`;
-            return `${appConfig.url}/workers/images/${this.getDataValue('filenamePhoto')}`;
+            if (!this.getDataValue('filenamePhoto')) return `${appConfig.url}/uploads/workers/images/default.png`;
+            return `${appConfig.url}/uploads/workers/images/${this.getDataValue('filenamePhoto')}`;
           },
         },
 
