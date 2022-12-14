@@ -41,10 +41,16 @@ const whiteList = [
   'https://192.168.0.25', // PC MYKAEL CASA
   'https://192.168.0.25:3002', // PC MYKAEL CASA
   'https://192.168.0.25:443', // PC MYKAEL CASA
+  'https://10.1.156.199',
+  'https://10.1.156.199:3002',
+  'https://10.1.156.199:443',
   'http://192.168.0.25', // PC MYKAEL CASA
   'http://10.1.158.116:3000', // PC Alexandre DIMAN
   'http://192.168.100.46:3000',
   'http://10.1.158.162:3000',
+  'https://10.1.158.162',
+  'https://10.1.158.162:3002',
+  'https://10.1.158.162:443',
 ];
 
 const corsOptions = {
