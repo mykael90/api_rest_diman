@@ -23,7 +23,7 @@ export default class Contacttype extends Model {
         },
       },
 
-      { sequelize, tableName: 'contacttypes', timestamps: false }
+      { sequelize, tableName: 'contacttypes', timestamps: false },
     );
     return this;
   }
