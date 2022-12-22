@@ -21,7 +21,8 @@ router.get('/actives', WorkersController.indexActives);
 router.get('/', WorkersController.index);
 router.post('/', photoMulter, WorkersController.store, UploadController.storeWorker);
 router.get('/:id', WorkersController.show);
-router.put('/:id', photoMulter, WorkersController.update, UploadController.storeWorker);
+// router.put('/:id', photoMulter, WorkersController.update, UploadController.storeWorker);
+router.put('/:id', WorkersController.updateNew);
 
 router.get('/address', AddressController.index);
 

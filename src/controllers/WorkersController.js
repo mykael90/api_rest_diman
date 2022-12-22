@@ -124,6 +124,84 @@ class WorkersController {
     }
   }
 
+  // UpdateNew
+  async updateNew(req, res, next) {
+    try {
+      const { id } = req.body;
+      console.log('id', id);
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'WorkerId não enviado',
+        });
+      }
+
+      const worker = await Worker.findByPk(id, {
+        include: [
+          { model: WorkerContract },
+        ],
+      });
+
+      if (!worker) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de Worker não localizado no banco',
+        });
+      }
+
+      console.log('valor procurado', JSON.stringify(worker.WorkerContracts));
+
+      // worker.WorkerContracts[0].set(req.body.WorkerContracts[0]);
+
+      // eslint-disable-next-line max-len
+      req.body.WorkerContracts.forEach((contract, index) => worker.WorkerContracts[index].set(contract));
+
+      // console.log(req.body.WorkerContracts[0]);
+
+      delete req.body.WorkerContracts;
+
+      worker.set(req.body);
+      // await worker.WorkerContracts[0].save();
+
+      for (const item of worker.WorkerContracts) {
+        try {
+          await item.save();
+        } catch (e) {
+          console.log(e.message);
+        }
+      }
+
+      await worker.save();
+
+      return res.json(worker);
+
+      // const result = await Worker.update(req.body, {
+      //   where: {
+      //     id,
+      //   },
+      // });
+
+      // console.log(result);
+
+      // if (!req.file) return res.json(result);
+
+      // // If has file --->
+      // req.dimensionResized = 600; // new dimension to photo
+      // const fileExtension = extname(req.file.originalname);
+      // req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
+      // // update filename field on database
+      // await Worker.update({ filenamePhoto: req.fileName }, {
+      //   where: {
+      //     id,
+      //   },
+      // });
+      // return next(); // go to uploadController
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   // Show
   async show(req, res) {
     try {
