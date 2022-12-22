@@ -127,7 +127,21 @@ class WorkersController {
   // Show
   async show(req, res) {
     try {
-      const worker = await Worker.findByPk(req.params.id);
+      const worker = await Worker.findByPk(req.params.id, {
+        include: [
+          {
+            model: WorkerContact,
+          },
+          {
+            model: WorkerContract,
+            include: [{ model: WorkerJobtype }],
+          },
+          {
+            model: Address,
+          },
+        ],
+        order: [[WorkerContract, 'start', 'ASC']],
+      });
       return res.json(worker);
     } catch (e) {
       return res.json(null);
