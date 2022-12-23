@@ -136,6 +136,7 @@ class WorkersController {
         });
       }
 
+      // TEM QUE ESTAR EXATAMENTE NO MESMO PADRÃO DE ORNDEMANENTO QUE ALIMENTA O FORM
       const worker = await Worker.findByPk(id, {
         include: [
           { model: WorkerContract },
