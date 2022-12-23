@@ -124,6 +124,103 @@ class WorkersController {
     }
   }
 
+  // UpdateNew
+  async updateNew(req, res, next) {
+    try {
+      const { id } = req.body;
+      console.log('id', id);
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'WorkerId não enviado',
+        });
+      }
+
+      // TEM QUE ESTAR EXATAMENTE NO MESMO PADRÃO DE ORNDEMANENTO QUE ALIMENTA O FORM
+      const worker = await Worker.findByPk(id, {
+        include: [
+          { model: WorkerContract },
+        ],
+        order: [[WorkerContract, 'start', 'ASC']],
+      });
+
+      if (!worker) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de Worker não localizado no banco',
+        });
+      }
+
+      console.log('vem do body', JSON.stringify(req.body.WorkerContracts));
+      console.log('valor procurado', JSON.stringify(worker.WorkerContracts));
+
+      // ATUALIZANDO VALORES DE SUBTABELAS----> AJUSTAR!!!
+      Object.entries(req.body).forEach((item) => {
+        if (Array.isArray(item[1])) {
+          item[1].forEach((value, i) => worker[item[0]][i].set(value));
+        }
+      });
+
+      // FILTRAR CHAVES APENAS DA TABELA PRINCIPAL (SEM ARRAYS DE SUBTABELAS)
+      const mainTableUpdate = Object.entries(req.body)
+        .filter((entry) => !Array.isArray(entry[1]))
+        .reduce((obj, entry) => Object.assign(obj, {
+          [entry[0]]: entry[1],
+        }), {});
+
+      console.log('MAINTABLE', mainTableUpdate);
+
+      // worker.WorkerContracts[0].set(req.body.WorkerContracts[0]);
+
+      // eslint-disable-next-line max-len
+      // req.body.WorkerContracts.forEach((contract, index) => worker.WorkerContracts[index].set(contract));
+
+      // console.log(req.body.WorkerContracts[0]);
+
+      // delete req.body.WorkerContracts;
+
+      worker.set(mainTableUpdate);
+      // await worker.WorkerContracts[0].save();
+
+      for (const item of worker.WorkerContracts) {
+        try {
+          await item.save();
+        } catch (e) {
+          console.log(e.message);
+        }
+      }
+
+      await worker.save();
+
+      return res.json(worker);
+
+      // const result = await Worker.update(req.body, {
+      //   where: {
+      //     id,
+      //   },
+      // });
+
+      // console.log(result);
+
+      // if (!req.file) return res.json(result);
+
+      // // If has file --->
+      // req.dimensionResized = 600; // new dimension to photo
+      // const fileExtension = extname(req.file.originalname);
+      // req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
+      // // update filename field on database
+      // await Worker.update({ filenamePhoto: req.fileName }, {
+      //   where: {
+      //     id,
+      //   },
+      // });
+      // return next(); // go to uploadController
+    } catch (e) {
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
   // Show
   async show(req, res) {
     try {

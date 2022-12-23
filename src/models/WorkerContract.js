@@ -15,16 +15,18 @@ export default class WorkerContract extends Model {
         //   primaryKey: true,
         //   allowNull: false,
         // },
-        // contractId: {
-        //   type: Sequelize.INTEGER,
-        //   primaryKey: true,
-        //   allowNull: false,
-        // },
-        // workerJobtypeId: {
-        //   type: Sequelize.INTEGER,
-        //   primaryKey: true,
-        //   allowNull: false,
-        // },
+        // verificar pq foi necessario colocar isso aqui
+        contractId: {
+          type: Sequelize.INTEGER,
+          primaryKey: true,
+          allowNull: false,
+        },
+        // verificar pq foi necessario colocar isso aqui
+        workerJobtypeId: {
+          type: Sequelize.INTEGER,
+          primaryKey: true,
+          allowNull: false,
+        },
         start: {
           type: Sequelize.DATEONLY,
           allowNull: false,
