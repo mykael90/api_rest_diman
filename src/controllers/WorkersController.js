@@ -141,7 +141,7 @@ class WorkersController {
         include: [
           { model: WorkerContract },
         ],
-        order: [[WorkerContract, 'start', 'ASC']],
+        order: [[WorkerContract, 'start', 'ASC']], // IMPORTANTE O ORDENAMENTO
       });
 
       if (!worker) {
@@ -153,10 +153,17 @@ class WorkersController {
       console.log('vem do body', JSON.stringify(req.body.WorkerContracts));
       console.log('valor procurado', JSON.stringify(worker.WorkerContracts));
 
-      // ATUALIZANDO VALORES DE SUBTABELAS----> AJUSTAR!!!
+      // ATUALIZANDO VALORES DE SUBTABELAS----> ORDEM DEVE SER IDENTICA DOS 2 ARRAYS
       Object.entries(req.body).forEach((item) => {
         if (Array.isArray(item[1])) {
-          item[1].forEach((value, i) => worker[item[0]][i].set(value));
+          item[1].forEach((value, i) => {
+            // verificar se existe o subregistro, se existir atualiza, se nao cria
+            if (worker[item[0]][i]) {
+              worker[item[0]][i].set(value);
+            } else {
+              worker.createWorkerContract(value);
+            }
+          });
         }
       });
 

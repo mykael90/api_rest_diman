@@ -4,7 +4,7 @@ export default class WorkerContract extends Model {
   static associate(models) {
     this.belongsTo(models.Worker);
     this.belongsTo(models.Contract);
-    this.belongsTo(models.WorkerJobtype);
+    this.belongsTo(models.WorkerJobtype, { targetKey: 'id', foreignKey: 'workerJobtypeId' });
   }
 
   static init(sequelize) {
@@ -15,18 +15,18 @@ export default class WorkerContract extends Model {
         //   primaryKey: true,
         //   allowNull: false,
         // },
-        // verificar pq foi necessario colocar isso aqui
-        contractId: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          allowNull: false,
-        },
-        // verificar pq foi necessario colocar isso aqui
-        workerJobtypeId: {
-          type: Sequelize.INTEGER,
-          primaryKey: true,
-          allowNull: false,
-        },
+        // // verificar pq foi necessario colocar isso aqui
+        // contractId: {
+        //   type: Sequelize.INTEGER,
+        //   primaryKey: true,
+        //   allowNull: false,
+        // },
+        // // verificar pq foi necessario colocar isso aqui
+        // workerJobtypeId: {
+        //   type: Sequelize.INTEGER,
+        //   primaryKey: true,
+        //   allowNull: false,
+        // },
         start: {
           type: Sequelize.DATEONLY,
           allowNull: false,
