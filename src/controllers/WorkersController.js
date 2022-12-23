@@ -140,6 +140,7 @@ class WorkersController {
         include: [
           { model: WorkerContract },
         ],
+        order: [[WorkerContract, 'start', 'ASC']],
       });
 
       if (!worker) {
@@ -148,6 +149,7 @@ class WorkersController {
         });
       }
 
+      console.log('vem do body', JSON.stringify(req.body.WorkerContracts));
       console.log('valor procurado', JSON.stringify(worker.WorkerContracts));
 
       // ATUALIZANDO VALORES DE SUBTABELAS----> AJUSTAR!!!
