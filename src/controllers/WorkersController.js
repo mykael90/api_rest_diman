@@ -150,16 +150,32 @@ class WorkersController {
 
       console.log('valor procurado', JSON.stringify(worker.WorkerContracts));
 
+      // ATUALIZANDO VALORES DE SUBTABELAS----> AJUSTAR!!!
+      Object.entries(req.body).forEach((item) => {
+        if (Array.isArray(item[1])) {
+          item[1].forEach((value, i) => worker[item[0]][i].set(value));
+        }
+      });
+
+      // FILTRAR CHAVES APENAS DA TABELA PRINCIPAL (SEM ARRAYS DE SUBTABELAS)
+      const mainTableUpdate = Object.entries(req.body)
+        .filter((entry) => !Array.isArray(entry[1]))
+        .reduce((obj, entry) => Object.assign(obj, {
+          [entry[0]]: entry[1],
+        }), {});
+
+      console.log('MAINTABLE', mainTableUpdate);
+
       // worker.WorkerContracts[0].set(req.body.WorkerContracts[0]);
 
       // eslint-disable-next-line max-len
-      req.body.WorkerContracts.forEach((contract, index) => worker.WorkerContracts[index].set(contract));
+      // req.body.WorkerContracts.forEach((contract, index) => worker.WorkerContracts[index].set(contract));
 
       // console.log(req.body.WorkerContracts[0]);
 
-      delete req.body.WorkerContracts;
+      // delete req.body.WorkerContracts;
 
-      worker.set(req.body);
+      worker.set(mainTableUpdate);
       // await worker.WorkerContracts[0].save();
 
       for (const item of worker.WorkerContracts) {
