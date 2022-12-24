@@ -4,7 +4,6 @@ import User from '../models/User';
 class UserPersonalController {
   async store(req, res) {
     try {
-      console.log(req.body);
       const user = await User.findByPk(req.body.userId);
 
       // VERIFICA SE USUÁRIO EXISTE

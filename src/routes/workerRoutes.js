@@ -2,7 +2,7 @@ import { Router } from 'express';
 
 import UploadController from '../controllers/UploadController';
 
-// import WorkersContactController from '../controllers/WorkersContactController';
+import WorkerContractController from '../controllers/WorkerContractController';
 import WorkersController from '../controllers/WorkersController';
 
 import AddressController from '../controllers/AddressController';
@@ -29,5 +29,6 @@ router.get('/address', AddressController.index);
 inRoutes.get('/contacttypes', ContactTypesController.index);
 inRoutes.get('/jobtypes', JobtypeController.index);
 inRoutes.get('/contracts', ContractController.index);
+inRoutes.get('/workerscontracts', WorkerContractController.index);
 
 export default router;

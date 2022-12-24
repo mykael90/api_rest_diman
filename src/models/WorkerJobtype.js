@@ -6,7 +6,7 @@ export default class WorkerJobtype extends Model {
       through: models.WorkerContract,
     });
     // this.hasMany(models.ContractValidyItem);
-    this.hasMany(models.WorkerContract, { sourceKey: 'id', foreignKey: 'workerJobtypeId' });
+    this.hasMany(models.WorkerContract);
   }
 
   static init(sequelize) {
