@@ -40,6 +40,7 @@ class WorkersController {
 
   // Store with upload (if necessary)
   async store(req, res, next) {
+    // COLOCAR NUMA TRANSACTIONS TUDO
     try {
       console.log(req.body);
       const workers = await Worker.create(req.body, {
@@ -79,6 +80,7 @@ class WorkersController {
 
   // Update
   async update(req, res, next) {
+    // COLOCAR NUMA TRANSACTIONS TUDO
     try {
       const { id } = req.body;
 
@@ -88,7 +90,13 @@ class WorkersController {
         });
       }
 
-      const worker = await Worker.findByPk(id);
+      // TEM QUE ESTAR EXATAMENTE NO MESMO PADRÃO DE ORNDEMANENTO QUE ALIMENTA O FORM
+      const worker = await Worker.findByPk(id, {
+        include: [
+          { model: WorkerContract },
+        ],
+        order: [[WorkerContract, 'start', 'ASC']], // IMPORTANTE O ORDENAMENTO
+      });
 
       if (!worker) {
         return res.status(400).json({
@@ -96,26 +104,51 @@ class WorkersController {
         });
       }
 
-      const result = await Worker.update(req.body, {
-        where: {
-          id,
-        },
+      // ATUALIZANDO VALORES DE SUBTABELAS----> ORDEM DEVE SER IDENTICA DOS 2 ARRAYS !
+      // NÃO CONSEGUI ATUAALIZAR O CAMPO "WorkerJobtypeId"
+      // nao entendi pq. Pode ser algo relacionado ao nome (desisti, para os outros campos funciona)
+      Object.entries(req.body).forEach((item) => {
+        if (Array.isArray(item[1])) {
+          item[1].forEach(async (value, i) => {
+            // verificar se existe o subregistro, se existir atualiza, se nao cria
+            if (worker[item[0]][i]) {
+              console.log('fixando cada contrato', value, worker[item[0]][i]);
+              worker[item[0]][i].set(value);
+              await worker[item[0]][i].save();
+              // VERIFICAR DEPOIS PQ AS VEZES AWAIT DENTRO DE FOREACH PODE DAR PROBLEMA
+            } else {
+              worker.createWorkerContract(value);
+            }
+          });
+        }
       });
 
-      // console.log(result);
+      const mainTableUpdate = Object.entries(req.body)
+        .filter((entry) => !Array.isArray(entry[1]))
+        .reduce((obj, entry) => Object.assign(obj, {
+          [entry[0]]: entry[1],
+        }), {});
 
-      if (!req.file) return res.json(result);
+      worker.set(mainTableUpdate);
+      await worker.save();
+
+      // if dont have fila save and return
+      if (!req.file) {
+        return res.json(worker);
+      }
 
       // If has file --->
       req.dimensionResized = 600; // new dimension to photo
       const fileExtension = extname(req.file.originalname);
       req.fileName = `${Worker.name.toLowerCase()}_${id}${fileExtension}`;
       // update filename field on database
-      await Worker.update({ filenamePhoto: req.fileName }, {
-        where: {
-          id,
-        },
-      });
+      worker.set({ filenamePhoto: req.fileName });
+      await worker.save();
+      // await Worker.update({ filenamePhoto: req.fileName }, {
+      //   where: {
+      //     id,
+      //   },
+      // });
       return next(); // go to uploadController
     } catch (e) {
       return res.status(400).json({
