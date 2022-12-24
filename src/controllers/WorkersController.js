@@ -158,11 +158,12 @@ class WorkersController {
       // nao entendi pq. Pode ser algo relacionado ao nome (desisti, para os outros campos funciona)
       Object.entries(req.body).forEach((item) => {
         if (Array.isArray(item[1])) {
-          item[1].forEach((value, i) => {
+          item[1].forEach(async (value, i) => {
             // verificar se existe o subregistro, se existir atualiza, se nao cria
             if (worker[item[0]][i]) {
               console.log('fixando cada contrato', value, worker[item[0]][i]);
               worker[item[0]][i].set(value);
+              await worker[item[0]][i].save();
             } else {
               worker.createWorkerContract(value);
             }
@@ -191,14 +192,14 @@ class WorkersController {
       worker.set(mainTableUpdate);
       // await worker.WorkerContracts[0].save();
 
-      for (const item of worker.WorkerContracts) {
-        try {
-          console.log('salvando cada contrato', item);
-          await item.save();
-        } catch (e) {
-          console.log(e.message);
-        }
-      }
+      // for (const item of worker.WorkerContracts) {
+      //   try {
+      //     console.log('salvando cada contrato', item);
+      //     await item.save();
+      //   } catch (e) {
+      //     console.log(e.message);
+      //   }
+      // }
 
       await worker.save();
 

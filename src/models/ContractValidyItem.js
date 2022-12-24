@@ -1,17 +1,17 @@
 import Sequelize, { Model } from 'sequelize';
 
 export default class ContractValidyItem extends Model {
-  static associate(models) {
-    this.belongsTo(models.WorkerJobtype);
-  }
+  // static associate(models) {
+  //   this.belongsTo(models.WorkerJobtype);
+  // }
 
   static init(sequelize) {
     super.init(
       {
-        workerJobtypeId: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-        },
+        // workerJobtypeId: {
+        //   type: Sequelize.INTEGER,
+        //   allowNull: false,
+        // },
         quantity: {
           type: Sequelize.DECIMAL(10, 2),
           allowNull: false,
@@ -25,7 +25,7 @@ export default class ContractValidyItem extends Model {
         sequelize,
         tableName: 'contracts_validy_items',
         timestamps: false,
-      }
+      },
     );
     return this;
   }

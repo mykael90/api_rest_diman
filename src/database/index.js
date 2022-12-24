@@ -42,7 +42,6 @@ import WorkerJobtype from '../models/WorkerJobtype';
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
 
-import WorkerJobtype from '../models/WorkerJobtype';
 import ContractValidy from '../models/ContractValidy';
 import ContractValidyItem from '../models/ContractValidyItem';
 import ContractValidytype from '../models/ContractValidytype';
@@ -51,7 +50,6 @@ import WorkerAddress from '../models/WorkerAddress';
 
 import BuildingSipac from '../models/BuildingSipac';
 import PropertySipac from '../models/PropertySipac';
-
 
 const models = [
   Aluno,
