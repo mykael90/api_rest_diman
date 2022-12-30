@@ -5,6 +5,7 @@ export default class WorkerContract extends Model {
     this.belongsTo(models.Worker);
     this.belongsTo(models.Contract);
     this.belongsTo(models.WorkerJobtype);
+    this.belongsTo(models.Unidade, { sourceKey: 'id', foreignKey: 'unidadeId' });
   }
 
   static init(sequelize) {
@@ -37,6 +38,14 @@ export default class WorkerContract extends Model {
         },
         located: {
           type: Sequelize.STRING,
+          allowNull: true,
+        },
+        unidadeId: {
+          type: Sequelize.BIGINT(20),
+          allowNull: true,
+        },
+        obs: {
+          type: Sequelize.TEXT,
           allowNull: true,
         },
       },

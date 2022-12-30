@@ -3,6 +3,7 @@ import Sequelize, { Model } from 'sequelize';
 export default class Unidade extends Model {
   static associate(models) {
     this.hasMany(models.MaterialIn, { sourceKey: 'id', foreignKey: 'cost_unit' });
+    this.hasMany(models.WorkerContract, { sourceKey: 'id', foreignKey: 'unidadeId' });
   }
 
   static init(sequelize) {

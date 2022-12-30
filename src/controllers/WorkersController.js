@@ -8,6 +8,9 @@ import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
 // import WorkerAddress from '../models/WorkerAddress';
 import Address from '../models/Address';
+import Unidade from '../models/Unidade';
+
+import getMethods from '../asset/script/getMethods';
 
 class WorkersController {
   // Index
@@ -24,7 +27,7 @@ class WorkersController {
           },
           {
             model: WorkerContract,
-            include: [{ model: WorkerJobtype }],
+            include: [{ model: WorkerJobtype }, { model: Unidade }],
           },
           {
             model: Address,
@@ -112,12 +115,16 @@ class WorkersController {
           item[1].forEach(async (value, i) => {
             // verificar se existe o subregistro, se existir atualiza, se nao cria
             if (worker[item[0]][i]) {
-              console.log('fixando cada contrato', value, worker[item[0]][i]);
+              // console.log('fixando cada contrato', value, worker[item[0]][i]);
               worker[item[0]][i].set(value);
               await worker[item[0]][i].save();
               // VERIFICAR DEPOIS PQ AS VEZES AWAIT DENTRO DE FOREACH PODE DAR PROBLEMA
             } else {
-              worker.createWorkerContract(value);
+              // o nome do método da instância é no singular, entao exclui a ultima letra
+              // se o nome do array divergir do metodo, utilizar switch/case
+              const singular = item[0].slice(0, -1);
+              // console.log(getMethods(worker));
+              worker[`create${singular}`](value);
             }
           });
         }
