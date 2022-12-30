@@ -45,6 +45,7 @@ const config = {
   },
 };
 
+// Single files
 const uploadPhotoMemory = multer(config.image).single('photo');
 const uploadPdfMemory = multer(config.pdf).single('pdf');
 
@@ -90,4 +91,52 @@ const pdfMulter = (req, res, next) => {
   });
 };
 
-export { photoMulter, pdfMulter };
+// Multiple files
+const uploadPhotoArrayMemory = multer(config.image).array('photos');
+const uploadPdfArrayMemory = multer(config.image).array('pdfs');
+
+const photoArrayMulter = (req, res, next) => {
+  uploadPhotoArrayMemory(req, res, (err) => {
+    if (err instanceof multer.MulterError) {
+      // A Multer error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.code],
+      });
+    } if (err) {
+      // An unknown error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.message],
+      });
+    }
+
+    // Everything went fine.
+    return next();
+  });
+};
+
+const pdfArrayMulter = (req, res, next) => {
+  uploadPdfArrayMemory(req, res, (err) => {
+    if (err instanceof multer.MulterError) {
+      // A Multer error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.code],
+      });
+    } if (err) {
+      // An unknown error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.message],
+      });
+    }
+
+    // Everything went fine.
+    return next();
+  });
+};
+
+export {
+  photoMulter, pdfMulter, photoArrayMulter, pdfArrayMulter,
+};

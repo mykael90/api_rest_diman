@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import UploadController from '../controllers/UploadController';
+
 import materialController from '../controllers/MaterialController';
 import MaterialInController from '../controllers/MaterialInController';
 import MaterialInItemController from '../controllers/MaterialInItemController';
@@ -12,6 +14,8 @@ import MaterialReserveController from '../controllers/MaterialReserveController'
 import MaterialRawController from '../controllers/MaterialRawController';
 
 import materialIntype from '../controllers/MaterialIntypeController';
+
+import { photoArrayMulter } from '../config/multerConfig';
 
 const router = new Router();
 
@@ -36,6 +40,7 @@ router.get('/', materialController.index);
 router.post('/', materialController.store);
 
 // MATERIAL IN ROUTES
+inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
 inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
 inRoutes.post('/general', MaterialInController.storeGeneral);
