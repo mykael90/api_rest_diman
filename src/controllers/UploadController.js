@@ -39,14 +39,11 @@ class UploadController {
   // Store Upload
   async storeMaterialIn(req, res) {
     try {
-      // const { fileName, dimensionResized } = req;
-
       const dimensionResized = 800;
 
-      console.log(req.files);
+      console.log('no FINAL');
 
-      // eslint-disable-next-line no-return-assign
-      req.files.forEach((file) => file.newName = `${random_5()}_${file.originalname}`);
+      console.log(req.files);
 
       // RESIZE WITH SHARP
       await Promise.all(req.files.map(async (file) => {
@@ -67,7 +64,7 @@ class UploadController {
         console.log('file uploaded');
       }));
 
-      return res.json({ ...req.files });
+      return res.json(req.result);
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({

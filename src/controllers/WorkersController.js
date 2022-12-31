@@ -1,6 +1,7 @@
 import Sequelize from 'sequelize';
 
 import { extname } from 'path';
+import { random_5 } from '../asset/script/getRandomNumber';
 
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';

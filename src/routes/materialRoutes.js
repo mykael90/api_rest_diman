@@ -43,7 +43,7 @@ router.post('/', materialController.store);
 inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
 inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
-inRoutes.post('/general', MaterialInController.storeGeneral);
+inRoutes.post('/general', photoArrayMulter, MaterialInController.storeGeneral, UploadController.storeMaterialIn);
 
 inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
 inRoutes.get('/rl/:reqMaintenance/:year', MaterialInController.showRL);

@@ -1,5 +1,8 @@
 import Sequelize, { Op } from 'sequelize';
 
+import { extname } from 'path';
+import { random_5 } from '../asset/script/getRandomNumber';
+
 import MaterialIn from '../models/MaterialIn';
 import MaterialIntype from '../models/MaterialIntype';
 import Material from '../models/Material';
@@ -11,6 +14,7 @@ import MaterialRestrict from '../models/MaterialRestrict';
 import MaterialRestrictItem from '../models/MaterialRestrictItem';
 import MaterialRelease from '../models/MaterialRelease';
 import MaterialReleaseItem from '../models/MaterialReleaseItem';
+import MaterialInFile from '../models/MaterialInFile';
 
 import removeAccent from '../asset/script/removeAccent';
 
@@ -79,15 +83,38 @@ class MaterialInController {
     }
   }
 
-  // RETORNOS
-  async storeGeneral(req, res) {
+  // RETORNOS, DIRETO FORNECEDOR, DOAÇÃO, ETC
+  async storeGeneral(req, res, next) {
     try {
+      if (req.files) {
+        // If has file --->
+        req.body.MaterialInFiles = [];
+
+        // POVOANDO O ARRAY DOS ARQUIVOS
+        // eslint-disable-next-line guard-for-in, no-restricted-syntax
+        for (const i in req.files) {
+          const fileExtension = extname(req.files[i].originalname);
+          req.files[i].newName = `${Date.now()}_${random_5()}${fileExtension}`;
+          req.body.MaterialInFiles.push({
+            filename: req.files[i].newName,
+            originalName: req.files[i].originalname,
+            order: i + 1,
+          });
+        }
+      }
+
       const materialIn = await MaterialIn.create(
         req.body,
         {
-          include: [MaterialInItem],
+          include: [MaterialInItem, MaterialInFile],
         },
       );
+
+      if (req.files) {
+        req.result = materialIn;
+        return next(); // go to uploadController
+      }
+
       return res.json(materialIn);
     } catch (e) {
       console.log(e);
@@ -170,6 +197,10 @@ class MaterialInController {
           },
           {
             model: MaterialIntype,
+            required: false,
+          },
+          {
+            model: MaterialInFile,
             required: false,
           },
         ],

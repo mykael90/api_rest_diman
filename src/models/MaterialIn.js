@@ -11,6 +11,7 @@ export default class MaterialIn extends Model {
     this.hasMany(models.MaterialInItem);
     this.hasMany(models.MaterialRestrict);
     this.hasMany(models.MaterialRelease);
+    this.hasMany(models.MaterialInFile);
 
     this.belongsTo(models.MaterialOut, { as: 'MaterialReturned', sourceKey: 'id', foreignKey: 'returnId' });
   }

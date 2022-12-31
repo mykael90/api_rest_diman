@@ -20,9 +20,11 @@ import Material from '../models/Material';
 import MaterialIntype from '../models/MaterialIntype';
 import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
+import MaterialInFile from '../models/MaterialInFile';
 import MaterialOuttype from '../models/MaterialOuttype';
 import MaterialOut from '../models/MaterialOut';
 import MaterialOutItem from '../models/MaterialOutItem';
+import MaterialOutFile from '../models/MaterialOutFile';
 import MaterialInventory from '../models/MaterialInventory';
 import MaterialRestrict from '../models/MaterialRestrict';
 import MaterialRestrictItem from '../models/MaterialRestrictItem';
@@ -67,9 +69,11 @@ const models = [
   MaterialIntype,
   MaterialIn,
   MaterialInItem,
+  MaterialInFile,
   MaterialOuttype,
   MaterialOut,
   MaterialOutItem,
+  MaterialOutFile,
   MaterialRestrict,
   MaterialRestrictItem,
   MaterialRelease,

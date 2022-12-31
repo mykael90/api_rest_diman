@@ -8,9 +8,10 @@ export default class MaterialOut extends Model {
     this.belongsTo(models.User, { as: 'authorizer', sourceKey: 'id', foreignKey: 'authorizedBy' });
     this.belongsTo(models.PropertySipac, { as: 'propertiesSipac', sourceKey: 'id', foreignKey: 'propertyId' });
     this.belongsTo(models.Worker);
-    this.hasMany(models.MaterialOutItem);
 
+    this.hasMany(models.MaterialOutItem);
     this.hasMany(models.MaterialIn, { as: 'MaterialReturned', sourceKey: 'id', foreignKey: 'returnId' });
+    this.hasMany(models.MaterialOutFile);
   }
 
   static init(sequelize) {
