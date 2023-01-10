@@ -52,8 +52,9 @@ const whiteList = [
   'https://10.1.158.162',
   'https://10.1.158.162:3002',
   'https://10.1.158.162:443',
-  'https://10.3.225.16:3002', // PC Alexandre DIMAN
-  'https://10.3.225.16:443', // PC Alexandre DIMAN
+  'https://10.3.225.16:', // PC Alexandre DIMAN
+  'https://10.3.225.16:3002',
+  'https://10.3.225.16:443',
 ];
 
 const corsOptions = {
