@@ -69,6 +69,10 @@ export default class Worker extends Model {
           type: Sequelize.STRING,
           allowNull: true,
         },
+        phone: {
+          type: Sequelize.STRING,
+          allowNull: true,
+        },
       },
 
       { sequelize, tableName: 'workers' },
