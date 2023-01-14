@@ -10,6 +10,7 @@ import WorkerJobtype from '../models/WorkerJobtype';
 // import WorkerAddress from '../models/WorkerAddress';
 import Address from '../models/Address';
 import Unidade from '../models/Unidade';
+import Contract from '../models/Contract';
 
 import getMethods from '../asset/script/getMethods';
 
@@ -28,7 +29,27 @@ class WorkersController {
           },
           {
             model: WorkerContract,
-            include: [{ model: WorkerJobtype }, { model: Unidade }],
+            attributes: {
+              include: [
+                [
+                  Sequelize.fn(
+                    'date_format',
+                    Sequelize.col('`WorkerContracts`.`end`'),
+                    '%d/%m/%Y',
+                  ),
+                  'endBr',
+                ],
+                [
+                  Sequelize.fn(
+                    'date_format',
+                    Sequelize.col('`WorkerContracts`.`start`'),
+                    '%d/%m/%Y',
+                  ),
+                  'startBr',
+                ],
+              ],
+            },
+            include: [{ model: WorkerJobtype }, { model: Unidade }, { model: Contract }],
           },
           {
             model: Address,

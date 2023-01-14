@@ -21,10 +21,10 @@ export default class Contract extends Model {
           autoIncrement: true,
           primaryKey: true,
         },
-        provedorId: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-        },
+        // providerId: {
+        //   type: Sequelize.INTEGER,
+        //   allowNull: false,
+        // },
         codigoSipac: {
           type: Sequelize.STRING(45),
           allowNull: false,
