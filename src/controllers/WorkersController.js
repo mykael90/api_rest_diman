@@ -22,7 +22,6 @@ class WorkersController {
         attributes: {
           include: [[Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job']],
         },
-        order: [['name', 'ASC']],
         include: [
           {
             model: WorkerContact,
@@ -55,6 +54,7 @@ class WorkersController {
             model: Address,
           },
         ],
+        order: [['name', 'ASC'], [WorkerContract, 'start', 'ASC']],
       });
       return res.json(result);
     } catch (e) {
