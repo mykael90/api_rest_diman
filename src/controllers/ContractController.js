@@ -17,7 +17,6 @@ class ContractController {
           'maxEnd',
         ],
         order: [['id', 'ASC']],
-        group: ['provider_id'],
         required: false,
         include: {
           model: Provider,
