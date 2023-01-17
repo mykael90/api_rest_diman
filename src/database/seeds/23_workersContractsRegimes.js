@@ -1,25 +1,29 @@
 module.exports = {
   async up(queryInterface) {
-    await queryInterface.bulkInsert('workers_contracts_dangers', [
+    await queryInterface.bulkInsert('workers_contracts_regimes', [
       {
         id: 1,
-        danger: 'ENERGIA ELÉTRICA',
-        percentage: 0.30,
+        regime: '20 h',
       },
       {
         id: 2,
-        danger: 'INFLAMÁVEIS',
-        percentage: 0.30,
+        regime: '30 h',
       },
       {
         id: 3,
-        danger: 'EXPLOSIVOS',
-        percentage: 0.30,
+        regime: '40 h',
       },
       {
         id: 4,
-        danger: 'VIOLÊNCIA',
-        percentage: 0.30,
+        regime: '44 h',
+      },
+      {
+        id: 5,
+        regime: '12x36 h DIURNO',
+      },
+      {
+        id: 6,
+        regime: '12x36 h NOTURNO',
       },
     ], {});
   },

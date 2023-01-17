@@ -10,25 +10,33 @@ import ContactTypesController from '../controllers/ContactTypesController';
 import JobtypeController from '../controllers/WorkerJobtypeController';
 import ContractController from '../controllers/ContractController';
 
+import WorkerContractDangerController from '../controllers/WorkerContractDangerController';
+import WorkerContractRegimeController from '../controllers/WorkerContractRegimeController';
+import WorkerContractUnhealthyController from '../controllers/WorkerContractUnhealthyController';
+
 import { photoMulter } from '../config/multerConfig';
 
 const router = new Router();
-const inRoutes = new Router();
 
-router.use('/', inRoutes);
+const contractRoutes = new Router();
+
+router.use('/contract/', contractRoutes);
 
 router.get('/actives', WorkersController.indexActives);
+router.get('/jobtypes', JobtypeController.index);
+router.get('/address', AddressController.index);
+router.get('/contracts', ContractController.index);
+router.get('/contacttypes', ContactTypesController.index);
+router.get('/workerscontracts', WorkerContractController.index);
+
 router.get('/', WorkersController.index);
 router.post('/', photoMulter, WorkersController.store, UploadController.storeWorker);
 router.get('/:id', WorkersController.show);
 router.put('/:id', photoMulter, WorkersController.update, UploadController.storeWorker);
-// router.put('/:id', WorkersController.updateNew);
 
-router.get('/address', AddressController.index);
-
-inRoutes.get('/contacttypes', ContactTypesController.index);
-inRoutes.get('/jobtypes', JobtypeController.index);
-inRoutes.get('/contracts', ContractController.index);
-inRoutes.get('/workerscontracts', WorkerContractController.index);
+// CONTRACT ROUTES
+contractRoutes.get('/dangers', WorkerContractDangerController.index);
+contractRoutes.get('/regimes', WorkerContractRegimeController.index);
+contractRoutes.get('/unhealthies', WorkerContractUnhealthyController.index);
 
 export default router;

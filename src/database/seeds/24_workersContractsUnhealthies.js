@@ -1,24 +1,19 @@
 module.exports = {
   async up(queryInterface) {
-    await queryInterface.bulkInsert('workers_contracts_dangers', [
+    await queryInterface.bulkInsert('workers_contracts_unhealthies', [
       {
         id: 1,
-        danger: 'ENERGIA ELÉTRICA',
+        unhealthy: 'RUÍDO CONTÍNUO OU INTERMITENTE',
         percentage: 0.30,
       },
       {
         id: 2,
-        danger: 'INFLAMÁVEIS',
+        unhealthy: 'RUÍDO DE IMPACTO',
         percentage: 0.30,
       },
       {
         id: 3,
-        danger: 'EXPLOSIVOS',
-        percentage: 0.30,
-      },
-      {
-        id: 4,
-        danger: 'VIOLÊNCIA',
+        unhealthy: 'POEIRAS MINERAIS',
         percentage: 0.30,
       },
     ], {});

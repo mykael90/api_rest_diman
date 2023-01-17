@@ -40,6 +40,9 @@ import Contacttype from '../models/Contacttype';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
+import WorkerContractDanger from '../models/WorkerContractDanger';
+import WorkerContractRegime from '../models/WorkerContractRegime';
+import WorkerContractUnhealthy from '../models/WorkerContractUnhealthy';
 
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
@@ -86,6 +89,9 @@ const models = [
   WorkerContact,
   WorkerContract,
   WorkerJobtype,
+  WorkerContractDanger,
+  WorkerContractRegime,
+  WorkerContractUnhealthy,
   Provider,
   Contract,
   ContractValidy,
