@@ -5,6 +5,7 @@ export default class WorkerContract extends Model {
     this.belongsTo(models.Worker);
     this.belongsTo(models.Contract);
     this.belongsTo(models.WorkerJobtype);
+    this.belongsTo(models.WorkerContractDanger);
     this.belongsTo(models.Unidade, { sourceKey: 'id', foreignKey: 'unidadeId' });
   }
 
@@ -45,6 +46,10 @@ export default class WorkerContract extends Model {
           allowNull: true,
         },
         obs: {
+          type: Sequelize.TEXT,
+          allowNull: true,
+        },
+        acting: {
           type: Sequelize.TEXT,
           allowNull: true,
         },
