@@ -43,6 +43,10 @@ const config = {
     fileFilter: fileFilter.pdf,
     storage,
   },
+  pdfOrImage: {
+    fileFilter: fileFilter.pdfOrImage,
+    storage,
+  },
 };
 
 // Single files
@@ -95,6 +99,8 @@ const pdfMulter = (req, res, next) => {
 const uploadPhotoArrayMemory = multer(config.image).array('photos');
 const uploadPdfArrayMemory = multer(config.image).array('pdfs');
 
+const uploadPdfsPhotosMemory = multer(config.pdfOrImage).fields([{ name: 'pdfs', maxCount: 10 }, { name: 'photos', maxCount: 10 }]);
+
 const photoArrayMulter = (req, res, next) => {
   uploadPhotoArrayMemory(req, res, (err) => {
     if (err instanceof multer.MulterError) {
@@ -137,6 +143,27 @@ const pdfArrayMulter = (req, res, next) => {
   });
 };
 
+const pdfsPhotosMulter = (req, res, next) => {
+  uploadPdfsPhotosMemory(req, res, (err) => {
+    if (err instanceof multer.MulterError) {
+      // A Multer error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.code],
+      });
+    } if (err) {
+      // An unknown error occurred when uploading.
+      console.log(JSON.stringify(err));
+      return res.status(400).json({
+        errors: [err.message],
+      });
+    }
+
+    // Everything went fine.
+    return next();
+  });
+};
+
 export {
-  photoMulter, pdfMulter, photoArrayMulter, pdfArrayMulter,
+  photoMulter, pdfMulter, photoArrayMulter, pdfArrayMulter, pdfsPhotosMulter,
 };
