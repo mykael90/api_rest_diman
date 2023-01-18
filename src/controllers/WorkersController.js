@@ -103,7 +103,10 @@ class WorkersController {
             where: {
               end: null,
             },
-            include: [{ model: WorkerJobtype }, { model: Unidade }, { model: Contract }],
+            include: [{ model: WorkerJobtype },
+              { model: Unidade },
+              { model: Contract },
+              { model: WorkerContractRegime }],
           },
           {
             model: Address,
