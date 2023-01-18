@@ -6,6 +6,8 @@ export default class WorkerContract extends Model {
     this.belongsTo(models.Contract);
     this.belongsTo(models.WorkerJobtype);
     this.belongsTo(models.WorkerContractDanger);
+    this.belongsTo(models.WorkerContractRegime);
+    this.belongsTo(models.WorkerContractUnhealthy);
     this.belongsTo(models.Unidade, { sourceKey: 'id', foreignKey: 'unidadeId' });
   }
 

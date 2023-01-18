@@ -6,6 +6,7 @@ import { random_5 } from '../asset/script/getRandomNumber';
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
+import WorkerContractRegime from '../models/WorkerContractRegime';
 import WorkerJobtype from '../models/WorkerJobtype';
 // import WorkerAddress from '../models/WorkerAddress';
 import Address from '../models/Address';
@@ -48,7 +49,10 @@ class WorkersController {
                 ],
               ],
             },
-            include: [{ model: WorkerJobtype }, { model: Unidade }, { model: Contract }],
+            include: [{ model: WorkerJobtype },
+              { model: Unidade },
+              { model: Contract },
+              { model: WorkerContractRegime }],
           },
           {
             model: Address,
