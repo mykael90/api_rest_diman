@@ -15,7 +15,7 @@ import MaterialRawController from '../controllers/MaterialRawController';
 
 import materialIntype from '../controllers/MaterialIntypeController';
 
-import { photoArrayMulter } from '../config/multerConfig';
+import { photoArrayMulter, photoMulter } from '../config/multerConfig';
 
 const router = new Router();
 
@@ -37,7 +37,9 @@ router.use('/raw/', rawRoutes);
 
 // MATERIAL ROUTES
 router.get('/', materialController.index);
-router.post('/', materialController.store);
+router.post('/temporary', photoMulter, materialController.storeTemporary, UploadController.storeMaterial);
+router.post('/', materialController.storeSipac);
+router.get('/:id', materialController.show);
 
 // MATERIAL IN ROUTES
 inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
