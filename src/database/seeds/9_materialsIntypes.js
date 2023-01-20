@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         id: 7,
-        type: 'CONVERSÃO',
+        type: 'TRANSFORME',
       },
 
     ], {});

@@ -33,6 +33,10 @@ module.exports = {
         id: 8,
         type: 'EXTRAVIO',
       },
+      {
+        id: 9,
+        type: 'TRANSFORME',
+      },
 
     ], {});
   },
