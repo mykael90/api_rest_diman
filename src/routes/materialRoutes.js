@@ -42,7 +42,7 @@ router.post('/', materialController.storeSipac);
 router.get('/:id', materialController.show);
 
 // MATERIAL IN ROUTES
-inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
+// inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
 inRoutes.get('/items', MaterialInItemController.index);
 inRoutes.get('/types', materialIntype.index);
 inRoutes.post('/general', photoArrayMulter, MaterialInController.storeGeneral, UploadController.storeMaterialIn);
@@ -60,6 +60,7 @@ inRoutes.post('/', MaterialInController.store);
 // outRoutes.get('/:reqMaintenance/:year', MaterialOutController.show);
 outRoutes.put('/:id', MaterialOutController.update);
 outRoutes.get('/', MaterialOutController.index);
+outRoutes.post('/general', photoArrayMulter, MaterialOutController.storeGeneral, UploadController.storeMaterialOut);
 outRoutes.post('/', MaterialOutController.store);
 
 // MATERIAL INVENTORY ROUTES

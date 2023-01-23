@@ -1,5 +1,8 @@
 import Sequelize from 'sequelize';
 
+import { extname } from 'path';
+import { random_5 } from '../asset/script/getRandomNumber';
+
 import MaterialOut from '../models/MaterialOut';
 import MaterialOuttype from '../models/MaterialOuttype';
 import Material from '../models/Material';
@@ -10,6 +13,8 @@ import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
 import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
+
+import MaterialOutFile from '../models/MaterialOutFile';
 
 class MaterialOutController {
   async store(req, res) {
@@ -25,6 +30,46 @@ class MaterialOutController {
         return res.json(materialOut);
       });
       return result;
+    } catch (e) {
+      console.log(e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
+
+  async storeGeneral(req, res, next) {
+    try {
+      if (req.files) {
+        // If has file --->
+        req.body.MaterialOutFiles = [];
+
+        // POVOANDO O ARRAY DOS ARQUIVOS
+        // eslint-disable-next-line guard-for-in, no-restricted-syntax
+        for (const i in req.files) {
+          const fileExtension = extname(req.files[i].originalname);
+          req.files[i].newName = `${Date.now()}_${random_5()}${fileExtension}`;
+          req.body.MaterialOutFiles.push({
+            filename: req.files[i].newName,
+            originalName: req.files[i].originalname,
+            order: i + 1,
+          });
+        }
+      }
+
+      const materialOut = await MaterialOut.create(
+        req.body,
+        {
+          include: [MaterialOutItem, MaterialOutFile],
+        },
+      );
+
+      if (req.files) {
+        req.result = materialOut;
+        return next(); // go to uploadController
+      }
+
+      return res.json(materialOut);
     } catch (e) {
       console.log(e);
       return res.status(400).json({
