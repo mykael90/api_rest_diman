@@ -52,7 +52,7 @@ class MaterialOutController {
           req.body.MaterialOutFiles.push({
             filename: req.files[i].newName,
             originalName: req.files[i].originalname,
-            order: i + 1,
+            order: Number(i + 1),
           });
         }
       }
