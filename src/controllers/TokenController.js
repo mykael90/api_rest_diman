@@ -73,6 +73,7 @@ class TokenController {
           id,
           username,
           email,
+          roles,
         },
         process.env.TOKEN_SECRET,
         { expiresIn: process.env.TOKEN_EXPIRATION },
