@@ -204,6 +204,9 @@ class MaterialInController {
             required: false,
           },
         ],
+        order: [
+          ['id', 'DESC'],
+        ],
       });
       return res.json(result);
     } catch (e) {
