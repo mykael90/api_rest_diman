@@ -28,7 +28,8 @@ import loginRequired from './middlewares/loginRequired';
 
 import scheduledTasks from './scheduledTasks';
 
-scheduledTasks();
+// TAREFAS AGENDADAS COM PROBLEMA, VERIFICAR PARA DEPOIS ATIVAR
+// scheduledTasks();
 
 const whiteList = [
   'http://localhost:3000',
