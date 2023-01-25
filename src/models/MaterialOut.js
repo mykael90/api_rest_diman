@@ -4,6 +4,7 @@ export default class MaterialOut extends Model {
   static associate(models) {
     this.belongsToMany(models.Material, { through: models.MaterialOutItem });
     this.belongsTo(models.MaterialOuttype);
+    this.belongsTo(models.MaterialOutDiscardtype);
     this.belongsTo(models.User);
     this.belongsTo(models.User, { as: 'authorizer', sourceKey: 'id', foreignKey: 'authorizedBy' });
     this.belongsTo(models.PropertySipac, { as: 'propertiesSipac', sourceKey: 'id', foreignKey: 'propertyId' });

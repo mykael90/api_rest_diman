@@ -22,6 +22,7 @@ import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
 import MaterialInFile from '../models/MaterialInFile';
 import MaterialOuttype from '../models/MaterialOuttype';
+import MaterialOutDiscardtype from '../models/MaterialOutDiscardtype';
 import MaterialOut from '../models/MaterialOut';
 import MaterialOutItem from '../models/MaterialOutItem';
 import MaterialOutFile from '../models/MaterialOutFile';
@@ -74,6 +75,7 @@ const models = [
   MaterialInItem,
   MaterialInFile,
   MaterialOuttype,
+  MaterialOutDiscardtype,
   MaterialOut,
   MaterialOutItem,
   MaterialOutFile,

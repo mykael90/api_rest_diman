@@ -6,6 +6,7 @@ import materialController from '../controllers/MaterialController';
 import MaterialInController from '../controllers/MaterialInController';
 import MaterialInItemController from '../controllers/MaterialInItemController';
 import MaterialOutController from '../controllers/MaterialOutController';
+import MaterialOutDiscardtypeController from '../controllers/MaterialOutDiscardtypeController';
 import MaterialInventoryController from '../controllers/MaterialInventoryController';
 import MaterialRestrictController from '../controllers/MaterialRestrictController';
 import MaterialReleaseController from '../controllers/MaterialReleaseController';
@@ -59,6 +60,7 @@ inRoutes.post('/', MaterialInController.store);
 
 // outRoutes.get('/:reqMaintenance/:year', MaterialOutController.show);
 outRoutes.put('/:id', MaterialOutController.update);
+outRoutes.get('/discardtypes', MaterialOutDiscardtypeController.index);
 outRoutes.get('/', MaterialOutController.index);
 outRoutes.post('/general', photoArrayMulter, MaterialOutController.storeGeneral, UploadController.storeMaterialOut);
 outRoutes.post('/', MaterialOutController.store);
