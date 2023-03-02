@@ -50,6 +50,7 @@ const whiteList = [
   'https://sisman.infra.ufrn.br:443',
   'https://sisman.infra.ufrn.br:3000',
   'https://sisman.infra.ufrn.br:3002',
+  'https://192.168.1.13',
 ];
 
 const corsOptions = {
