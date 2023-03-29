@@ -14,7 +14,7 @@ class ManualController {
           {
             initialValue: item.value,
           },
-          { where: { materialId: item.id } },
+          { where: { materialId: item.id } }
         );
         return console.log(JSON.stringify(itemUpdated));
       } catch (e) {
