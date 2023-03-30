@@ -5,7 +5,7 @@ module.exports = {
         'buildings_sipac', // table name
         'zone', // new field name
         {
-          type: Sequelize.INTEGER(1),
+          type: Sequelize.STRING(1),
           allowNull: true,
         }
       ),
