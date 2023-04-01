@@ -18,7 +18,7 @@ class ManualController {
           {
             initialValue: item.value,
           },
-          { where: { materialId: item.id } }
+          { where: { materialId: item.id } },
         );
         return console.log(JSON.stringify(itemUpdated));
       } catch (e) {
@@ -43,8 +43,8 @@ class ManualController {
                     'LPAD',
                     Sequelize.col('`BuildingSipac`.`id`'),
                     3,
-                    '0'
-                  )
+                    '0',
+                  ),
                 ),
                 'sub-rip',
               ],
@@ -94,25 +94,27 @@ class ManualController {
   }
 
   async updateBulding2(req, res) {
-    const sendData = async () => {
-      for await (const item of items) {
-        try {
-          const building = await BuildingSipac.findOne({
-            where: {
-              id: item.id,
-              property_sipac_id: item.property_sipac_id,
-            },
-          });
-
-          building.zone = item.zone;
-          await building.save();
-          console.log(JSON.stringify(building));
-        } catch (e) {
-          console.log(e.message);
-        }
+    const updateZone = async (item) => {
+      try {
+        await BuildingSipac.update({ zone: item.zone }, {
+          where: {
+            'id': item.id,
+            'property_sipac_id': item.property_sipac_id,
+          },
+        });
+      } catch (e) {
+        console.log(e);
       }
     };
-    await sendData();
+
+    for (const item of items) {
+      try {
+        await updateZone(item);
+      } catch (e) {
+        console.log(e);
+      }
+    }
+    return res.json('OK');
   }
 }
 
