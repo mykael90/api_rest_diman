@@ -8,6 +8,12 @@ export default class WorkerTask extends Model {
     this.hasMany(models.WorkerTaskServant, { foreignKey: 'worker_task_id' });
     this.belongsTo(models.PropertySipac, { foreignKey: 'property_sipac_id' });
     this.belongsTo(models.BuildingSipac, { foreignKey: 'building_sipac_id' });
+    this.hasMany(models.WorkersTasksRisk, {
+      foreignKey: 'worker_task_id',
+    });
+    this.hasOne(models.WorkersTasksStatus, {
+      foreignKey: 'worker_task_id',
+    });
   }
 
   static init(sequelize) {

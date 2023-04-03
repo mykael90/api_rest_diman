@@ -9,6 +9,9 @@ export default class WorkerTaskStatus extends Model {
       foreignKey: 'workers_task_statustype_id',
     });
     this.belongsTo(models.User, { foreignKey: 'user_id' });
+    this.hasMany(models.WorkersTasksStatusPhoto, {
+      foreignKey: 'worker_task_id',
+    });
   }
 
   static init(sequelize) {
