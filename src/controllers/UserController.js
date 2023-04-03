@@ -1,4 +1,8 @@
 import User from '../models/User';
+import UserPosition from '../models/UserPosition';
+import UserPositiontype from '../models/UserPositiontype';
+import UserThird from '../models/UserThird';
+import UserThirdtype from '../models/UserThirdtype';
 
 class UserController {
   async store(req, res) {
@@ -24,7 +28,21 @@ class UserController {
       const users = await User.findAll({
         attributes: ['id', 'name', 'username', 'email'],
         order: ['name'],
-      }); // retornar só esses 3 atributos
+        include: [
+          {
+            model: UserPosition,
+            order: [[['start', 'DESC']]],
+            // limit: 1,
+            include: { model: UserPositiontype, attributes: ['position'], required: false },
+          },
+          {
+            model: UserThird,
+            order: [[['start', 'DESC']]],
+            // limit: 1,
+            include: { model: UserThirdtype, attributes: ['job'], required: false },
+          },
+        ],
+      }); // retornar só esses 4 atributos
       return res.json(users);
     } catch (e) {
       return res.json(e);
