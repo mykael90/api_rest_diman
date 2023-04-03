@@ -1,0 +1,1367 @@
+[
+  {
+    "id": 1,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-001",
+    "name": "ADM. CENTRAL - REFEITÓRIO DA BIOMÉDICA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-002",
+    "name": "CE - CRECHE DO NEI",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-003",
+    "name": "CCS - PAVILHÃO ADMINISTRATIVO",
+    "num_infra": "CCS-09"
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-004",
+    "name": "CCS - DEPTO. ANÁLISES CLÍNICAS E TOXICOLÓGICAS / DEPTO. FARMÁCIA (FACULDADE DE FARMÁCIA)",
+    "num_infra": "CCS-05"
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-005",
+    "name": "CCS - DEPARTAMENTO DE MEDICINA INTEGRADA",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-006",
+    "name": "CCS - DEPARTAMENTO DE FONOAUDIOLOGIA",
+    "num_infra": "CCS-08"
+  },
+  {
+    "id": 7,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-007",
+    "name": "CCS - DEPARTAMENTO DE PATOLOGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 8,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-008",
+    "name": "CCS - DEPARTAMENTO DE CIRURGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 9,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-009",
+    "name": "CCS - DEPARTAMENTO DE MEDICINA CLÍNICA",
+    "num_infra": ""
+  },
+  {
+    "id": 10,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-010",
+    "name": "HUOL - PAVILHÃO ADMINISTRATIVO",
+    "num_infra": ""
+  },
+  {
+    "id": 11,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-011",
+    "name": "HUOL - PRÉDIO AMBULATORIAL",
+    "num_infra": ""
+  },
+  {
+    "id": 12,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-012",
+    "name": "HUOL - EDIFÍCIO CENTRAL DE INTERNAÇÃO - ECI",
+    "num_infra": ""
+  },
+  {
+    "id": 13,
+    "property_sipac_id": 2,
+    "sub-rip": "1761.00394.500-8-013",
+    "name": "HUOL - CENTRO DE DIAGNÓSTICO POR IMAGEM - CDI",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 3,
+    "sub-rip": "1761.00310.500-0-001",
+    "name": "NHH - NÚCLEO DE HEMATOLOGIA E HEMOTERAPIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 4,
+    "sub-rip": "1761.00311.500-5-001",
+    "name": "CCS - DEPARTAMENTO DE ODONTOLOGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 5,
+    "sub-rip": "1761.00465.500-3-001",
+    "name": "ESTACIONAMENTO",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 6,
+    "sub-rip": "1761.00360.500-2-001",
+    "name": "CB - DEPARTAMENTO DE OCEANOGRAFIA E LIMNOLOGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-001",
+    "name": "MCC - SETOR EXPOSITIVO (EXPOSIÇÕES)",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-002",
+    "name": "MCC - SETOR EXPOSITIVO (GUARITA)",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-003",
+    "name": "MCC - PAVILHÃO ADMINISTRATIVO, LABORATORIAL E RESERVAS TÉCNICAS",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-004",
+    "name": "MCC - SALA DE QUÍMICA (NEC - PROJETO PARQUE DA CIÊNCIA)",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-005",
+    "name": "MCC - SALA DE FÍSICA (NEC - PROJETO PARQUE DA CIÊNCIA)",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 7,
+    "sub-rip": "1761.00309.500-4-006",
+    "name": "MCC - SALA DE BIOLOGIA (NEC - PROJETO PARQUE DA CIÊNCIA)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 8,
+    "sub-rip": "1761.00352.500-9-001",
+    "name": "ANTIGO GRUPO ESCOLAR AUGUSTO SEVERO",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 9,
+    "sub-rip": "1761.00446.500-0-001",
+    "name": "ANTIGA ESCOLA INDUSTRIAL / ANTIGA TVU (ATUAL IFRN - CAMPUS CIDADE ALTA)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-001",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 04",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-002",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 6",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-003",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 8",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-004",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 10",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-005",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 12",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-006",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 14",
+    "num_infra": ""
+  },
+  {
+    "id": 7,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-007",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 16",
+    "num_infra": ""
+  },
+  {
+    "id": 8,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-008",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 18",
+    "num_infra": ""
+  },
+  {
+    "id": 9,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-009",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 20",
+    "num_infra": ""
+  },
+  {
+    "id": 10,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-010",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 22",
+    "num_infra": ""
+  },
+  {
+    "id": 11,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-011",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 24",
+    "num_infra": ""
+  },
+  {
+    "id": 12,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-012",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 26",
+    "num_infra": ""
+  },
+  {
+    "id": 13,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-013",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 28",
+    "num_infra": ""
+  },
+  {
+    "id": 14,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-014",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 30",
+    "num_infra": ""
+  },
+  {
+    "id": 15,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-015",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - CASA 32",
+    "num_infra": ""
+  },
+  {
+    "id": 16,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-016",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - GUARITA",
+    "num_infra": ""
+  },
+  {
+    "id": 17,
+    "property_sipac_id": 10,
+    "sub-rip": "1761.00359.500-7-017",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA BIOMÉDICA - INFRAESTRUTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 11,
+    "sub-rip": "1761.00378.500-0-001",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA MIPIBU - MASCULINA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 11,
+    "sub-rip": "1761.00378.500-0-002",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA MIPIBU - PÓS-GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 12,
+    "sub-rip": "1761.00303.500-1-001",
+    "name": "ADM. CENTRAL - RESIDÊNCIA UNIVERSITÁRIA - PRAÇA PEDRO VELHO",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 13,
+    "sub-rip": "1761.00395.500-3-001",
+    "name": "ANTIGA FACULDADE DE FARMÁCIA E ODONTOLOGIA (ATUAL SEMUT-NATAL/RN)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 14,
+    "sub-rip": "1761.00304.500-7-001",
+    "name": "ANTIGA ESCOLA DE SERVIÇO SOCIAL (ATUAL CÂMARA MUNICIPAL DE NATAL)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-001",
+    "name": "CERES CAICÓ - BLOCO DE SALAS DE AULA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-002",
+    "name": "CERES CAICÓ - AUDITÓRIO",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-003",
+    "name": "CERES CAICÓ - BIBLIOTECA",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-004",
+    "name": "CERES CAICÓ - PRÁTICA FORENSE",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-005",
+    "name": "CERES CAICÓ - BACHARELADO EM SISTEMA DE INFORMAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-006",
+    "name": "CERES CAICÓ - PAVILHÃO DE PESQUISA",
+    "num_infra": ""
+  },
+  {
+    "id": 7,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-007",
+    "name": "CERES CAICÓ - LABORATÓRIO DE GEOGRAFIA",
+    "num_infra": ""
+  },
+  {
+    "id": 8,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-008",
+    "name": "CERES CAICÓ - PAVILHÃO ADMINISTRATIVO",
+    "num_infra": ""
+  },
+  {
+    "id": 9,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-009",
+    "name": "CERES CAICÓ - GABINETE DOS DOCENTES",
+    "num_infra": ""
+  },
+  {
+    "id": 10,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-010",
+    "name": "CERES CAICÓ - SETOR DE AULAS",
+    "num_infra": ""
+  },
+  {
+    "id": 11,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-011",
+    "name": "CERES CAICÓ - ANTIGA RESIDÊNCIA UNIVERSITÁRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 12,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-012",
+    "name": "CERES CAICÓ - ESTAÇÃO CLIMATOLÓGICA",
+    "num_infra": ""
+  },
+  {
+    "id": 13,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-013",
+    "name": "CERES CAICÓ - DIREÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 14,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-014",
+    "name": "CERES CAICÓ - ALMOXARIFADO",
+    "num_infra": ""
+  },
+  {
+    "id": 15,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-015",
+    "name": "CERES CAICÓ - LABORATÓRIO DE HISTÓRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 16,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-016",
+    "name": "CERES CAICÓ - RESIDÊNCIA UNIVERSITÁRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 17,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-017",
+    "name": "CERES CAICÓ - INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO",
+    "num_infra": ""
+  },
+  {
+    "id": 18,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-018",
+    "name": "CERES CAICÓ - INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA",
+    "num_infra": ""
+  },
+  {
+    "id": 19,
+    "property_sipac_id": 16,
+    "sub-rip": "1639.00236.500-5-019",
+    "name": "CERES CAICÓ - INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 17,
+    "sub-rip": "1639.00237.500-0-001",
+    "name": "CERES CAICÓ - MUSEU DO SERIDÓ",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 18,
+    "sub-rip": "1639.00246.500-0-001",
+    "name": "CERES CAICÓ - ESTAÇÃO SISMOGRÁFICA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-001",
+    "name": "CERES C. NOVOS - BLOCO DE SALAS DE AULA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-002",
+    "name": "CERES C. NOVOS - LABORATÓRIO DE LÍNGUA ESPANHOLA",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-003",
+    "name": "CERES C. NOVOS - PAVILHÃO ACADÊMICO",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-004",
+    "name": "CERES C. NOVOS - ANTIGA TURAE / SEDIS",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-005",
+    "name": "CERES C. NOVOS - BIBLIOTECA",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-006",
+    "name": "CERES C. NOVOS - RESIDÊNCIA UNIVERSITÁRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 7,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-007",
+    "name": "CERES C. NOVOS - SALAS DE AULA",
+    "num_infra": ""
+  },
+  {
+    "id": 8,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-008",
+    "name": "CERES C. NOVOS - INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO",
+    "num_infra": ""
+  },
+  {
+    "id": 9,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-009",
+    "name": "CERES C. NOVOS - INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA",
+    "num_infra": ""
+  },
+  {
+    "id": 10,
+    "property_sipac_id": 19,
+    "sub-rip": "1661.00038.500-5-010",
+    "name": "CERES C. NOVOS - INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 20,
+    "sub-rip": "1671.00002.500-6-001",
+    "name": "CB - CENTRO TECNOLÓGICO DE AQUICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-001",
+    "name": "EAJ - ADMINISTRAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-002",
+    "name": "EAJ - ALMOXARIFADO",
+    "num_infra": "EAJ-045"
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-003",
+    "name": "EAJ - COORDENAÇÃO DE PESSOAL",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-004",
+    "name": "EAJ - OFICINA",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-005",
+    "name": "EAJ - ALOJAMENTO FEMININO",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-006",
+    "name": "EAJ - DEPARTAMENTO DE EDUCAÇÃO FÍSICA",
+    "num_infra": ""
+  },
+  {
+    "id": 7,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-007",
+    "name": "EAJ - ALOJAMENTO MASCULINO I",
+    "num_infra": ""
+  },
+  {
+    "id": 8,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-008",
+    "name": "EAJ - ALOJAMENTO MASCULINO II",
+    "num_infra": ""
+  },
+  {
+    "id": 9,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-009",
+    "name": "EAJ - ALOJAMENTO MASCULINO III",
+    "num_infra": ""
+  },
+  {
+    "id": 10,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-010",
+    "name": "EAJ - ALOJAMENTO MASCULINO IV",
+    "num_infra": ""
+  },
+  {
+    "id": 11,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-011",
+    "name": "EAJ - ALOJAMENTO SEMI-INTERNATO",
+    "num_infra": ""
+  },
+  {
+    "id": 12,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-012",
+    "name": "EAJ - BIBLIOTECA",
+    "num_infra": ""
+  },
+  {
+    "id": 13,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-013",
+    "name": "EAJ - BLOCO DE AULAS DA AVICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 14,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-014",
+    "name": "EAJ - HARDEND (SALA DE RÁDIO)",
+    "num_infra": ""
+  },
+  {
+    "id": 15,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-015",
+    "name": "EAJ - BLOCO DE AULAS DO CURSO TÉCNICO EM AGROPECUÁRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 16,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-016",
+    "name": "EAJ - BLOCO DE AULAS DO CURSO TÉCNICO EM AQUICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 17,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-017",
+    "name": "EAJ - COORDENAÇÃO DO CURSO TÉCNICO EM AQUICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 18,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-018",
+    "name": "EAJ - BLOCO DE AULAS DO CURSO TÉCNICO EM INFORMÁTICA",
+    "num_infra": ""
+  },
+  {
+    "id": 19,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-019",
+    "name": "EAJ - COORDENAÇÃO DO CURSO TÉCNICO EM INFORMÁTICA",
+    "num_infra": ""
+  },
+  {
+    "id": 20,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-020",
+    "name": "EAJ - BLOCO DE AULAS DO MÓDULO VEGETAL (AGROINDÚSTRIA)",
+    "num_infra": ""
+  },
+  {
+    "id": 21,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-021",
+    "name": "EAJ - BLOCO DE AULAS DOS CURSOS DE GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 22,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-022",
+    "name": "EAJ - BLOCO DE AULAS DOS CURSOS DE PÓS-GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 23,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-023",
+    "name": "EAJ - COORDENAÇÃO DOS CURSOS DE PÓS-GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 24,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-024",
+    "name": "EAJ - BLOCO DE SALAS DE PROFESSORES DE FRUTICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 25,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-025",
+    "name": "EAJ - BLOCO DE SALAS DE PROFESSORES DOS CURSOS DE GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 26,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-026",
+    "name": "EAJ - COORDENAÇÃO DOS CURSOS DE GRADUAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 27,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-027",
+    "name": "EAJ - BLOCO DE AULAS DE ENSINO MÉDIO",
+    "num_infra": ""
+  },
+  {
+    "id": 28,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-028",
+    "name": "EAJ - COORDENAÇÃO DE ENSINO MÉDIO",
+    "num_infra": ""
+  },
+  {
+    "id": 29,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-029",
+    "name": "EAJ - REFEITÓRIO",
+    "num_infra": ""
+  },
+  {
+    "id": 30,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-030",
+    "name": "EAJ - BOVINOCULTURA DE LEITE (ESTÁBULO)",
+    "num_infra": ""
+  },
+  {
+    "id": 31,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-031",
+    "name": "EAJ - CANTINA",
+    "num_infra": ""
+  },
+  {
+    "id": 32,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-032",
+    "name": "EAJ - CASA DE VEGETAÇÃO",
+    "num_infra": ""
+  },
+  {
+    "id": 33,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-033",
+    "name": "EAJ - CONTROLE DE TREINAMENTO (NEUROCIÊNCIAS)",
+    "num_infra": ""
+  },
+  {
+    "id": 34,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-034",
+    "name": "EAJ - CENTRO VOCACIONAL TECNOLÓGICO (CVT)",
+    "num_infra": ""
+  },
+  {
+    "id": 35,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-035",
+    "name": "EAJ - COORDENAÇÃO DOS CURSOS TÉCNICOS EM AGROPECUÁRIA E AGROINDÚSTRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 36,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-036",
+    "name": "EAJ - CUNICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 37,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-037",
+    "name": "EAJ - DEPÓSITO DE MATERIAL DE CAMPO (MATADOURO)",
+    "num_infra": ""
+  },
+  {
+    "id": 38,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-038",
+    "name": "EAJ - DEPÓSITO DE RAÇÃO DA AVICULTURA (CASA DA RAÇÃO)",
+    "num_infra": ""
+  },
+  {
+    "id": 39,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-039",
+    "name": "EAJ - DEPÓSITO DE VIVEIROS",
+    "num_infra": ""
+  },
+  {
+    "id": 40,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-040",
+    "name": "EAJ - DIRETORIA",
+    "num_infra": ""
+  },
+  {
+    "id": 41,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-041",
+    "name": "EAJ - ESTAÇÃO DE PISCICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 42,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-042",
+    "name": "EAJ - GALPÃO CORDONA",
+    "num_infra": ""
+  },
+  {
+    "id": 43,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-043",
+    "name": "EAJ - GALPÃO DE AVICULTURA (AVIÁRIO GALPÃO DE GALINHAS CAIPIRAS)",
+    "num_infra": ""
+  },
+  {
+    "id": 44,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-044",
+    "name": "EAJ - GALPÃO DE AVICULTURA II (GALPÃO DAS CORDONAS)",
+    "num_infra": ""
+  },
+  {
+    "id": 45,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-045",
+    "name": "EAJ - GALPÃO DO LABORATÓRIO DE COMPOSTAGEM",
+    "num_infra": ""
+  },
+  {
+    "id": 46,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-046",
+    "name": "EAJ - GRUPO DE ESTUDOS EM FORRAGICULTURA (GEFOR)",
+    "num_infra": ""
+  },
+  {
+    "id": 47,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-047",
+    "name": "EAJ - GINÁSIO POLIESPORTIVO",
+    "num_infra": ""
+  },
+  {
+    "id": 48,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-048",
+    "name": "EAJ - LABORATÓRIO DA ESTAÇÃO DE PISCICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 49,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-049",
+    "name": "EAJ - LABORATÓRIO DE ALIMENTOS DA AGROINDÚSTRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 50,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-050",
+    "name": "EAJ - LABORATÓRIO DE COMPOSTAGEM",
+    "num_infra": ""
+  },
+  {
+    "id": 51,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-051",
+    "name": "EAJ - LABORATÓRIO DE OLERICULTURA (LABORATÓRIO DA HORTA)",
+    "num_infra": ""
+  },
+  {
+    "id": 52,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-052",
+    "name": "EAJ - LABORATÓRIO DE TOPOGRAFIA (PRÉDIOS DOS TÉCNICOS AGRÍCOLA)",
+    "num_infra": ""
+  },
+  {
+    "id": 53,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-053",
+    "name": "EAJ - LABORATÓRIO DO CURSO DE ENGENHARIA FLORESTAL",
+    "num_infra": ""
+  },
+  {
+    "id": 54,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-054",
+    "name": "EAJ - CAPELA",
+    "num_infra": ""
+  },
+  {
+    "id": 55,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-055",
+    "name": "EAJ - LABORATÓRIO DE APICULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 56,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-056",
+    "name": "EAJ - LABORATÓRIO DE PESQUISA DE ANÁLISE DE SEMENTES",
+    "num_infra": ""
+  },
+  {
+    "id": 57,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-057",
+    "name": "EAJ - OVINOCULTURA",
+    "num_infra": ""
+  },
+  {
+    "id": 58,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-058",
+    "name": "EAJ - PADARIA / COOPERATIVA (COOPEAJ)",
+    "num_infra": ""
+  },
+  {
+    "id": 59,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-059",
+    "name": "EAJ - PLACÁRIO",
+    "num_infra": ""
+  },
+  {
+    "id": 60,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-060",
+    "name": "EAJ - PÓRTICO DE ENTRADA (PORTARIA)",
+    "num_infra": "EAJ-001"
+  },
+  {
+    "id": 61,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-061",
+    "name": "EAJ - RESIDÊNCIAS (RUINHA)",
+    "num_infra": ""
+  },
+  {
+    "id": 62,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-062",
+    "name": "EAJ - RESTAURANTE UNIVERSITÁRIO",
+    "num_infra": ""
+  },
+  {
+    "id": 63,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-063",
+    "name": "EAJ - SECRETARIA ESCOLAR",
+    "num_infra": ""
+  },
+  {
+    "id": 64,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-064",
+    "name": "EAJ - SEDE DOS FUNCIONÁRIOS (ALOJAMENTO DOS VIGILANTES)",
+    "num_infra": ""
+  },
+  {
+    "id": 65,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-065",
+    "name": "EAJ - SUINOCULTURA AULAS PRÁTICAS (POCILGA I)",
+    "num_infra": ""
+  },
+  {
+    "id": 66,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-066",
+    "name": "EAJ - SUINOCULTURA GALPÃO DE PESQUISA (POCILGA II)",
+    "num_infra": ""
+  },
+  {
+    "id": 67,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-067",
+    "name": "EAJ - UNIDADE DE ATENDIMENTO AO EDUCANDO (UAE)",
+    "num_infra": ""
+  },
+  {
+    "id": 68,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-068",
+    "name": "EAJ - UNIDADE DE BENEFICIAMENTO DE SEMENTES (UBS)",
+    "num_infra": ""
+  },
+  {
+    "id": 69,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-069",
+    "name": "EAJ - UNIDADE DE EXTRAÇÃO DE PRODUTOS APÍCOLAS (UEPA - CASA DO MEL)",
+    "num_infra": ""
+  },
+  {
+    "id": 70,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-070",
+    "name": "EAJ - UNIDADE DE PROCESSAMENTO DE LATICÍNIOS",
+    "num_infra": ""
+  },
+  {
+    "id": 71,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-071",
+    "name": "EAJ - UNIDADE DE PROCESSAMENTO DE POLPA DE FRUTA",
+    "num_infra": ""
+  },
+  {
+    "id": 72,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-072",
+    "name": "EAJ - VESTUÁRIOS DE FUNCIONÁRIOS TERCEIRIZADOS",
+    "num_infra": ""
+  },
+  {
+    "id": 73,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-073",
+    "name": "EAJ - INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO",
+    "num_infra": ""
+  },
+  {
+    "id": 74,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-074",
+    "name": "EAJ - INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA",
+    "num_infra": ""
+  },
+  {
+    "id": 75,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-075",
+    "name": "EAJ - INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES",
+    "num_infra": ""
+  },
+  {
+    "id": 76,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-076",
+    "name": "EAJ - GIGAPOP MACAÍBA",
+    "num_infra": ""
+  },
+  {
+    "id": 77,
+    "property_sipac_id": 21,
+    "sub-rip": "1741.00016.500-7-077",
+    "name": "EAJ - RESIDÊNCIA UNIVERSITÁRIA DE JUNDIAÍ",
+    "num_infra": "EAJ-087"
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-001",
+    "name": "CAMPUS PROFESSOR BENITO MAIA BARROS - POLO UAB MACAU",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-002",
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-003",
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-004",
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-005",
+    "name": "CAMPUS PROFESSOR BENITO MAIA BARROS - ALOJAMENTO",
+    "num_infra": ""
+  },
+  {
+    "id": 6,
+    "property_sipac_id": 22,
+    "sub-rip": "1743.00010.500-0-006",
+    "name": "CAMPUS PROFESSOR BENITO MAIA BARROS - ABRIGO DA CASA DE FORÇA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 24,
+    "sub-rip": "1823.00029.500-6-001",
+    "name": "HUAB - MATERNIDADE / PEDIATRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 24,
+    "sub-rip": "1823.00029.500-6-002",
+    "name": "HUAB - NUTRIÇÃO / RESTAURANTE (NOVAS INSTALAÇÕES)",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 24,
+    "sub-rip": "1823.00029.500-6-003",
+    "name": "HUAB - SUBESTAÇÃO DE ENERGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 25,
+    "sub-rip": "1823.00034.500-3-001",
+    "name": "FACISA - PAVILHÃO ACADÊMICO - BLOCO I",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 25,
+    "sub-rip": "1823.00034.500-3-002",
+    "name": "FACISA - PAVILHÃO ACADÊMICO - BLOCO II",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 30,
+    "sub-rip": "1761.00307.500-3-001",
+    "name": "CCS - DEPARTAMENTO DE PEDIATRIA / DEPARTAMENTO DE TOCO-GINECOLOGIA / LABORATÓRIO DE HABILIDADES",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 31,
+    "sub-rip": "1761.00561.500-5-001",
+    "name": "LOCAÇÃO - RESIDÊNCIA UNIVERSITÁRIA - GARDÊNIAS",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 32,
+    "sub-rip": "1779.00077.500-7-001",
+    "name": "LOCAÇÃO - DEPÓSITO PARA MATERIAL PERMANENTE",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 33,
+    "sub-rip": "1761.00573.500-0-001",
+    "name": "LOCAÇÃO - APEC (SALAS PARA O CURSO DE NUTRIÇÃO)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 34,
+    "sub-rip": "1761.00571.500-0-001",
+    "name": "RESIDÊNCIA UNIVERSITÁRIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 35,
+    "sub-rip": "1761.00555.500-2-001",
+    "name": "LOCAÇÃO - CRUTAC CIDADE JARDIM",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 36,
+    "sub-rip": "1761.00565.500-7-001",
+    "name": "LOCAÇÃO - RESIDÊNCIA UNIVERSITÁRIA - VIOLETAS",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 37,
+    "sub-rip": "1761.00569.500-9-001",
+    "name": "LOCAÇÃO - BIOINFORMÁTICA/IMD",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 38,
+    "sub-rip": "1823.00040.500-6-001",
+    "name": "LOCAÇÃO - FACISA 'ESCRITÓRIO'",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 39,
+    "sub-rip": "1761.00563.500-6-001",
+    "name": "LOCAÇÃO - SECRETARIA DE ENSINO A DISTÂNCIA - SEDIS",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 40,
+    "sub-rip": "1761.00567.500-8-001",
+    "name": "LOCAÇÃO - IMD - INSTITUTO METRÓPOLE DIGITAL",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 41,
+    "sub-rip": "1761.00559.500-4-001",
+    "name": "LOCAÇÃO - RESIDÊNCIA UNIVERSITÁRIA - ANTONIO BARROS CAVALCANTI",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 42,
+    "sub-rip": "1761.00557.500-3-001",
+    "name": "LOCAÇÃO - IMD 'ESCRITÓRIO TÉCNICO ADMINISTRATIVO'",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 43,
+    "sub-rip": "1761.00575.500-1-001",
+    "name": "LOCAÇÃO - INSTITUTO DE NEUROCIÊNCIAS",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 44,
+    "sub-rip": "1761.00553.500-1-001",
+    "name": "ANEXO DA SINFO - SUPERINTENDÊNCIA DE INFORMÁTICA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 47,
+    "sub-rip": "1761.00581.500-4-001",
+    "name": "CCS - DEPARTAMENTO DE INFECTOLOGIA",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 48,
+    "sub-rip": "1761.00579.500-3-001",
+    "name": "LOCAÇÃO - IMD - 'ESCRITÓRIO'",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 49,
+    "sub-rip": "1779.00080.500-3-001",
+    "name": "LOCAÇÃO - DEPÓSITO PARA MATERIAL PERMANENTE",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 50,
+    "sub-rip": "1639.00257.500-0-001",
+    "name": "CERES CAICÓ - HOSPITAL DE ONCOLOGIA DO SERIDÓ (CURSO DE MEDICINA)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 51,
+    "sub-rip": "1761.00597.500-1-001",
+    "name": "LOCAÇÃO - INSTITUTO DO CÉREBRO",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 52,
+    "sub-rip": "1823.00046.500-9-001",
+    "name": "RESIDÊNCIA UNIVERSITÁRIA DE SANTA CRUZ/RN",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 53,
+    "sub-rip": "1823.00048.500-0-001",
+    "name": "LOCAÇÃO - DIVISÃO ACADÊMICA - GERÊNCIA DE ENSINO E PESQUISA DO HUAB\n(ANEXO III)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 54,
+    "sub-rip": "1823.00050.500-0-001",
+    "name": "LOCAÇÃO - SUPERINTENDÊNCIA / GERÊNCIA ADMINISTRATIVA DO HUAB (ANEXO I)",
+    "num_infra": ""
+  },
+  {
+    "id": 1,
+    "property_sipac_id": 55,
+    "sub-rip": "1741.00016.500-0-001",
+    "name": "ESCOLA LÍGIA LAPORTA",
+    "num_infra": ""
+  },
+  {
+    "id": 2,
+    "property_sipac_id": 55,
+    "sub-rip": "1741.00016.500-0-002",
+    "name": "CENTRO DE PESQUISA",
+    "num_infra": ""
+  },
+  {
+    "id": 3,
+    "property_sipac_id": 55,
+    "sub-rip": "1741.00016.500-0-003",
+    "name": "INFRAESTRUTURA DE REDE DE ENERGIA ELÉTRICA",
+    "num_infra": ""
+  },
+  {
+    "id": 4,
+    "property_sipac_id": 55,
+    "sub-rip": "1741.00016.500-0-004",
+    "name": "INFRAESTRUTURA DE REDE DE ÁGUA E ESGOTO",
+    "num_infra": ""
+  },
+  {
+    "id": 5,
+    "property_sipac_id": 55,
+    "sub-rip": "1741.00016.500-0-005",
+    "name": "INFRAESTRUTURA DE REDE DE TELECOMUNICAÇÕES",
+    "num_infra": ""
+  }
+]
