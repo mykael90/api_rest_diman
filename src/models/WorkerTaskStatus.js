@@ -5,11 +5,11 @@ export default class WorkerTaskStatus extends Model {
     this.belongsTo(models.WorkerTask, {
       foreignKey: 'worker_task_id',
     });
-    this.belongsTo(models.WorkerTaskStatusType, {
+    this.belongsTo(models.WorkerTaskStatustype, {
       foreignKey: 'workers_task_statustype_id',
     });
     this.belongsTo(models.User, { foreignKey: 'user_id' });
-    this.hasMany(models.WorkersTasksStatusPhoto, {
+    this.hasMany(models.WorkerTaskStatusPhoto, {
       foreignKey: 'worker_task_id',
     });
   }
@@ -27,7 +27,7 @@ export default class WorkerTaskStatus extends Model {
           allowNull: false,
         },
       },
-      { sequelize, tableName: 'workers_tasks_status', timestamps: false }
+      { sequelize, tableName: 'workers_tasks_status', timestamps: false },
     );
     return this;
   }

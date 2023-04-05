@@ -1,44 +1,18 @@
-const { Model } = require('sequelize');
+import Sequelize, { Model } from 'sequelize';
 
-module.exports = (sequelize, DataTypes) => {
-  class WorkerTaskServants extends Model {
-    static associate(models) {
-      WorkerTaskServants.belongsTo(models.WorkersTasks, {
-        foreignKey: 'worker_task_id',
-      });
-      WorkerTaskServants.belongsTo(models.Users, { foreignKey: 'user_id' });
-    }
+export default class WorkerTaskServant extends Model {
+  static associate(models) {
+    this.belongsTo(models.WorkerTask);
+    this.belongsTo(models.User);
   }
-  WorkerTaskServants.init(
-    {
-      worker_task_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-          model: 'workers_tasks',
-          key: 'id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+
+  static init(sequelize) {
+    super.init(
+      {
+
       },
-      user_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        references: {
-          model: 'users',
-          key: 'id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
-      },
-    },
-    {
-      sequelize,
-      modelName: 'WorkerTaskServants',
-      tableName: 'worker_tasks_servants',
-      timestamps: true,
-      underscored: true,
-    }
-  );
-  return WorkerTaskServants;
-};
+      { sequelize, tableName: 'workers_tasks_servants', timestamps: false },
+    );
+    return this;
+  }
+}

@@ -22,6 +22,8 @@ import unidadeRoutes from './routes/unidadeRoutes';
 import propertyRoutes from './routes/propertyRoutes';
 import providerRoutes from './routes/providerRoutes';
 import workerRoutes from './routes/workerRoutes';
+import workerTaskRoutes from './routes/workerTaskRoutes';
+
 import manualRoutes from './routes/manualRoutes';
 
 import loginRequired from './middlewares/loginRequired';
@@ -93,6 +95,7 @@ class App {
 
     // Rotas fechadas
     this.app.use('/workers/', workerRoutes);
+    this.app.use('/workerstasks/', workerTaskRoutes);
     this.app.use('/users/', userRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);

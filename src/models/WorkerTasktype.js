@@ -2,11 +2,11 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTasktype extends Model {
   static associate(models) {
-    // Define model associations
+    this.hasMany(models.WorkerTask);
   }
 
   static init(sequelize) {
-    return super.init(
+    super.init(
       {
         id: {
           type: Sequelize.INTEGER,
@@ -23,7 +23,8 @@ export default class WorkerTasktype extends Model {
         sequelize,
         tableName: 'workers_taskstypes',
         timestamps: false,
-      }
+      },
     );
+    return this;
   }
 }

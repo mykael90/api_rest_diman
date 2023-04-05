@@ -4,6 +4,7 @@ module.exports = {
       worker_task_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: 'workers_tasks',
           key: 'id',

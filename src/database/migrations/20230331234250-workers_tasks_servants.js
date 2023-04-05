@@ -1,6 +1,6 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('worker_tasks_servants', {
+    await queryInterface.createTable('workers_tasks_servants', {
       worker_task_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
@@ -25,6 +25,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('worker_tasks_servants');
+    await queryInterface.dropTable('workers_tasks_servants');
   },
 };

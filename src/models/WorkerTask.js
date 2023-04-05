@@ -2,18 +2,15 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTask extends Model {
   static associate(models) {
-    this.belongsTo(models.WorkersTaskType, {
-      foreignKey: 'worker_tasktype_id',
-    });
-    this.hasMany(models.WorkerTaskServant, { foreignKey: 'worker_task_id' });
-    this.belongsTo(models.PropertySipac, { foreignKey: 'property_sipac_id' });
-    this.belongsTo(models.BuildingSipac, { foreignKey: 'building_sipac_id' });
-    this.hasMany(models.WorkersTasksRisk, {
-      foreignKey: 'worker_task_id',
-    });
-    this.hasOne(models.WorkersTasksStatus, {
-      foreignKey: 'worker_task_id',
-    });
+    this.belongsTo(models.WorkerTasktype);
+    this.hasMany(models.WorkerTaskServant);
+    this.hasMany(models.WorkerTaskItem);
+    // this.belongsTo(models.PropertySipac);
+    // this.belongsTo(models.BuildingSipac);
+    // this.hasMany(models.WorkerTaskRisk);
+    // this.hasMany(models.WorkerTaskStatus);
+    this.belongsToMany(models.Worker, { through: models.WorkerTaskItem });
+    this.belongsToMany(models.User, { through: models.WorkerTaskServant });
   }
 
   static init(sequelize) {
@@ -57,7 +54,7 @@ export default class WorkerTask extends Model {
           comment: 'atividade extra',
         },
       },
-      { sequelize, tableName: 'workers_tasks', timestamps: false }
+      { sequelize, tableName: 'workers_tasks', timestamps: false },
     );
     return this;
   }

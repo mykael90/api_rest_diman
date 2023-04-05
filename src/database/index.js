@@ -45,6 +45,16 @@ import WorkerContractDanger from '../models/WorkerContractDanger';
 import WorkerContractRegime from '../models/WorkerContractRegime';
 import WorkerContractUnhealthy from '../models/WorkerContractUnhealthy';
 
+import WorkerTaskRisktype from '../models/WorkerTaskRisktype';
+import WorkerTasktype from '../models/WorkerTasktype';
+import WorkerTaskStatustype from '../models/WorkerTaskStatustype';
+import WorkerTask from '../models/WorkerTask';
+import WorkerTaskStatus from '../models/WorkerTaskStatus';
+import WorkerTaskStatusPhoto from '../models/WorkerTaskStatusPhoto';
+import WorkerTaskRisk from '../models/WorkerTaskRisk';
+import WorkerTaskItem from '../models/WorkerTaskItem';
+import WorkerTaskServant from '../models/WorkerTaskServant';
+
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
 
@@ -104,6 +114,16 @@ const models = [
   Worker,
   PropertySipac,
   BuildingSipac,
+  WorkerTaskRisktype,
+  WorkerTasktype,
+  WorkerTaskStatustype,
+  WorkerTask,
+  WorkerTaskStatus,
+  WorkerTaskStatusPhoto,
+  WorkerTaskRisk,
+  WorkerTaskItem,
+  WorkerTaskServant,
+
 ];
 
 const connection = new Sequelize(databaseConfig[env]);
