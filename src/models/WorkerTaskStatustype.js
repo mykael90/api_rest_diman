@@ -2,7 +2,10 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTaskStatustype extends Model {
   static associate(models) {
-    // this.hasMany(models.WorkerTask, { foreignKey: 'status_type_id' });
+    this.belongsToMany(models.WorkerTask, {
+      through: models.WorkerTaskStatus,
+    });
+    this.hasMany(models.WorkerTaskStatus);
   }
 
   static init(sequelize) {
@@ -18,7 +21,7 @@ export default class WorkerTaskStatustype extends Model {
           allowNull: false,
         },
       },
-      { sequelize, tableName: 'workers_tasks_statustype', timestamps: false },
+      { sequelize, tableName: 'workers_tasks_statusestypes', timestamps: false }
     );
     return this;
   }

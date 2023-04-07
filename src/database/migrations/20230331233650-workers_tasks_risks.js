@@ -4,6 +4,7 @@ module.exports = {
       worker_task_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: {
             tableName: 'workers_tasks',
@@ -13,9 +14,10 @@ module.exports = {
         onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
       },
-      workers_task_risktype_id: {
+      worker_task_risktype_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
+        primaryKey: true,
         references: {
           model: {
             tableName: 'workers_tasks_riskstypes',

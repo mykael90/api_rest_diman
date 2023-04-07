@@ -2,8 +2,14 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTaskStatusPhoto extends Model {
   static associate(models) {
-    this.belongsTo(models.WorkerTaskStatus);
-    this.belongsTo(models.WorkerTaskStatustype);
+    this.belongsTo(models.WorkerTaskStatus, {
+      sourceKey: 'WorkerTaskId',
+      foreignKey: 'WorkerTaskId',
+    });
+    this.belongsTo(models.WorkerTaskStatus, {
+      sourceKey: 'WorkerTaskStatustypeId',
+      foreignKey: 'WorkerTaskStatustypeId',
+    });
   }
 
   static init(sequelize) {
@@ -14,18 +20,12 @@ export default class WorkerTaskStatusPhoto extends Model {
           allowNull: false,
           primaryKey: true,
         },
-        worker_task_id: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
-        worker_task_statustype_id: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
       },
-      { sequelize, tableName: 'workers_tasks_status_photos', timestamps: false },
+      {
+        sequelize,
+        tableName: 'workers_tasks_statuses_photos',
+        timestamps: false,
+      }
     );
     return this;
   }

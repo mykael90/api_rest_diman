@@ -2,10 +2,10 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTaskRisktype extends Model {
   static associate(models) {
-    // this.belongsToMany(models.WorkerTask, {
-    //   through: models.WorkerTaskRisk,
-    // });
-    // this.hasMany(models.WorkerTaskRisk);
+    this.belongsToMany(models.WorkerTask, {
+      through: models.WorkerTaskRisk,
+    });
+    this.hasMany(models.WorkerTaskRisk);
   }
 
   static init(sequelize) {
@@ -21,7 +21,7 @@ export default class WorkerTaskRisktype extends Model {
           allowNull: false,
         },
       },
-      { sequelize, tableName: 'workers_tasks_riskstypes', timestamps: false },
+      { sequelize, tableName: 'workers_tasks_riskstypes', timestamps: false }
     );
     return this;
   }

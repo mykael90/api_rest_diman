@@ -1,41 +1,39 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('workers_tasks_status_photos', {
+    await queryInterface.createTable('workers_tasks_statuses_photos', {
       filename: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING(45),
         allowNull: false,
         primaryKey: true,
       },
       worker_task_id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER(11),
         allowNull: false,
-        primaryKey: true,
-        references: {
-          model: {
-            tableName: 'workers_tasks_status',
-          },
-          key: 'worker_task_id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        // references: { TEM QUE FAZER A REFERENCIA NO BANCO, NAO DEU CERTO POR AQUI
+        //   model: {
+        //     tableName: 'workers_tasks_statuses',
+        //   },
+        //   key: 'worker_task_id',
+        // },
+        // onUpdate: 'RESTRICT',
+        // onDelete: 'RESTRICT',
       },
       worker_task_statustype_id: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER(11),
         allowNull: false,
-        primaryKey: true,
-        references: {
-          model: {
-            tableName: 'workers_tasks_status',
-          },
-          key: 'workers_task_statustype_id',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        // references: { TEM QUE FAZER A REFERENCIA NO BANCO, NAO DEU CERTO POR AQUI
+        //   model: {
+        //     tableName: 'workers_tasks_statuses',
+        //   },
+        //   key: 'worker_task_statustype_id',
+        // },
+        // onUpdate: 'RESTRICT',
+        // onDelete: 'RESTRICT',
       },
     });
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('workers_tasks_status_photos');
+    await queryInterface.dropTable('workers_tasks_statuses_photos');
   },
 };

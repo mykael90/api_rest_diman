@@ -7,8 +7,14 @@ export default class WorkerTask extends Model {
     this.hasMany(models.WorkerTaskItem);
     // this.belongsTo(models.PropertySipac);
     // this.belongsTo(models.BuildingSipac);
-    // this.hasMany(models.WorkerTaskRisk);
-    // this.hasMany(models.WorkerTaskStatus);
+    this.hasMany(models.WorkerTaskRisk);
+    this.hasMany(models.WorkerTaskStatus);
+    this.belongsToMany(models.WorkerTaskRisktype, {
+      through: models.WorkerTaskRisk,
+    });
+    this.belongsToMany(models.WorkerTaskStatustype, {
+      through: models.WorkerTaskStatus,
+    });
     this.belongsToMany(models.Worker, { through: models.WorkerTaskItem });
     this.belongsToMany(models.User, { through: models.WorkerTaskServant });
   }
@@ -54,7 +60,7 @@ export default class WorkerTask extends Model {
           comment: 'atividade extra',
         },
       },
-      { sequelize, tableName: 'workers_tasks', timestamps: false },
+      { sequelize, tableName: 'workers_tasks', timestamps: false }
     );
     return this;
   }

@@ -1,6 +1,6 @@
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('workers_tasks_status', {
+    await queryInterface.createTable('workers_tasks_statuses', {
       worker_task_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
@@ -14,13 +14,13 @@ module.exports = {
         onUpdate: 'NO ACTION',
         onDelete: 'NO ACTION',
       },
-      workers_task_statustype_id: {
+      worker_task_statustype_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         primaryKey: true,
         references: {
           model: {
-            tableName: 'workers_tasks_statustype',
+            tableName: 'workers_tasks_statusestype',
           },
           key: 'id',
         },
@@ -49,6 +49,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('workers_tasks_status');
+    await queryInterface.dropTable('workers_tasks_statuses');
   },
 };

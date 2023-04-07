@@ -2,32 +2,23 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerTaskStatus extends Model {
   static associate(models) {
-    this.belongsTo(models.WorkerTask, {
-      foreignKey: 'worker_task_id',
-    });
-    this.belongsTo(models.WorkerTaskStatustype, {
-      foreignKey: 'workers_task_statustype_id',
-    });
-    this.belongsTo(models.User, { foreignKey: 'user_id' });
+    this.belongsTo(models.WorkerTask);
+    this.belongsTo(models.WorkerTaskStatustype);
+    this.belongsTo(models.User);
     this.hasMany(models.WorkerTaskStatusPhoto, {
-      foreignKey: 'worker_task_id',
+      sourceKey: 'WorkerTaskId',
+      foreignKey: 'WorkerTaskId',
     });
+    // this.hasMany(models.WorkerTaskStatusPhoto, {
+    //   sourceKey: 'WorkerTaskStatustypeId',
+    //   foreignKey: 'WorkerTaskStatustypeId',
+    // });
   }
 
   static init(sequelize) {
     super.init(
-      {
-        workersTaskStatustypeId: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
-        userId: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-        },
-      },
-      { sequelize, tableName: 'workers_tasks_status', timestamps: false },
+      {},
+      { sequelize, tableName: 'workers_tasks_statuses', timestamps: false }
     );
     return this;
   }
