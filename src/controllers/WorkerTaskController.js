@@ -18,7 +18,11 @@ class WorkerTaskController {
           WorkerTaskRisk,
           {
             model: WorkerTaskStatus,
-            include: [WorkerTaskStatusPhoto],
+            include: [
+              {
+                model: WorkerTaskStatusPhoto,
+              },
+            ],
           },
         ],
       });

@@ -11,6 +11,10 @@ export default class BuildingSipac extends Model {
   static init(sequelize) {
     super.init(
       {
+        subRip: {
+          type: Sequelize.STRING,
+          allowNull: true,
+        },
         id: {
           type: Sequelize.INTEGER,
           primaryKey: true,
@@ -35,7 +39,7 @@ export default class BuildingSipac extends Model {
           type: Sequelize.INTEGER(1),
           allowNull: true,
         },
-        num_infra: {
+        numInfra: {
           type: Sequelize.STRING,
           allowNull: true,
         },
@@ -47,7 +51,7 @@ export default class BuildingSipac extends Model {
           type: Sequelize.INTEGER(2),
           allowNull: true,
         },
-        inaugurated_at: {
+        inauguratedAt: {
           type: Sequelize.DATEONLY,
           allowNull: true,
         },

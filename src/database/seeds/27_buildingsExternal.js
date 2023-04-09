@@ -1,8 +1,8 @@
 const data = require('../JSON/buildings_external.json');
 
-data.forEach((obj) => {
-  delete obj['sub-rip'];
-});
+// data.forEach((obj) => {
+//   delete obj['sub-rip'];
+// });
 
 module.exports = {
   async up(queryInterface, Sequelize) {

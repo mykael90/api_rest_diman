@@ -6,29 +6,15 @@ module.exports = {
         allowNull: false,
         primaryKey: true,
       },
-      worker_task_id: {
-        type: Sequelize.INTEGER(11),
+      worker_task_status_id: {
+        type: Sequelize.INTEGER,
         allowNull: false,
-        // references: { TEM QUE FAZER A REFERENCIA NO BANCO, NAO DEU CERTO POR AQUI
-        //   model: {
-        //     tableName: 'workers_tasks_statuses',
-        //   },
-        //   key: 'worker_task_id',
-        // },
-        // onUpdate: 'RESTRICT',
-        // onDelete: 'RESTRICT',
-      },
-      worker_task_statustype_id: {
-        type: Sequelize.INTEGER(11),
-        allowNull: false,
-        // references: { TEM QUE FAZER A REFERENCIA NO BANCO, NAO DEU CERTO POR AQUI
-        //   model: {
-        //     tableName: 'workers_tasks_statuses',
-        //   },
-        //   key: 'worker_task_statustype_id',
-        // },
-        // onUpdate: 'RESTRICT',
-        // onDelete: 'RESTRICT',
+        references: {
+          model: 'workers_tasks_statuses',
+          key: 'id',
+        },
+        onUpdate: 'RESTRICT',
+        onDelete: 'RESTRICT',
       },
     });
   },

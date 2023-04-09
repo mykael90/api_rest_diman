@@ -6,8 +6,7 @@ export default class WorkerTaskStatus extends Model {
     this.belongsTo(models.WorkerTaskStatustype);
     this.belongsTo(models.User);
     this.hasMany(models.WorkerTaskStatusPhoto, {
-      sourceKey: 'WorkerTaskId',
-      foreignKey: 'WorkerTaskId',
+      foreignKey: 'WorkerTaskStatusId',
     });
     // this.hasMany(models.WorkerTaskStatusPhoto, {
     //   sourceKey: 'WorkerTaskStatustypeId',
@@ -17,8 +16,15 @@ export default class WorkerTaskStatus extends Model {
 
   static init(sequelize) {
     super.init(
-      {},
-      { sequelize, tableName: 'workers_tasks_statuses', timestamps: false }
+      {
+        id: {
+          type: Sequelize.INTEGER,
+          allowNull: false,
+          autoIncrement: true,
+          primaryKey: true,
+        },
+      },
+      { sequelize, tableName: 'workers_tasks_statuses', timestamps: true }
     );
     return this;
   }
