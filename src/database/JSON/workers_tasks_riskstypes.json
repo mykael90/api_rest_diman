@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "type": "Trabalho em altura",
+      "desc": "Relacionado à execução de atividades em locais elevados, que podem apresentar risco de queda, desequilíbrio, falta de proteção adequada, exposição a condições climáticas adversas, entre outros."
+    },
+    {
+      "id": 2,
+      "type": "Risco elétrico",
+      "desc": "Relacionado à exposição a correntes elétricas, choques elétricos, curtos-circuitos, falta de isolamento adequado, que podem causar lesões graves, queimaduras e até mesmo óbitos."
+    },
+    {
+      "id": 3,
+      "type": "Risco de soterramento",
+      "desc": "Relacionado a trabalhos em escavações, valas, túneis, onde há o risco de desmoronamento do solo, soterramento de trabalhadores, causando lesões graves ou óbitos."
+    },
+    {
+      "id": 4,
+      "type": "Espaço confinado",
+      "desc": "Relacionado à entrada em espaços confinados, como tanques, silos, tubulações, onde podem ocorrer riscos de asfixia, intoxicação, explosão, desmoronamento, falta de oxigênio, entre outros."
+    },
+    {
+      "id": 5,
+      "type": "Risco com máquinas e equipamentos",
+      "desc": "Relacionado à operação, manutenção, limpeza de máquinas e equipamentos sem a devida proteção, que podem causar acidentes como esmagamento, corte, amputação, entre outros."
+    },
+    {
+      "id": 6,
+      "type": "Riscos de vibração",
+      "desc": "Relacionado à exposição a vibrações mecânicas, como em ferramentas pneumáticas, máquinas, veículos, que podem causar problemas musculoesqueléticos, como lesões nas mãos, braços, ombros, costas."
+    },
+    {
+      "id": 7,
+      "type": "Risco de incêndio",
+      "desc": "Relacionado à presença de fontes de ignição, materiais inflamáveis, falta de sistemas de prevenção e combate a incêndios, que podem causar incêndios e danos materiais, lesões e óbitos."
+    },
+    {
+      "id": 8,
+      "type": "Atmosfera explosiva",
+      "desc": "Relacionado à presença de gases, vapores, poeiras ou névoas inflamáveis no ambiente de trabalho, que podem gerar explosões e incêndios, causando danos materiais, lesões e óbitos."
+    },
+    {
+      "id": 9,
+      "type": "Líquidos inflamáveis",
+      "desc": "Relacionado à manipulação, armazenamento ou transporte de líquidos inflamáveis, que podem causar incêndios e explosões, resultando em danos materiais, lesões e óbitos."
+    },
+
+    {
+      "id": 10,
+      "type": "Riscos ergonômicos",
+      "desc": "Relacionado à inadequação do ambiente de trabalho em relação à ergonomia, como posturas incorretas, levantamento de pesos, movimentos repetitivos, vibrações, que podem causar problemas musculoesqueléticos, como dores nas costas, tendinites, lesões por esforço repetitivo (LER) e distúrbios musculoesqueléticos relacionados ao trabalho (DMERT)."
+    },
+    {
+      "id": 11,
+      "type": "Risco de exposição radioativa",
+      "desc": "Relacionado a trabalhos com materiais radioativos, como em indústrias nucleares, laboratórios de pesquisa, que podem causar exposição a radiação ionizante, resultando em danos à saúde, como câncer, doenças do sangue, entre outros."
+    },
+    {
+      "id": 12,
+      "type": "Risco químico",
+      "desc": "Relacionado à manipulação, transporte, armazenamento de substâncias químicas perigosas, como produtos tóxicos, corrosivos, inflamáveis, que podem causar intoxicação, queimaduras, incêndios, explosões e outros danos à saúde e ao meio ambiente."
+    },
+    {
+      "id": 13,
+      "type": "Risco biológico",
+      "desc": "Relacionado à exposição a microorganismos patogênicos, como vírus, bactérias, fungos, em ambientes de saúde, laboratórios, serviços funerários, que podem causar doenças infecciosas, contaminação e disseminação de doenças."
+    }
+  ]

@@ -17,11 +17,14 @@ export default class WorkerTaskRisktype extends Model {
           primaryKey: true,
         },
         type: {
-          type: Sequelize.STRING(45),
+          type: Sequelize.STRING,
           allowNull: false,
         },
+        desc: {
+          type: Sequelize.TEXT,
+        },
       },
-      { sequelize, tableName: 'workers_tasks_riskstypes', timestamps: false }
+      { sequelize, tableName: 'workers_tasks_riskstypes', timestamps: false },
     );
     return this;
   }
