@@ -32,7 +32,7 @@ export default class WorkerTask extends Model {
         },
         description: {
           type: Sequelize.TEXT,
-          allowNull: false,
+          allowNull: true,
         },
         start: {
           type: Sequelize.DATEONLY,
@@ -44,7 +44,7 @@ export default class WorkerTask extends Model {
         },
         place: {
           type: Sequelize.STRING(45),
-          allowNull: false,
+          allowNull: true,
         },
         propertySipacId: {
           type: Sequelize.INTEGER,
@@ -60,7 +60,7 @@ export default class WorkerTask extends Model {
           comment: 'atividade extra',
         },
       },
-      { sequelize, tableName: 'workers_tasks', timestamps: false }
+      { sequelize, tableName: 'workers_tasks', timestamps: false },
     );
     return this;
   }
