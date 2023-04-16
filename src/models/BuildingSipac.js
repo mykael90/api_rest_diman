@@ -6,6 +6,9 @@ export default class BuildingSipac extends Model {
       sourceKey: 'id',
       foreignKey: 'propertySipacId',
     });
+    this.hasMany(models.BuildingSection, {
+      foreignKey: 'BuildingSipacSubRip',
+    });
   }
 
   static init(sequelize) {

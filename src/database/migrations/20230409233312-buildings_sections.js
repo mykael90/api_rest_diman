@@ -7,7 +7,7 @@ module.exports = {
         primaryKey: true,
         autoIncrement: true,
       },
-      building_sectionstype_id: {
+      building_sectiontype_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
