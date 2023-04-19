@@ -9,6 +9,10 @@ export default class BuildingSipac extends Model {
     this.hasMany(models.BuildingSection, {
       foreignKey: 'BuildingSipacSubRip',
     });
+    this.hasMany(models.WorkerTask, {
+      sourceKey: 'subRip',
+      foreignKey: 'buildingSipacSubRip',
+    });
   }
 
   static init(sequelize) {
@@ -59,7 +63,7 @@ export default class BuildingSipac extends Model {
           allowNull: true,
         },
       },
-      { sequelize, tableName: 'buildings_sipac', timestamps: false }
+      { sequelize, tableName: 'buildings_sipac', timestamps: false },
     );
     return this;
   }

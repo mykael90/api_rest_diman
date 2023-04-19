@@ -7,7 +7,7 @@ module.exports = {
         autoIncrement: true,
         primaryKey: true,
       },
-      req_maitenance: {
+      req_maintenance: {
         type: Sequelize.STRING(10),
         allowNull: true,
       },

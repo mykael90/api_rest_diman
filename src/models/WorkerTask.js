@@ -3,6 +3,14 @@ import Sequelize, { Model } from 'sequelize';
 export default class WorkerTask extends Model {
   static associate(models) {
     this.belongsTo(models.WorkerTasktype);
+    this.hasOne(models.BuildingSipac, {
+      sourceKey: 'buildingSipacSubRip',
+      foreignKey: 'subRip',
+    });
+    this.hasOne(models.PropertySipac, {
+      sourceKey: 'propertySipacId',
+      foreignKey: 'id',
+    });
     this.hasMany(models.WorkerTaskServant);
     this.hasMany(models.WorkerTaskItem);
     // this.belongsTo(models.PropertySipac);
@@ -22,7 +30,7 @@ export default class WorkerTask extends Model {
   static init(sequelize) {
     super.init(
       {
-        reqMaitenance: {
+        reqMaintenance: {
           type: Sequelize.STRING(10),
           allowNull: true,
         },
@@ -53,6 +61,10 @@ export default class WorkerTask extends Model {
         buildingSipacId: {
           type: Sequelize.INTEGER,
           allowNull: false,
+        },
+        buildingSipacSubRip: {
+          type: Sequelize.STRING,
+          allowNull: true,
         },
         extraActivity: {
           type: Sequelize.BOOLEAN,

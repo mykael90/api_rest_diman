@@ -5,23 +5,91 @@ import WorkerTask from '../models/WorkerTask';
 import WorkerTaskItem from '../models/WorkerTaskItem';
 import WorkerTaskServant from '../models/WorkerTaskServant';
 import WorkerTaskRisk from '../models/WorkerTaskRisk';
+import WorkerTaskRisktype from '../models/WorkerTaskRisktype';
 import WorkerTaskStatus from '../models/WorkerTaskStatus';
 import WorkerTaskStatusPhoto from '../models/WorkerTaskStatusPhoto';
+import WorkerTaskStatustype from '../models/WorkerTaskStatustype';
+import BuildingSipac from '../models/BuildingSipac';
+import PropertySipac from '../models/PropertySipac';
+import User from '../models/User';
+import UserPosition from '../models/UserPosition';
+import UserPositiontype from '../models/UserPositiontype';
+import Worker from '../models/Worker';
+import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
 
 class WorkerTaskController {
   // Index
   async index(req, res) {
     try {
       const result = await WorkerTask.findAll({
+        attributes: {
+          include: [
+            [Sequelize.dataBr(
+              '`WorkerTask`.`start`',
+            ),
+            'startBr',
+            ],
+            [Sequelize.dataBr(
+              '`WorkerTask`.`end`',
+            ),
+            'endBr',
+            ],
+          ],
+        },
         include: [
-          WorkerTaskItem,
-          WorkerTaskServant,
-          WorkerTaskRisk,
+          {
+            model: WorkerTaskItem,
+            include: [
+              {
+                model: Worker,
+                attributes: ['name'],
+                include: [
+                  {
+                    model: WorkerContract,
+                    // attributes: ['WorkerJobtype'],
+                    include: [WorkerJobtype],
+                    where: {
+                      end: null,
+                    },
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            model: WorkerTaskServant,
+            include: [
+              {
+                model: User,
+                attributes: ['name'],
+                include: [
+                  {
+                    model: UserPosition,
+                    include: [UserPositiontype],
+                  },
+                ],
+              },
+            ],
+          },
+          BuildingSipac,
+          PropertySipac,
+          {
+            model: WorkerTaskRisk,
+            include: [
+              {
+                model: WorkerTaskRisktype,
+              },
+            ],
+          },
           {
             model: WorkerTaskStatus,
             include: [
               {
                 model: WorkerTaskStatusPhoto,
+              },
+              {
+                model: WorkerTaskStatustype,
               },
             ],
           },
