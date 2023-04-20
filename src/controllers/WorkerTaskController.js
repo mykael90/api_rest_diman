@@ -84,6 +84,15 @@ class WorkerTaskController {
           },
           {
             model: WorkerTaskStatus,
+            attributes: {
+              include: [
+                [Sequelize.dataHoraBr(
+                  '`WorkerTaskStatuses`.`created_at`',
+                ),
+                'createdAtBr',
+                ],
+              ],
+            },
             include: [
               {
                 model: WorkerTaskStatusPhoto,
