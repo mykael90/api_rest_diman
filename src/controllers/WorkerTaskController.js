@@ -17,6 +17,8 @@ import UserPositiontype from '../models/UserPositiontype';
 import Worker from '../models/Worker';
 import WorkerContract from '../models/WorkerContract';
 import WorkerJobtype from '../models/WorkerJobtype';
+import Contract from '../models/Contract';
+import Provider from '../models/Provider';
 
 class WorkerTaskController {
   // Index
@@ -25,16 +27,8 @@ class WorkerTaskController {
       const result = await WorkerTask.findAll({
         attributes: {
           include: [
-            [Sequelize.dataBr(
-              '`WorkerTask`.`start`',
-            ),
-            'startBr',
-            ],
-            [Sequelize.dataBr(
-              '`WorkerTask`.`end`',
-            ),
-            'endBr',
-            ],
+            [Sequelize.dataBr('`WorkerTask`.`start`'), 'startBr'],
+            [Sequelize.dataBr('`WorkerTask`.`end`'), 'endBr'],
           ],
         },
         include: [
@@ -48,7 +42,10 @@ class WorkerTaskController {
                   {
                     model: WorkerContract,
                     // attributes: ['WorkerJobtype'],
-                    include: [WorkerJobtype],
+                    include: [
+                      WorkerJobtype,
+                      { model: Contract, include: [Provider] },
+                    ],
                     where: {
                       end: null,
                     },
@@ -86,14 +83,14 @@ class WorkerTaskController {
             model: WorkerTaskStatus,
             attributes: {
               include: [
-                [Sequelize.dataHoraBr(
-                  '`WorkerTaskStatuses`.`created_at`',
-                ),
-                'createdAtBr',
+                [
+                  Sequelize.dataHoraBr('`WorkerTaskStatuses`.`created_at`'),
+                  'createdAtBr',
                 ],
               ],
             },
             include: [
+              User,
               {
                 model: WorkerTaskStatusPhoto,
               },
@@ -117,14 +114,19 @@ class WorkerTaskController {
     try {
       console.log(req.body);
       const workerTask = await WorkerTask.create(req.body, {
-        include: [WorkerTaskRisk, WorkerTaskItem, WorkerTaskServant, {
-          model: WorkerTaskStatus,
-          include: [
-            {
-              model: WorkerTaskStatusPhoto,
-            },
-          ],
-        }],
+        include: [
+          WorkerTaskRisk,
+          WorkerTaskItem,
+          WorkerTaskServant,
+          {
+            model: WorkerTaskStatus,
+            include: [
+              {
+                model: WorkerTaskStatusPhoto,
+              },
+            ],
+          },
+        ],
       });
       if (!req.file) return res.json(workerTask);
 
@@ -132,13 +134,18 @@ class WorkerTaskController {
       req.result = { ...workerTask.dataValues };
       req.dimensionResized = 600; // new dimension to photo
       const fileExtension = extname(req.file.originalname);
-      req.fileName = `${Worker.name.toLowerCase()}_${req.result.id}${fileExtension}`;
+      req.fileName = `${Worker.name.toLowerCase()}_${
+        req.result.id
+      }${fileExtension}`;
       // update filename field on database
-      await Worker.update({ filenamePhoto: req.fileName }, {
-        where: {
-          id: req.result.id,
-        },
-      });
+      await Worker.update(
+        { filenamePhoto: req.fileName },
+        {
+          where: {
+            id: req.result.id,
+          },
+        }
+      );
       return next(); // go to uploadController
     } catch (e) {
       console.log('erroCustomizado', e);
