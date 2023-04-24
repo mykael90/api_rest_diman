@@ -103,8 +103,6 @@ class WorkerTaskController {
         order: [
           ['id', 'DESC'],
           [WorkerTaskStatus, 'id', 'DESC'],
-          [WorkerTaskServant, 'name', 'ASC'],
-          [WorkerTaskItem, 'name', 'ASC'],
         ],
       });
       return res.json(result);
