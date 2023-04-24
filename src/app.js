@@ -52,7 +52,9 @@ const whiteList = [
   'https://sisman.infra.ufrn.br:443',
   'https://sisman.infra.ufrn.br:3000',
   'https://sisman.infra.ufrn.br:3002',
-  'https://192.168.1.13',
+  'https://192.168.1.14',
+  'http://192.168.1.14',
+  'http://192.168.1.14:3001',
 ];
 
 const corsOptions = {
@@ -79,7 +81,10 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(express.static(resolve(__dirname, '..', 'uploads')));
-    this.app.use('/uploads/', express.static(resolve(__dirname, '..', 'uploads')));
+    this.app.use(
+      '/uploads/',
+      express.static(resolve(__dirname, '..', 'uploads'))
+    );
     // this.app.use('/uploads/', express.static(resolve(__dirname, '..', 'uploads', 'workers', 'images')));
   }
 
