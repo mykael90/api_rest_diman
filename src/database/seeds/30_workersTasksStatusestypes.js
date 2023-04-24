@@ -5,10 +5,18 @@ const data = [
   },
   {
     id: 2,
-    type: 'LIBERADO',
+    type: 'REAGENDADO',
   },
   {
     id: 3,
+    type: 'FISCALIZADO SEGURANÇA',
+  },
+  {
+    id: 4,
+    type: 'FISCALIZADO ENGENHARIA',
+  },
+  {
+    id: 5,
     type: 'ENCERRADO',
   },
 ];
