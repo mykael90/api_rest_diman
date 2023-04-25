@@ -14,6 +14,7 @@ import Unidade from '../models/Unidade';
 import Contract from '../models/Contract';
 
 import getMethods from '../asset/script/getMethods';
+import Provider from '../models/Provider';
 
 class WorkersController {
   // Index
@@ -21,7 +22,12 @@ class WorkersController {
     try {
       const result = await Worker.findAll({
         attributes: {
-          include: [[Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job']],
+          include: [
+            [
+              Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'),
+              'job',
+            ],
+          ],
         },
         include: [
           {
@@ -35,7 +41,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`end`'),
-                    '%d/%m/%Y',
+                    '%d/%m/%Y'
                   ),
                   'endBr',
                 ],
@@ -43,22 +49,27 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`start`'),
-                    '%d/%m/%Y',
+                    '%d/%m/%Y'
                   ),
                   'startBr',
                 ],
               ],
             },
-            include: [{ model: WorkerJobtype },
+            include: [
+              { model: WorkerJobtype },
               { model: Unidade },
               { model: Contract },
-              { model: WorkerContractRegime }],
+              { model: WorkerContractRegime },
+            ],
           },
           {
             model: Address,
           },
         ],
-        order: [['name', 'ASC'], [WorkerContract, 'start', 'ASC']],
+        order: [
+          ['name', 'ASC'],
+          [WorkerContract, 'start', 'DESC'],
+        ],
       });
       return res.json(result);
     } catch (e) {
@@ -72,7 +83,12 @@ class WorkersController {
     try {
       const result = await Worker.findAll({
         attributes: {
-          include: [[Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'), 'job']],
+          include: [
+            [
+              Sequelize.literal('`WorkerContracts->WorkerJobtype`.`job`'),
+              'job',
+            ],
+          ],
         },
         include: [
           {
@@ -86,7 +102,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`end`'),
-                    '%d/%m/%Y',
+                    '%d/%m/%Y'
                   ),
                   'endBr',
                 ],
@@ -94,7 +110,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`start`'),
-                    '%d/%m/%Y',
+                    '%d/%m/%Y'
                   ),
                   'startBr',
                 ],
@@ -103,16 +119,21 @@ class WorkersController {
             where: {
               end: null,
             },
-            include: [{ model: WorkerJobtype },
+            include: [
+              { model: WorkerJobtype },
               { model: Unidade },
-              { model: Contract },
-              { model: WorkerContractRegime }],
+              { model: Contract, include: Provider },
+              { model: WorkerContractRegime },
+            ],
           },
           {
             model: Address,
           },
         ],
-        order: [['name', 'ASC'], [WorkerContract, 'start', 'ASC']],
+        order: [
+          ['name', 'ASC'],
+          [WorkerContract, 'start', 'DESC'],
+        ],
       });
       return res.json(result);
     } catch (e) {
@@ -145,13 +166,18 @@ class WorkersController {
       req.result = { ...workers.dataValues };
       req.dimensionResized = 600; // new dimension to photo
       const fileExtension = extname(req.file.originalname);
-      req.fileName = `${Worker.name.toLowerCase()}_${req.result.id}${fileExtension}`;
+      req.fileName = `${Worker.name.toLowerCase()}_${
+        req.result.id
+      }${fileExtension}`;
       // update filename field on database
-      await Worker.update({ filenamePhoto: req.fileName }, {
-        where: {
-          id: req.result.id,
-        },
-      });
+      await Worker.update(
+        { filenamePhoto: req.fileName },
+        {
+          where: {
+            id: req.result.id,
+          },
+        }
+      );
       return next(); // go to uploadController
     } catch (e) {
       console.log('erroCustomizado', e);
@@ -175,9 +201,7 @@ class WorkersController {
 
       // TEM QUE ESTAR EXATAMENTE NO MESMO PADRÃO DE ORNDEMANENTO QUE ALIMENTA O FORM
       const worker = await Worker.findByPk(id, {
-        include: [
-          { model: WorkerContract },
-        ],
+        include: [{ model: WorkerContract }],
         order: [[WorkerContract, 'start', 'ASC']], // IMPORTANTE O ORDENAMENTO
       });
 
@@ -212,9 +236,13 @@ class WorkersController {
 
       const mainTableUpdate = Object.entries(req.body)
         .filter((entry) => !Array.isArray(entry[1]))
-        .reduce((obj, entry) => Object.assign(obj, {
-          [entry[0]]: entry[1],
-        }), {});
+        .reduce(
+          (obj, entry) =>
+            Object.assign(obj, {
+              [entry[0]]: entry[1],
+            }),
+          {}
+        );
 
       worker.set(mainTableUpdate);
       await worker.save();
@@ -258,9 +286,7 @@ class WorkersController {
 
       // TEM QUE ESTAR EXATAMENTE NO MESMO PADRÃO DE ORNDEMANENTO QUE ALIMENTA O FORM
       const worker = await Worker.findByPk(id, {
-        include: [
-          { model: WorkerContract },
-        ],
+        include: [{ model: WorkerContract }],
         order: [[WorkerContract, 'start', 'ASC']], // IMPORTANTE O ORDENAMENTO
       });
 
@@ -294,9 +320,13 @@ class WorkersController {
       // FILTRAR CHAVES APENAS DA TABELA PRINCIPAL (SEM ARRAYS DE SUBTABELAS)
       const mainTableUpdate = Object.entries(req.body)
         .filter((entry) => !Array.isArray(entry[1]))
-        .reduce((obj, entry) => Object.assign(obj, {
-          [entry[0]]: entry[1],
-        }), {});
+        .reduce(
+          (obj, entry) =>
+            Object.assign(obj, {
+              [entry[0]]: entry[1],
+            }),
+          {}
+        );
 
       console.log('MAINTABLE', mainTableUpdate);
 
