@@ -20,13 +20,10 @@ class MaterialOutController {
   async store(req, res) {
     try {
       const result = await MaterialOut.sequelize.transaction(async (t) => {
-        const materialOut = await MaterialOut.create(
-          req.body,
-          {
-            include: [MaterialOutItem],
-            transaction: t,
-          },
-        );
+        const materialOut = await MaterialOut.create(req.body, {
+          include: [MaterialOutItem],
+          transaction: t,
+        });
         return res.json(materialOut);
       });
       return result;
@@ -57,12 +54,9 @@ class MaterialOutController {
         }
       }
 
-      const materialOut = await MaterialOut.create(
-        req.body,
-        {
-          include: [MaterialOutItem, MaterialOutFile],
-        },
-      );
+      const materialOut = await MaterialOut.create(req.body, {
+        include: [MaterialOutItem, MaterialOutFile],
+      });
 
       if (req.files) {
         req.result = materialOut;
@@ -87,19 +81,18 @@ class MaterialOutController {
           include: [
             [Sequelize.literal('`MaterialOuttype`.`type`'), 'type'],
             [Sequelize.literal('`User`.`username`'), 'userUsername'],
-            [Sequelize.literal('`authorizer`.`username`'), 'authorizerUsername'],
+            [
+              Sequelize.literal('`authorizer`.`username`'),
+              'authorizerUsername',
+            ],
             [Sequelize.literal('`Worker`.`name`'), 'removedBy'],
             [Sequelize.currencyBr('`MaterialOut`.`value`'), 'valueBr'],
-            [Sequelize.dataHoraBr(
-              '`MaterialOut`.`created_at`',
-            ),
-            'createdAtBr',
-            ],
+            [Sequelize.dataHoraBr('`MaterialOut`.`created_at`'), 'createdAtBr'],
             [
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialOut`.`updated_At`'),
-                '%d/%m/%Y',
+                '%d/%m/%Y'
               ),
               'updatedAtBr',
             ],
@@ -107,12 +100,27 @@ class MaterialOutController {
         },
         include: [
           {
+            model: MaterialOutFile,
+            order: [['order', 'ASC']],
+          },
+          {
             model: MaterialOutItem,
             attributes: [
               ['material_id', 'materialId'],
-              [Sequelize.literal('`MaterialOutItems->Material`.`name`'), 'name'],
-              [Sequelize.literal('`MaterialOutItems->Material`.`specification`'), 'specification'],
-              [Sequelize.literal('`MaterialOutItems->Material`.`unit`'), 'unit'],
+              [
+                Sequelize.literal('`MaterialOutItems->Material`.`name`'),
+                'name',
+              ],
+              [
+                Sequelize.literal(
+                  '`MaterialOutItems->Material`.`specification`'
+                ),
+                'specification',
+              ],
+              [
+                Sequelize.literal('`MaterialOutItems->Material`.`unit`'),
+                'unit',
+              ],
               [Sequelize.currencyBr('`MaterialOutItems`.`value`'), 'value'],
               'quantity',
             ],
@@ -130,30 +138,55 @@ class MaterialOutController {
           },
           {
             model: MaterialIn,
-            attributes: ['id', 'value', [Sequelize.currencyBr('`MaterialReturned`.`value`'), 'valueBr'], ['created_at', 'createdAt'], [Sequelize.dataHoraBr(
-              '`MaterialReturned`.`created_at`',
-            ),
-            'createdAtBr']],
+            attributes: [
+              'id',
+              'value',
+              [Sequelize.currencyBr('`MaterialReturned`.`value`'), 'valueBr'],
+              ['created_at', 'createdAt'],
+              [
+                Sequelize.dataHoraBr('`MaterialReturned`.`created_at`'),
+                'createdAtBr',
+              ],
+            ],
             as: 'MaterialReturned',
             required: false,
-            include:
-              {
-                model: MaterialInItem,
-                attributes: [
-                  ['material_id', 'materialId'],
-                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`name`'), 'name'],
-                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`specification`'), 'specification'],
-                  [Sequelize.literal('`MaterialReturned->MaterialInItems->Material`.`unit`'), 'unit'],
-                  'quantity',
-                  [Sequelize.currencyBr('`MaterialReturned->MaterialInItems`.`value`'), 'value'],
+            include: {
+              model: MaterialInItem,
+              attributes: [
+                ['material_id', 'materialId'],
+                [
+                  Sequelize.literal(
+                    '`MaterialReturned->MaterialInItems->Material`.`name`'
+                  ),
+                  'name',
                 ],
+                [
+                  Sequelize.literal(
+                    '`MaterialReturned->MaterialInItems->Material`.`specification`'
+                  ),
+                  'specification',
+                ],
+                [
+                  Sequelize.literal(
+                    '`MaterialReturned->MaterialInItems->Material`.`unit`'
+                  ),
+                  'unit',
+                ],
+                'quantity',
+                [
+                  Sequelize.currencyBr(
+                    '`MaterialReturned->MaterialInItems`.`value`'
+                  ),
+                  'value',
+                ],
+              ],
+              required: false,
+              include: {
+                model: Material,
+                attributes: [],
                 required: false,
-                include: {
-                  model: Material,
-                  attributes: [],
-                  required: false,
-                },
               },
+            },
           },
           {
             model: User,
@@ -176,9 +209,7 @@ class MaterialOutController {
             required: false,
           },
         ],
-        order: [
-          ['id', 'DESC'],
-        ],
+        order: [['id', 'DESC']],
       });
       return res.json(result);
     } catch (e) {
@@ -204,7 +235,8 @@ class MaterialOutController {
 
       if (!materialOut) {
         return res.status(400).json({
-          errors: 'Parâmetro de id de Saída de Material não localizado no banco',
+          errors:
+            'Parâmetro de id de Saída de Material não localizado no banco',
         });
       }
 
