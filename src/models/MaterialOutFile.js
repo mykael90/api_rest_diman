@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import Sequelize, { Model } from 'sequelize';
+import appConfig from '../config/appConfig';
 
 export default class MaterialOutFile extends Model {
   static associate(models) {
@@ -20,6 +21,12 @@ export default class MaterialOutFile extends Model {
       order: {
         type: Sequelize.INTEGER,
         allowNull: false,
+      },
+      src: {
+        type: Sequelize.VIRTUAL,
+        get() {
+          return `${appConfig.url}/uploads/materials/out/images/${this.getDataValue('filename')}`;
+        },
       },
 
     }, {
