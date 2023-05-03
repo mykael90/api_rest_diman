@@ -23,6 +23,7 @@ import propertyRoutes from './routes/propertyRoutes';
 import providerRoutes from './routes/providerRoutes';
 import workerRoutes from './routes/workerRoutes';
 import workerTaskRoutes from './routes/workerTaskRoutes';
+import workerManualfrequencyRoutes from './routes/workeManualfrequencyRoutes';
 
 import manualRoutes from './routes/manualRoutes';
 
@@ -102,6 +103,7 @@ class App {
     // Rotas fechadas
     this.app.use('/workers/', workerRoutes);
     this.app.use('/workerstasks/', workerTaskRoutes);
+    this.app.use('/workersmanualfrequencies/', workerManualfrequencyRoutes);
     this.app.use('/users/', userRoutes);
     this.app.use('/alunos/', alunoRoutes);
     this.app.use('/fotos/', fotoRoutes);

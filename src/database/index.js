@@ -55,6 +55,10 @@ import WorkerTaskRisk from '../models/WorkerTaskRisk';
 import WorkerTaskItem from '../models/WorkerTaskItem';
 import WorkerTaskServant from '../models/WorkerTaskServant';
 
+import WorkerManualfrequency from '../models/WorkerManualfrequency';
+import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
+import WorkerManualfrequencyItem from '../models/WorkerManualfrequencyItem';
+
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
 
@@ -127,6 +131,9 @@ const models = [
   WorkerTaskRisk,
   WorkerTaskItem,
   WorkerTaskServant,
+  WorkerManualfrequency,
+  WorkerManualfrequencytype,
+  WorkerManualfrequencyItem,
 ];
 
 const connection = new Sequelize(databaseConfig[env]);
