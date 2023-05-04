@@ -3,6 +3,7 @@ import { extname } from 'path';
 
 import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
 import WorkerManualfrequencyItem from '../models/WorkerManualfrequencyItem';
+import WorkerManualfrequency from '../models/WorkerManualfrequency';
 import Worker from '../models/Worker';
 
 class WorkerManualfrequencyItemController {
@@ -10,7 +11,7 @@ class WorkerManualfrequencyItemController {
   async index(req, res) {
     try {
       const result = await WorkerManualfrequencyItem.findAll({
-        include: [WorkerManualfrequencytype, Worker],
+        include: [WorkerManualfrequency, WorkerManualfrequencytype, Worker],
       });
       return res.json(result);
     } catch (e) {
