@@ -34,12 +34,29 @@ class WorkerManualfrequencyController {
   }
 
   async store(req, res) {
-    // COLOCAR NUMA TRANSACTIONS TUDO
     try {
-      const workerTask = await WorkerManualfrequency.create(req.body, {
+      const exist = await WorkerManualfrequency.findAll({
+        where: {
+          unidade_id: req.body.UnidadeId,
+          contract_id: req.body.ContractId,
+          date: req.body.date,
+        },
+        limit: 1,
+      });
+
+      // VERIFICA SE FREQUÊNCIA JÁ EXISTE
+      if (exist.length) {
+        return res.status(400).json({
+          errors: [
+            'Registro de ocorrência de ponto já realizado para essa data, empresa e unidade administrativa',
+          ],
+        });
+      }
+
+      const result = await WorkerManualfrequency.create(req.body, {
         include: [WorkerManualfrequencyItem],
       });
-      return res.json(workerTask);
+      return res.json(result);
     } catch (e) {
       console.log('erroCustomizado', e);
       return res.status(400).json({
