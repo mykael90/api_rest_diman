@@ -32,6 +32,21 @@ class WorkerManualfrequencyController {
       return res.json(e);
     }
   }
+
+  async store(req, res) {
+    // COLOCAR NUMA TRANSACTIONS TUDO
+    try {
+      const workerTask = await WorkerManualfrequency.create(req.body, {
+        include: [WorkerManualfrequencyItem],
+      });
+      return res.json(workerTask);
+    } catch (e) {
+      console.log('erroCustomizado', e);
+      return res.status(400).json({
+        errors: [e.message],
+      });
+    }
+  }
 }
 
 export default new WorkerManualfrequencyController();
