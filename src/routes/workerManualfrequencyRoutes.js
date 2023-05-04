@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import WorkerManualfrequencyController from '../controllers/WorkerManualfrequencyController';
+import WorkerManualfrequencyItemController from '../controllers/WorkerManualfrequencyItemController';
 
 const router = new Router();
 
@@ -7,6 +8,8 @@ const router = new Router();
 // router.use('/risks/', workerTaskRiskRoutes);
 
 router.get('/', WorkerManualfrequencyController.index);
+
+router.get('/items', WorkerManualfrequencyItemController.index);
 
 // workerTaskRiskRoutes.get('/types', WorkerTaskRisktypeController.index);
 

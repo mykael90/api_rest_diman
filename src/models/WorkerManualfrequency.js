@@ -27,11 +27,6 @@ export default class WorkerManualfrequency extends Model {
           type: Sequelize.TEXT,
           allowNull: true,
         },
-        filenameDocument: {
-          type: Sequelize.STRING,
-          allowNull: true,
-          unique: true,
-        },
       },
       { sequelize, tableName: 'workers_manualfrequencies', timestamps: false }
     );

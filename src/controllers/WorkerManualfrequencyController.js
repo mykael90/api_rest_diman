@@ -1,4 +1,4 @@
-import Sequelize from 'sequelize';
+import Sequelize, { Op } from 'sequelize';
 import { extname } from 'path';
 
 import WorkerManualfrequency from '../models/WorkerManualfrequency';
@@ -8,12 +8,23 @@ import User from '../models/User';
 import Contract from '../models/Contract';
 import Unidade from '../models/Unidade';
 
-class WWorkerManualfrequencyController {
+class WorkerManualfrequencyController {
   // Index
   async index(req, res) {
     try {
       const result = await WorkerManualfrequency.findAll({
-        include: [User, Contract, Unidade, WorkerManualfrequencyItem],
+        include: [
+          {
+            model: User,
+            attributes: ['username'],
+          },
+          Contract,
+          Unidade,
+          {
+            model: WorkerManualfrequencyItem,
+            include: [WorkerManualfrequencytype],
+          },
+        ],
       });
       return res.json(result);
     } catch (e) {
@@ -23,4 +34,4 @@ class WWorkerManualfrequencyController {
   }
 }
 
-export default new WWorkerManualfrequencyController();
+export default new WorkerManualfrequencyController();

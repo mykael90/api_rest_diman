@@ -23,7 +23,7 @@ import propertyRoutes from './routes/propertyRoutes';
 import providerRoutes from './routes/providerRoutes';
 import workerRoutes from './routes/workerRoutes';
 import workerTaskRoutes from './routes/workerTaskRoutes';
-import workerManualfrequencyRoutes from './routes/workeManualfrequencyRoutes';
+import workerManualfrequencyRoutes from './routes/workerManualfrequencyRoutes';
 
 import manualRoutes from './routes/manualRoutes';
 
