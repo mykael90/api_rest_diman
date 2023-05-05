@@ -7,6 +7,10 @@ import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
 import WorkerManualfrequencyItem from '../models/WorkerManualfrequencyItem';
 import WorkerManualfrequency from '../models/WorkerManualfrequency';
 import Worker from '../models/Worker';
+import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
+import Unidade from '../models/Unidade';
+import Contract from '../models/Contract';
 
 class WorkerManualfrequencyItemController {
   // Index
@@ -26,29 +30,13 @@ class WorkerManualfrequencyItemController {
         lastDay = new Date(end[0], end[1], end[2]);
       }
 
-      // Get the current date
-      // const currentDate = new Date();
-
-      // Get the first day of the current month
-      // const firstDay = new Date(
-      //   currentDate.getFullYear(),
-      //   currentDate.getMonth(),
-      //   1
-      // );
-
-      // Get the last day of the current month
-      // const lastDay = new Date(
-      //   currentDate.getFullYear(),
-      //   currentDate.getMonth() + 1,
-      //   0
-      // );
-
       console.log(firstDay, lastDay);
 
       const result = await WorkerManualfrequencyItem.findAll({
         include: [
           {
             model: WorkerManualfrequency,
+            include: [Unidade, Contract],
             where: queryParams
               ? {
                   date: {
@@ -61,7 +49,10 @@ class WorkerManualfrequencyItemController {
               : {},
           },
           WorkerManualfrequencytype,
-          Worker,
+          {
+            model: Worker,
+            include: [{ model: WorkerContract, include: [WorkerJobtype] }],
+          },
         ],
       });
       return res.json(result);
