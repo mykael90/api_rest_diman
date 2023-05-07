@@ -15,6 +15,7 @@ import Contract from '../models/Contract';
 class WorkerManualfrequencyItemController {
   // Index
   async index(req, res) {
+    console.log(req.query);
     try {
       let firstDay;
       let lastDay;
@@ -30,28 +31,39 @@ class WorkerManualfrequencyItemController {
         lastDay = new Date(end[0], end[1], end[2]);
       }
 
-      console.log(firstDay, lastDay);
-
-      const result = await WorkerManualfrequencyItem.findAll({
+      const result = await Worker.findAll({
         include: [
           {
-            model: WorkerManualfrequency,
-            include: [Unidade, Contract],
+            model: WorkerContract,
+            include: [WorkerJobtype],
             where: queryParams
               ? {
-                  date: {
-                    [Op.lt]: lastDay,
-                    [Op.gt]: firstDay,
+                  end: {
+                    [Op.or]: [{ [Op.gt]: lastDay }, { [Op.is]: null }],
                   },
-                  unidade_id: queryParams.unidade_id,
-                  contract_id: queryParams.contract_id,
                 }
               : {},
           },
-          WorkerManualfrequencytype,
           {
-            model: Worker,
-            include: [{ model: WorkerContract, include: [WorkerJobtype] }],
+            model: WorkerManualfrequencyItem,
+            required: true,
+            include: [
+              {
+                model: WorkerManualfrequency,
+                include: [Unidade, Contract],
+                where: queryParams
+                  ? {
+                      date: {
+                        [Op.lt]: lastDay,
+                        [Op.gt]: firstDay,
+                      },
+                      unidade_id: queryParams.unidade_id,
+                      contract_id: queryParams.contract_id,
+                    }
+                  : {},
+              },
+              WorkerManualfrequencytype,
+            ],
           },
         ],
       });

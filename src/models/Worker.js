@@ -22,6 +22,7 @@ export default class Worker extends Model {
     this.hasMany(models.MaterialOut);
     this.hasMany(models.MaterialReserve);
     this.hasMany(models.WorkerTaskItem);
+    this.hasMany(models.WorkerManualfrequencyItem);
   }
 
   static init(sequelize) {
@@ -57,8 +58,11 @@ export default class Worker extends Model {
         urlPhoto: {
           type: Sequelize.VIRTUAL,
           get() {
-            if (!this.getDataValue('filenamePhoto')) return `${appConfig.url}/uploads/workers/images/default.png`;
-            return `${appConfig.url}/uploads/workers/images/${this.getDataValue('filenamePhoto')}`;
+            if (!this.getDataValue('filenamePhoto'))
+              return `${appConfig.url}/uploads/workers/images/default.png`;
+            return `${appConfig.url}/uploads/workers/images/${this.getDataValue(
+              'filenamePhoto'
+            )}`;
           },
         },
 
@@ -76,7 +80,7 @@ export default class Worker extends Model {
         },
       },
 
-      { sequelize, tableName: 'workers' },
+      { sequelize, tableName: 'workers' }
     );
     return this;
   }

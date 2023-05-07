@@ -10,11 +10,11 @@ export default class WorkerManualfrequencyItem extends Model {
   static init(sequelize) {
     super.init(
       {
-        WorkerId: {
-          type: Sequelize.INTEGER,
-          allowNull: false,
-          primaryKey: true,
-        },
+        // WorkerId: {
+        //   type: Sequelize.INTEGER,
+        //   allowNull: false,
+        //   primaryKey: true,
+        // },
         hours: {
           type: Sequelize.DECIMAL(4, 2),
           allowNull: false,
