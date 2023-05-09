@@ -57,7 +57,7 @@ class WorkerManualfrequencyItemController {
             model: WorkerManualfrequencyItem,
             required: true,
             where: {
-              WorkerManualfrequencytypeId: 2,
+              WorkerManualfrequencytypeId: 1,
             },
             include: [
               {
