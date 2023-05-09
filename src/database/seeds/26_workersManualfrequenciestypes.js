@@ -17,6 +17,10 @@ module.exports = {
         id: 4,
         type: 'CAMPO',
       },
+      {
+        id: 5,
+        type: 'SUBSTITUTO',
+      },
     ], {});
   },
 
