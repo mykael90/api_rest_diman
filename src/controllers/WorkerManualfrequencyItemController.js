@@ -3,6 +3,7 @@ import Sequelize, { Op } from 'sequelize';
 import { extname } from 'path';
 import qs from 'qs';
 
+import { orderBy } from 'lodash';
 import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
 import WorkerManualfrequencyItem from '../models/WorkerManualfrequencyItem';
 import WorkerManualfrequency from '../models/WorkerManualfrequency';
@@ -62,6 +63,7 @@ class WorkerManualfrequencyItemController {
               {
                 model: WorkerManualfrequency,
                 include: [Unidade, Contract],
+                order: [['date', 'DESC']],
                 where: queryParams
                   ? {
                       date: {
