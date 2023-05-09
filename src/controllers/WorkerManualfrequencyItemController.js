@@ -24,11 +24,15 @@ class WorkerManualfrequencyItemController {
         Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       if (queryParams) {
-        const start = queryParams.start?.split(',');
-        const end = queryParams.end?.split(',');
+        const startDate = queryParams.startDate?.split('-');
+        const endDate = queryParams.endDate?.split('-');
 
-        firstDay = new Date(start[0], start[1], start[2]);
-        lastDay = new Date(end[0], end[1], end[2]);
+        firstDay = new Date(
+          startDate[0],
+          Number(startDate[1]) - 1,
+          startDate[2]
+        );
+        lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
       }
 
       const result = await Worker.findAll({
@@ -57,8 +61,8 @@ class WorkerManualfrequencyItemController {
                         [Op.lt]: lastDay,
                         [Op.gt]: firstDay,
                       },
-                      unidade_id: queryParams.unidade_id,
-                      contract_id: queryParams.contract_id,
+                      UnidadeId: queryParams.UnidadeId,
+                      ContractId: queryParams.ContractId,
                     }
                   : {},
               },
