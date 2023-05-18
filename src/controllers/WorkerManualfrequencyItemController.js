@@ -86,6 +86,83 @@ class WorkerManualfrequencyItemController {
       return res.json(e);
     }
   }
+
+  // Store Bulk (multiple items)
+  async store(req, res) {
+    try {
+      const data = await WorkerManualfrequencyItem.bulkCreate(req.body);
+      return res.json(data);
+    } catch (e) {
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
+    }
+  }
+
+  // Update
+  async update(req, res) {
+    try {
+      const { WorkerId, WorkerManualfrequencyId } = req.body;
+
+      if (!WorkerManualfrequencyId || !WorkerId) {
+        return res.status(400).json({
+          errors: 'Parâmetros não enviados',
+        });
+      }
+
+      const newData = await WorkerManualfrequencyItem.update(req.body, {
+        where: {
+          worker_id: WorkerId,
+          worker_manualfrequency_id: WorkerManualfrequencyId,
+        },
+        limit: 1,
+      });
+
+      return res.json(newData);
+    } catch (e) {
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
+    }
+  }
+
+          // Delete
+  async delete(req, res) {
+    try {
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+
+      console.log(req.query);
+
+      console.log(queryParams);
+
+      if (!queryParams.WorkerId || !queryParams.WorkerManualfrequencyId) {
+        return res.status(400).json({
+          errors: 'Parâmetros não enviados',
+        });
+      }
+
+      const response = await WorkerManualfrequencyItem.destroy({
+        where: {
+          worker_id: queryParams.WorkerId,
+          worker_manualfrequency_id: queryParams.WorkerManualfrequencyId,
+        },
+        limit: 1,
+      });
+
+      if (!response) {
+        return res.status(400).json({
+          errors: 'Parâmetro(s) de id(s) não localizado(s) no banco',
+        });
+      }
+
+      return res.json(null);
+    } catch (e) {
+      console.log(e);
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
+    }
+  }
 }
 
 export default new WorkerManualfrequencyItemController();

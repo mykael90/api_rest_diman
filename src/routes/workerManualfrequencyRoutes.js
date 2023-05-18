@@ -4,15 +4,17 @@ import WorkerManualfrequencyItemController from '../controllers/WorkerManualfreq
 
 const router = new Router();
 
-// const workerTaskRiskRoutes = new Router();
-// router.use('/risks/', workerTaskRiskRoutes);
+const workerItemsRoutes = new Router();
+router.use('/items/', workerItemsRoutes);
 
 router.get('/', WorkerManualfrequencyController.index);
+// router.get('/items', WorkerManualfrequencyItemController.index);
 router.get('/:id', WorkerManualfrequencyController.show);
 router.post('/', WorkerManualfrequencyController.store);
 
-router.get('/items', WorkerManualfrequencyItemController.index);
-
-// workerTaskRiskRoutes.get('/types', WorkerTaskRisktypeController.index);
+workerItemsRoutes.get('/', WorkerManualfrequencyItemController.index);
+workerItemsRoutes.post('/', WorkerManualfrequencyItemController.store);
+workerItemsRoutes.put('/', WorkerManualfrequencyItemController.update);
+workerItemsRoutes.delete('/', WorkerManualfrequencyItemController.delete);
 
 export default router;
