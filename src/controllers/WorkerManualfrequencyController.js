@@ -4,6 +4,9 @@ import { extname } from 'path';
 import WorkerManualfrequency from '../models/WorkerManualfrequency';
 import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
 import WorkerManualfrequencyItem from '../models/WorkerManualfrequencyItem';
+import WorkerContract from '../models/WorkerContract';
+import WorkerJobtype from '../models/WorkerJobtype';
+import Worker from '../models/Worker';
 import User from '../models/User';
 import Contract from '../models/Contract';
 import Unidade from '../models/Unidade';
@@ -22,7 +25,41 @@ class WorkerManualfrequencyController {
           Unidade,
           {
             model: WorkerManualfrequencyItem,
-            include: [WorkerManualfrequencytype],
+            include: [WorkerManualfrequencytype, Worker],
+          },
+        ],
+      });
+      return res.json(result);
+    } catch (e) {
+      console.log(e);
+      return res.json(e);
+    }
+  }
+
+  async show(req, res) {
+    try {
+      const result = await WorkerManualfrequency.findByPk(req.params.id, {
+        include: [
+          {
+            model: User,
+            attributes: ['username'],
+          },
+          Contract,
+          Unidade,
+          {
+            model: WorkerManualfrequencyItem,
+            include: [
+              WorkerManualfrequencytype,
+              {
+                model: Worker,
+                include: [
+                  {
+                    model: WorkerContract,
+                    include: [WorkerJobtype],
+                  },
+                ],
+              },
+            ],
           },
         ],
       });

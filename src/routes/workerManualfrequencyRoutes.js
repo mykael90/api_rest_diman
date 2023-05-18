@@ -8,6 +8,7 @@ const router = new Router();
 // router.use('/risks/', workerTaskRiskRoutes);
 
 router.get('/', WorkerManualfrequencyController.index);
+router.get('/:id', WorkerManualfrequencyController.show);
 router.post('/', WorkerManualfrequencyController.store);
 
 router.get('/items', WorkerManualfrequencyItemController.index);
