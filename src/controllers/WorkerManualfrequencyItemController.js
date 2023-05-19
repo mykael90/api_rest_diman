@@ -135,6 +135,8 @@ class WorkerManualfrequencyItemController {
         });
       }
 
+      console.log(req.body);
+
       const whereConditions = req.body.map((item) => ({
               [Op.and]: [
                             { worker_id: item.WorkerId },
