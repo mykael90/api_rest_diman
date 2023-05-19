@@ -90,7 +90,7 @@ class WorkerManualfrequencyItemController {
   // Store Bulk (multiple items)
   async store(req, res) {
     try {
-      const data = await WorkerManualfrequencyItem.bulkCreate(req.body);
+      const data = await WorkerManualfrequencyItem.bulkCreate(req.body, { updateOnDuplicate: ['hours', 'obs', 'WorkerManualfrequencytypeId'] });
       return res.json(data);
     } catch (e) {
       return res.status(400).json({
@@ -129,24 +129,26 @@ class WorkerManualfrequencyItemController {
           // Delete
   async delete(req, res) {
     try {
-      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
-
-      console.log(req.query);
-
-      console.log(queryParams);
-
-      if (!queryParams.WorkerId || !queryParams.WorkerManualfrequencyId) {
+      if (!req.body) {
         return res.status(400).json({
           errors: 'Parâmetros não enviados',
         });
       }
 
+      const whereConditions = req.body.map((item) => ({
+              [Op.and]: [
+                            { worker_id: item.WorkerId },
+                            { worker_manualfrequency_id: item.WorkerManualfrequencyId },
+                          ],
+            }));
+
+      console.log(whereConditions);
+
       const response = await WorkerManualfrequencyItem.destroy({
         where: {
-          worker_id: queryParams.WorkerId,
-          worker_manualfrequency_id: queryParams.WorkerManualfrequencyId,
+
+          [Op.or]: whereConditions,
         },
-        limit: 1,
       });
 
       if (!response) {
