@@ -9,8 +9,8 @@ router.use('/items/', workerItemsRoutes);
 
 router.get('/', WorkerManualfrequencyController.index);
 // router.get('/items', WorkerManualfrequencyItemController.index);
-router.get('/:id', WorkerManualfrequencyController.show);
 router.post('/', WorkerManualfrequencyController.store);
+router.get('/:id', WorkerManualfrequencyController.show);
 
 workerItemsRoutes.get('/', WorkerManualfrequencyItemController.index);
 workerItemsRoutes.post('/', WorkerManualfrequencyItemController.store);
