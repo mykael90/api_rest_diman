@@ -1,5 +1,6 @@
 import Sequelize, { Op } from 'sequelize';
 import { extname } from 'path';
+import qs from 'qs';
 
 import WorkerManualfrequency from '../models/WorkerManualfrequency';
 import WorkerManualfrequencytype from '../models/WorkerManualfrequencytype';
@@ -14,7 +15,26 @@ import Unidade from '../models/Unidade';
 class WorkerManualfrequencyController {
   // Index
   async index(req, res) {
+    console.log(req.query);
     try {
+      let firstDay;
+      let lastDay;
+
+      const queryParams =
+        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+
+      if (queryParams) {
+        const startDate = queryParams.startDate?.split('-');
+        const endDate = queryParams.endDate?.split('-');
+
+        firstDay = new Date(
+          startDate[0],
+          Number(startDate[1]) - 1,
+          startDate[2]
+        );
+        lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+      }
+
       const result = await WorkerManualfrequency.findAll({
         include: [
           {
@@ -28,6 +48,14 @@ class WorkerManualfrequencyController {
             include: [WorkerManualfrequencytype, Worker],
           },
         ],
+        where: queryParams
+          ? {
+              date: {
+                [Op.lte]: lastDay,
+                [Op.gte]: firstDay,
+              },
+            }
+          : {},
       });
       return res.json(result);
     } catch (e) {

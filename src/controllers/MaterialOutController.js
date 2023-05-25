@@ -1,4 +1,5 @@
-import Sequelize from 'sequelize';
+import Sequelize, { Op } from 'sequelize';
+import qs from 'qs';
 
 import { extname } from 'path';
 import { random_5 } from '../asset/script/getRandomNumber';
@@ -76,6 +77,24 @@ class MaterialOutController {
 
   async index(req, res) {
     try {
+      let firstDay;
+      let lastDay;
+
+      const queryParams =
+        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+
+      if (queryParams) {
+        const startDate = queryParams.startDate?.split('-');
+        const endDate = queryParams.endDate?.split('-');
+
+        firstDay = new Date(
+          startDate[0],
+          Number(startDate[1]) - 1,
+          startDate[2]
+        );
+        lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+      }
+
       const result = await MaterialOut.findAll({
         attributes: {
           include: [
@@ -209,6 +228,14 @@ class MaterialOutController {
             required: false,
           },
         ],
+        where: queryParams
+          ? {
+              created_at: {
+                [Op.lte]: lastDay,
+                [Op.gte]: firstDay,
+              },
+            }
+          : {},
         order: [['id', 'DESC']],
       });
       return res.json(result);

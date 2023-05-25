@@ -21,7 +21,8 @@ class WorkerManualfrequencyItemController {
       let firstDay;
       let lastDay;
 
-      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+      const queryParams =
+        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       if (queryParams) {
         const startDate = queryParams.startDate?.split('-');
@@ -30,7 +31,7 @@ class WorkerManualfrequencyItemController {
         firstDay = new Date(
           startDate[0],
           Number(startDate[1]) - 1,
-          startDate[2],
+          startDate[2]
         );
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
       }
@@ -39,16 +40,16 @@ class WorkerManualfrequencyItemController {
         include: [
           {
             model: WorkerContract,
-                    attributes: {
-          include: [
-            [Sequelize.dataBr('`WorkerContracts`.`start`'), 'startBr'],
-          ],
-        },
+            attributes: {
+              include: [
+                [Sequelize.dataBr('`WorkerContracts`.`start`'), 'startBr'],
+              ],
+            },
             include: [WorkerJobtype],
             where: queryParams
               ? {
                   end: {
-                    [Op.or]: [{ [Op.gt]: lastDay }, { [Op.is]: null }],
+                    [Op.or]: [{ [Op.gte]: lastDay }, { [Op.is]: null }],
                   },
                 }
               : {},
@@ -67,8 +68,8 @@ class WorkerManualfrequencyItemController {
                 where: queryParams
                   ? {
                       date: {
-                        [Op.lt]: lastDay,
-                        [Op.gt]: firstDay,
+                        [Op.lte]: lastDay,
+                        [Op.gte]: firstDay,
                       },
                       UnidadeId: queryParams.UnidadeId,
                       ContractId: queryParams.ContractId,
@@ -90,7 +91,9 @@ class WorkerManualfrequencyItemController {
   // Store Bulk (multiple items)
   async store(req, res) {
     try {
-      const data = await WorkerManualfrequencyItem.bulkCreate(req.body, { updateOnDuplicate: ['hours', 'obs', 'WorkerManualfrequencytypeId'] });
+      const data = await WorkerManualfrequencyItem.bulkCreate(req.body, {
+        updateOnDuplicate: ['hours', 'obs', 'WorkerManualfrequencytypeId'],
+      });
       return res.json(data);
     } catch (e) {
       return res.status(400).json({
@@ -126,7 +129,7 @@ class WorkerManualfrequencyItemController {
     }
   }
 
-          // Delete
+  // Delete
   async delete(req, res) {
     try {
       if (!req.body) {
@@ -138,17 +141,16 @@ class WorkerManualfrequencyItemController {
       console.log(req.body);
 
       const whereConditions = req.body.map((item) => ({
-              [Op.and]: [
-                            { worker_id: item.WorkerId },
-                            { worker_manualfrequency_id: item.WorkerManualfrequencyId },
-                          ],
-            }));
+        [Op.and]: [
+          { worker_id: item.WorkerId },
+          { worker_manualfrequency_id: item.WorkerManualfrequencyId },
+        ],
+      }));
 
       console.log(whereConditions);
 
       const response = await WorkerManualfrequencyItem.destroy({
         where: {
-
           [Op.or]: whereConditions,
         },
       });
