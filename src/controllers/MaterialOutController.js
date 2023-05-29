@@ -80,8 +80,7 @@ class MaterialOutController {
       let firstDay;
       let lastDay;
 
-      const queryParams =
-        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       if (queryParams) {
         const startDate = queryParams.startDate?.split('-');
@@ -90,9 +89,13 @@ class MaterialOutController {
         firstDay = new Date(
           startDate[0],
           Number(startDate[1]) - 1,
-          startDate[2]
+          startDate[2],
         );
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+
+        lastDay.setUTCHours(23, 59, 59, 999);
+
+        console.log('ultimoDia', lastDay);
       }
 
       const result = await MaterialOut.findAll({
@@ -111,7 +114,7 @@ class MaterialOutController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialOut`.`updated_At`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'updatedAtBr',
             ],
@@ -132,7 +135,7 @@ class MaterialOutController {
               ],
               [
                 Sequelize.literal(
-                  '`MaterialOutItems->Material`.`specification`'
+                  '`MaterialOutItems->Material`.`specification`',
                 ),
                 'specification',
               ],
@@ -175,26 +178,26 @@ class MaterialOutController {
                 ['material_id', 'materialId'],
                 [
                   Sequelize.literal(
-                    '`MaterialReturned->MaterialInItems->Material`.`name`'
+                    '`MaterialReturned->MaterialInItems->Material`.`name`',
                   ),
                   'name',
                 ],
                 [
                   Sequelize.literal(
-                    '`MaterialReturned->MaterialInItems->Material`.`specification`'
+                    '`MaterialReturned->MaterialInItems->Material`.`specification`',
                   ),
                   'specification',
                 ],
                 [
                   Sequelize.literal(
-                    '`MaterialReturned->MaterialInItems->Material`.`unit`'
+                    '`MaterialReturned->MaterialInItems->Material`.`unit`',
                   ),
                   'unit',
                 ],
                 'quantity',
                 [
                   Sequelize.currencyBr(
-                    '`MaterialReturned->MaterialInItems`.`value`'
+                    '`MaterialReturned->MaterialInItems`.`value`',
                   ),
                   'value',
                 ],
@@ -230,11 +233,11 @@ class MaterialOutController {
         ],
         where: queryParams
           ? {
-              created_at: {
-                [Op.lte]: lastDay,
-                [Op.gte]: firstDay,
-              },
-            }
+            created_at: {
+              [Op.lte]: lastDay,
+              [Op.gte]: firstDay,
+            },
+          }
           : {},
         order: [['id', 'DESC']],
       });

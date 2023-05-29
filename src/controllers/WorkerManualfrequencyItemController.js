@@ -21,8 +21,7 @@ class WorkerManualfrequencyItemController {
       let firstDay;
       let lastDay;
 
-      const queryParams =
-        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       if (queryParams) {
         const startDate = queryParams.startDate?.split('-');
@@ -31,9 +30,10 @@ class WorkerManualfrequencyItemController {
         firstDay = new Date(
           startDate[0],
           Number(startDate[1]) - 1,
-          startDate[2]
+          startDate[2],
         );
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+        lastDay.setUTCHours(23, 59, 59, 999);
       }
 
       const result = await Worker.findAll({

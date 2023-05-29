@@ -160,6 +160,8 @@ class MaterialInController {
           startDate[2],
         );
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+
+        lastDay.setUTCHours(23, 59, 59, 999);
       }
 
       const result = await MaterialIn.findAll({
