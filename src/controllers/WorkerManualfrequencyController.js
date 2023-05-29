@@ -31,6 +31,9 @@ class WorkerManualfrequencyController {
           Number(startDate[1]) - 1,
           startDate[2],
         );
+
+        firstDay.setUTCHours(0, 0, 0, 0);
+
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
         lastDay.setUTCHours(23, 59, 59, 999);
       }
