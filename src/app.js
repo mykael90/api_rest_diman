@@ -53,9 +53,9 @@ const whiteList = [
   'https://sisman.infra.ufrn.br:443',
   'https://sisman.infra.ufrn.br:3000',
   'https://sisman.infra.ufrn.br:3002',
-  'https://192.168.1.13',
-  'http://192.168.1.13:3000',
-  'http://192.168.1.13:3001',
+  'https://192.168.1.12',
+  'http://192.168.1.12:3000',
+  'http://192.168.1.12:3001',
   'http://10.52.10.121:3000',
   'http://10.50.10.121:3001',
 ];
