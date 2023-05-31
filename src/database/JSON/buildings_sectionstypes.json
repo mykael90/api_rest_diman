@@ -51,4 +51,8 @@
   { "id": 50, "type": "TERRAÇO" },
   { "id": 51, "type": "TORRE" },
   { "id": 52, "type": "VARANDA" }
+  { "id": 53, "type": "DIVISÃO" }
+  { "id": 54, "type": "SETOR" }
+  { "id": 55, "type": "SAGUÃO" }
+  { "id": 56, "type": "PÓRTICO" }
 ]

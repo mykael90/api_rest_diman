@@ -5,7 +5,9 @@ class BuildingSectiontypeController {
 
   async index(req, res) {
     try {
-      const result = await BuildingSectiontype.findAll();
+      const result = await BuildingSectiontype.findAll({
+        order: [['type', 'ASC']],
+      });
       return res.json(result);
     } catch (e) {
       return res.json(e);
