@@ -36,11 +36,18 @@ class BuildingSectionController {
         { type: QueryTypes.SELECT }
       );
 
-      // nao funcionou abaixo
-      result.forEach((item) => {
-        item.BuildingSipacSubRip = item.building_sipac_subRip;
+      result.forEach((obj) => {
+        console.log(obj);
+        obj.BuildingSipacSubRip = obj.building_sipac_sub_rip;
+        obj.superId = obj.super_id;
+        obj.buildingSectiontypeId = obj.building_sectiontype_id;
+        delete obj.building_sipac_sub_rip;
+        delete obj.super_id;
+        delete obj.building_sectiontype_id;
       });
+
       const treeArray = flatArrayToTree(result, null);
+
       return res.json(treeArray);
     } catch (e) {
       return res.status(400).json({
