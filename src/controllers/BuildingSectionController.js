@@ -73,7 +73,7 @@ class BuildingSectionController {
     try {
       const data = await BuildingSection.bulkCreate(req.body, {
         updateOnDuplicate: [
-          'building_sectionstype_id',
+          'building_sectiontype_id',
           'name',
           'cod',
           'obs',

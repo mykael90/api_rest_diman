@@ -9,6 +9,7 @@ const router = new Router();
 
 router.get('/', PropertySipacController.index);
 router.get('/buildings/sections', BuildingSectionController.index);
+router.post('/buildings/sections/bulk', BuildingSectionController.storeBulk);
 router.post('/buildings/sections/subRip', BuildingSectionController.show);
 router.get(
   '/buildings/sections/recursive/:subRip',
