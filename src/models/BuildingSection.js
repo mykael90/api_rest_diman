@@ -33,6 +33,10 @@ export default class BuildingSection extends Model {
           type: Sequelize.STRING,
           allowNull: true,
         },
+        position: {
+          type: Sequelize.INTEGER,
+          allowNull: true,
+        },
       },
       { sequelize, tableName: 'buildings_sections', timestamps: false }
     );

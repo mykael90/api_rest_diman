@@ -5,7 +5,7 @@ module.exports = {
         'buildings_sections', // table name
         'cod', // new field name
         {
-          type: Sequelize.STRING(4),
+          type: Sequelize.STRING(16),
           allowNull: true,
         }
       ),
