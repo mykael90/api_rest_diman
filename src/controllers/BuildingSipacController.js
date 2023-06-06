@@ -19,8 +19,8 @@ class BuldingSipacController {
                   'LPAD',
                   Sequelize.col('`BuildingSipac`.`id`'),
                   3,
-                  '0'
-                )
+                  '0',
+                ),
               ),
               'sub-rip',
             ],
@@ -38,6 +38,39 @@ class BuldingSipacController {
     } catch (e) {
       return res.json({
         errors: [e.message],
+      });
+    }
+  }
+
+  // Update
+
+  async update(req, res) {
+    try {
+      const { subRip } = req.params;
+
+      if (!subRip) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id não enviado',
+        });
+      }
+
+      const building = await BuildingSipac.findByPk(subRip);
+
+      if (!building) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id de aluno não localizado no banco',
+        });
+      }
+
+      const newData = await building.update(req.body, {
+        where: {
+          subRip,
+        },
+      });
+      return res.json(newData);
+    } catch (e) {
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
       });
     }
   }
