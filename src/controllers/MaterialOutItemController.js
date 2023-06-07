@@ -1,14 +1,13 @@
 import Sequelize from 'sequelize';
 
 import Material from '../models/Material';
-import MaterialIn from '../models/MaterialIn';
-import MaterialInItem from '../models/MaterialInItem';
+import MaterialOut from '../models/MaterialOut';
+import MaterialOutItem from '../models/MaterialOutItem';
 
-class MaterialInItemController {
+class MaterialOutItemController {
   async index(req, res) {
     try {
-      const result = await MaterialInItem.findAll({
-        attributes: ['material_id', [Sequelize.literal('name'), 'name'], [Sequelize.literal('specification'), 'specification'], [Sequelize.literal('unit'), 'unit'], [Sequelize.fn('sum', Sequelize.col('quantity')), 'total']],
+      const result = await MaterialOutItem.findAll({
         group: ['material_id'],
         order: Sequelize.literal('name'),
         required: false,
@@ -30,9 +29,13 @@ class MaterialInItemController {
       const result = await Material.findAll({
         order: Sequelize.literal('name'),
         include: {
-          model: MaterialInItem,
+          model: MaterialOutItem,
           required: true,
-          include: [MaterialIn],
+          include: {
+            model: MaterialOut,
+            attributes: ['workerId'],
+            required: true,
+          },
         },
       });
       return res.json(result);
@@ -42,4 +45,4 @@ class MaterialInItemController {
   }
 }
 
-export default new MaterialInItemController();
+export default new MaterialOutItemController();

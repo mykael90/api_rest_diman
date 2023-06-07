@@ -6,6 +6,7 @@ import materialController from '../controllers/MaterialController';
 import MaterialInController from '../controllers/MaterialInController';
 import MaterialInItemController from '../controllers/MaterialInItemController';
 import MaterialOutController from '../controllers/MaterialOutController';
+import MaterialOutItemController from '../controllers/MaterialOutItemController';
 import MaterialOutDiscardtypeController from '../controllers/MaterialOutDiscardtypeController';
 import MaterialInventoryController from '../controllers/MaterialInventoryController';
 import MaterialRestrictController from '../controllers/MaterialRestrictController';
@@ -45,6 +46,7 @@ router.get('/:id', materialController.show);
 // MATERIAL IN ROUTES
 // inRoutes.post('/upload', photoArrayMulter, UploadController.storeMaterialIn);
 inRoutes.get('/items', MaterialInItemController.index);
+inRoutes.get('/itemsworkers', MaterialInItemController.indexMaterialWorker);
 inRoutes.get('/types', materialIntype.index);
 inRoutes.post('/general', photoArrayMulter, MaterialInController.storeGeneral, UploadController.storeMaterialIn);
 
@@ -64,6 +66,8 @@ outRoutes.get('/discardtypes', MaterialOutDiscardtypeController.index);
 outRoutes.get('/', MaterialOutController.index);
 outRoutes.post('/general', photoArrayMulter, MaterialOutController.storeGeneral, UploadController.storeMaterialOut);
 outRoutes.post('/', MaterialOutController.store);
+outRoutes.get('/items', MaterialOutItemController.index);
+outRoutes.get('/itemsworkers', MaterialOutItemController.indexMaterialWorker);
 
 // MATERIAL INVENTORY ROUTES
 inventoryRoutes.put('/:materialId', MaterialInventoryController.update);
