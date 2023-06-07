@@ -19,8 +19,8 @@ class BuldingSipacController {
                   'LPAD',
                   Sequelize.col('`BuildingSipac`.`id`'),
                   3,
-                  '0',
-                ),
+                  '0'
+                )
               ),
               'sub-rip',
             ],
@@ -42,11 +42,12 @@ class BuldingSipacController {
     }
   }
 
-  // Update
+  // Show
 
-  async update(req, res) {
+  async show(req, res) {
     try {
       const { subRip } = req.params;
+      console.log('subRip', subRip);
 
       if (!subRip) {
         return res.status(400).json({
@@ -54,23 +55,66 @@ class BuldingSipacController {
         });
       }
 
-      const building = await BuildingSipac.findByPk(subRip);
+      const building = await BuildingSipac.findAll({
+        where: {
+          sub_rip: subRip,
+        },
+        limit: 1,
+      });
 
       if (!building) {
         return res.status(400).json({
-          errors: 'Parâmetro de id de aluno não localizado no banco',
+          errors:
+            'Parâmetro de id de instalação física não localizado no banco',
         });
       }
 
-      const newData = await building.update(req.body, {
+      return res.json(building);
+    } catch (e) {
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
+    }
+  }
+  // Update
+
+  async update(req, res) {
+    try {
+      const { subRip } = req.params;
+      console.log('subRip', subRip);
+
+      if (!subRip) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id não enviado',
+        });
+      }
+
+      const building = await BuildingSipac.findAll({
+        where: {
+          sub_rip: subRip,
+        },
+        limit: 1,
+      });
+
+      console.log(JSON.stringify(building));
+
+      if (!building) {
+        return res.status(400).json({
+          errors:
+            'Parâmetro de id de instalação física não localizado no banco',
+        });
+      }
+
+      const newData = await BuildingSipac.update(req.body, {
         where: {
           subRip,
         },
+        limit: 1,
       });
       return res.json(newData);
     } catch (e) {
       return res.status(400).json({
-        errors: e.errors.map((err) => err.message),
+        errors: [e.message],
       });
     }
   }
