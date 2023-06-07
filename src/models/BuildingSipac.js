@@ -38,7 +38,7 @@ export default class BuildingSipac extends Model {
           type: Sequelize.STRING,
           allowNull: false,
         },
-        coordinates: {
+        geo: {
           type: Sequelize.GEOMETRY('POINT'),
           allowNull: true,
         },
@@ -63,7 +63,7 @@ export default class BuildingSipac extends Model {
           allowNull: true,
         },
       },
-      { sequelize, tableName: 'buildings_sipac', timestamps: false },
+      { sequelize, tableName: 'buildings_sipac', timestamps: false }
     );
     return this;
   }
