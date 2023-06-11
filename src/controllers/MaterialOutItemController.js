@@ -78,21 +78,10 @@ class MaterialOutItemController {
       });
 
       result.forEach((material, index) => {
-        // material.MaterialOutItems.forEach(
-        //   // eslint-disable-next-line no-return-assign
-        //   (item) => {
-        //     item.dataValues.WorkerId = item.dataValues.MaterialOut.workerId;
-        //     item.dataValues.new = 1;
-        //     console.log(item);
-        //   }
-        // );
-
         // show differents workers for each material
         const workersList = material.MaterialOutItems.map((item) => ({
           WorkerId: item.dataValues.MaterialOut.workerId,
         }));
-
-        // material.dataValues.Workers = [...new Set(workersList)];
 
         material.dataValues.Workers = workersList.reduce((acc, current) => {
           const x = acc.find((item) => item.WorkerId === current.WorkerId);
@@ -101,14 +90,6 @@ class MaterialOutItemController {
           }
           return acc;
         }, []);
-
-        //   [
-        //     ...new Set(
-        // material.MaterialOutItems.map((item) => ({
-        //   WorkerId: item.dataValues.MaterialOut.workerId,
-        // }))
-        //     ),
-        //   ];
       });
 
       result.forEach((material) => {
