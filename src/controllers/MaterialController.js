@@ -52,7 +52,7 @@ class MaterialController {
             },
           },
           col: 'id',
-        })
+        }),
       );
 
       // custom id entry
@@ -75,7 +75,7 @@ class MaterialController {
           where: {
             id: req.result.id,
           },
-        }
+        },
       );
       return next(); // go to uploadController
     } catch (e) {
@@ -113,8 +113,7 @@ class MaterialController {
       let firstDay;
       let lastDay;
 
-      const queryParams =
-        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       console.log(queryParams.id);
 
@@ -125,7 +124,7 @@ class MaterialController {
         firstDay = new Date(
           startDate[0],
           Number(startDate[1]) - 1,
-          startDate[2]
+          startDate[2],
         );
 
         firstDay.setUTCHours(0, 0, 0, 0);
@@ -161,11 +160,11 @@ class MaterialController {
                   { worker_id: { [Op.not]: null } },
                   queryParams
                     ? {
-                        created_at: {
-                          [Op.lte]: lastDay,
-                          [Op.gte]: firstDay,
-                        },
-                      }
+                      created_at: {
+                        [Op.lte]: lastDay,
+                        [Op.gte]: firstDay,
+                      },
+                    }
                     : {},
                 ],
               },
@@ -173,7 +172,7 @@ class MaterialController {
           },
           {
             model: MaterialInItem,
-            required: true,
+            // required: true,
             include: {
               model: MaterialIn,
               attributes: ['MaterialIntypeId', 'reqMaintenance', 'created_at'],
@@ -190,11 +189,11 @@ class MaterialController {
                   { material_intype_id: 3 },
                   queryParams
                     ? {
-                        created_at: {
-                          [Op.lte]: lastDay,
-                          [Op.gte]: firstDay,
-                        },
-                      }
+                      created_at: {
+                        [Op.lte]: lastDay,
+                        [Op.gte]: firstDay,
+                      },
+                    }
                     : {},
                 ],
               },
