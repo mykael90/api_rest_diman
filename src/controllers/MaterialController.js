@@ -116,6 +116,8 @@ class MaterialController {
       const queryParams =
         Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
+      console.log(queryParams.id);
+
       if (queryParams) {
         const startDate = queryParams.startDate?.split('-');
         const endDate = queryParams.endDate?.split('-');
@@ -138,13 +140,7 @@ class MaterialController {
         order: Sequelize.literal('name'),
         where: {
           id: {
-            [Op.in]: [
-              '3024000000115',
-              '99990001',
-              '99990002',
-              '3042000000393',
-              '3026000001397',
-            ],
+            [Op.in]: queryParams.id ? queryParams.id : [],
           },
         },
         include: [
