@@ -153,7 +153,7 @@ class MaterialController {
                 model: Worker,
                 attributes: ['name'],
               },
-              attributes: ['workerId', 'reqMaintenance', 'created_at'],
+              attributes: ['workerId', 'reqMaintenance', 'created_at', 'place'],
               required: true,
               where: {
                 [Op.and]: [
@@ -181,7 +181,7 @@ class MaterialController {
               include: {
                 model: MaterialOut,
                 as: 'MaterialReturned',
-                attributes: ['workerId'],
+                attributes: ['workerId', 'place'],
                 required: true,
                 where: { worker_id: { [Op.not]: null } },
               },
