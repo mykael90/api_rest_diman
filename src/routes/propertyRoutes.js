@@ -27,6 +27,6 @@ sectionRoutes.get('/', BuildingSectionController.index);
 sectionRoutes.post('/bulk', BuildingSectionController.storeBulk);
 sectionRoutes.post('/subRip', BuildingSectionController.show);
 sectionRoutes.get('/recursive/:subRip', BuildingSectionController.recursive);
-buildingRoutes.get('/sectionstypes', BuildingSectiontypeController.index);
+sectionRoutes.get('/sectionstypes', BuildingSectiontypeController.index);
 
 export default router;

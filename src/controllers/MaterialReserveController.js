@@ -39,7 +39,7 @@ class MaterialReserveController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialReserve`.`intended_Use`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'intendedUseBr',
             ],
@@ -116,6 +116,9 @@ class MaterialReserveController {
   // IndexActives
 
   async indexActives(req, res) {
+    const today = new Date();
+    const twoDaysAfter = new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000);
+    twoDaysAfter.setHours(23, 59, 59);
     try {
       const result = await MaterialReserve.findAll({
         attributes: {
@@ -133,7 +136,7 @@ class MaterialReserveController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialReserve`.`intended_Use`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'intendedUseBr',
             ],
@@ -145,7 +148,7 @@ class MaterialReserveController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialReserve`.`separated_At`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'separatedAtBr',
             ],
@@ -153,7 +156,7 @@ class MaterialReserveController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialReserve`.`withdrawn_At`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'withdrawnAtBr',
             ],
@@ -161,7 +164,7 @@ class MaterialReserveController {
               Sequelize.fn(
                 'date_format',
                 Sequelize.col('`MaterialReserve`.`canceled_At`'),
-                '%d/%m/%Y'
+                '%d/%m/%Y',
               ),
               'canceledAtBr',
             ],
@@ -172,6 +175,11 @@ class MaterialReserveController {
           [Op.and]: [
             { withdrawnAt: { [Op.is]: null } },
             { canceledAt: { [Op.is]: null } },
+            {
+              intendedUse: {
+                [Op.lte]: twoDaysAfter,
+              },
+            },
           ],
         },
         include: [

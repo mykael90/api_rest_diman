@@ -5,8 +5,7 @@ import MaterialReserve from '../../models/MaterialReserve';
 
 async function updateData() {
   const today = new Date();
-  today.setUTCHours(0, 0, 0, 0);
-  const fiveDaysAgo = new Date(today.getTime() - 5 * 24 * 60 * 60 * 1000);
+  const sevenDaysAgo = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000);
 
   const dataToUpdate = { canceledAt: today };
 
@@ -17,8 +16,8 @@ async function updateData() {
           { withdrawnAt: { [Op.is]: null } },
           { canceledAt: { [Op.is]: null } },
           {
-            createddAt: {
-              [Op.lt]: fiveDaysAgo,
+            created_at: {
+              [Op.lt]: sevenDaysAgo,
             },
           },
         ],
@@ -43,12 +42,9 @@ export default async function index() {
   console.log('Automated update materials reserves', job.name);
 }
 
-// async function test() {
-//   const result = await getData();
-//   console.log(result);
-//   const sipac = await getDataSipac({ requisicoes: result.map((item) => item.reqMaintenance) });
-//   // inserir codigo para colocar o id da requisição em cada retorno sipac
-//   await updateData(sipac.data.info, result);
-// }
+async function test() {
+  console.log('updateData');
+  await updateData();
+}
 
-// test();
+test();
