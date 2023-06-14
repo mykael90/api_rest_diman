@@ -12,7 +12,7 @@ module.exports = {
           key: 'id',
         },
         onUpdate: 'CASCADE',
-        onDelete: 'NO ACTION',
+        onDelete: 'CASCADE',
       },
       unidade_sipac_id: {
         primaryKey: true,
@@ -25,7 +25,7 @@ module.exports = {
           key: 'id',
         },
         onUpdate: 'CASCADE',
-        onDelete: 'NO ACTION',
+        onDelete: 'CASCADE',
       },
     });
   },
