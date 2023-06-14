@@ -47,4 +47,4 @@ async function test() {
   await updateData();
 }
 
-test();
+// test();
