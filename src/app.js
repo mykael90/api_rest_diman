@@ -24,6 +24,7 @@ import providerRoutes from './routes/providerRoutes';
 import workerRoutes from './routes/workerRoutes';
 import workerTaskRoutes from './routes/workerTaskRoutes';
 import workerManualfrequencyRoutes from './routes/workerManualfrequencyRoutes';
+import contractRoutes from './routes/contractRoutes';
 
 import manualRoutes from './routes/manualRoutes';
 
@@ -113,6 +114,7 @@ class App {
     this.app.use('/unidades/', unidadeRoutes);
     this.app.use('/properties/', propertyRoutes);
     this.app.use('/providers/', providerRoutes);
+    this.app.use('/contracts/', contractRoutes);
     this.app.use('/manualupdates/', manualRoutes);
   }
 }

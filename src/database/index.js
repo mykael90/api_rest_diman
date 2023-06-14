@@ -65,6 +65,7 @@ import Provider from '../models/Provider';
 import ContractValidy from '../models/ContractValidy';
 import ContractValidyItem from '../models/ContractValidyItem';
 import ContractValidytype from '../models/ContractValidytype';
+import ContractUnidade from '../models/ContractUnidade';
 import Address from '../models/Address';
 import WorkerAddress from '../models/WorkerAddress';
 
@@ -115,6 +116,7 @@ const models = [
   ContractValidy,
   ContractValidyItem,
   ContractValidytype,
+  ContractUnidade,
   Address,
   WorkerAddress,
   Worker,

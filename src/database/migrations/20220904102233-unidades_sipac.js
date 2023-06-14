@@ -8,8 +8,7 @@ module.exports = {
       },
       id_sipac: {
         type: Sequelize.INTEGER,
-        allowNull: false,
-        unique: true,
+        allowNull: true,
       },
       nome_unidade: {
         type: Sequelize.STRING,
@@ -25,15 +24,15 @@ module.exports = {
       },
       id_unidade_gestora: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: true,
       },
       id_unidade_responsavel: {
         type: Sequelize.INTEGER,
-        allowNull: false,
+        allowNull: true,
       },
       data_criacao: {
         type: Sequelize.DATEONLY,
-        allowNull: false,
+        allowNull: true,
       },
       data_extincao: {
         type: Sequelize.DATEONLY,

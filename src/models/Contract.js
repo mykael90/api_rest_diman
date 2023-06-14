@@ -10,6 +10,14 @@ export default class Contract extends Model {
     });
     this.hasMany(models.WorkerContract);
     this.belongsTo(models.Provider);
+
+    this.hasMany(models.ContractUnidade, {
+      // targetKey: 'id',
+      foreignKey: {
+        name: 'contract_id',
+        primaryKey: true,
+      },
+    });
   }
 
   static init(sequelize) {
@@ -47,7 +55,7 @@ export default class Contract extends Model {
         },
       },
 
-      { sequelize, tableName: 'contracts', timestamps: false },
+      { sequelize, tableName: 'contracts', timestamps: false }
     );
     return this;
   }
