@@ -19,8 +19,8 @@ class BuldingSipacController {
                   'LPAD',
                   Sequelize.col('`BuildingSipac`.`id`'),
                   3,
-                  '0'
-                )
+                  '0',
+                ),
               ),
               'sub-rip',
             ],
@@ -30,7 +30,6 @@ class BuldingSipacController {
           {
             model: PropertySipac,
             required: false,
-            attributes: [],
           },
         ],
       });
