@@ -52,10 +52,15 @@ class WorkerManualfrequencyItemController {
             where: queryParams
               ? {
                   end: {
-                    [Op.or]: [{ [Op.gte]: lastDay }, { [Op.is]: null }],
+                    [Op.or]: [
+                      // { [Op.gte]: lastDay },
+                      { [Op.not]: null },
+                      { [Op.is]: null },
+                    ],
                   },
                 }
               : {},
+
           },
           {
             model: WorkerManualfrequencyItem,
@@ -82,6 +87,10 @@ class WorkerManualfrequencyItemController {
               WorkerManualfrequencytype,
             ],
           },
+        ],
+        order: [
+          ['name', 'ASC'],
+          [WorkerContract, 'start', 'DESC'],
         ],
       });
       return res.json(result);
