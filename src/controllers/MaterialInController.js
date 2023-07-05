@@ -622,9 +622,7 @@ class MaterialInController {
   // Show
   async showId(req, res) {
     try {
-      const id = req.body.req;
-
-      if (!id) {
+      if (!req.body.req) {
         return res.status(400).json({
           errors: 'Parâmetro de id não enviado',
         });
@@ -633,9 +631,7 @@ class MaterialInController {
       const exists = await MaterialIn.findOne({ where: { req: req.body.req } });
 
       if (!exists) {
-        return res.status(400).json({
-          errors: 'Parâmetro de requisição de entrada de material não localizado no banco',
-        });
+        return res.boolean(false);
       }
 
       return res.json(exists);
