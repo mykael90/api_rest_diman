@@ -618,6 +618,35 @@ class MaterialInController {
       return res.json(e);
     }
   }
+
+  // Show
+  async showId(req, res) {
+    try {
+      const { id } = req.params;
+
+      if (!id) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id não enviado',
+        });
+      }
+
+      const response = await MaterialIn.findAll({
+        where: {
+          req: id,
+        },
+      });
+
+      if (!response) {
+        return res.status(400).json({
+          errors: 'Parâmetro de requisição de entrada de material não localizado no banco',
+        });
+      }
+
+      return res.json(response);
+    } catch (e) {
+      return res.json(null);
+    }
+  }
 }
 
 export default new MaterialInController();
