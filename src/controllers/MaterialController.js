@@ -275,10 +275,20 @@ class MaterialController {
           {
 
             model: MaterialOut,
-            attributes: ['workerId', 'reqMaintenance', 'created_at', 'place'],
+            attributes: ['id'],
+            // attributes: { include: ['workerId', 'reqMaintenance', 'created_at', 'place'] },
             include: {
               model: MaterialOutItem,
-              include: { model: Material, attributes: ['id', 'name', 'unit', 'specification', 'group_sipac'] },
+              attributes: {
+                include: [
+                  [Sequelize.literal('`MaterialOuts->MaterialOutItems->Material`.`name`'), 'name'],
+                  [Sequelize.literal('`MaterialOuts->MaterialOutItems->Material`.`unit`'), 'unit'],
+                ],
+              },
+              include: [{ model: Material, attributes: [] }, {
+                model: MaterialOut,
+                attributes: ['reqMaintenance', 'created_at', 'place'],
+              }],
             },
             required: true,
             where: {
@@ -329,102 +339,41 @@ class MaterialController {
         ],
       });
 
-      // const result1 = await Material.findAll({
-      //   attributes: ['id', 'name', 'unit', 'specification', 'group_sipac'],
-      //   order: Sequelize.literal('name'),
-      //   where: {
-      //     id: {
-      //       [Op.in]: queryParams.id ? queryParams.id : [],
-      //     },
-      //   },
-      //   include: [
-      //     {
-      //       model: MaterialOutItem,
-      //       required: true,
-      //       include: {
-      //         model: MaterialOut,
-      //         include: {
-      //           model: Worker,
-      //           attributes: ['name'],
-      //         },
-      //         attributes: ['workerId', 'reqMaintenance', 'created_at', 'place'],
-      //         required: true,
-      //         where: {
-      //           [Op.and]: [
-      //             { material_outtype_id: 1 },
-      //             { worker_id: { [Op.not]: null } },
-      //             queryParams
-      //               ? {
-      //                 created_at: {
-      //                   [Op.lte]: lastDay,
-      //                   [Op.gte]: firstDay,
-      //                 },
-      //               }
-      //               : {},
-      //           ],
-      //         },
-      //       },
-      //     },
-      //     {
-      //       model: MaterialInItem,
-      //       // required: true,
-      //       include: {
-      //         model: MaterialIn,
-      //         attributes: ['MaterialIntypeId', 'reqMaintenance', 'created_at'],
-      //         required: true,
-      //         include: {
-      //           model: MaterialOut,
-      //           as: 'MaterialReturned',
-      //           attributes: ['workerId', 'place'],
-      //           required: true,
-      //           where: { worker_id: { [Op.not]: null } },
-      //         },
-      //         where: {
-      //           [Op.and]: [
-      //             { material_intype_id: 3 },
-      //             queryParams
-      //               ? {
-      //                 created_at: {
-      //                   [Op.lte]: lastDay,
-      //                   [Op.gte]: firstDay,
-      //                 },
-      //               }
-      //               : {},
-      //           ],
-      //         },
-      //       },
-      //     },
-      //   ],
-      // });
+      result.forEach((worker, index) => {
+        // show differents materials for each worker
+        const materialsList = [];
 
-      // result.forEach((material, index) => {
-      //   // show differents workers for each material
-      //   const workersList = material.MaterialOutItems.map((item) => ({
-      //     WorkerId: item.dataValues.MaterialOut.workerId,
-      //     name: item.dataValues.MaterialOut.Worker.name,
-      //   }));
+        worker.MaterialOuts.forEach((materialOut) => {
+          // console.log(materialOut);
+          materialsList.push(materialOut.dataValues.MaterialOutItems.map((item) => ({
+            MaterialId: item.dataValues.MaterialId,
+            name: item.dataValues.name,
+          })));
+        });
 
-      //   material.dataValues.Workers = workersList.reduce((acc, current) => {
-      //     const x = acc.find((item) => item.WorkerId === current.WorkerId);
-      //     if (!x) {
-      //       return acc.concat([current]);
-      //     }
-      //     return acc;
-      //   }, []);
-      // });
+        const materialsListFlat = materialsList.flat();
 
-      // result.forEach((material) => {
-      //   material.dataValues.Workers.forEach((worker) => {
-      //     worker.materialsOutItems = material.MaterialOutItems.filter(
-      //       (item) => item.MaterialOut.workerId === worker.WorkerId
-      //     );
+        worker.dataValues.Materials = materialsListFlat.reduce((acc, current) => {
+          const x = acc.find((item) => item.MaterialId === current.MaterialId);
+          if (!x) {
+            return acc.concat([current]);
+          }
+          return acc;
+        }, []);
+      });
 
-      //     worker.materialsInItems = material.MaterialInItems.filter(
-      //       (item) =>
-      //         item.MaterialIn.MaterialReturned.workerId === worker.WorkerId
-      //     );
-      //   });
-      // });
+      result.forEach((worker) => {
+        worker.dataValues.Materials.forEach((material) => {
+          // falta ajeitar aqui
+          material.materialsOutItems = worker.MaterialOuts.filter(
+            (item) => item.MaterialOut.workerId === worker.WorkerId,
+          );
+
+          // worker.materialsInItems = material.MaterialInItems.filter(
+          //   (item) => item.MaterialIn.MaterialReturned.workerId === worker.WorkerId,
+          // );
+        });
+      });
 
       return res.json(result);
     } catch (e) {
