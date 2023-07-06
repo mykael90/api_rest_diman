@@ -60,7 +60,7 @@ class TokenController {
 
       if (!user.UserPositiontypes.length && !user.UserThirdtypes.length) {
         return res.status(401).json({
-          errors: [`${user.name} ainda não possui vínculo ativo no SISMAN, consulte o administrador.`],
+          errors: [`${user.name} não possui vínculo ativo no SISMAN, consulte o administrador.`],
         });
       }
 
