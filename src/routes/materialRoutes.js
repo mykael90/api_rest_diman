@@ -43,10 +43,11 @@ router.post(
   '/temporary',
   photoMulter,
   materialController.storeTemporary,
-  UploadController.storeMaterial
+  UploadController.storeMaterial,
 );
 router.post('/', materialController.storeSipac);
 router.get('/itemsworkers', materialController.indexMaterialWorker);
+router.get('/workersitems', materialController.indexWorkerMaterial);
 router.get('/:id', materialController.show);
 
 // MATERIAL IN ROUTES
@@ -58,7 +59,7 @@ inRoutes.post(
   '/general',
   photoArrayMulter,
   MaterialInController.storeGeneral,
-  UploadController.storeMaterialIn
+  UploadController.storeMaterialIn,
 );
 
 inRoutes.get('/:reqMaintenance/:year', MaterialInController.show);
@@ -66,6 +67,7 @@ inRoutes.get('/rl/:reqMaintenance/:year', MaterialInController.showRL);
 inRoutes.get('/', MaterialInController.index);
 inRoutes.get('/rl', MaterialInController.indexRL);
 inRoutes.post('/', MaterialInController.store);
+inRoutes.post('/reqMaterial/', MaterialInController.showId);
 
 // MATERIAL OUT ROUTES
 // outRoutes.get('/items', MaterialOutItemController.index);
@@ -79,7 +81,7 @@ outRoutes.post(
   '/general',
   photoArrayMulter,
   MaterialOutController.storeGeneral,
-  UploadController.storeMaterialOut
+  UploadController.storeMaterialOut,
 );
 outRoutes.post('/', MaterialOutController.store);
 outRoutes.get('/items', MaterialOutItemController.index);
@@ -108,13 +110,13 @@ reserveRoutes.post('/', MaterialReserveController.store);
 // MATERIAL RAW ROUTES
 rawRoutes.post(
   '/maintenanceBalanceOutput',
-  MaterialRawController.maintenanceBalanceOutput
+  MaterialRawController.maintenanceBalanceOutput,
 );
 rawRoutes.post('/consumeOutput', MaterialRawController.consumeOutput);
 rawRoutes.post('/provisionInput', MaterialRawController.provisionInput);
 rawRoutes.get(
   '/materialsRelevanceBalance',
-  MaterialRawController.materialsRelevanceBalance
+  MaterialRawController.materialsRelevanceBalance,
 );
 rawRoutes.get('/balance', MaterialRawController.balance);
 
