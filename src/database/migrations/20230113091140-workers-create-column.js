@@ -5,7 +5,7 @@ module.exports = {
         'workers', // table name
         'phone', // new field name
         {
-          type: Sequelize.STRING(11),
+          type: Sequelize.STRING(15),
           allowNull: true,
         },
       ),
