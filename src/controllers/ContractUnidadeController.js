@@ -8,13 +8,13 @@ class ContractUnidadeController {
   async index(req, res) {
     try {
       const result = await ContractUnidade.findAll({
-        include: [
-          {
-            model: Contract,
-            attributes: ['codigo_sipac', 'objeto'],
-          },
-          { model: Unidade, attributes: ['id', 'nome_unidade'] },
-        ],
+        // include: [
+        //   {
+        //     model: Contract,
+        //     attributes: ['codigo_sipac', 'objeto'],
+        //   },
+        //   { model: Unidade, attributes: ['id', 'nome_unidade'] },
+        // ],
       });
       return res.json(result);
     } catch (e) {

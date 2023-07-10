@@ -14,6 +14,8 @@ export default class Unidade extends Model {
       targetKey: 'id',
       foreignKey: { name: 'unidade_sipac_id', primaryKey: true },
     });
+
+    this.belongsToMany(models.Contract, { through: models.ContractUnidade });
   }
 
   static init(sequelize) {
@@ -86,7 +88,7 @@ export default class Unidade extends Model {
           type: Sequelize.STRING,
         },
       },
-      { sequelize, tableName: 'unidades_sipac', timestamps: false }
+      { sequelize, tableName: 'unidades_sipac', timestamps: false },
     );
     return this;
   }

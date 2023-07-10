@@ -143,22 +143,19 @@ const connection = new Sequelize(databaseConfig[env]);
 models.forEach((model) => model.init(connection));
 
 models.forEach(
-  (model) => model.associate && model.associate(connection.models)
+  (model) => model.associate && model.associate(connection.models),
 );
 
 // CUSTOMIZED FUNCTIONS SEQUELIZE
 // (simplifica as consultas, para não ter que repetir todas essas funções nos controllers)
 
-Sequelize.currencyBr = (column) =>
-  Sequelize.fn(
-    'CONCAT',
-    Sequelize.literal("'R$ '"),
-    Sequelize.fn('FORMAT', Sequelize.col(column), '2', 'pt_BR')
-  );
+Sequelize.currencyBr = (column) => Sequelize.fn(
+  'CONCAT',
+  Sequelize.literal("'R$ '"),
+  Sequelize.fn('FORMAT', Sequelize.col(column), '2', 'pt_BR'),
+);
 
-Sequelize.dataBr = (column) =>
-  Sequelize.fn('date_format', Sequelize.col(column), '%d/%m/%Y');
-Sequelize.dataHoraBr = (column) =>
-  Sequelize.fn('date_format', Sequelize.col(column), '%d/%m/%Y %H:%i');
+Sequelize.dataBr = (column) => Sequelize.fn('date_format', Sequelize.col(column), '%d/%m/%Y');
+Sequelize.dataHoraBr = (column) => Sequelize.fn('date_format', Sequelize.col(column), '%d/%m/%Y %H:%i');
 
 export default connection;

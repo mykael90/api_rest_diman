@@ -18,6 +18,8 @@ export default class Contract extends Model {
         primaryKey: true,
       },
     });
+
+    this.belongsToMany(models.Unidade, { through: models.ContractUnidade });
   }
 
   static init(sequelize) {
@@ -55,7 +57,7 @@ export default class Contract extends Model {
         },
       },
 
-      { sequelize, tableName: 'contracts', timestamps: false }
+      { sequelize, tableName: 'contracts', timestamps: false },
     );
     return this;
   }
