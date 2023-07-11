@@ -1,5 +1,7 @@
 import Contract from '../models/Contract';
 import Provider from '../models/Provider';
+import ContractUnidade from '../models/ContractUnidade';
+import Unidade from '../models/Unidade';
 
 class ContractController {
   // Index
@@ -18,11 +20,18 @@ class ContractController {
         ],
         order: [['id', 'ASC']],
         required: false,
-        include: {
+        include: [{
           model: Provider,
-          attributes: [],
+          attributes: ['id', 'nomeFantasia'],
           required: false,
-        },
+        }, {
+          model: ContractUnidade,
+          include: [{
+            model: Unidade,
+            attributes: ['id', 'nomeUnidade', 'sigla'],
+          }],
+          required: false,
+        }],
       });
       return res.json(result);
     } catch (e) {
