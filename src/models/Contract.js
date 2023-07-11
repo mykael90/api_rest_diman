@@ -12,14 +12,14 @@ export default class Contract extends Model {
     this.belongsTo(models.Provider);
 
     this.hasMany(models.ContractUnidade, {
-      // targetKey: 'id',
+      targetKey: 'id',
       foreignKey: {
-        name: 'contract_id',
+        name: 'ContractId',
         primaryKey: true,
       },
     });
 
-    this.belongsToMany(models.Unidade, { through: models.ContractUnidade });
+    this.belongsToMany(models.Unidade, { through: models.ContractUnidade, otherKey: 'UnidadeSipacId' });
   }
 
   static init(sequelize) {
