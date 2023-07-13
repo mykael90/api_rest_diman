@@ -12,6 +12,7 @@ import MaterialIn from '../models/MaterialIn';
 import MaterialInItem from '../models/MaterialInItem';
 
 import Worker from '../models/Worker';
+import WorkerContract from '../models/WorkerContract';
 
 class MaterialController {
   // Index
@@ -273,6 +274,11 @@ class MaterialController {
         // },
         include: [
           {
+            model: WorkerContract,
+            attributes: ['WorkerJobtypeId'],
+            order: [['start', 'DESC']],
+          },
+          {
 
             model: MaterialOut,
             attributes: ['id'],
@@ -346,33 +352,27 @@ class MaterialController {
         worker.MaterialOuts.forEach((materialOut) => {
           // console.log(materialOut);
           materialsList.push(materialOut.dataValues.MaterialOutItems.map((item) => ({
-            MaterialId: item.dataValues.MaterialId,
+            id: item.dataValues.MaterialId,
             name: item.dataValues.name,
+            quantity: item.dataValues.quantity,
+            unit: item.dataValues.unit,
+            value: item.dataValues.value,
+            MaterialOut: item.MaterialOut,
           })));
         });
 
         const materialsListFlat = materialsList.flat();
 
         worker.dataValues.Materials = materialsListFlat.reduce((acc, current) => {
-          const x = acc.find((item) => item.MaterialId === current.MaterialId);
-          if (!x) {
-            return acc.concat([current]);
+          const i = acc.findIndex((item) => item.id === current.id);
+          if (i === -1) {
+            return acc.concat([{ id: current.id, name: current.name, MaterialOutItems: [current] }]);
           }
+          acc[i].MaterialOutItems.push(current);
           return acc;
         }, []);
-      });
 
-      result.forEach((worker) => {
-        worker.dataValues.Materials.forEach((material) => {
-          // falta ajeitar aqui
-          material.materialsOutItems = worker.MaterialOuts.filter(
-            (item) => item.MaterialOut.workerId === worker.WorkerId,
-          );
-
-          // worker.materialsInItems = material.MaterialInItems.filter(
-          //   (item) => item.MaterialIn.MaterialReturned.workerId === worker.WorkerId,
-          // );
-        });
+        delete worker.dataValues.MaterialOuts;
       });
 
       return res.json(result);
