@@ -283,7 +283,7 @@ class MaterialController {
             model: MaterialOut,
             attributes: ['id'],
             // attributes: { include: ['workerId', 'reqMaintenance', 'created_at', 'place'] },
-            include: {
+            include: [{
               model: MaterialOutItem,
               attributes: {
                 include: [
@@ -296,6 +296,38 @@ class MaterialController {
                 attributes: ['reqMaintenance', 'created_at', 'place'],
               }],
             },
+            {
+
+              model: MaterialIn,
+              as: 'MaterialReturned',
+              required: false,
+              attributes: ['id'],
+              // attributes: { include: ['workerId', 'reqMaintenance', 'created_at', 'place'] },
+              include: {
+                model: MaterialInItem,
+                // attributes: {
+                //   include: [
+                //     [Sequelize.literal('`MaterialIns->MaterialInItems->Material`.`name`'), 'name'],
+                //     [Sequelize.literal('`MaterialIns->MaterialInItems->Material`.`unit`'), 'unit'],
+                //   ],
+                // },
+              },
+              where: {
+                [Op.and]: [
+                  { material_intype_id: 3 },
+                  // { worker_id: { [Op.not]: null } },
+                  queryParams
+                    ? {
+                      created_at: {
+                        [Op.lte]: lastDay,
+                        [Op.gte]: firstDay,
+                      },
+                    }
+                    : {},
+                ],
+              },
+
+            }],
             required: true,
             where: {
               [Op.and]: [
@@ -313,6 +345,7 @@ class MaterialController {
             },
 
           },
+
           // {
           //   model: MaterialInItem,
           //   // required: true,
@@ -343,36 +376,57 @@ class MaterialController {
           //   },
           // },
         ],
+        order: [['name', 'ASC']],
       });
 
       result.forEach((worker, index) => {
         // show differents materials for each worker
-        const materialsList = [];
+        const materialsOutList = [];
+        const materialsReturnedList = [];
 
         worker.MaterialOuts.forEach((materialOut) => {
           // console.log(materialOut);
-          materialsList.push(materialOut.dataValues.MaterialOutItems.map((item) => ({
+          materialsOutList.push(materialOut.dataValues.MaterialOutItems.map((item) => ({
             id: item.dataValues.MaterialId,
             name: item.dataValues.name,
             quantity: item.dataValues.quantity,
             unit: item.dataValues.unit,
             value: item.dataValues.value,
+            total: Number((item.dataValues.quantity * item.dataValues.value).toFixed(2)),
             MaterialOut: item.MaterialOut,
           })));
+
+          if (materialOut.dataValues.MaterialReturned.length) {
+            materialsReturnedList.push(materialOut.dataValues.MaterialReturned.map((item) => ({
+              id: item.dataValues.MaterialInItems.MaterialId,
+              quantity: item.dataValues.MaterialInItems.quantity,
+              unit: item.dataValues.MaterialInItems.unit,
+              value: item.dataValues.MaterialInItems.value,
+              // total: Number((item.dataValues.quantity * item.dataValues.value).toFixed(2)),
+            })));
+          }
         });
 
-        const materialsListFlat = materialsList.flat();
+        const materialsOutListFlat = materialsOutList.flat();
+        const materialsReturnedListFlat = materialsReturnedList.flat();
 
-        worker.dataValues.Materials = materialsListFlat.reduce((acc, current) => {
+        // só teste aqui
+        worker.dataValues.ReturnedList = materialsReturnedListFlat;
+
+        worker.dataValues.Materials = materialsOutListFlat.reduce((acc, current) => {
           const i = acc.findIndex((item) => item.id === current.id);
           if (i === -1) {
-            return acc.concat([{ id: current.id, name: current.name, MaterialOutItems: [current] }]);
+            return acc.concat([{
+              id: current.id, name: current.name, qtdOut: current.quantity, totalOut: current.total, MaterialOutItems: [current],
+            }]);
           }
+          acc[i].qtdOut += current.quantity;
+          acc[i].totalOut += current.total;
           acc[i].MaterialOutItems.push(current);
           return acc;
         }, []);
 
-        delete worker.dataValues.MaterialOuts;
+        // delete worker.dataValues.MaterialOuts;
       });
 
       return res.json(result);
