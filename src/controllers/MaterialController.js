@@ -397,23 +397,24 @@ class MaterialController {
           })));
 
           if (materialOut.dataValues.MaterialReturned.length) {
-            materialsReturnedList.push(materialOut.dataValues.MaterialReturned.map((item) => ({
-              id: item.dataValues.MaterialInItems.MaterialId,
-              quantity: item.dataValues.MaterialInItems.quantity,
-              unit: item.dataValues.MaterialInItems.unit,
-              value: item.dataValues.MaterialInItems.value,
-              // total: Number((item.dataValues.quantity * item.dataValues.value).toFixed(2)),
-            })));
+            materialsReturnedList.push(materialOut.dataValues.MaterialReturned.map((returned) => (
+              returned.MaterialInItems.map((item) => ({
+                id: item.dataValues.MaterialId,
+                quantity: item.dataValues.quantity,
+                value: item.dataValues.value,
+                total: Number((item.dataValues.quantity * item.dataValues.value).toFixed(2)),
+              }))
+            )));
           }
         });
 
         const materialsOutListFlat = materialsOutList.flat();
-        const materialsReturnedListFlat = materialsReturnedList.flat();
+        const materialsReturnedListFlat = materialsReturnedList.flat().flat();
 
         // só teste aqui
         worker.dataValues.ReturnedList = materialsReturnedListFlat;
 
-        worker.dataValues.Materials = materialsOutListFlat.reduce((acc, current) => {
+        const materialsOutListObjects = materialsOutListFlat.reduce((acc, current) => {
           const i = acc.findIndex((item) => item.id === current.id);
           if (i === -1) {
             return acc.concat([{
@@ -425,6 +426,26 @@ class MaterialController {
           acc[i].MaterialOutItems.push(current);
           return acc;
         }, []);
+
+        const materialsReturnedListObjects = materialsReturnedListFlat.reduce((acc, current) => {
+          const i = acc.findIndex((item) => item.id === current.id);
+          if (i === -1) {
+            return acc.concat([{
+              id: current.id, qtdReturned: current.quantity, totalReturned: current.total, MaterialReturnedItems: [current],
+            }]);
+          }
+          acc[i].qtdReturned += current.quantity;
+          acc[i].totalReturned += current.total;
+          acc[i].MaterialReturnedItems.push(current);
+          return acc;
+        }, []);
+
+        const mergedArray = materialsOutListObjects.map((obj1) => {
+          const matchingObj = materialsReturnedListObjects.find((obj2) => obj2.id === obj1.id);
+          return { ...obj1, ...matchingObj };
+        });
+
+        worker.dataValues.Materials = mergedArray;
 
         // delete worker.dataValues.MaterialOuts;
       });
