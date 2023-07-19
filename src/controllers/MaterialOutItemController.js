@@ -30,8 +30,7 @@ class MaterialOutItemController {
       let firstDay;
       let lastDay;
 
-      const queryParams =
-        Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
 
       if (queryParams) {
         const startDate = queryParams.startDate?.split('-');
@@ -40,14 +39,14 @@ class MaterialOutItemController {
         firstDay = new Date(
           startDate[0],
           Number(startDate[1]) - 1,
-          startDate[2]
+          startDate[2],
         );
 
-        firstDay.setUTCHours(0, 0, 0, 0);
+        firstDay.setHours(0, 0, 0, 0);
 
         lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
 
-        lastDay.setUTCHours(23, 59, 59, 999);
+        lastDay.setHours(23, 59, 59, 999);
       }
 
       const result = await Material.findAll({
@@ -65,11 +64,11 @@ class MaterialOutItemController {
                 { worker_id: { [Op.not]: null } },
                 queryParams
                   ? {
-                      created_at: {
-                        [Op.lte]: lastDay,
-                        [Op.gte]: firstDay,
-                      },
-                    }
+                    created_at: {
+                      [Op.lte]: lastDay,
+                      [Op.gte]: firstDay,
+                    },
+                  }
                   : {},
               ],
             },
@@ -95,7 +94,7 @@ class MaterialOutItemController {
       result.forEach((material) => {
         material.dataValues.Workers.forEach((worker) => {
           worker.materialsOutItems = material.MaterialOutItems.filter(
-            (item) => item.MaterialOut.workerId === worker.WorkerId
+            (item) => item.MaterialOut.workerId === worker.WorkerId,
           );
         });
       });
