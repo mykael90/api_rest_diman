@@ -108,8 +108,8 @@ class MaterialController {
     }
   }
 
-  // Material x Worker
-  async indexMaterialWorker(req, res) {
+  // Worker by Material
+  async indexWorkerByMaterial(req, res) {
     try {
       let firstDay;
       let lastDay;
@@ -238,8 +238,8 @@ class MaterialController {
     }
   }
 
-  // Worker x Material
-  async indexWorkerMaterial(req, res) {
+  // Material by Worker
+  async indexMaterialByWorker(req, res) {
     try {
       let firstDay;
       let lastDay;
@@ -410,9 +410,6 @@ class MaterialController {
 
         const materialsOutListFlat = materialsOutList.flat();
         const materialsReturnedListFlat = materialsReturnedList.flat().flat();
-
-        // só teste aqui
-        worker.dataValues.ReturnedList = materialsReturnedListFlat;
 
         const materialsOutListObjects = materialsOutListFlat.reduce((acc, current) => {
           const i = acc.findIndex((item) => item.id === current.id);
