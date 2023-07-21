@@ -47,7 +47,7 @@ router.post(
 );
 router.post('/', materialController.storeSipac);
 router.get('/workersbyitems', materialController.indexWorkerByMaterial);
-router.get('/workersbyitems', materialController.indexMaterialByWorker);
+router.get('/itemsbyworkers', materialController.indexMaterialByWorker);
 router.get('/:id', materialController.show);
 
 // MATERIAL IN ROUTES
