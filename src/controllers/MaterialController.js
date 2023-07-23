@@ -267,11 +267,11 @@ class MaterialController {
 
       const result = await Worker.findAll({
         attributes: ['id', 'name'],
-        where: {
-          id: {
-            [Op.in]: queryParams.id ? queryParams.id : [],
-          },
-        },
+        // where: {
+        //   id: {
+        //     [Op.in]: queryParams.id ? queryParams.id : [],
+        //   },
+        // },
         include: [
           {
             model: WorkerContract,
@@ -281,8 +281,7 @@ class MaterialController {
           {
 
             model: MaterialOut,
-            attributes: ['id'],
-            // attributes: { include: ['workerId', 'reqMaintenance', 'created_at', 'place'] },
+            attributes: ['id', 'reqMaintenance', 'value', 'created_at'],
             include: [{
               model: MaterialOutItem,
               attributes: {
