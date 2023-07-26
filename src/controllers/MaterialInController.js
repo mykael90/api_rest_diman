@@ -340,6 +340,28 @@ class MaterialInController {
 
   async indexRL(req, res) {
     try {
+      let firstDay;
+      let lastDay;
+
+      const queryParams = Object.keys(req.query).length === 0 ? false : qs.parse(req.query);
+
+      if (queryParams) {
+        const startDate = queryParams.startDate?.split('-');
+        const endDate = queryParams.endDate?.split('-');
+
+        firstDay = new Date(
+          startDate[0],
+          Number(startDate[1]) - 1,
+          startDate[2],
+        );
+
+        firstDay.setHours(0, 0, 0, 0);
+
+        lastDay = new Date(endDate[0], Number(endDate[1]) - 1, endDate[2]);
+
+        lastDay.setHours(23, 59, 59, 999);
+      }
+
       const result = await MaterialIn.findAll({
         attributes: [
           'id',
@@ -364,10 +386,19 @@ class MaterialInController {
           ],
           'obs',
         ],
-        where: {
-          materialIntypeId: { [Op.lte]: 3 },
-          req: { [Op.not]: null },
-        },
+        where: queryParams
+          ? {
+            created_at: {
+              [Op.lte]: lastDay,
+              [Op.gte]: firstDay,
+            },
+            materialIntypeId: { [Op.lte]: 3 },
+            req: { [Op.not]: null },
+          }
+          : {
+            materialIntypeId: { [Op.lte]: 3 },
+            req: { [Op.not]: null },
+          },
         include: [
           {
             model: MaterialInItem,
@@ -387,11 +418,11 @@ class MaterialInController {
                 'value',
               ],
             ],
-            required: false,
+            required: true,
             include: {
               model: Material,
               attributes: [],
-              required: false,
+              required: true,
             },
           },
           {
@@ -412,16 +443,16 @@ class MaterialInController {
                 'quantity',
                 [Sequelize.currencyBr('`MaterialRestricts->MaterialRestrictItems`.`value`'), 'value'],
               ],
-              required: false,
+              required: true,
               include: {
                 model: Material,
                 attributes: [],
-                required: false,
+                required: true,
               },
             }, {
               model: User,
               attributes: [],
-              required: false,
+              required: true,
             }],
           },
           {
@@ -446,27 +477,27 @@ class MaterialInController {
               include: {
                 model: Material,
                 attributes: [],
-                required: false,
+                required: true,
               },
             }, {
               model: User,
               attributes: [],
-              required: false,
+              required: true,
             }],
           },
           {
             model: User,
             attributes: [],
-            required: false,
+            required: true,
           },
           {
             model: Unidade,
             attributes: [],
-            required: false,
+            required: true,
           },
           {
             model: MaterialIntype,
-            required: false,
+            required: true,
           },
         ],
         order: [
