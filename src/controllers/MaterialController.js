@@ -268,11 +268,11 @@ class MaterialController {
 
       const result = await Worker.findAll({
         attributes: ['id', 'name'],
-        // where: {
-        //   id: {
-        //     [Op.in]: queryParams.id ? queryParams.id : [],
-        //   },
-        // },
+        where: queryParams.id ? {
+          id: {
+            [Op.in]: queryParams.id,
+          },
+        } : {},
         include: [
           {
             model: WorkerContract,
@@ -317,14 +317,16 @@ class MaterialController {
                 [Op.and]: [
                   { material_intype_id: 3 },
                   // { worker_id: { [Op.not]: null } },
-                  queryParams
-                    ? {
-                      created_at: {
-                        [Op.lte]: lastDay,
-                        [Op.gte]: firstDay,
-                      },
-                    }
-                    : {},
+                  // eslint-disable-next-line no-nested-ternary
+                  queryParams.id ? {}
+                    : (queryParams
+                      ? {
+                        created_at: {
+                          [Op.lte]: lastDay,
+                          [Op.gte]: firstDay,
+                        },
+                      }
+                      : {}),
                 ],
               },
 
@@ -334,14 +336,16 @@ class MaterialController {
               [Op.and]: [
                 { material_outtype_id: 1 },
                 { worker_id: { [Op.not]: null } },
-                queryParams
-                  ? {
-                    created_at: {
-                      [Op.lte]: lastDay,
-                      [Op.gte]: firstDay,
-                    },
-                  }
-                  : {},
+                // eslint-disable-next-line no-nested-ternary
+                queryParams.id ? {}
+                  : (queryParams
+                    ? {
+                      created_at: {
+                        [Op.lte]: lastDay,
+                        [Op.gte]: firstDay,
+                      },
+                    }
+                    : {}),
               ],
             },
 
