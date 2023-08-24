@@ -74,6 +74,20 @@ import PropertySipac from '../models/PropertySipac';
 import BuildingSection from '../models/BuildingSection';
 import BuildingSectiontype from '../models/BuildingSectiontype';
 
+import Cartype from '../models/Cartype';
+import CarPhoto from '../models/CarPhoto';
+import CarFueltype from '../models/CarFueltype';
+import Car from '../models/Car';
+import CarOccurrence from '../models/CarOccurrence';
+import CarOccurrencetype from '../models/CarOccurrencetypes';
+import CarOccurrencePhoto from '../models/CarOccurrencePhoto';
+import CarInspection from '../models/CarInspection';
+import CarInspectionPhoto from '../models/CarInspectionPhoto';
+import CarAccessory from '../models/CarAccessory';
+import CarAccessorytype from '../models/CarAccessorytype';
+import CarStatus from '../models/CarStatus';
+import CarStatustype from '../models/CarStatustype';
+
 const models = [
   Aluno,
   User,
@@ -136,6 +150,19 @@ const models = [
   WorkerManualfrequency,
   WorkerManualfrequencytype,
   WorkerManualfrequencyItem,
+  Cartype,
+  CarFueltype,
+  Car,
+  CarPhoto,
+  CarOccurrence,
+  CarOccurrencetype,
+  CarInspection,
+  CarInspectionPhoto,
+  CarOccurrencePhoto,
+  CarAccessory,
+  CarAccessorytype,
+  CarStatus,
+  CarStatustype,
 ];
 
 const connection = new Sequelize(databaseConfig[env]);

@@ -25,6 +25,7 @@ import workerRoutes from './routes/workerRoutes';
 import workerTaskRoutes from './routes/workerTaskRoutes';
 import workerManualfrequencyRoutes from './routes/workerManualfrequencyRoutes';
 import contractRoutes from './routes/contractRoutes';
+import carRoutes from './routes/carRoutes';
 
 import manualRoutes from './routes/manualRoutes';
 
@@ -88,7 +89,7 @@ class App {
     this.app.use(express.static(resolve(__dirname, '..', 'uploads')));
     this.app.use(
       '/uploads/',
-      express.static(resolve(__dirname, '..', 'uploads'))
+      express.static(resolve(__dirname, '..', 'uploads')),
     );
     // this.app.use('/uploads/', express.static(resolve(__dirname, '..', 'uploads', 'workers', 'images')));
   }
@@ -115,6 +116,7 @@ class App {
     this.app.use('/properties/', propertyRoutes);
     this.app.use('/providers/', providerRoutes);
     this.app.use('/contracts/', contractRoutes);
+    this.app.use('/cars/', carRoutes);
     this.app.use('/manualupdates/', manualRoutes);
   }
 }
