@@ -50,19 +50,19 @@ export default class Car extends Model {
           allowNull: false,
         },
         payload: {
-          type: Sequelize.STRING,
+          type: Sequelize.INTEGER(5),
           allowNull: false,
         },
         weight: {
-          type: Sequelize.STRING,
+          type: Sequelize.INTEGER(5),
           allowNull: false,
         },
         fuelVolume: {
-          type: Sequelize.INTEGER,
+          type: Sequelize.INTEGER(4),
           allowNull: false,
         },
         peopleCapacity: {
-          type: Sequelize.INTEGER,
+          type: Sequelize.INTEGER(3),
           allowNull: false,
         },
         obs: {

@@ -37,7 +37,7 @@ module.exports = {
       },
       alias: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       color: {
         type: Sequelize.STRING,
@@ -52,11 +52,11 @@ module.exports = {
       },
       renavan: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: true,
       },
       year: {
-        type: Sequelize.INTEGER(4),
-        allowNull: false,
+        type: Sequelize.STRING,
+        allowNull: true,
       },
       obs: {
         type: Sequelize.TEXT,
@@ -64,12 +64,10 @@ module.exports = {
       },
       created_at: {
         type: Sequelize.DATE,
-        allowNull: false,
         default: Sequelize.NOW,
       },
       updated_at: {
         type: Sequelize.DATE,
-        allowNull: false,
         default: Sequelize.NOW,
       },
     });

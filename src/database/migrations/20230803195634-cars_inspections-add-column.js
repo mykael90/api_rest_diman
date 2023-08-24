@@ -6,7 +6,7 @@ module.exports = {
         'hourmeter', // new field name
         {
           type: Sequelize.INTEGER,
-          allowNull: false,
+          allowNull: true,
         },
       ),
       queryInterface.addColumn(
