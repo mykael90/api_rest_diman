@@ -68,6 +68,7 @@ inRoutes.get('/', MaterialInController.index);
 inRoutes.get('/rl', MaterialInController.indexRL);
 inRoutes.post('/', MaterialInController.store);
 inRoutes.post('/reqMaterial/', MaterialInController.showId);
+inRoutes.post('/reqMaterialArray/', MaterialInController.showIdArray);
 
 // MATERIAL OUT ROUTES
 // outRoutes.get('/items', MaterialOutItemController.index);
