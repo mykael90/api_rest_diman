@@ -671,32 +671,35 @@ class MaterialInController {
     }
   }
 
-    // Show
-    async showIdArray(req, res) {
-      try {
-        if (!req.body.req) {
-          return res.status(400).json({
-            errors: 'Parâmetro de id não enviado',
-          });
-        }
-  
-        const exists = await MaterialIn.findAll({
-          include: {
-            model: MaterialInItem,
-            include: {
-              model: Material}}, 
-          where: { req: req.body.req }});
-  
-        if (!exists) {
-          return res.boolean(false);
-        }
-   
-  
-        return res.json(exists);
-      } catch (e) {
-        return res.json(null);
+  // Show
+  async showIdArray(req, res) {
+    try {
+      if (!req.body.req) {
+        return res.status(400).json({
+          errors: 'Parâmetro de id não enviado',
+        });
       }
+
+      const exists = await MaterialIn.findAll({
+        include: [{
+          model: MaterialInItem,
+          include: { model: Material },
+        },
+        {
+          model: MaterialRelease,
+        }],
+        where: { req: req.body.req },
+      });
+
+      if (!exists) {
+        return res.boolean(false);
+      }
+
+      return res.json(exists);
+    } catch (e) {
+      return res.json(null);
     }
+  }
 }
 
 export default new MaterialInController();

@@ -1,0 +1,21 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "apiUrl": "http://localhost:3001"
+        }
+    },
+
+    "editor.rulers": [
+        80,
+        120
+      ],
+
+    "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css",
+    ".dev.vars": "dotenv"
+  },
+
+
+}
