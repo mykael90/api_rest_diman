@@ -211,37 +211,39 @@ class WorkersController {
         });
       }
 
-      // ATUALIZANDO VALORES DE SUBTABELAS----> ORDEM DEVE SER IDENTICA DOS 2 ARRAYS !
-      // NÃO CONSEGUI ATUAALIZAR O CAMPO "WorkerJobtypeId"
-      // nao entendi pq. Pode ser algo relacionado ao nome (desisti, para os outros campos funciona)
-      Object.entries(req.body).forEach((item) => {
-        if (Array.isArray(item[1])) {
-          item[1].forEach(async (value, i) => {
+      const reqBodyEntries = Object.keys(req.body);
+      // eslint-disable-next-line no-plusplus
+      for (let i = 0; i < reqBodyEntries.length; i++) {
+        const key = reqBodyEntries[i];
+        const values = req.body[key];
+
+        if (Array.isArray(values)) {
+          // eslint-disable-next-line no-plusplus
+          for (let j = 0; j < values.length; j++) {
+            const value = values[j];
+
             // verificar se existe o subregistro, se existir atualiza, se nao cria
-            if (worker[item[0]][i]) {
-              // console.log('fixando cada contrato', value, worker[item[0]][i]);
-              worker[item[0]][i].set(value);
-              await worker[item[0]][i].save();
-              // VERIFICAR DEPOIS PQ AS VEZES AWAIT DENTRO DE FOREACH PODE DAR PROBLEMA
+            if (worker[key][j]) {
+              worker[key][j].set(value);
+              // eslint-disable-next-line no-await-in-loop
+              await worker[key][j].save();
             } else {
               // o nome do método da instância é no singular, entao exclui a ultima letra
               // se o nome do array divergir do metodo, utilizar switch/case
-              const singular = item[0].slice(0, -1);
-              // console.log(getMethods(worker));
+              const singular = key.slice(0, -1);
               worker[`create${singular}`](value);
             }
-          });
+          }
         }
-      });
+      }
 
       const mainTableUpdate = Object.entries(req.body)
         .filter((entry) => !Array.isArray(entry[1]))
         .reduce(
-          (obj, entry) =>
-            Object.assign(obj, {
-              [entry[0]]: entry[1],
-            }),
-          {}
+          (obj, entry) => Object.assign(obj, {
+            [entry[0]]: entry[1],
+          }),
+          {},
         );
 
       worker.set(mainTableUpdate);
@@ -321,11 +323,10 @@ class WorkersController {
       const mainTableUpdate = Object.entries(req.body)
         .filter((entry) => !Array.isArray(entry[1]))
         .reduce(
-          (obj, entry) =>
-            Object.assign(obj, {
-              [entry[0]]: entry[1],
-            }),
-          {}
+          (obj, entry) => Object.assign(obj, {
+            [entry[0]]: entry[1],
+          }),
+          {},
         );
 
       console.log('MAINTABLE', mainTableUpdate);
@@ -403,7 +404,8 @@ class WorkersController {
       });
       return res.json(worker);
     } catch (e) {
-      return res.json(null);
+      console.log(e);
+      return res.json(e);
     }
   }
 }
