@@ -2,7 +2,7 @@ import Sequelize, { Model } from 'sequelize';
 
 export default class WorkerContract extends Model {
   static associate(models) {
-    this.belongsTo(models.Worker);
+    this.belongsTo(models.Worker, { sourceKey: 'id', foreignKey: 'workerId' });
     this.belongsTo(models.Contract);
     this.belongsTo(models.WorkerJobtype);
     this.belongsTo(models.WorkerContractDanger);

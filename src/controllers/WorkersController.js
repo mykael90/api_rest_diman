@@ -1,7 +1,6 @@
 import Sequelize from 'sequelize';
 
 import { extname } from 'path';
-
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
 import WorkerContract from '../models/WorkerContract';
@@ -229,7 +228,7 @@ class WorkersController {
               // o nome do método da instância é no singular, entao exclui a ultima letra
               // se o nome do array divergir do metodo, utilizar switch/case
               const singular = key.slice(0, -1);
-              worker[`create${singular}`](value);
+              worker[`create${singular}`]({ ...value, WorkerId: id });
             }
           }
         }
@@ -385,7 +384,8 @@ class WorkersController {
   // Show
   async show(req, res) {
     try {
-      const worker = await Worker.findByPk(req.params.id, {
+      const worker = await Worker.findOne({
+        where: { id: req.params.id },
         include: [
           {
             model: WorkerContact,
