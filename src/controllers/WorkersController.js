@@ -1,7 +1,6 @@
 import Sequelize from 'sequelize';
 
 import { extname } from 'path';
-import { random_5 } from '../asset/script/getRandomNumber';
 
 import Worker from '../models/Worker';
 import WorkerContact from '../models/WorkerContact';
@@ -13,7 +12,6 @@ import Address from '../models/Address';
 import Unidade from '../models/Unidade';
 import Contract from '../models/Contract';
 
-import getMethods from '../asset/script/getMethods';
 import Provider from '../models/Provider';
 
 class WorkersController {
@@ -41,7 +39,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`end`'),
-                    '%d/%m/%Y'
+                    '%d/%m/%Y',
                   ),
                   'endBr',
                 ],
@@ -49,7 +47,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`start`'),
-                    '%d/%m/%Y'
+                    '%d/%m/%Y',
                   ),
                   'startBr',
                 ],
@@ -102,7 +100,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`end`'),
-                    '%d/%m/%Y'
+                    '%d/%m/%Y',
                   ),
                   'endBr',
                 ],
@@ -110,7 +108,7 @@ class WorkersController {
                   Sequelize.fn(
                     'date_format',
                     Sequelize.col('`WorkerContracts`.`start`'),
-                    '%d/%m/%Y'
+                    '%d/%m/%Y',
                   ),
                   'startBr',
                 ],
@@ -176,7 +174,7 @@ class WorkersController {
           where: {
             id: req.result.id,
           },
-        }
+        },
       );
       return next(); // go to uploadController
     } catch (e) {
