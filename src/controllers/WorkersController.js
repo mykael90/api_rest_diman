@@ -65,7 +65,7 @@ class WorkersController {
         ],
         order: [
           ['name', 'ASC'],
-          [WorkerContract, 'start', 'DESC'],
+          [WorkerContract, 'start', 'ASC'],
         ],
       });
       return res.json(result);
