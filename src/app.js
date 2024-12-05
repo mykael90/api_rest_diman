@@ -86,6 +86,7 @@ class App {
   middlewares() {
     this.app.use(cors(corsOptions));
     this.app.use(helmet.crossOriginResourcePolicy({ policy: 'cross-origin' })); // tive q usar devido as fotos do boxlight
+    this.app.options('*', cors(corsOptions)); // Responde OPTIONS para todas as rotas
     // this.app.use(helmet());
     // this.app.use(delay(2000));
     this.app.use(express.urlencoded({ extended: true }));
