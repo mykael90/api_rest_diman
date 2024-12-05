@@ -63,13 +63,17 @@ const whiteList = [
 ];
 
 const corsOptions = {
-  origin(origin, callback) {
-    if (whiteList.indexOf(origin) !== -1 || !origin) {
+  origin: (origin, callback) => {
+    if (whiteList.includes(origin) || !origin) {
       callback(null, true);
     } else {
+      console.error(`Blocked by CORS: ${origin}`);
       callback(new Error('Not allowed by CORS'));
     }
   },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'], // Adicione cabeçalhos usados
+  credentials: true,
 };
 
 class App {
