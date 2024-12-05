@@ -10,7 +10,7 @@ export default class Worker extends Model {
       through: models.WorkerAddress,
     });
     this.belongsToMany(models.Contract, {
-      through: models.WorkerContract,
+      through: models.WorkerContract, sourceKey: 'id', foreignKey: 'workerId',
     });
     this.belongsToMany(models.WorkerJobtype, {
       through: models.WorkerContract,
